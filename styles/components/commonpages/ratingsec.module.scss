@@ -1,0 +1,51 @@
+@import '../../variables.module.scss';
+
+.contentSec {
+    .contentBg {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(30px) brightness(0.1);
+        -webkit-backdrop-filter: blur(30px) brightness(0.1);
+        @include padding(40px, 30px, 40px, 30px);
+        position: relative;
+        overflow: hidden;
+
+        &:after {
+            content: '';
+            background-image: url(../../../public/home/services/bgServices.webp);
+            filter: blur(30px) brightness(1);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-repeat: no-repeat;
+            background-position: 100%;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        h3 {
+            margin-bottom: 30px
+        }
+
+        p {
+            margin-bottom: 30px
+        }
+
+        .starSec {
+            @include font-size(16px);
+            font-weight: 400;
+            line-height: 25px;
+            margin-bottom: 30px;
+            color: $white-color;
+
+            span {
+                font-weight: 700;
+                display: inline-block;
+                margin: 0px 10px;
+            }
+        }
+
+
+    }
+}

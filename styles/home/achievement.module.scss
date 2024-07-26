@@ -1,0 +1,66 @@
+@import '../variables.module.scss';
+
+.achievementSec {
+    .achievementBox {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        .achievementImg {
+            flex: 0 0 200px;
+            position: relative;
+
+            .achievementPoints {
+                background-color: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(30px) brightness(0.1);
+                -webkit-backdrop-filter: blur(30px) brightness(0.1);
+                height: 140px;
+                width: 140px;
+                position: absolute;
+                top: 19px;
+                right: 11px;
+                border-radius: 100%;
+                @include font-size(14px);
+                color: $white-color;
+                font-weight: 500;
+                line-height: 22px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+
+                span {
+                    @include font-size(35px);
+                    color: $secondary-color;
+                    font-weight: 600;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+            }
+
+            &.lastBox {
+                text-align: right;
+
+                .achievementPoints {
+                    right: 60px;
+                }
+            }
+        }
+
+        .achievementTxt {
+            flex: 0 0 55%;
+            text-align: center;
+
+            a {
+                margin: 10px auto 30px;
+            }
+
+            .achievementLogos {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}

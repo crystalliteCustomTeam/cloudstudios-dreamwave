@@ -1,0 +1,83 @@
+@import '../variables.module.scss';
+
+.headerSec {
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(26px) brightness(1.2);
+    -webkit-backdrop-filter: blur(26px) brightness(1.2);
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+
+    .mainMenu {
+        ul {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 30px;
+
+            li {
+                a {
+                    @include font-size (16px);
+                    font-weight: 500;
+                    line-height: 33px;
+                    color: $black-color;
+                    @include transition (all);
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+
+                &:nth-last-child(2) {
+                    a {
+                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 16px);
+
+                        svg {
+                            margin-left: 10px;
+                            width: 20px;
+                            height: auto;
+                        }
+
+                        &:hover {
+                            background: transparent;
+                            color: $secondary-color;
+                            border-color: $secondary-color;
+
+                            svg {
+                                path {
+                                    fill: $secondary-color;
+                                }
+                            }
+                        }
+
+
+                    }
+
+                }
+
+                &:last-child {
+                    a {
+                        @include font-size (17px);
+
+                        svg {
+                            margin-right: 10px;
+                            margin-top: -5px;
+                        }
+
+                        &:hover {
+                            svg {
+                                path {
+                                    fill: $secondary-color;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

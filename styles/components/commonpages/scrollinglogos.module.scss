@@ -1,0 +1,88 @@
+@import '../../variables.module.scss';
+
+.scrollingLogos {
+    overflow-x: hidden;
+
+    .borderTopStyle {
+        border-top: 1px solid $border-color;
+        padding-top: 50px;
+
+        h2 {
+            max-width: 80%;
+            margin: 0px auto 30px;
+        }
+
+    }
+
+    .borderBottomStyle {
+        border-bottom: 1px solid $border-color;
+        padding-bottom: 50px;
+    }
+
+    .scrolSlide {
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 50px;
+        border-bottom: 1px solid $secondary-color;
+        z-index: 0;
+
+
+        &:before {
+            content: '';
+            background: $black-color;
+            height: 120px;
+            width: 400%;
+            position: absolute;
+            top: 0px;
+            z-index: 3;
+        }
+
+        &.left {
+            &:before {
+                left: -380%;
+            }
+
+            &:after {
+                content: "";
+                background-image: url(../../../public/commonpages/srollinglogos/arrow.webp);
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                bottom: -15px;
+                z-index: 1;
+                left: 20%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+
+        &.right {
+            &:before {
+                right: -380%;
+            }
+
+            &:after {
+                content: "";
+                background-image: url(../../../public/commonpages/srollinglogos/arrow.webp);
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                bottom: -15px;
+                z-index: 1;
+                right: 20%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                transform: rotate(180deg);
+            }
+        }
+
+        img {
+            margin-right: 20px;
+        }
+    }
+}

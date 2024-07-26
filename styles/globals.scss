@@ -1,0 +1,148 @@
+@import './variables.module.scss';
+
+body {
+    background: $black-color;
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .p-50 {
+        @include padding(50px, 0px);
+    }
+
+    .p-100 {
+        @include padding(100px, 0px, 0px);
+    }
+
+    h1 {
+        @include font-size(45px);
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 20px;
+        color: $white-color;
+    }
+
+    h2 {
+        @include font-size(45px);
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 30px;
+        color: $white-color;
+    }
+
+    h3 {
+        @include font-size(30px);
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 10px;
+        color: $white-color;
+
+        &.spacing {
+            letter-spacing: 15px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+    }
+
+    h4 {
+        @include font-size(40px);
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 15px;
+        color: $white-color;
+    }
+
+    h5 {
+        @include font-size(20px);
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: $white-color;
+    }
+
+    p {
+        @include font-size(16px);
+        font-weight: 400;
+        line-height: 25px;
+        margin-bottom: 20px;
+        color: $white-color;
+    }
+
+    .rfm-marquee-container {
+        overflow-x: visible;
+    }
+
+    a.button {
+        @include button($black-color, $white-color, #EBEBEB, 23px, 16px);
+
+        svg {
+            margin-left: 10px;
+            width: 20px;
+            height: auto;
+        }
+
+        &:hover {
+            background: linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%);
+            color: $white-color;
+            border-color: #EBEBEB;
+
+            svg {
+                path {
+                    fill: $white-color;
+                }
+            }
+        }
+
+
+    }
+
+    input,
+    textarea {
+        outline: none;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: $white-color;
+        }
+
+        &::-moz-placeholder {
+            color: $white-color;
+        }
+
+        &:-ms-input-placeholder {
+            color: $white-color;
+        }
+
+        &:-moz-placeholder {
+            color: $white-color;
+        }
+
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus,
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus,
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus {
+            -webkit-text-fill-color: $white-color;
+            -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
+            transition: background-color 5000s ease-in-out 0s;
+        }
+    }
+
+}
