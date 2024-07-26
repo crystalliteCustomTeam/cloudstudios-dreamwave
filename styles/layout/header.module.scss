@@ -31,6 +31,12 @@
                     }
                 }
 
+                &.active {
+                    a {
+                        color: $secondary-color;
+                    }
+                }
+
                 &:nth-last-child(2) {
                     a {
                         @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 16px);
