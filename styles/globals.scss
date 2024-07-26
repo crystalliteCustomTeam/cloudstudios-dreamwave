@@ -3,6 +3,10 @@
 body {
     background: $black-color;
 
+    section {
+        overflow-x: hidden;
+    }
+
     ul {
         padding: 0px;
         margin: 0px;
@@ -146,3 +150,403 @@ body {
     }
 
 }
+
+@include media-query($min: 1300px, $max: 1399px) {
+    body {
+        .container {
+            max-width: 1240px;
+        }
+
+        .p-100 {
+            @include padding(80px, 0px, 0px);
+        }
+
+        h1 {
+            @include font-size(40px);
+            line-height: 50px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            @include font-size(40px);
+            line-height: 50px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font-size(25px);
+            line-height: 35px;
+            margin-bottom: 10px;
+
+            &.spacing {
+                letter-spacing: 15px;
+                margin-bottom: 20px;
+
+            }
+        }
+
+        h4 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            @include font-size(18px);
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            @include font-size(15px);
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+
+        .rfm-marquee-container {
+            overflow-x: visible;
+        }
+
+        a.button {
+            @include button($black-color, $white-color, #EBEBEB, 23px, 15px);
+
+            svg {
+                margin-left: 10px;
+                width: 20px;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    body {
+        .container {
+            max-width: 1200px;
+        }
+
+        .p-100 {
+            @include padding(60px, 0px, 0px);
+        }
+
+        h1 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font-size(22px);
+            line-height: 32px;
+            margin-bottom: 10px;
+
+            &.spacing {
+                letter-spacing: 12px;
+                margin-bottom: 20px;
+
+            }
+        }
+
+        h4 {
+            @include font-size(30px);
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            @include font-size(17px);
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            @include font-size(14px);
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+
+
+        a.button {
+            @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+
+            svg {
+                margin-left: 10px;
+                width: 20px;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    body {
+        .container {
+            max-width: 95%;
+        }
+
+        .p-100 {
+            @include padding(60px, 0px, 0px);
+        }
+
+        h1 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font-size(22px);
+            line-height: 32px;
+            margin-bottom: 10px;
+
+            &.spacing {
+                letter-spacing: 12px;
+                margin-bottom: 20px;
+
+            }
+        }
+
+        h4 {
+            @include font-size(30px);
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            @include font-size(17px);
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            @include font-size(14px);
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+
+
+        a.button {
+            @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+
+            svg {
+                margin-left: 10px;
+                width: 20px;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    body {
+        .container {
+            max-width: 95%;
+        }
+
+        .p-100 {
+            @include padding(60px, 0px, 0px);
+        }
+
+        h1 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font-size(22px);
+            line-height: 32px;
+            margin-bottom: 10px;
+
+            &.spacing {
+                letter-spacing: 12px;
+                margin-bottom: 20px;
+
+            }
+        }
+
+        h4 {
+            @include font-size(30px);
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            @include font-size(17px);
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            @include font-size(14px);
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+
+
+        a.button {
+            @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+
+            svg {
+                margin-left: 10px;
+                width: 20px;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    body {
+        .container {
+            max-width: 98%;
+        }
+
+        .p-100 {
+            @include padding(60px, 0px, 0px);
+        }
+
+        h1 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font-size(22px);
+            line-height: 32px;
+            margin-bottom: 10px;
+
+            &.spacing {
+                letter-spacing: 12px;
+                margin-bottom: 20px;
+
+            }
+        }
+
+        h4 {
+            @include font-size(30px);
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            @include font-size(17px);
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            @include font-size(14px);
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+
+
+        a.button {
+            @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+
+            svg {
+                margin-left: 10px;
+                width: 20px;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    body {
+        .container {
+            max-width: 100%;
+        }
+
+        .p-100 {
+            @include padding(60px, 0px, 0px);
+        }
+
+        h1 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            @include font-size(35px);
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font-size(22px);
+            line-height: 32px;
+            margin-bottom: 10px;
+
+            &.spacing {
+                letter-spacing: 12px;
+                margin-bottom: 20px;
+
+            }
+        }
+
+        h4 {
+            @include font-size(30px);
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            @include font-size(17px);
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            @include font-size(14px);
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+
+
+        a.button {
+            @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+
+            svg {
+                margin-left: 10px;
+                width: 20px;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {}

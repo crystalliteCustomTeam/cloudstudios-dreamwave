@@ -12,7 +12,7 @@ const MainBanner = ({ data }) => {
         <section className={styles.mainBanner} style={{ backgroundImage: `url(${data.img})` }}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col xxl={5} lg={6} className="my-auto">
+                    <Col xxl={5} xl={5} lg={5} className="my-auto">
                         <div className={styles.bannerContentBox}>
                             {data?.rating ? (
                                 <div className={styles.bannerRating}>
@@ -25,7 +25,7 @@ const MainBanner = ({ data }) => {
                             <h1>{data.title}</h1>
                             {data.txt}
                             <div className={styles.bannerImg}>
-                                <Image src={BannerImg.src} alt="Cloud Studios" height={58} width={499} />
+                                <Image src={BannerImg.src} alt="Cloud Studios" height={58} width={499} priority />
                             </div>
                             <Link href={data.link} className="button">Get Started <ArrowMenu /></Link>
                         </div>

@@ -19,8 +19,8 @@ $disabled-color :#AAAAAA;
 }
 
 // mixin Of Website
-@mixin media-query($breakpoint) {
-    @media (max-width: $breakpoint) {
+@mixin media-query($min: null, $max: null) {
+    @media (min-width: $min) and (max-width: $max) {
         @content;
     }
 }
