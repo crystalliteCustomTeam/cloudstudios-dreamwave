@@ -9,7 +9,7 @@ const banner = {
     title: "Design & Marketing on Steroids",
     txt: (
         <>
-            <p>Cloud Studios makes all kinds of videos and below are some of our favorite 3D, 2D, Mixed Media and Live Action examples. We are proud to create videos that bring our client's visions to life through research, strategy, copywriting, and custom visuals.</p>
+            <p>Cloud Studios makes all kinds of videos and below are some of our favorite 3D, 2D, Mixed Media and Live Action examples.We are proud to create videos that bring our client&#39;s visions to life through research, strategy, copywriting, and custom visuals.</p>
             <p>Interested in a specific industry or subject? Type it in search, and the relevant videos will populate.</p>
             <p>Schedule a meeting with us to discuss what you have in mind!</p>
         </>
