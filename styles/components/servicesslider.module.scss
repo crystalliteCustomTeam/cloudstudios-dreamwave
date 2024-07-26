@@ -67,3 +67,300 @@
 
 
 }
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .embla {
+        .embla__viewport {
+            .embla__container {
+                margin-left: calc(30px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 3);
+                    padding-left: 30px;
+
+                    .servicesBox {
+                        .servicesImg {
+                            height: 300px;
+                            margin-bottom: 20px;
+                        }
+
+                        .servicestxt {
+                            h3 {
+                                svg {
+                                    width: 20px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 30px;
+            gap: 15px;
+
+            div {
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .embla {
+        .embla__viewport {
+            .embla__container {
+                margin-left: calc(30px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 3);
+                    padding-left: 30px;
+
+                    .servicesBox {
+                        .servicesImg {
+                            height: 300px;
+                            margin-bottom: 20px;
+                        }
+
+                        .servicestxt {
+                            h3 {
+                                svg {
+                                    width: 20px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 30px;
+            gap: 15px;
+
+            div {
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .embla {
+        .embla__viewport {
+            .embla__container {
+                margin-left: calc(25px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 3);
+                    padding-left: 25px;
+
+                    .servicesBox {
+                        .servicesImg {
+                            height: auto;
+                            margin-bottom: 20px;
+                        }
+
+                        .servicestxt {
+                            h3 {
+                                svg {
+                                    width: 20px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 30px;
+            gap: 15px;
+
+            div {
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .embla {
+        .embla__viewport {
+            .embla__container {
+                margin-left: calc(20px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 3);
+                    padding-left: 20px;
+
+                    .servicesBox {
+                        .servicesImg {
+                            height: auto;
+                            margin-bottom: 20px;
+                        }
+
+                        .servicestxt {
+                            h3 {
+                                svg {
+                                    width: 20px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 30px;
+            gap: 15px;
+
+            div {
+                svg {
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .embla {
+        .embla__viewport {
+            .embla__container {
+                margin-left: calc(15px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 2.5);
+                    padding-left: 15px;
+
+                    .servicesBox {
+                        .servicesImg {
+                            height: auto;
+                            margin-bottom: 20px;
+                        }
+
+                        .servicestxt {
+                            h3 {
+                                svg {
+                                    width: 15px;
+                                    margin-left: 10px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 20px;
+            gap: 15px;
+
+            div {
+                svg {
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .embla {
+        .embla__viewport {
+            .embla__container {
+                margin-left: calc(15px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 1.7);
+                    padding-left: 15px;
+
+                    .servicesBox {
+                        .servicesImg {
+                            height: auto;
+                            margin-bottom: 20px;
+                        }
+
+                        .servicestxt {
+                            h3 {
+                                svg {
+                                    width: 15px;
+                                    margin-left: 10px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 20px;
+            gap: 10px;
+
+            div {
+                svg {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .embla {
+        .embla__viewport {
+            .embla__container {
+                margin-left: calc(15px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 1.2);
+                    padding-left: 15px;
+
+                    .servicesBox {
+                        .servicesImg {
+                            height: auto;
+                            margin-bottom: 20px;
+                        }
+
+                        .servicestxt {
+                            h3 {
+                                svg {
+                                    width: 15px;
+                                    margin-left: 10px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 15px;
+            gap: 10px;
+
+            div {
+                svg {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}

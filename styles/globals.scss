@@ -374,7 +374,7 @@ body {
         }
 
         h3 {
-            @include font-size(22px);
+            @include font-size(20px);
             line-height: 32px;
             margin-bottom: 10px;
 
@@ -398,8 +398,8 @@ body {
         }
 
         p {
-            @include font-size(14px);
-            line-height: 23px;
+            @include font-size(13px);
+            line-height: 22px;
             margin-bottom: 20px;
         }
 
@@ -440,14 +440,13 @@ body {
         }
 
         h3 {
-            @include font-size(22px);
-            line-height: 32px;
+            @include font-size(20px);
+            line-height: 30px;
             margin-bottom: 10px;
 
             &.spacing {
                 letter-spacing: 12px;
                 margin-bottom: 20px;
-
             }
         }
 
@@ -464,8 +463,8 @@ body {
         }
 
         p {
-            @include font-size(14px);
-            line-height: 23px;
+            @include font-size(13px);
+            line-height: 22px;
             margin-bottom: 20px;
         }
 

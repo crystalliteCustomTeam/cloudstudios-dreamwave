@@ -25,7 +25,7 @@ const WorkSec = () => {
         <section className={`${styles.WorkSec} p-100`}>
             <Container className="h-100">
                 <Row>
-                    <Col xxl={12}>
+                    <Col lg={12}>
                         <div className={styles.WorkBg}>
                             <h3 className="spacing">HOW WE WORK</h3>
                             <h2>
@@ -35,7 +35,7 @@ const WorkSec = () => {
 
                             <Row className={`${styles.WorkBox} h-100`}>
                                 {data.map((item, index) => (
-                                    <Col xxl={3} lg={3} md={3} className="my-auto" key={index}>
+                                    <Col xl={3} lg={3} md={6} className="my-auto" key={index}>
                                         <div className={styles.workItem}>
                                             <div className={styles.workIcon}>
                                                 {item.icon}
