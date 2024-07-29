@@ -119,31 +119,31 @@ const ElevateSlides = [
         name: "Concept Ideation and Storyboard ",
         txt: (
             <>
-                <p>Our 2d animation company works closely with clients to capture their brand essence and creative vision into a cohesive narrative blueprint. Using powerful storyboarding tools, we methodically plan each scene, specifying the camera angles, character movements, and emotional beats that will serve as the foundation for the animated content. This strategic planning process ensures that the final animation is consistent with the client's goals and effectively communicates with the intended audience.</p>
+                <p>Our 2d animation company works closely with clients to capture their brand essence and creative vision into a cohesive narrative blueprint. Using powerful storyboarding tools, we methodically plan each scene, specifying the camera angles, character movements, and emotional beats that will serve as the foundation for the animated content. This strategic planning process ensures that the final animation is consistent with the client&#39;s goals and effectively communicates with the intended audience.</p>
             </>
         )
     },
 ]
 const CtaData = {
     title: "Cutting-edge 2D Animation services are just a tap away! ",
-    btntxt: "Grab your bag of chips, and let's get the ball rolling!",
+    btntxt: "Grab your bag of chips, and let&#39;s get the ball rolling!",
 }
 const SLIDES = [
     {
         name: "Sophia Alvarez ",
-        txt: "Cloud Studios' 2D animation service work is nothing short of awe-inspiring. The seamless integration of traditional artistry and cutting-edge technology results in breathtakingly beautiful and emotionally resonant visuals that transport the viewer to fully realized, captivating worlds. Cloud Studios Inc. is the best 2D animation company for a reason.",
+        txt: "Cloud Studios&#39; 2D animation service work is nothing short of awe-inspiring. The seamless integration of traditional artistry and cutting-edge technology results in breathtakingly beautiful and emotionally resonant visuals that transport the viewer to fully realized, captivating worlds. Cloud Studios Inc. is the best 2D animation company for a reason.",
         img: IMG_01.src,
         video: "videos/LogoAnimation3.mp4",
     },
     {
         name: "Liam Donovan ",
-        txt: "Cloud Studios’ 2D animation service exceeded all our expectations, delivering a masterpiece that captivated our audience from the first frame. Their team's unparalleled creativity and technical mastery are genuinely remarkable.",
+        txt: "Cloud Studios’ 2D animation service exceeded all our expectations, delivering a masterpiece that captivated our audience from the first frame. Their team&#39;s unparalleled creativity and technical mastery are genuinely remarkable.",
         img: IMG_02.src,
         video: "videos/LogoAnimation3.mp4",
     },
     {
         name: "Isabella Gutierrez ",
-        txt: "Cloud Studios' 2D animations are infused with a palpable energy and emotional depth that elevates the art form. They have redefined what is possible, crafting cinematic experiences that leave a lasting impression on the viewer. It was a privilege to collaborate with the best 2D company in the market.",
+        txt: "Cloud Studios&#39; 2D animations are infused with a palpable energy and emotional depth that elevates the art form. They have redefined what is possible, crafting cinematic experiences that leave a lasting impression on the viewer. It was a privilege to collaborate with the best 2D company in the market.",
         img: IMG_03.src,
         video: "videos/LogoAnimation3.mp4",
     }, {
