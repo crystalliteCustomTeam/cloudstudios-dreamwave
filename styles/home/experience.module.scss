@@ -71,3 +71,318 @@
     }
 
 }
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(40px, 30px, 20px, 30px);
+
+            .experienceTxt {
+                flex: 0 0 50%;
+
+                .howTxt {
+                    @include font-size(25px);
+                    line-height: 35px;
+                    margin-bottom: 25px;
+                }
+
+                .experienceLogos {
+
+
+                    .logosItem {
+                        flex: 0 0 25%;
+                        height: 75px;
+                    }
+                }
+
+                a {
+
+                    position: absolute;
+                    bottom: 18px;
+                    left: 300px;
+
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+
+                img {
+                    right: -20px;
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(40px, 30px, 20px, 30px);
+
+            .experienceTxt {
+                flex: 0 0 50%;
+
+                .howTxt {
+                    @include font-size(22px);
+                    line-height: 32px;
+                    margin-bottom: 20px;
+                }
+
+                .experienceLogos {
+
+
+                    .logosItem {
+                        flex: 0 0 25%;
+                        height: 70px;
+                    }
+                }
+
+                a {
+
+                    position: absolute;
+                    bottom: 18px;
+                    left: 300px;
+
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+
+                img {
+                    right: -20px;
+                    width: 54%;
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(40px, 30px, 20px, 30px);
+
+            .experienceTxt {
+                flex: 0 0 50%;
+
+                .howTxt {
+                    @include font-size(20px);
+                    line-height: 32px;
+                    margin-bottom: 20px;
+                }
+
+                .experienceLogos {
+
+
+                    .logosItem {
+                        flex: 0 0 25%;
+                        height: 70px;
+                    }
+                }
+
+                a {
+
+                    position: absolute;
+                    bottom: 18px;
+                    left: 300px;
+
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+
+                img {
+                    right: -20px;
+                    width: 54%;
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(40px, 30px, 20px, 30px);
+
+            .experienceTxt {
+                flex: 0 0 100%;
+
+                .howTxt {
+                    @include font-size(20px);
+                    line-height: 32px;
+                    margin-bottom: 20px;
+                }
+
+                .experienceLogos {
+
+
+                    .logosItem {
+                        flex: 0 0 25%;
+                        height: 70px;
+                    }
+                }
+
+                a {
+
+                    position: absolute;
+                    bottom: 15px;
+                    left: 440px;
+
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+                display: none;
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(40px, 30px, 20px, 30px);
+
+            .experienceTxt {
+                flex: 0 0 100%;
+
+                .howTxt {
+                    @include font-size(20px);
+                    line-height: 32px;
+                    margin-bottom: 20px;
+                }
+
+                .experienceLogos {
+
+
+                    .logosItem {
+                        flex: 0 0 25%;
+                        height: 70px;
+                    }
+                }
+
+                a {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 320px;
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+                display: none;
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(40px, 30px, 20px, 30px);
+
+            .experienceTxt {
+                flex: 0 0 100%;
+
+                .howTxt {
+                    @include font-size(20px);
+                    line-height: 32px;
+                    margin-bottom: 20px;
+                }
+
+                .experienceLogos {
+
+
+                    .logosItem {
+                        flex: 0 0 25%;
+                        height: 70px;
+                    }
+                }
+
+                a {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 320px;
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+                display: none;
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(20px, 20px, 20px, 20px);
+
+            .experienceTxt {
+                flex: 0 0 100%;
+
+
+                .howTxt {
+                    @include font-size(20px);
+                    line-height: 32px;
+                    margin-bottom: 20px;
+                }
+
+                .experienceLogos {
+                    .logosItem {
+                        flex: 0 0 50%;
+                        height: 60px;
+
+                        img {
+                            height: 45px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                a {
+                    position: unset;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px auto;
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+                display: none;
+            }
+
+
+        }
+
+    }
+}

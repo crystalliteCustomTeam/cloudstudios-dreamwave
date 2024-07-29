@@ -3,6 +3,21 @@
 body {
     background: $black-color;
 
+    &::-webkit-scrollbar {
+        width: 2px;
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $secondary-color;
+        outline: 1px solid $secondary-color;
+        border-radius: 5px;
+    }
+
     section {
         overflow-x: hidden;
     }
@@ -353,6 +368,8 @@ body {
 
 @include media-query($min: 900px, $max: 1099px) {
     body {
+
+
         .container {
             max-width: 95%;
         }
@@ -379,7 +396,7 @@ body {
             margin-bottom: 10px;
 
             &.spacing {
-                letter-spacing: 12px;
+                letter-spacing: 10px;
                 margin-bottom: 20px;
 
             }
@@ -445,8 +462,8 @@ body {
             margin-bottom: 10px;
 
             &.spacing {
-                letter-spacing: 12px;
-                margin-bottom: 20px;
+                letter-spacing: 8px;
+                margin-bottom: 10px;
             }
         }
 
@@ -465,7 +482,7 @@ body {
         p {
             @include font-size(13px);
             line-height: 22px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
 
@@ -505,13 +522,13 @@ body {
         }
 
         h3 {
-            @include font-size(22px);
+            @include font-size(20px);
             line-height: 32px;
             margin-bottom: 10px;
 
             &.spacing {
-                letter-spacing: 12px;
-                margin-bottom: 20px;
+                letter-spacing: 8px;
+                margin-bottom: 10px;
 
             }
         }
@@ -548,4 +565,68 @@ body {
     }
 }
 
-@include media-query($min: 0px, $max: 576px) {}
+@include media-query($min: 0px, $max: 576px) {
+    body {
+        .container {
+            max-width: 100%;
+        }
+
+        .p-100 {
+            @include padding(60px, 0px, 0px);
+        }
+
+        h1 {
+            @include font-size(30px);
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            @include font-size(28px);
+            line-height: 38px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font-size(18px);
+            line-height: 28px;
+            margin-bottom: 10px;
+
+            &.spacing {
+                letter-spacing: 3px;
+                margin-bottom: 10px;
+
+            }
+        }
+
+        h4 {
+            @include font-size(25px);
+            line-height: 35px;
+            margin-bottom: 10px;
+        }
+
+        h5 {
+            @include font-size(18px);
+            line-height: 26px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            @include font-size(14px);
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+
+
+        a.button {
+            @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+
+            svg {
+                margin-left: 10px;
+                width: 20px;
+            }
+        }
+
+    }
+}

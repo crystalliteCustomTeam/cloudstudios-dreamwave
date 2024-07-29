@@ -24,21 +24,13 @@
             z-index: -1;
         }
 
-        .caseTxt {
-            @include font-size(45px);
-            font-weight: 500;
-            line-height: 60px;
-            margin-bottom: 30px;
-            color: $white-color;
-        }
-
         .WorkBox {
             margin-top: 50px;
 
             .workItem {
                 text-align: center;
                 @include padding (20px, 10px);
-                height: 300px;
+                height: 350px;
                 border: 1px solid transparent;
                 border-radius: 5px;
                 @include transition(all);
@@ -50,9 +42,177 @@
                 }
 
                 .workIcon {
-                    margin-bottom: 30px;
+                    margin-bottom: 20px;
+                }
+
+                P {
+                    height: 150px;
+                    overflow: auto;
+                    padding-right: 0px;
+
+                    &::-webkit-scrollbar {
+                        width: 0px;
+                    }
                 }
             }
         }
     }
 }
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(40px, 30px, 20px, 30px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 50px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (20px, 10px);
+                    height: 350px;
+
+                    P {
+                        height: 150px;
+                        overflow: auto;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(30px, 30px, 20px, 30px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 50px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (20px, 10px);
+                    height: 350px;
+
+                    P {
+                        height: 150px;
+                        overflow: auto;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(20px, 25px, 20px, 25px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 50px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (20px, 10px);
+                    height: 350px;
+
+                    P {
+                        height: 150px;
+                        overflow: auto;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(20px, 25px, 20px, 25px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 50px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (20px, 10px);
+                    height: 350px;
+
+                    P {
+                        height: 150px;
+                        overflow: auto;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(20px, 25px, 20px, 25px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 50px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (20px, 10px);
+                    height: 350px;
+
+                    P {
+                        height: 150px;
+                        overflow: auto;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(20px, 20px, 20px, 20px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 50px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (20px, 10px);
+                    height: 350px;
+
+                    P {
+                        height: 150px;
+                        overflow: auto;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {}

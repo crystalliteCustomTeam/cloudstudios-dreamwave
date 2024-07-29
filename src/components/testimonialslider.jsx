@@ -9,7 +9,7 @@ import { useState } from 'react'
 
 
 const TestimonialSlider = (props) => {
-    const { slides, options } = props
+    const { slides, options, clients } = props
     const [emblaRef, embla] = useEmblaCarousel(options, [
         Autoplay({ playOnInit: false, delay: 3000 })
     ]);
@@ -39,16 +39,16 @@ const TestimonialSlider = (props) => {
                                 <div className={styles.testimonialImg}>
                                     <Image src={item.img} alt={item.name} width={400} height={300} />
                                 </div>
-                                <div className={styles.testimonialtxt}>
-                                    <h3>{item.name}</h3>
-                                    <p>{item.txt}</p>
-                                    {item.video ?
+                                <div className={`${styles.testimonialtxt} ${clients === 'yes' ? `${styles.active}` : ''}`}>
+                                    <h3>{item.name}     {item.video ?
                                         <div className={styles.playBtn} onClick={() => handleSlideClick(item.video)}>
                                             <PlayBtn />
                                         </div>
                                         :
                                         ''
-                                    }
+                                    }</h3>
+                                    <p>{item.txt}</p>
+
                                 </div>
                             </div>
                         </div>

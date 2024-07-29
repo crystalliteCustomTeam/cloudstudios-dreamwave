@@ -26,10 +26,9 @@ const CaseStudy = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col xxl={6} lg={6} md={7}>
-                        <h3 className="spacing">OUR BEST WORK</h3>
+                        <h3 className="spacing">Our Power Projects!</h3>
                         <h2>
-                            Crafting Visual Stories
-                            That Captivate and Inspire
+                            We deliver animation that pushes brands through the noise.
                         </h2>
                     </Col>
                     <Col xxl={6} lg={6} md={5} className="ms-auto my-auto">
@@ -37,7 +36,7 @@ const CaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="pt-4">
-                    <Col xxl={8} lg={8} md={8}>
+                    <Col xxl={8} lg={8} md={6}>
                         <div
                             className={`${styles.videoBox} ${videoUrl === 'videos/LogoAnimation.mp4' ? styles.active : ''}`}
                             style={{ backgroundImage: `url(${IMG1.src})` }}
@@ -47,32 +46,44 @@ const CaseStudy = () => {
                                 <PlayBtn />
                             </div>
                             <div className={styles.videoTxt}>
-                                <h4>Royal Match</h4>
-                                <p>Embark on a majestic journey through the enchanting world of Royal Match, where puzzle-solving meets regal adventure! In this captivating animation trailer.</p>
+                                <h4>Quantum Leap for Quantum-Tech UK</h4>
+                                <p>Challenge: Explain quantum computing to a broad audience. Solution: Created an immersive, interactive 3D animation series. Result: 500% increase in website engagement and 50% boost in investor interest.</p>
                             </div>
                         </div>
                     </Col>
-                    <Col xxl={4} lg={4} md={4}>
+                    <Col xxl={4} lg={4} md={6}>
                         <div className={styles.videoBox} style={{ backgroundImage: `url(${IMG2.src})` }}>
                             {videoUrl === 'videos/LogoAnimation2.mp4' && <VideoPlayer video={videoUrl} />}
                             <div className={styles.playBtn} onClick={() => handlePlayClick('videos/LogoAnimation2.mp4')}>
                                 <PlayBtn />
                             </div>
                             <div className={styles.videoTxt}>
-                                <h4>Jumbo Junior</h4>
-                                <p>Embark on a majestic journey through the enchanting world of Royal Match, where puzzle-solving meets regal adventure! In this captivating animation trailer.</p>
+                                <h4>Eco Revolution with GreenDrive</h4>
+                                <p>Challenge: Showcase the benefits of electric vehicles innovatively. Solution: Developed a VR animation experience in a zero-emission city. The result was a 200% increase in test drives and 75% growth in social media following.</p>
                             </div>
                         </div>
                     </Col>
-                    <Col xxl={12} lg={12} md={12}>
+                    <Col xxl={4} lg={4} md={6}>
                         <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
                             {videoUrl === 'videos/LogoAnimation3.mp4' && <VideoPlayer video={videoUrl} />}
                             <div className={styles.playBtn} onClick={() => handlePlayClick('videos/LogoAnimation3.mp4')}>
                                 <PlayBtn />
                             </div>
                             <div className={styles.videoTxt}>
-                                <h4>Scarred - Cel</h4>
-                                <p>Creativity knows no bounds at Infinity Animations, where we specialize in delivering exclusive Infinity Animations services to our customers. Our team of skilled animators and storytellers work tirelessly to bring ideas to life. With an eye for detail and a passion for innovation, we strive to exceed expectations and deliver animations that resonate with viewers on an emotional level.</p>
+                                <h4>Financial Futures with MoneyWise</h4>
+                                <p>Challenge: Make complex financial products accessible to millennials. Solution: Produced a series of quirky, informative, animated explainer videos. Result: 300% increase in app downloads and 150% boost in user retention.</p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col xxl={8} lg={8} md={6}>
+                        <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
+                            {videoUrl === 'videos/LogoAnimation4.mp4' && <VideoPlayer video={videoUrl} />}
+                            <div className={styles.playBtn} onClick={() => handlePlayClick('videos/LogoAnimation4.mp4')}>
+                                <PlayBtn />
+                            </div>
+                            <div className={styles.videoTxt}>
+                                <h4>Healthtech Transformation for VitalinoLink Italy</h4>
+                                <p>Challenge: Demonstrate the impact of AI in healthcare. Solution: Created a mixed reality animation for a trade show presentation. Result: Secured five significant partnerships and increased market share by 25%.</p>
                             </div>
                         </div>
                     </Col>

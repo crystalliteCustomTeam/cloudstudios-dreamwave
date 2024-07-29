@@ -47,9 +47,9 @@ const ExperienceSec = () => {
                             <div className={styles.experienceTxt}>
                                 <h3 className="spacing">OUR EXPERIENCE</h3>
                                 <div className={styles.howTxt}>
-                                    Cloud Studios works with all types of companies
+                                    At Cloud Studios, we’re equipped to handle video production for businesses of all shapes and sizes - from agile startups to industry giants like Uber, Amazon, HubSpot, and Google.
                                 </div>
-                                <p>From startups and non-profits to industry leaders like Uber, Amazon, HubSpot, and Google. But no matter the client, we strategically tailor our approach to support your specific needs to produce compelling videos.</p>
+                                <p>Our nimble teams leverage the latest cloud-based tools and workflows to deliver top-notch animation video content tailored to your specific needs. Whether you require lifestyle videos, product demos, or complex corporate narratives, we have the technical chops and creative flair to bring your vision to life..</p>
                                 <div className={styles.experienceLogos}>
                                     {images.map((src, index) => (
                                         <div className={styles.logosItem} key={index} >

@@ -10,7 +10,7 @@ import Link from "next/link"
 import { ArrowMenu } from "@/src/app-constants"
 
 
-const Achievement = () => {
+const Achievement = ({ data }) => {
     return (
         <section className={`${styles.achievementSec} p-100`}>
             <Container>
@@ -23,9 +23,8 @@ const Achievement = () => {
                             </div>
                             <div className={styles.achievementTxt}>
                                 <h3 className="spacing">ACHIEVEMENTS</h3>
-                                <h2>Multitude of Awards and
-                                    Stellar Client Reviews</h2>
-                                <p>Showcasing our creative prowess, were proud to be 12-time Davey Award winners, 9-time Muse Award recipients, and 11-time Telly Award victors, affirming our commitment to excellence in video production.</p>
+                                <h2>{data ? data.title : "We Love Recognition. We Love to Boast About Our Awards & Accolades."}</h2>
+                                <p>{data ? data.txt : "We have been knocking projects right, front and center, delivering out-of-this-world video animation solutions. From bagging impressive Muse, Davey & Telly Awards – we continue to provide the new generation of animation solutions to our clients to exceed their wildest expectations!"}</p>
                                 <Link href="" className="button">Read Our 5 Star Reviews <ArrowMenu /></Link>
                                 <div className={styles.achievementLogos}>
                                     <Image src={LOGO1.src} alt="Achievement" height={60} width={120} />

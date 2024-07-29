@@ -57,37 +57,70 @@
 
                         h3 {
                             color: $secondary-color;
-                            margin-bottom: 5px
+                            margin-bottom: 5px;
+                            height: 40px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
                         }
 
                         p {
                             margin-bottom: 0px;
-                            max-width: 90%;
+                            max-width: 100%;
                             font-weight: 300;
                         }
 
-                        .playBtn {
-                            position: absolute;
-                            right: 20px;
-                            bottom: 20px;
-                            cursor: pointer;
-                            @include transition(all);
 
-                            svg {
-                                width: 50px;
-                            }
+                        &.active {
+                            transform: translateY(calc(100% - 80px));
+                            height: auto;
+                            transition: transform .3s ease-in-out;
 
-                            &:hover {
-                                @include transition(all);
+                            h3 {
+                                margin-bottom: 10px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                height: 50px;
 
-                                svg {
-                                    path {
-                                        fill: $secondary-color;
+                                .playBtn {
+                                    cursor: pointer;
+                                    @include transition(all);
+
+                                    svg {
+                                        width: 45px;
+                                    }
+
+                                    &:hover {
+                                        @include transition(all);
+
+                                        svg {
+                                            path {
+                                                fill: $secondary-color;
+                                            }
+                                        }
                                     }
                                 }
                             }
+
+                            p {
+                                margin-bottom: 0px;
+                                max-width: 100%;
+                                font-weight: 300;
+                            }
+
+
+                        }
+
+                    }
+
+                    &:hover {
+                        .testimonialtxt {
+                            transition: transform .3s ease-in-out;
+                            transform: translateY(0%);
                         }
                     }
+
                 }
             }
         }
@@ -443,11 +476,11 @@
         .embla__viewport {
 
             .embla__container {
-                margin-left: calc(15px * -1);
+                margin-left: calc(10px * -1);
 
                 .embla__slide {
                     flex: 0 0 calc(100% / 1.2);
-                    padding-left: 15px;
+                    padding-left: 10px;
 
                     .testimonialBox {
                         height: 380px;
@@ -456,16 +489,12 @@
                             @include padding(15px, 15px);
                             width: 100%;
 
-                            p {
-                                max-width: 90%;
-                            }
-
                             .playBtn {
                                 right: 15px;
                                 bottom: 15px;
 
                                 svg {
-                                    width: 35px;
+                                    width: 30px;
                                 }
                             }
                         }

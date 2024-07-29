@@ -8,23 +8,23 @@ const MissionSec = () => {
             <Container>
                 <Row>
                     <Col lg={12}>
-                        <h3 className="spacing">ABOUT OUR BUSINESS</h3>
-                        <h2>Our Mission</h2>
+                        <h3 className="spacing">About Cloud Studios</h3>
+                        <h2>Animation is in our descent.</h2>
                     </Col>
                     <Col lg={8}>
-                        <p>At Cloud Studios, we&#39;re experts in storytelling. We specialize in transforming business concepts into videos that solve problems. While this includes scriptwriting, it also includes visual direction. We combine engaging and efficient scriptwriting with complementary visuals to propel your business and bring your story to life. Through our expertise in media and business, we&#39;ve been able to create pivotal processes to develop successful videos by defining the goals from an early stage and facilitating a holistic marketing approach through the utilization of your brand.</p>
+                        <p>Cloud Studios Inc. dares to be different—or so we like to think. We claim to push the boundaries of innovation, but we do what everyone else does, only 10x better. Our so-called 'industry-leading' visual storytelling might deserve that title, given how low the bar is set. We crack the codes, we break the walls, and we do fantastic animation beyond the ‘ordinariness.’ </p>
                     </Col>
                     <Col lg={4}>
                         <div className={styles.colorChange}>
-                            <p>We&#39;re the talented video experts. You&#39;re the talented industry expert. Together, we&#39;re the perfect team. Together, we create successful videos.</p>
+                            <p>We integrate animation into branding, literally taking storytelling to new heights! Our skilled animators are one-of-a-kind.</p>
                         </div>
                     </Col>
                     <Col lg={8}>
-                        <p>At the same time, you&#39;re the expert in your business. At Explainly, we believe in businesses and their talented employees. While we&#39;re here to guide you through this journey, we&#39;re not here to dictate the vision for a video – our job is to deliver a great video, and a great video is a successful video that you and your company are excited about because it moves your company forward. Whether that means we deliver on YOUR vision or we work together to create that vision, we&#39;re here to work WITH you. We offer the space for talented individuals to help guide videos in a creative direction based on your organization&#39;s successful messaging. This means that we work within your brand guidelines and voice through and through. While we&#39;re more than happy to lead a project from start to finish, we&#39;ve found success in working hand in hand with businesses to develop videos that successfully enable their teams to educate and convert their target audiences.</p>
+                        <p>Every project is touted as a new frontier, but lets face it. Whether it’s helping a business find its unique identity, constructing another whiteboard animation to explain a product no one understands, or giving a brand its shot at a cinematic moment, we keep the animation machine shaking. We say we’re passionate about animation, but it’s just that we’re good at it. Good! We combine strategic and artistic expertise to achieve reach and engagement for brands and businesses. Traditional and modern elements? Check. Captivating logo animations and immersive architectural visualizations? Of course. Each project is approached with what we like to call dedication and a keen eye for detail, resulting in tangible impacts for B2B clients who are just looking for something that works.</p>
                     </Col>
                     <Col lg={4}>
                         <div className={`${styles.colorChange} ${styles.last}`}>
-                            <p>– The Cloud Studios Team.</p>
+                            <p>We don’t just set industry standards; we redefine them.</p>
                         </div>
                     </Col>
                 </Row>

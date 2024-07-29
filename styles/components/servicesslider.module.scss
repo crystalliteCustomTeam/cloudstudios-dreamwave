@@ -30,12 +30,30 @@
                     }
 
                     .servicestxt {
-                        h3 {
-                            svg {
-                                width: 20px;
-                                height: auto;
-                                margin-left: 10px;
+                        // h3 {
+                        //     @include font-size(28px);
+                        // }
+
+                        p {
+                            height: 190px;
+                            overflow: auto;
+                            padding-right: 10px;
+
+                            &::-webkit-scrollbar {
+                                width: 1px;
                             }
+
+                            &::-webkit-scrollbar-track {
+                                box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                                border-radius: 5px;
+                            }
+
+                            &::-webkit-scrollbar-thumb {
+                                background-color: $secondary-color;
+                                outline: 1px solid $secondary-color;
+                                border-radius: 5px;
+                            }
+
                         }
                     }
                 }
@@ -159,7 +177,7 @@
                 margin-left: calc(25px * -1);
 
                 .embla__slide {
-                    flex: 0 0 calc(100% / 3);
+                    flex: 0 0 calc(100% / 2.8);
                     padding-left: 25px;
 
                     .servicesBox {
@@ -201,7 +219,7 @@
                 margin-left: calc(20px * -1);
 
                 .embla__slide {
-                    flex: 0 0 calc(100% / 3);
+                    flex: 0 0 calc(100% / 2.5);
                     padding-left: 20px;
 
                     .servicesBox {
@@ -243,7 +261,7 @@
                 margin-left: calc(15px * -1);
 
                 .embla__slide {
-                    flex: 0 0 calc(100% / 2.5);
+                    flex: 0 0 calc(100% / 2.1);
                     padding-left: 15px;
 
                     .servicesBox {
@@ -326,11 +344,11 @@
     .embla {
         .embla__viewport {
             .embla__container {
-                margin-left: calc(15px * -1);
+                margin-left: calc(10px * -1);
 
                 .embla__slide {
-                    flex: 0 0 calc(100% / 1.2);
-                    padding-left: 15px;
+                    flex: 0 0 calc(100% / 1.15);
+                    padding-left: 10px;
 
                     .servicesBox {
                         .servicesImg {

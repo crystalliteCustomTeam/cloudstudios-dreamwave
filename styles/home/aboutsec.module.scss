@@ -1,6 +1,5 @@
 @import '../variables.module.scss';
 
-
 .aboutSec {
     .whatTitle {
         @include font-size(70px);
@@ -35,9 +34,182 @@
         color: $white-color;
     }
 
-    P {
-        margin-bottom: 30px
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .aboutSec {
+        .whatTitle {
+            @include font-size(60px);
+            line-height: 70px;
+            margin-bottom: 25px;
+
+            svg {
+                margin: 0px 15px;
+            }
+        }
+
+        .whatVideo {
+            height: 350px;
+        }
+
+        .howTxt {
+            @include font-size(25px);
+            line-height: 35px;
+            margin-bottom: 20px;
+        }
     }
+}
 
+@include media-query($min: 1200px, $max: 1299px) {
+    .aboutSec {
+        .whatTitle {
+            @include font-size(50px);
+            line-height: 60px;
+            margin-bottom: 20px;
 
+            svg {
+                margin: 0px 12px;
+            }
+        }
+
+        .whatVideo {
+            height: 320px;
+        }
+
+        .howTxt {
+            @include font-size(22px);
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .aboutSec {
+        .whatTitle {
+            @include font-size(45px);
+            line-height: 50px;
+            margin-bottom: 20px;
+
+            svg {
+                margin: 0px 12px;
+                width: 50px;
+
+            }
+        }
+
+        .whatVideo {
+            height: 320px;
+        }
+
+        .howTxt {
+            @include font-size(22px);
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .aboutSec {
+        .whatTitle {
+            @include font-size(45px);
+            line-height: 50px;
+            margin-bottom: 20px;
+
+            svg {
+                margin: 0px 12px;
+                width: 50px;
+
+            }
+        }
+
+        .whatVideo {
+            height: 320px;
+        }
+
+        .howTxt {
+            @include font-size(20px);
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .aboutSec {
+        .whatTitle {
+            @include font-size(40px);
+            line-height: 45px;
+            margin-bottom: 10px;
+
+            svg {
+                margin: 0px 12px;
+                width: 50px;
+
+            }
+        }
+
+        .whatVideo {
+            height: 300px;
+        }
+
+        .howTxt {
+            @include font-size(20px);
+            line-height: 32px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .aboutSec {
+        .whatTitle {
+            @include font-size(40px);
+            line-height: 45px;
+            margin-bottom: 10px;
+
+            svg {
+                margin: 0px 12px;
+                width: 50px;
+
+            }
+        }
+
+        .whatVideo {
+            height: 300px;
+        }
+
+        .howTxt {
+            @include font-size(20px);
+            line-height: 32px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .aboutSec {
+        .whatTitle {
+            @include font-size(40px);
+            line-height: 45px;
+            margin-bottom: 10px;
+
+            svg {
+                margin: 0px 12px;
+                width: 50px;
+
+            }
+        }
+
+        .whatVideo {
+            height: 300px;
+        }
+
+        .howTxt {
+            @include font-size(20px);
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+    }
 }

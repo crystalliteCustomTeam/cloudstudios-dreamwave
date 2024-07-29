@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
 
 
-const CtaSec = () => {
+const CtaSec = ({ data }) => {
     return (
         <section className={`${styles.ctaSec} p-100`}>
             <Container>
@@ -12,9 +12,8 @@ const CtaSec = () => {
                     <Col xxl={12} className="text-center m-auto">
                         <div className={styles.ctaBg}>
                             <div className={styles.ctaContent}>
-                                <h2>Cutting-edge 2D Animation Services
-                                    are just a tap away!</h2>
-                                <Link href="#" className="button">Grab your bag of chips, and let&#39;s get the ball rolling! <ArrowMenu /></Link>
+                                <h2>{data?.title}</h2>
+                                <Link href="#" className="button">{data?.btntxt}<ArrowMenu /></Link>
                             </div>
                         </div>
                     </Col>

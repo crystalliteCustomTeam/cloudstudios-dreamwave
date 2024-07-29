@@ -32,7 +32,7 @@ const ServicesSlider = (props) => {
                                     <Image src={item.img} alt={item.name} width={400} height={300} />
                                 </div>
                                 <div className={styles.servicestxt}>
-                                    <h3>{item.name}<ArrowMenu /></h3>
+                                    <h3>{item.name}</h3>
                                     <p>{item.txt}</p>
                                     <Link href={item.link} className="button">Get Started <ArrowMenu /> </Link>
                                 </div>

@@ -32,6 +32,28 @@
             margin-bottom: 30px
         }
 
+        ul {
+            margin-bottom: 20px;
+
+            li {
+                color: $white-color;
+                margin-bottom: 5px;
+                position: relative;
+                padding-left: 20px;
+
+                &::after {
+                    content: '';
+                    background: $white-color;
+                    width: 7px;
+                    height: 7px;
+                    position: absolute;
+                    left: 2px;
+                    border-radius: 100%;
+                    top: 7px;
+                }
+            }
+        }
+
         .starSec {
             @include font-size(16px);
             font-weight: 400;

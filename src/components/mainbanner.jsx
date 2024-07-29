@@ -14,13 +14,11 @@ const MainBanner = ({ data }) => {
                 <Row className="h-100">
                     <Col xxl={5} xl={5} lg={5} className="my-auto">
                         <div className={styles.bannerContentBox}>
-                            {data?.rating ? (
+                            {data?.rating && (
                                 <div className={styles.bannerRating}>
-                                    <Stars />
+                                    {data.star && <Stars />}
                                     {data.rating}
                                 </div>
-                            ) : (
-                                ""
                             )}
                             <h1>{data.title}</h1>
                             {data.txt}

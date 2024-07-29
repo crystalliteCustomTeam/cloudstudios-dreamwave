@@ -30,7 +30,9 @@ const ElevateSlider = (props) => {
                                 </div>
                                 <div className={styles.elevatetxt}>
                                     <h5>{item.name}</h5>
-                                    <p>{item.txt}</p>
+                                    <div className={styles.elevatePara}>
+                                        {item.txt}
+                                    </div>
                                 </div>
                             </div>
                         </div>

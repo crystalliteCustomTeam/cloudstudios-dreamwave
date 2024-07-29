@@ -1,13 +1,6 @@
 @import '../variables.module.scss';
 
 .casestudySec {
-    .caseTxt {
-        @include font-size(45px);
-        font-weight: 500;
-        line-height: 60px;
-        margin-bottom: 30px;
-        color: $white-color;
-    }
 
     a {
         float: right;
@@ -25,9 +18,9 @@
         position: relative;
         border-radius: 5px;
 
-        &.last {
-            height: 580px;
-        }
+        // &.last {
+        //     height: 580px;
+        // }
 
         &:after {
             content: '';
@@ -72,6 +65,202 @@
                     path {
                         fill: $secondary-color;
                     }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 450px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(30px, 30px);
+            }
+
+            .playBtn {
+                top: 20px;
+                right: 20px;
+
+                svg {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(25px, 25px);
+            }
+
+            .playBtn {
+                top: 18px;
+                right: 18px;
+
+                svg {
+                    width: 45px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(25px, 25px);
+            }
+
+            .playBtn {
+                top: 18px;
+                right: 18px;
+
+                svg {
+                    width: 45px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .casestudySec {
+        a {
+            float: left;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 40px;
                 }
             }
         }

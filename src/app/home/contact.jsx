@@ -4,7 +4,7 @@ import styles from "@/styles/home/contact.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
 
 
-const Contact = ({ page }) => {
+const Contact = ({ page, data }) => {
     return (
         <section className={`${styles.contactSec} p-100 ${page === "contact" ? styles.contactStyle : ""}`}>
             <Container className="h-100">
@@ -12,7 +12,7 @@ const Contact = ({ page }) => {
                     <Col xxl={12} lg={12} md={12} className="my-auto">
                         <div className={styles.contactBg}>
                             <h3 className="spacing">Contact Us</h3>
-                            <h2>Book a meeting with a member of our team to learn more and get a quote today!</h2>
+                            <h2>{data ? data : "Become a part of the Cloud Studios revolution and help your brand break boundaries through powerful animation."}</h2>
                             <Row className="h-100">
                                 <Col xxl={6} lg={6} md={6} className="my-auto">
                                     <Animation />

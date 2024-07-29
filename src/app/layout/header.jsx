@@ -31,8 +31,8 @@ const Header = () => {
                                         About
                                     </Link>
                                 </li>
-                                <li className={pathname === "/2d-animation" ? styles.active : ""}>
-                                    <Link href="/2d-animation" aria-label="Services Page">
+                                <li className={pathname === "/2d-animations" ? styles.active : ""}>
+                                    <Link href="/2d-animations" aria-label="Services Page">
                                         Services
                                     </Link>
                                 </li>

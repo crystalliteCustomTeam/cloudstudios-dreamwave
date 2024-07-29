@@ -24,11 +24,62 @@
             z-index: -1;
         }
 
-        // background-position: left bottom;
-        // background-size: cover;
-        // background-repeat: no-repeat;
         h2 {
-            margin-bottom: 50px;
+            margin: 0px auto 50px;
+            max-width: 80%;
+        }
+    }
+}
+
+
+@include media-query($min: 900px, $max: 1099px) {
+    .servicesSec {
+        .servicesBg {
+            @include padding(30px, 25px, 20px, 25px);
+
+            h2 {
+                margin: 0px auto 50px;
+                max-width: 80%;
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .servicesSec {
+        .servicesBg {
+            @include padding(20px, 20px, 20px, 20px);
+
+            h2 {
+                margin: 0px auto 40px;
+                max-width: 80%;
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .servicesSec {
+        .servicesBg {
+            @include padding(20px, 20px, 20px, 20px);
+
+            h2 {
+                margin: 0px auto 30px;
+                max-width: 80%;
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .servicesSec {
+        .servicesBg {
+            @include padding(20px, 20px, 20px, 20px);
+
+            h2 {
+                margin: 0px auto 30px;
+                max-width: 100%;
+            }
         }
     }
 }

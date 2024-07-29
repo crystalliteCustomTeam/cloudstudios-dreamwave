@@ -30,3 +30,76 @@
         margin-top: 50px;
     }
 }
+
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .contactSec {
+        .contactBg {
+            @include padding(30px, 50px, 20px, 50px);
+        }
+
+        &.contactStyle {
+            margin-top: 50px;
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .contactSec {
+        .contactBg {
+            @include padding(30px, 40px, 20px, 40px);
+        }
+
+        &.contactStyle {
+            margin-top: 50px;
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .contactSec {
+        .contactBg {
+            @include padding(25px, 30px, 20px, 30px);
+        }
+
+        &.contactStyle {
+            margin-top: 40px;
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .contactSec {
+        .contactBg {
+            @include padding(25px, 25px, 20px, 25px);
+        }
+
+        &.contactStyle {
+            margin-top: 40px;
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .contactSec {
+        .contactBg {
+            @include padding(20px, 20px, 20px, 20px);
+        }
+
+        &.contactStyle {
+            margin-top: 40px;
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .contactSec {
+        .contactBg {
+            @include padding(20px, 20px, 20px, 20px);
+        }
+
+        &.contactStyle {
+            margin-top: 30px;
+        }
+    }
+}

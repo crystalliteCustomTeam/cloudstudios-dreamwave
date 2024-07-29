@@ -23,14 +23,12 @@ const AboutSec = () => {
                         </div>
                     </Col>
                     <Col xxl={6} xl={6} lg={6} md={7} className="offset-lg-1">
-                        <h3 className="spacing">WhO We ArE</h3>
+                        <h3 className="spacing">Who are we?</h3>
                         <div className={styles.howTxt}>
-                            Our mission is to help our clients uncover the essence of their brand story to drive sales, influence decisions, and promote understanding
+                            At Cloud Studios, we’re the leading edge of visual narrative, seamlessly melding state-of-the-art technology with creative solutions
                         </div>
-                        <p>Cloud Studios creates videos that bring your brand’s vision to life through research, strategy, copywriting, and custom visuals.
-                            Our personalized and collaborative approach ensures that your video is truly one of a kind.
-                        </p>
-                        <p>As an end-to-end service solution, we’ll guide you through every step – from our streamlined discovery process, through key points in production, to final delivery.</p>
+                        <p>Our armory includes a 500+ node 4K render farm, an adaptive pipeline combining the best practices and proprietary software, and AI-enhanced procedural animation systems. From cel animation to real-time rendering, our video animation company comprises leading and nominated VFX supervisors, animation experts, and classically trained artists who redefine boundaries in animation and visual effects.</p>
+                        <p>We produce stunning visual experiences that enrapture and provoke your brand’s core identity while boosting your engagement levels with your audiences.</p>
                         <Link href="#" className="button">Learn more about our process <ArrowMenu /></Link>
                     </Col>
                 </Row>
