@@ -20,7 +20,7 @@ import IMG_04 from "media/home/testimonial/4.png"
 
 export const metadata = {
     title: "Accelerate Your Success Through Affordable Explainer Video Production Services",
-    description: "Discover Cloud Studios' expertly crafted explainer videos that simplify complex ideas precisely. From concept to creation, we transform ideas into engaging visual stories that captivate audiences and amplify your brand's impact.",
+    description: "Discover Cloud Studios&#39; expertly crafted explainer videos that simplify complex ideas precisely. From concept to creation, we transform ideas into engaging visual stories that captivate audiences and amplify your brand&#39;s impact.",
 };
 
 
@@ -57,7 +57,7 @@ const ScrollData = {
     subtitle: "Let Us Explain What You Do In 60 Seconds",
     txt: (
         <>
-            <p>You might wonder how you can understand something that usually takes many pages in less than 60 seconds.The answer is simple!A B2b explainer video's audio and visual nature of the content makes it simple to communicate the message promptly. So, if you have a lengthy list of do&#39;s and don&#39;ts of some things, a 60-second 3D or 2D explainer video will do the trick for you. These videos transform lengthy guidelines into clear, engaging content using customizable templates. Our expertise in explainer video animation ensures that intricate ideas are communicated effectively, utilizing narrative-driven characters to simplify complexity. As a premier animation studio, we excel in delivering high-quality whiteboard explainer videos and value-driven motion graphics explainer video content that captivates and educates, enhancing your brand&#39;s communication strategy.</p>
+            <p>You might wonder how you can understand something that usually takes many pages in less than 60 seconds.The answer is simple!A B2b explainer video&#39;s audio and visual nature of the content makes it simple to communicate the message promptly. So, if you have a lengthy list of do&#39;s and don&#39;ts of some things, a 60-second 3D or 2D explainer video will do the trick for you. These videos transform lengthy guidelines into clear, engaging content using customizable templates. Our expertise in explainer video animation ensures that intricate ideas are communicated effectively, utilizing narrative-driven characters to simplify complexity. As a premier animation studio, we excel in delivering high-quality whiteboard explainer videos and value-driven motion graphics explainer video content that captivates and educates, enhancing your brand&#39;s communication strategy.</p>
         </>
     )
 }
@@ -136,16 +136,16 @@ const ElevateSlides = [
 ]
 const CtaData = {
     title: "Cutting-edge Explainer Video Animation Services are just a tap away!",
-    btntxt: "Grab your bag of chips, and let's get the ball rolling!",
+    btntxt: "Grab your bag of chips, and let&#39;s get the ball rolling!",
 }
 const achievementData = {
     title: "Our Accolades & Awesome Client Reviews Speak Volumes",
-    txt: "Cloud Studios Inc. is thrilled to have received an impressive 11x Telly Awards, 9x Muse Awards, and 12-time Davey Award winner status. These prestigious accolades are a testament to our unwavering commitment to excellence as we continue to deliver awe-inspiring video experiences that exceed our client's wildest expectations."
+    txt: "Cloud Studios Inc. is thrilled to have received an impressive 11x Telly Awards, 9x Muse Awards, and 12-time Davey Award winner status. These prestigious accolades are a testament to our unwavering commitment to excellence as we continue to deliver awe-inspiring video experiences that exceed our client&#39;s wildest expectations."
 }
 const SLIDES = [
     {
         name: "Sophie Harper",
-        txt: "Cloud Studios Inc. nailed it with their company explainer videos! They took our complex product and made it easy to understand and fun to watch. Our engagement skyrocketed, and we're seeing more customers sticking around. Their services have been a game-changer for our brand awareness and customer loyalty. I highly recommend their services to anyone looking to elevate their brand presence! Big thumbs up from us! ",
+        txt: "Cloud Studios Inc. nailed it with their company explainer videos! They took our complex product and made it easy to understand and fun to watch. Our engagement skyrocketed, and we&#39;re seeing more customers sticking around. Their services have been a game-changer for our brand awareness and customer loyalty. I highly recommend their services to anyone looking to elevate their brand presence! Big thumbs up from us! ",
         img: IMG_01.src,
         video: "videos/LogoAnimation3.mp4",
     },
@@ -157,7 +157,7 @@ const SLIDES = [
     },
     {
         name: "Ava Mitchell",
-        txt: "Cloud Studios Inc. exceeded our expectations with their stunning custom explainer videos. The 2D and 3D animation combination was spot on and communicated our message flawlessly. Our clients loved them, too! It's super professional yet totally cool. We couldn't be happier with the results and look forward to future collaborations! I can't recommend them enough!",
+        txt: "Cloud Studios Inc. exceeded our expectations with their stunning custom explainer videos. The 2D and 3D animation combination was spot on and communicated our message flawlessly. Our clients loved them, too! It&#39;s super professional yet totally cool. We couldn&#39;t be happier with the results and look forward to future collaborations! I can&#39;t recommend them enough!",
         img: IMG_03.src,
         video: "videos/LogoAnimation3.mp4",
     }, {

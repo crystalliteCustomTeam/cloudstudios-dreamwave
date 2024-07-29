@@ -20,7 +20,7 @@ import IMG_04 from "media/home/testimonial/4.png"
 
 export const metadata = {
     title: "Utilize the Power of Promo Videos to Deliver Your Brand’s Message Effectively.",
-    description: "Transform your marketing strategy with Cloud Studios Inc.'s dynamic promotional videos. Engage your audience and boost conversions effectively with our expert promo video production services.",
+    description: "Transform your marketing strategy with Cloud Studios Inc.&#39;s dynamic promotional videos. Engage your audience and boost conversions effectively with our expert promo video production services.",
 };
 
 
@@ -66,7 +66,7 @@ const contentData2 = {
     title: "Revolutionize Your Marketing Efforts with Promotional Content ",
     txt: (
         <>
-            <p>Transform your marketing campaigns with Cloud Studios Inc.'s attention-grabbing promotional videos. Our animations are designed to increase brand exposure and reach new customers, ensuring your business stands out in a crowded market. By leveraging our tailor-made promotional animations across social media channels to engage a broad audience and maximize impact. Partner with Cloud Studios Inc. to reform your brand and achieve unparalleled marketing success.</p>
+            <p>Transform your marketing campaigns with Cloud Studios Inc.&#39;s attention-grabbing promotional videos. Our animations are designed to increase brand exposure and reach new customers, ensuring your business stands out in a crowded market. By leveraging our tailor-made promotional animations across social media channels to engage a broad audience and maximize impact. Partner with Cloud Studios Inc. to reform your brand and achieve unparalleled marketing success.</p>
         </>
     ),
     img: IMG03.src,
@@ -132,12 +132,12 @@ const ElevateSlides = [
 ]
 const CtaData = {
     title: "Cutting-edge promotion videos are just a tap away! ",
-    btntxt: "Grab your bag of chips, and let's get the ball rolling!",
+    btntxt: "Grab your bag of chips, and let&#39;s get the ball rolling!",
 }
 const SLIDES = [
     {
         name: "Matthew Roberts",
-        txt: "Cloud Studios Inc. has been an absolute pleasure to work with. Their team demonstrated absolute professionalism from the initial concept discussions to the final delivery. They took our vision and turned it into a masterpiece—a promotional animated video that captured our brand's essence and resonated deeply with our audience. We look forward to collaborating with Cloud Studios on future projects!",
+        txt: "Cloud Studios Inc. has been an absolute pleasure to work with. Their team demonstrated absolute professionalism from the initial concept discussions to the final delivery. They took our vision and turned it into a masterpiece—a promotional animated video that captured our brand&#39;s essence and resonated deeply with our audience. We look forward to collaborating with Cloud Studios on future projects!",
         img: IMG_01.src,
         video: "videos/LogoAnimation3.mp4",
     },
@@ -154,7 +154,7 @@ const SLIDES = [
         video: "videos/LogoAnimation3.mp4",
     }, {
         name: "Victoria Lee",
-        txt: "Working with Cloud Studios Inc. was a transformative experience for our marketing team. They took the time to understand our brand's unique voice and audience, ensuring that every frame of our animation promotional video was crafted to perfection. Their creative approach and technical proficiency resulted in a video that captured our attention and effectively communicated our message. We are thrilled with the outcome and grateful for the collaborative and professional partnership we found with Cloud Studios.",
+        txt: "Working with Cloud Studios Inc. was a transformative experience for our marketing team. They took the time to understand our brand&#39;s unique voice and audience, ensuring that every frame of our animation promotional video was crafted to perfection. Their creative approach and technical proficiency resulted in a video that captured our attention and effectively communicated our message. We are thrilled with the outcome and grateful for the collaborative and professional partnership we found with Cloud Studios.",
         img: IMG_04.src,
         video: "videos/LogoAnimation3.mp4",
     }
