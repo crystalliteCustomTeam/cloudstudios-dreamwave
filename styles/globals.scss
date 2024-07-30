@@ -18,6 +18,21 @@ body {
         border-radius: 5px;
     }
 
+    &.active {
+        overflow: hidden;
+
+        &::after {
+            content: '';
+            background: rgb(0 0 0 / 95%);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 60px;
+            left: 0px;
+            z-index: 1;
+        }
+    }
+
     section {
         overflow-x: hidden;
     }
@@ -164,6 +179,98 @@ body {
         }
     }
 
+    // Nav Icon
+    .navIcon {
+        display: none;
+
+        .vbp-header-menu-button__svg {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transform: scaleX(-1);
+
+            line {
+                stroke: $secondary-color;
+                stroke-dasharray: 100%;
+                stroke-dashoffset: 0%;
+                transition: transform 0.3s, stroke-dashoffset .4s;
+                transform-origin: center;
+                stroke-width: 3px;
+            }
+
+            .top {
+                transform: translateY(-35%);
+                -webkit-transform: translateY(-35%);
+                -moz-transform: translateY(35%);
+                -ms-transform: translateY(35%);
+                -o-transform: translateY(35%);
+            }
+
+            .middle {
+                transform: scaleX(1);
+                -webkit-transform: scaleX(1);
+                -moz-transform: scaleX(1);
+                -ms-transform: scaleX(1);
+                -o-transform: scaleX(1);
+                transition: opacity .3s, transform .3s;
+                -webkit-transition: opacity .3s, transform .3s;
+                -moz-transition: opacity .3s, transform .3s;
+                -ms-transition: opacity .3s, transform .3s;
+                -o-transition: opacity .3s, transform .3s;
+            }
+
+            .bottom {
+                transform: translateY(33%);
+                -webkit-transform: translateY(33%);
+                -moz-transform: translateY(33%);
+                -ms-transform: translateY(33%);
+                -o-transform: translateY(33%);
+                stroke-dasharray: 100%;
+                stroke-dashoffset: 9px;
+            }
+
+            &:hover {
+                .bottom {
+                    stroke-dashoffset: 0%;
+                }
+            }
+        }
+
+        &.active {
+            .vbp-header-menu-button__svg {
+                .top {
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    stroke-linecap: round;
+                }
+
+                .middle {
+                    transform: scaleX(0.1);
+                    -webkit-transform: scaleX(0.1);
+                    -moz-transform: scaleX(0.1);
+                    -ms-transform: scaleX(0.1);
+                    -o-transform: scaleX(0.1);
+                    opacity: 0;
+                }
+
+                line.bottom {
+                    transform: rotate(-45deg);
+                    -webkit-transform: rotate(-45deg);
+                    -moz-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                    -o-transform: rotate(-45deg);
+                    stroke-linecap: round;
+                }
+
+                .bottom {
+                    stroke-dashoffset: 0%;
+                }
+            }
+        }
+    }
 }
 
 @include media-query($min: 1300px, $max: 1399px) {
@@ -489,10 +596,12 @@ body {
 
         a.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+            height: 40px;
+            min-width: auto;
 
             svg {
                 margin-left: 10px;
-                width: 20px;
+                width: 15px;
             }
         }
 
@@ -501,6 +610,11 @@ body {
 
 @include media-query($min: 577px, $max: 700px) {
     body {
+        .navIcon {
+            display: flex;
+            justify-content: end;
+        }
+
         .container {
             max-width: 100%;
         }
@@ -555,6 +669,8 @@ body {
 
         a.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+            height: 35px;
+            min-width: auto;
 
             svg {
                 margin-left: 10px;
@@ -569,6 +685,11 @@ body {
     body {
         .container {
             max-width: 100%;
+        }
+
+        .navIcon {
+            display: flex;
+            justify-content: end;
         }
 
         .p-100 {
