@@ -13,7 +13,7 @@ const Header = () => {
                 <Row className="h-100">
                     <Col xxl={2} xl={2} lg={2} md={2} sm={2} xs={6} className="my-auto">
                         <div className={styles.mainLogo}>
-                            <Link href="/">
+                            <Link href="/" aria-label="Main Link">
                                 <MainLogo />
                             </Link>
                         </div>
