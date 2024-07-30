@@ -126,7 +126,7 @@ const ElevateSlides = [
 ]
 const CtaData = {
     title: "Cutting-edge 2D Animation services are just a tap away! ",
-    btntxt: "Grab your bag of chips, and let&#39;s get the ball rolling!",
+    btntxt: "Grab your bag of chips, and let's get the ball rolling!",
 }
 const SLIDES = [
     {

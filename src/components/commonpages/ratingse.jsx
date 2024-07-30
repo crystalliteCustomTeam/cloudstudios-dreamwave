@@ -10,10 +10,10 @@ const RatingSec = ({ data }) => {
         <section className={`${styles.contentSec} p-100`}>
             <Container className="h-100">
                 <Row>
-                    <Col xxl={12}>
+                    <Col xxl={12} xl={12}>
                         <div className={styles.contentBg}>
                             <Row className="h-100">
-                                <Col lg={6} className="my-auto">
+                                <Col lg={6} md={6} className="my-auto">
                                     <h3>{data?.title}</h3>
                                     {data?.txt}
                                     <div className={styles.starSec}>
@@ -21,7 +21,7 @@ const RatingSec = ({ data }) => {
                                     </div>
                                     <Link href={data?.link} className="button">{data?.btntxt}<ArrowMenu /></Link>
                                 </Col>
-                                <Col lg={6} className="my-auto">
+                                <Col lg={6} md={6} className="my-auto">
                                     <Image src={data?.img} alt="Cloud Studios" width={620} height={400} />
                                 </Col>
                             </Row>

@@ -279,7 +279,7 @@
             margin-bottom: 10px;
 
             a {
-                @include font-size(15px);
+                @include font-size(14px);
                 line-height: 24px;
 
             }
@@ -287,7 +287,7 @@
 
         .contactAddress {
             margin-bottom: 20px;
-            @include font-size(15px);
+            @include font-size(14px);
             line-height: 26px;
             padding-right: 50px;
         }
@@ -301,7 +301,7 @@
                     margin-bottom: 10px;
 
                     a {
-                        @include font-size(15px);
+                        @include font-size(14px);
                         line-height: 25px;
                     }
                 }

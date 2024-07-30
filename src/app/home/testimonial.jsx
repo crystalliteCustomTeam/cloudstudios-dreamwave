@@ -12,7 +12,7 @@ const Testimonial = ({ clients, slides }) => {
         <section className={`${styles.testimonialSec} p-100`} style={{ backgroundImage: `url(${BannerBg.src})` }}>
             <Container>
                 <Row>
-                    <Col xl={8} lg={20} className="m-auto text-center">
+                    <Col xl={8} lg={8} md={10} className="m-auto text-center">
                         <h3 className="spacing">TESTIMONIALS </h3>
                         <h2>See What They Are Saying About All the Cool Stuff We Do!</h2>
                     </Col>

@@ -12,7 +12,7 @@ const MainBanner = ({ data }) => {
         <section className={styles.mainBanner} style={{ backgroundImage: `url(${data.img})` }}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col xxl={5} xl={5} lg={5} className="my-auto">
+                    <Col xxl={6} xl={6} lg={6} md={8} className="my-auto">
                         <div className={styles.bannerContentBox}>
                             {data?.rating && (
                                 <div className={styles.bannerRating}>

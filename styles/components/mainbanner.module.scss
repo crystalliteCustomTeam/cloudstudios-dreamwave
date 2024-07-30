@@ -54,3 +54,192 @@
 
     }
 }
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .mainBanner {
+        height: calc(100vh - 85px);
+
+        .bannerContentBox {
+            top: 40px;
+
+            .bannerRating {
+                height: 35px;
+                @include font-size(16px);
+                @include padding(0px, 20px);
+                margin-bottom: 10px;
+
+                svg {
+                    margin-right: 10px;
+                    height: 15px;
+                }
+            }
+
+            .bannerImg {
+                margin: 25px 0px
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .mainBanner {
+        height: calc(100vh - 85px);
+
+        .bannerContentBox {
+            top: 40px;
+
+            .bannerRating {
+                height: 35px;
+                @include font-size(16px);
+                @include padding(0px, 20px);
+                margin-bottom: 10px;
+
+                svg {
+                    margin-right: 10px;
+                    height: 15px;
+                }
+            }
+
+            .bannerImg {
+                margin: 25px 0px
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .mainBanner {
+        height: calc(100vh - 85px);
+
+        .bannerContentBox {
+            top: 40px;
+
+            .bannerRating {
+                height: 35px;
+                @include font-size(15px);
+                @include padding(0px, 15px);
+                margin-bottom: 10px;
+
+                svg {
+                    margin-right: 10px;
+                    height: 15px;
+                }
+            }
+
+            .bannerImg {
+                margin: 20px 0px
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .mainBanner {
+        height: calc(100vh - 85px);
+
+        .bannerContentBox {
+            top: 40px;
+
+            .bannerRating {
+                height: 35px;
+                @include font-size(15px);
+                @include padding(0px, 15px);
+                margin-bottom: 10px;
+
+                svg {
+                    margin-right: 10px;
+                    height: 15px;
+                }
+            }
+
+            .bannerImg {
+                margin: 20px 0px
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .mainBanner {
+        height: calc(100vh - 85px);
+
+        .bannerContentBox {
+            top: 40px;
+
+            .bannerRating {
+                height: 35px;
+                @include font-size(15px);
+                @include padding(0px, 15px);
+                margin-bottom: 10px;
+
+                svg {
+                    margin-right: 10px;
+                    height: 15px;
+                }
+            }
+
+            .bannerImg {
+                margin: 20px 0px
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .mainBanner {
+        height: calc(100vh - 85px);
+
+        .bannerContentBox {
+            top: 40px;
+
+            .bannerRating {
+                height: 35px;
+                @include font-size(14px);
+                @include padding(0px, 10px);
+                margin-bottom: 10px;
+
+                svg {
+                    margin-right: 8px;
+                    height: 12px;
+                }
+            }
+
+            .bannerImg {
+                margin: 20px 0px
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .mainBanner {
+        height: calc(100vh - 85px);
+
+        .bannerContentBox {
+            top: 40px;
+
+            .bannerRating {
+                height: 35px;
+                @include font-size(13px);
+                @include padding(0px, 10px);
+                margin-bottom: 10px;
+
+                svg {
+                    margin-right: 5px;
+                    height: 10px;
+                }
+            }
+
+            .bannerImg {
+                margin: 20px 0px
+            }
+
+        }
+    }
+}

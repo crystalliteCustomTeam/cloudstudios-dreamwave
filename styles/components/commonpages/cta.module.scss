@@ -31,3 +31,63 @@
         }
     }
 }
+
+
+
+@include media-query($min: 900px, $max: 1099px) {
+    .ctaSec {
+        .ctaBg {
+            @include padding(50px);
+
+            .ctaContent {
+                max-width: 80%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .ctaSec {
+        .ctaBg {
+            @include padding(40px);
+
+            .ctaContent {
+                max-width: 90%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .ctaSec {
+        .ctaBg {
+            @include padding(30px);
+
+            .ctaContent {
+                max-width: 100%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .ctaSec {
+        .ctaBg {
+            @include padding(30px);
+
+            .ctaContent {
+                max-width: 100%;
+                margin: auto;
+
+                a {
+                    display: flex;
+                    height: auto;
+                    @include padding(10px)
+                }
+            }
+        }
+    }
+}

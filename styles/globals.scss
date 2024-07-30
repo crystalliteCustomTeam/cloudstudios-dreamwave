@@ -331,6 +331,8 @@ body {
 
         a.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 15px);
+            height: 40px;
+            min-width: auto;
 
             svg {
                 margin-left: 10px;
@@ -397,10 +399,12 @@ body {
 
         a.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+            height: 40px;
+            min-width: auto;
 
             svg {
                 margin-left: 10px;
-                width: 20px;
+                width: 18px;
             }
         }
 
@@ -463,10 +467,12 @@ body {
 
         a.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+            height: 40px;
+            min-width: auto;
 
             svg {
                 margin-left: 10px;
-                width: 20px;
+                width: 15px;
             }
         }
 
@@ -482,7 +488,7 @@ body {
         }
 
         .p-100 {
-            @include padding(60px, 0px, 0px);
+            @include padding(50px, 0px, 0px);
         }
 
         h1 {
@@ -531,10 +537,12 @@ body {
 
         a.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+            height: 40px;
+            min-width: auto;
 
             svg {
                 margin-left: 10px;
-                width: 20px;
+                width: 15px;
             }
         }
 
@@ -548,7 +556,7 @@ body {
         }
 
         .p-100 {
-            @include padding(60px, 0px, 0px);
+            @include padding(50px, 0px, 0px);
         }
 
         h1 {
@@ -620,7 +628,7 @@ body {
         }
 
         .p-100 {
-            @include padding(60px, 0px, 0px);
+            @include padding(40px, 0px, 0px);
         }
 
         h1 {
@@ -662,7 +670,7 @@ body {
         p {
             @include font-size(14px);
             line-height: 23px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
 
@@ -674,7 +682,7 @@ body {
 
             svg {
                 margin-left: 10px;
-                width: 20px;
+                width: 15px;
             }
         }
 
@@ -693,25 +701,25 @@ body {
         }
 
         .p-100 {
-            @include padding(60px, 0px, 0px);
+            @include padding(40px, 0px, 0px);
         }
 
         h1 {
             @include font-size(30px);
             line-height: 40px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         h2 {
             @include font-size(28px);
             line-height: 38px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         h3 {
             @include font-size(18px);
             line-height: 28px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
 
             &.spacing {
                 letter-spacing: 3px;
@@ -735,17 +743,19 @@ body {
         p {
             @include font-size(14px);
             line-height: 23px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
 
 
         a.button {
-            @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
+            @include button($black-color, $white-color, #EBEBEB, 23px, 13px);
+            height: 35px;
+            min-width: auto;
 
             svg {
                 margin-left: 10px;
-                width: 20px;
+                width: 15px;
             }
         }
 
