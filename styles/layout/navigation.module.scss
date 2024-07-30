@@ -80,18 +80,22 @@
             }
 
             &:last-child {
-                a {
-                    @include font-size (17px);
+                &.liveChat {
+                    a {
+                        @include font-size (17px);
 
-                    svg {
-                        margin-right: 10px;
-                        margin-top: -5px;
-                    }
-
-                    &:hover {
                         svg {
-                            path {
-                                fill: $secondary-color;
+                            margin-right: 5px;
+                            margin-top: -5px;
+                            width: 30px;
+                            height: auto;
+                        }
+
+                        &:hover {
+                            svg {
+                                path {
+                                    fill: $secondary-color;
+                                }
                             }
                         }
                     }
@@ -169,6 +173,8 @@
 
 @include media-query($min: 1300px, $max: 1399px) {
     .mainMenu {
+        height: 80px;
+
         ul {
             gap: 26px;
 
@@ -191,17 +197,18 @@
                 }
 
                 &:last-child {
-                    a {
-                        @include font-size (16px);
+                    &.liveChat {
+                        a {
+                            @include font-size (16px);
 
-                        svg {
-                            margin-right: 10px;
-                            margin-top: -5px;
-                            width: 40px;
-                            height: auto;
+                            svg {
+                                margin-right: 10px;
+                                margin-top: -5px;
+                                width: 40px;
+                                height: auto;
+                            }
                         }
                     }
-
                 }
             }
         }
@@ -210,6 +217,8 @@
 
 @include media-query($min: 1200px, $max: 1299px) {
     .mainMenu {
+        height: 80px;
+
         ul {
             gap: 26px;
 
@@ -232,14 +241,16 @@
                 }
 
                 &:last-child {
-                    a {
-                        @include font-size (16px);
+                    &.liveChat {
+                        a {
+                            @include font-size (16px);
 
-                        svg {
-                            margin-right: 10px;
-                            margin-top: -5px;
-                            width: 40px;
-                            height: auto;
+                            svg {
+                                margin-right: 10px;
+                                margin-top: -5px;
+                                width: 40px;
+                                height: auto;
+                            }
                         }
                     }
 
@@ -251,6 +262,8 @@
 
 @include media-query($min: 1100px, $max: 1199px) {
     .mainMenu {
+        height: 80px;
+
         ul {
             gap: 24px;
 
@@ -273,14 +286,16 @@
                 }
 
                 &:last-child {
-                    a {
-                        @include font-size (15px);
+                    &.liveChat {
+                        a {
+                            @include font-size (15px);
 
-                        svg {
-                            margin-right: 10px;
-                            margin-top: -5px;
-                            width: 36px;
-                            height: auto;
+                            svg {
+                                margin-right: 10px;
+                                margin-top: -5px;
+                                width: 36px;
+                                height: auto;
+                            }
                         }
                     }
 
@@ -292,6 +307,8 @@
 
 @include media-query($min: 900px, $max: 1099px) {
     .mainMenu {
+        height: 80px;
+
         ul {
             gap: 20px;
 
@@ -316,26 +333,28 @@
                 }
 
                 &:last-child {
-                    a {
-                        @include font-size (14px);
+                    &.liveChat {
+                        a {
+                            @include font-size (14px);
 
-                        svg {
-                            margin-right: 5px;
-                            margin-top: -5px;
-                            width: 30px;
-                            height: auto;
+                            svg {
+                                margin-right: 5px;
+                                margin-top: -5px;
+                                width: 30px;
+                                height: auto;
+                            }
                         }
                     }
-
                 }
             }
         }
     }
 }
 
-
 @include media-query($min: 701px, $max: 899px) {
     .mainMenu {
+        height: 70px;
+
         ul {
             gap: 14px;
 
@@ -360,17 +379,18 @@
                 }
 
                 &:last-child {
-                    a {
-                        @include font-size (0px);
+                    &.liveChat {
+                        a {
+                            @include font-size (0px);
 
-                        svg {
-                            margin-right: 5px;
-                            margin-top: -5px;
-                            width: 30px;
-                            height: auto;
+                            svg {
+                                margin-right: 5px;
+                                margin-top: -5px;
+                                width: 30px;
+                                height: auto;
+                            }
                         }
                     }
-
                 }
             }
         }
@@ -462,14 +482,16 @@
                     }
 
                     &:last-child {
-                        margin-top: 15px;
+                        &.liveChat {
+                            margin-top: 15px;
 
-                        a {
-                            svg {
-                                margin-right: 5px;
-                                margin-top: -5px;
-                                width: 30px;
-                                height: auto;
+                            a {
+                                svg {
+                                    margin-right: 5px;
+                                    margin-top: -5px;
+                                    width: 30px;
+                                    height: auto;
+                                }
                             }
                         }
 
@@ -600,17 +622,18 @@
                     }
 
                     &:last-child {
-                        margin-top: 15px;
+                        &.liveChat {
+                            margin-top: 15px;
 
-                        a {
-                            svg {
-                                margin-right: 5px;
-                                margin-top: -5px;
-                                width: 30px;
-                                height: auto;
+                            a {
+                                svg {
+                                    margin-right: 5px;
+                                    margin-top: -5px;
+                                    width: 30px;
+                                    height: auto;
+                                }
                             }
                         }
-
                     }
 
                     .subMenu {

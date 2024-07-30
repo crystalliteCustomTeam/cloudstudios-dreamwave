@@ -140,7 +140,7 @@ const Navigation = () => {
                             Get Started <ArrowMenu />
                         </Link>
                     </li>
-                    <li>
+                    <li className={styles.liveChat}>
                         <Link href="#" aria-label="Live Chat" >
                             <ChatIcon />Live Chat
                         </Link>
