@@ -81,7 +81,7 @@ const ElevateData = {
 const ElevateSlides = [
     {
         icon: <Icon09 />,
-        name: "Conceptualization",
+        name: (<h5>Conceptualization</h5>),
         txt: (
             <>
                 <p>At Cloud Studios Inc., we begin by inviting you to pitch your ideas. Our expert brainstorming explainer video creators dive deep into understanding your vision and objectives. Through collaborative sessions, we refine concepts, explore creative possibilities, and strategize the best approach to bring your ideas to life.</p>
@@ -90,7 +90,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon07 />,
-        name: " Writing Scripts",
+        name: (<h5>Writing Scripts</h5>),
         txt: (
             <>
                 <p>Once your concept is solidified, our skilled writers take the reins.They meticulously craft a compelling script that effectively communicates your message.Analyzing every detail of your idea ensures clarity, engagement, and alignment with your brand’s voice. Whether a narrative-driven script or a direct, informative approach.</p>
@@ -99,7 +99,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon08 />,
-        name: "Storyboarding",
+        name: (<h5>Storyboarding</h5>),
         txt: (
             <>
                 <p>Storyboarding is where your animation journey takes shape. We meticulously plan every step and phase of your animation process. From defining dialogues and character designs to mapping out audio effects and visual elements, our storyboard artists create a blueprint that guides the entire explainer video production.</p>
@@ -108,7 +108,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon06 />,
-        name: "Voice-over and Finishing Touches",
+        name: (<h5>Voice-over and Finishing Touches</h5>),
         txt: (
             <>
                 <p>We seamlessly integrate all elements into a polished animation as we near completion.An explainer video creator works with professional voiceover services that complement your video’s narrative. Whether you use voice overs or opt for a script-based approach, we ensure every detail is perfected.</p>
@@ -117,7 +117,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Rendering and Animation",
+        name: (<h5>Rendering and Animation</h5>),
         txt: (
             <>
                 <p>Using cutting-edge tools and software, we start the animation process. A skilled explainer video producer breathes life into your project, meticulously crafting each frame perfectly. We utilize industry-leading rendering techniques to ensure your visuals show stunning and technically flawless motion graphics explainer videos on the screen.</p>

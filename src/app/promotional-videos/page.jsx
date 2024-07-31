@@ -84,7 +84,7 @@ const ElevateData = {
 const ElevateSlides = [
     {
         icon: <Icon09 />,
-        name: "Understanding Your Concept",
+        name: (<h5>Understanding Your Concept</h5>),
         txt: (
             <>
                 <p>At Cloud Studios, we begin by thoroughly understanding your requirements to ensure the final product aligns perfectly with your vision. Our highly qualified experts dive deep into understanding your desired animation style, vision, and brand identity.</p>
@@ -93,7 +93,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon07 />,
-        name: "Storyboard and Sequencing",
+        name: (<h5>Storyboard and Sequencing</h5>),
         txt: (
             <>
                 <p>The production journey starts with meticulous storyboarding. We create a detailed graphic representation of your animated video, shot by shot. Each frame is carefully illustrated, accompanied by notes that outline the narrative and actions unfolding on screen.</p>
@@ -102,7 +102,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon08 />,
-        name: "Animation",
+        name: (<h5>Animation</h5>),
         txt: (
             <>
                 <p>Harnessing our creative expertise, we bring your storyboard to life in this phase. By integrating voice-overs, illustrations, and scripts, we craft a visually stunning and emotionally engaging animation that captivates your audience and communicates your message effectively.</p>
@@ -111,7 +111,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon06 />,
-        name: "Editing and Post Production",
+        name: (<h5>Editing and Post Production</h5>),
         txt: (
             <>
                 <p>In the refining phase, we meticulously review the animation, ensuring every detail is polished to perfection. We fine-tune transitions, adjust timing, and incorporate feedback to guarantee a seamless and impactful final product that exceeds your expectations.</p>
@@ -120,7 +120,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Delivery and Feedback",
+        name: (<h5>Delivery and Feedback</h5>),
         txt: (
             <>
                 <p>Upon completion, we will deliver your finalized animation and welcome your feedback. Your satisfaction is our priority, and we’re committed to ensuring the animation aligns with your vision and objectives. </p>

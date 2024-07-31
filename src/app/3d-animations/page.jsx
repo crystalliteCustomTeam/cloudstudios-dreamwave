@@ -81,7 +81,7 @@ const ElevateData = {
 const ElevateSlides = [
     {
         icon: <Icon09 />,
-        name: "Briefing and Storyboarding",
+        name: (<h5>Briefing and Storyboarding</h5>),
         txt: (
             <>
                 <p>The process starts with a comprehensive briefing session where our team dives deep into understanding your brand essence and creative vision. Collaboratively, we outline the storyboard—a visual blueprint that maps out each scene, camera angles, character interactions, and key narrative beats.</p>
@@ -90,7 +90,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon07 />,
-        name: "3D Modeling",
+        name: (<h5>3D Modeling</h5>),
         txt: (
             <>
                 <p>With the storyboard approved, our skilled artists commence the 3D modeling phase.Using cutting-edge software, they sculpt digital models of characters, assets, and environments based on the storyboard specifications.This step focuses on achieving accuracy, detail, and visual appeal while maintaining fidelity to your brand’s identity.</p>
@@ -99,7 +99,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon08 />,
-        name: "Texturing and Rigging",
+        name: (<h5>Texturing and Rigging</h5>),
         txt: (
             <>
                 <p>Once the 3D models are created, they undergo texturing—a process where realistic surfaces, colors, and textures are applied to enhance visual depth and realism. Concurrently, our team rigs the models, assigning digital skeletons and controls that facilitate lifelike movements. This ensures that characters and objects behave naturally during animation.</p>
@@ -108,7 +108,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon06 />,
-        name: "Layout and Animation",
+        name: (<h5>Layout and Animation</h5>),
         txt: (
             <>
                 <p>In the layout phase, our animators position the 3D models within digital environments, establishing spatial relationships and camera placements as per the storyboard. Here, animation breathes life into the narrative—each movement and expression is meticulously crafted to convey emotions, actions, and storytelling nuances.</p>
@@ -117,7 +117,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Rendering",
+        name: (<h5>Rendering</h5>),
         txt: (
             <>
                 <p>Rendering marks the final stage, where the animated scenes are processed into high-resolution images or frames. We use powerful rendering software and hardware to ensure that every detail—from lighting and shadows to textures and visual effects—is meticulously polished.</p>

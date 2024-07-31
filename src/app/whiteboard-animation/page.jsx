@@ -83,7 +83,7 @@ const ElevateData = {
 const ElevateSlides = [
     {
         icon: <Icon09 />,
-        name: "Conceptualization And Scriptwriting",
+        name: (<h5>Conceptualization And Scriptwriting</h5>),
         txt: (
             <>
                 <p>Our process begins with a thorough comprehension of your message and objectives. Our skilled scriptwriters work together with you to create an engaging narrative that conveys your significant concepts clearly and precisely. We prioritize writing a short, engaging script that meets your target audience’s preferences.</p>
@@ -92,7 +92,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon07 />,
-        name: "Storyboarding And Illustration",
+        name: (<h5>Storyboarding And Illustration</h5>),
         txt: (
             <>
                 <p>Once the script is complete, we turn it into a thorough storyboard. Our experienced artists create bespoke drawings to visually reflect your story, ensuring that each frame aligns with the script’s narrative. These hand-drawn visuals are intended to be informative and entertaining, enhancing the viewer’s understanding and retention.</p>
@@ -101,7 +101,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon11 />,
-        name: "Animation And Voiceover",
+        name: (<h5>Animation And Voiceover</h5>),
         txt: (
             <>
                 <p>Our expert animators bring the storyboard to life, incorporating fluid movements and ideal transitions to keep viewers engaged. This step entails using advanced animation software and techniques to produce high-quality whiteboard animation videos. We combine animation with professional voice overs resonating with brand personas.</p>
@@ -110,7 +110,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon06 />,
-        name: "Review And Refinement",
+        name: (<h5>Review And Refinement</h5>),
         txt: (
             <>
                 <p>We put collaboration and client happiness first throughout the whole whiteboard video animation process. After the initial animation is completed, we allow you to review it and provide feedback. Our team is dedicated to making necessary changes and adjustments to guarantee that the final result meets your expectations.</p>
@@ -119,7 +119,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Delivery And Deployment",
+        name: (<h5>Delivery And Deployment</h5>),
         txt: (
             <>
                 <p>Once the animation is finalized and approved, we deliver high-quality whiteboard animation videos optimized for use across multiple platforms. Our animations are created to maximize reach and engagement, whether for your website, social media channels, presentations, or other digital platforms. We offer the completed animations in various formats and resolutions.</p>

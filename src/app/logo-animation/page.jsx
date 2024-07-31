@@ -84,7 +84,7 @@ const ElevateData = {
 const ElevateSlides = [
     {
         icon: <Icon09 />,
-        name: "Initial Consultation and Briefing",
+        name: (<h5>Initial Consultation and Briefing</h5>),
         txt: (
             <>
                 <p>We begin the 3D logo animation production with a detailed discussion to understand the client’s brand identity, values, and vision for the animated logo. Gather information on the target audience, intended platforms, and animation style preferences.</p>
@@ -93,7 +93,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon07 />,
-        name: "Concept Development",
+        name: (<h5>Concept Development</h5>),
         txt: (
             <>
                 <p>Translate the client’s brief into conceptual ideas for the logo animation. Brainstorm various creative approaches, considering motion graphics, typography, color schemes, and visual effects that align with the brand’s personality.</p>
@@ -102,7 +102,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon08 />,
-        name: "Storyboarding",
+        name: (<h5>Storyboarding</h5>),
         txt: (
             <>
                 <p>Create a storyboard outlining the animated logo’s sequence of scenes and transitions. This blueprint visualizes how the logo will animate, ensuring clarity and alignment with the client’s expectations before proceeding to production.</p>
@@ -111,7 +111,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon06 />,
-        name: "Design and Illustration",
+        name: (<h5>Design and Illustration</h5>),
         txt: (
             <>
                 <p>Develop the graphical elements of the logo animation, including vector graphics, textures, and 3D models, if applicable. Ensure the design elements are cohesive with the brand’s existing visual identity and resonate with the intended audience.</p>
@@ -120,7 +120,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Animation Production",
+        name: (<h5>Animation Production</h5>),
         txt: (
             <>
                 <p>Bring the storyboard and design elements to life through animation. This phase involves rigging (if using 3D animation), keyframing, and applying motion to the logo elements according to the storyboard’s sequence.</p>
@@ -129,7 +129,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Sound Design and Effects",
+        name: (<h5>Sound Design and Effects</h5>),
         txt: (
             <>
                 <p>Enhance the custom logo animation with sound effects and background music that complement the brand’s tone and message. Sound design adds depth and enhances viewer engagement, making the animation more memorable.</p>
@@ -138,7 +138,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Review and Iteration",
+        name: (<h5>Review and Iteration</h5>),
         txt: (
             <>
                 <p>Present the initial draft of the animated logo to the client for feedback. Incorporate revisions based on client input, ensuring the animation meets their expectations regarding visual impact, message clarity, and brand representation.</p>
@@ -147,7 +147,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Finalization",
+        name: (<h5>Finalization</h5>),
         txt: (
             <>
                 <p>Fine-tune the animation based on client feedback, addressing any remaining adjustments or refinements. Ensure that the animation meets technical specifications for various digital platforms and formats.</p>
@@ -156,7 +156,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Delivery and Deployment",
+        name: (<h5>Delivery and Deployment</h5>),
         txt: (
             <>
                 <p>Deliver the final animated logo files to the client in appropriate formats (e.g., MP4, GIF, SVG) for use across digital channels such as websites, social media, presentations, and video content. Provide guidance on optimal deployment strategies.</p>

@@ -83,7 +83,7 @@ const ElevateData = {
 const ElevateSlides = [
     {
         icon: <Icon09 />,
-        name: "Data Gathering",
+        name: (<h5>Data Gathering</h5>),
         txt: (
             <>
                 <p>The process begins with meticulous data collection from diverse, reliable sources, ensuring accuracy and relevance to the infographic’s intended message. This stage involves thorough verification and organization of raw data, laying the foundation for informed decision-making during later design and content creation phases.</p>
@@ -92,7 +92,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon07 />,
-        name: "Storyboarding",
+        name: (<h5>Storyboarding</h5>),
         txt: (
             <>
                 <p>Creating a structured outline is crucial to establishing the narrative flow and logical sequence of information within the infographic. This step defines the infographic’s storyline, ensuring critical data points are presented clearly and cohesively and resonate with the target audience.</p>
@@ -101,7 +101,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon08 />,
-        name: "Content Drafting",
+        name: (<h5>Content Drafting</h5>),
         txt: (
             <>
                 <p>Clear and concise content drafting is essential for effectively communicating complex information in a digestible format. Each text is crafted to support the infographic’s overarching theme and key messages, ensuring the information presented is informative and engaging. Drafting is a key process in our inforgraphics design spectrum.</p>
@@ -110,7 +110,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon06 />,
-        name: "Design Conceptualization",
+        name: (<h5>Design Conceptualization</h5>),
         txt: (
             <>
                 <p>Design conceptualization involves brainstorming visual styles and elements that align with the brand’s identity while enhancing the presentation of data. This stage explores various graphical approaches, considering how different visual elements can effectively convey information and captivate viewers to great heights.</p>
@@ -119,7 +119,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Wireframing",
+        name: (<h5>Wireframing</h5>),
         txt: (
             <>
                 <p>Wireframing plays a pivotal role in visual planning, outlining the initial layout and structure of the infographics video. It involves sketching the placement of content and visual elements to establish a logical hierarchy and guide the viewer’s journey through the information presented.</p>
@@ -128,7 +128,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Visual Elements Integration",
+        name: (<h5>Visual Elements Integration</h5>),
         txt: (
             <>
                 <p>Integrating visual elements such as charts, graphs, and illustrations is essential for visually representing data and enhancing understanding. These elements are strategically chosen and placed to complement the content, making complex information more accessible and engaging for the audiences and prospects.</p>
@@ -137,7 +137,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Typography and Layout",
+        name: (<h5>Typography and Layout</h5>),
         txt: (
             <>
                 <p>Reviewing and revising the infographic involves gathering feedback from stakeholders to refine content accuracy and design coherence. This iterative process ensures the infographic effectively communicates its intended message and meets the project’s objectives. Revising infographics design requires painstaking attention to details.</p>
@@ -146,7 +146,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Review and Revision",
+        name: (<h5>Review and Revision</h5>),
         txt: (
             <>
                 <p>Typography selection and layout arrangement are carefully considered to optimize readability and visual appeal throughout the infographic. The choice of fonts, text sizes, and spacing is tailored to maintain consistency with the brand’s visual identity while ensuring that the text is easily readable.</p>
@@ -155,7 +155,7 @@ const ElevateSlides = [
     },
     {
         icon: <Icon10 />,
-        name: "Finalization and Delivery",
+        name: (<h5>Finalization and Delivery</h5>),
         txt: (
             <>
                 <p>The finalization stage focuses on preparing the completed infographics in a high-resolution format suitable for digital or print distribution. Quality assurance checks ensure that the infographics meet all standards of excellence and are ready to be shared with the intended audience.</p>
