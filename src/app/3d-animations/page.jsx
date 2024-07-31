@@ -65,7 +65,7 @@ const contentData2 = {
     title: "Define your Business Digitally with 3D Animation Services That Magnetize Target Audiences",
     txt: (
         <>
-            <p>Empower your digital presence with Cloud Studios Inc.&#39;s precision-crafted 3D animated videos strategically designed to captivate your target audience. Utilizing cutting-edge software and expert knowledge, we specialize in delivering comprehensive 3D architectural animation services tailored for diverse applications in movies, games, and digital platforms. Our advanced services are sought after by leading companies seeking to breathe life into. From creating lifelike characters to bringing fantasy figures to vivid reality, our meticulous process ensures the production of high-end photoreal 3D character animation projects resonates deeply with viewers, setting your brand apart in the saturated market.</p>
+            <p>Empower your digital presence with Cloud Studios Inc.’s precision-crafted 3D animated videos strategically designed to captivate your target audience. Utilizing cutting-edge software and expert knowledge, we specialize in delivering comprehensive 3D architectural animation services tailored for diverse applications in movies, games, and digital platforms. Our advanced services are sought after by leading companies seeking to breathe life into. From creating lifelike characters to bringing fantasy figures to vivid reality, our meticulous process ensures the production of high-end photoreal 3D character animation projects resonates deeply with viewers, setting your brand apart in the saturated market.</p>
         </>
     ),
     img: IMG03.src,
@@ -84,7 +84,7 @@ const ElevateSlides = [
         name: "Briefing and Storyboarding",
         txt: (
             <>
-                <p>The process starts with a comprehensive briefing session where our team dives deep into understanding your brand essence and creative vision. Collaboratively, we outline the storyboard—a visual blueprint that maps out each scene, camera angles, character interactions, and key narrative beats. This meticulous planning stage ensures alignment with your objectives and sets the foundation for a compelling 3D animation.</p>
+                <p>The process starts with a comprehensive briefing session where our team dives deep into understanding your brand essence and creative vision. Collaboratively, we outline the storyboard—a visual blueprint that maps out each scene, camera angles, character interactions, and key narrative beats.</p>
             </>
         ),
     },
@@ -93,7 +93,7 @@ const ElevateSlides = [
         name: "3D Modeling",
         txt: (
             <>
-                <p>With the storyboard approved, our skilled artists commence the 3D modeling phase.Using cutting-edge software, they sculpt digital models of characters, assets, and environments based on the storyboard specifications.This step focuses on achieving accuracy, detail, and visual appeal while maintaining fidelity to your brand&#39;s identity and creative direction.</p>
+                <p>With the storyboard approved, our skilled artists commence the 3D modeling phase.Using cutting-edge software, they sculpt digital models of characters, assets, and environments based on the storyboard specifications.This step focuses on achieving accuracy, detail, and visual appeal while maintaining fidelity to your brand’s identity.</p>
             </>
         ),
     },
@@ -102,7 +102,7 @@ const ElevateSlides = [
         name: "Texturing and Rigging",
         txt: (
             <>
-                <p>Once the 3D models are created, they undergo texturing—a process where realistic surfaces, colors, and textures are applied to enhance visual depth and realism.Concurrently, our team rigs the models, assigning digital skeletons and controls that facilitate lifelike movements.This meticulous preparation ensures that characters and objects behave naturally during animation, adhering to the narrative&#39;s emotional and physical requirements.</p>
+                <p>Once the 3D models are created, they undergo texturing—a process where realistic surfaces, colors, and textures are applied to enhance visual depth and realism. Concurrently, our team rigs the models, assigning digital skeletons and controls that facilitate lifelike movements. This ensures that characters and objects behave naturally during animation.</p>
             </>
         ),
     },
@@ -111,7 +111,8 @@ const ElevateSlides = [
         name: "Layout and Animation",
         txt: (
             <>
-                <p>In the layout phase, our animators position the 3D models within digital environments, establishing spatial relationships and camera placements as per the storyboard. Here, animation breathes life into the narrative—each movement and expression is meticulously crafted to convey emotions, actions, and storytelling nuances. Whether character performances or dynamic object interactions, this stage brings your narrative to vivid, engaging life.</p>            </>
+                <p>In the layout phase, our animators position the 3D models within digital environments, establishing spatial relationships and camera placements as per the storyboard. Here, animation breathes life into the narrative—each movement and expression is meticulously crafted to convey emotions, actions, and storytelling nuances.</p>
+            </>
         ),
     },
     {
@@ -119,9 +120,7 @@ const ElevateSlides = [
         name: "Rendering",
         txt: (
             <>
-                <p>Rendering marks the final stage, where the animated scenes are processed into high-resolution images or frames. We use powerful rendering software and hardware to ensure that every detail—from lighting and shadows to textures and visual effects—is meticulously polished. This meticulous attention to detail culminates in a visually stunning digital 3D animation that aligns seamlessly with your brand’s identity and resonates with your target audience.</p>
-                <p>THAT’S IT! Our streamlined 3D digital animation process—from briefing and storyboarding through modeling, texturing, rigging, animation, and rendering—ensures a cohesive and impactful visual narrative. We deliver high-definition, ready-to-deploy, 1080p video files in your MOV or MP4 3D animation files that captivate audiences and elevate brand storytelling.</p>
-                <p>Connect with our experienced and the best 3D animation modeling industry experts, ready to help you produce awe-inspiring 3D assets for your project.</p>
+                <p>Rendering marks the final stage, where the animated scenes are processed into high-resolution images or frames. We use powerful rendering software and hardware to ensure that every detail—from lighting and shadows to textures and visual effects—is meticulously polished.</p>
             </>
         ),
     },
@@ -139,7 +138,7 @@ const SLIDES = [
     },
     {
         name: "Lucas Bennett",
-        txt: "Working with Cloud Studios was a breeze; hat’s off to the team! They are the best 3D animation team as they demonstrated outstanding skill and professionalism throughout the project. They delivered stunning visuals that perfectly captured our brand's story and message.",
+        txt: "Working with Cloud Studios was a breeze; HATS off to the team! They are the best 3D animation team as they demonstrated outstanding skill and professionalism throughout the project. They delivered stunning visuals that perfectly captured our brand's story and message.",
         img: IMG_02.src,
         video: "videos/LogoAnimation3.mp4",
     },

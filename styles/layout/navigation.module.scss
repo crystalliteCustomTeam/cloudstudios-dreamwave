@@ -58,7 +58,7 @@
 
                     svg {
                         margin-left: 10px;
-                        width: 20px;
+                        width: 18px;
                         height: auto;
                     }
 
@@ -82,7 +82,7 @@
             &:last-child {
                 &.liveChat {
                     a {
-                        @include font-size (17px);
+                        @include font-size (16px);
 
                         svg {
                             margin-right: 5px;
@@ -109,7 +109,7 @@
                 top: 100px;
                 left: 0px;
                 height: 0px;
-                width: 580px;
+                width: 500px;
                 background-color: rgba(255, 255, 255, 0.24);
                 backdrop-filter: blur(26px) brightness(1.2);
                 -webkit-backdrop-filter: blur(26px) brightness(1.2);
@@ -170,162 +170,28 @@
     }
 }
 
-
-@include media-query($min: 1300px, $max: 1399px) {
+@include media-query($min: 1400px, $max: 1600px) {
     .mainMenu {
         height: 80px;
 
         ul {
             gap: 26px;
-
-            li {
-                a {
-                    @include font-size (15px);
-                    line-height: 30px;
-                }
-
-                &:nth-last-child(2) {
-                    a {
-                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 15px);
-
-                        svg {
-                            margin-left: 10px;
-                            width: 18px;
-                        }
-                    }
-
-                }
-
-                &:last-child {
-                    &.liveChat {
-                        a {
-                            @include font-size (16px);
-
-                            svg {
-                                margin-right: 10px;
-                                margin-top: -5px;
-                                width: 40px;
-                                height: auto;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@include media-query($min: 1200px, $max: 1299px) {
-    .mainMenu {
-        height: 80px;
-
-        ul {
-            gap: 26px;
-
-            li {
-                a {
-                    @include font-size (15px);
-                    line-height: 30px;
-                }
-
-                &:nth-last-child(2) {
-                    a {
-                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 15px);
-
-                        svg {
-                            margin-left: 10px;
-                            width: 18px;
-                        }
-                    }
-
-                }
-
-                &:last-child {
-                    &.liveChat {
-                        a {
-                            @include font-size (16px);
-
-                            svg {
-                                margin-right: 10px;
-                                margin-top: -5px;
-                                width: 40px;
-                                height: auto;
-                            }
-                        }
-                    }
-
-                }
-            }
-        }
-    }
-}
-
-@include media-query($min: 1100px, $max: 1199px) {
-    .mainMenu {
-        height: 80px;
-
-        ul {
-            gap: 24px;
 
             li {
                 a {
                     @include font-size (14px);
-                    line-height: 30px;
+                    line-height: 24px;
                 }
 
                 &:nth-last-child(2) {
                     a {
                         @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 14px);
-
-                        svg {
-                            margin-left: 10px;
-                            width: 18px;
-                        }
-                    }
-
-                }
-
-                &:last-child {
-                    &.liveChat {
-                        a {
-                            @include font-size (15px);
-
-                            svg {
-                                margin-right: 10px;
-                                margin-top: -5px;
-                                width: 36px;
-                                height: auto;
-                            }
-                        }
-                    }
-
-                }
-            }
-        }
-    }
-}
-
-@include media-query($min: 900px, $max: 1099px) {
-    .mainMenu {
-        height: 80px;
-
-        ul {
-            gap: 20px;
-
-            li {
-                a {
-                    @include font-size (13px);
-                    line-height: 30px;
-                }
-
-                &:nth-last-child(2) {
-                    a {
-                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 13px);
                         height: 40px;
+                        @include padding(0px, 25px);
                         min-width: auto;
 
                         svg {
-                            margin-left: 5px;
+                            margin-left: 10px;
                             width: 15px;
                         }
                     }
@@ -338,41 +204,56 @@
                             @include font-size (14px);
 
                             svg {
-                                margin-right: 5px;
+                                margin-right: 10px;
                                 margin-top: -5px;
-                                width: 30px;
+                                width: 40px;
                                 height: auto;
                             }
                         }
                     }
+                }
+
+                .subMenu {
+                    top: 80px;
+                    width: 450px;
+
+                    .MenuListing {
+                        @include padding(15px, 15px);
+
+                        .MenuList {
+                            height: 40px;
+                        }
+                    }
+
                 }
             }
         }
     }
 }
 
-@include media-query($min: 701px, $max: 899px) {
+@include media-query($min: 1300px, $max: 1399px) {
     .mainMenu {
-        height: 70px;
+        height: 75px;
 
         ul {
-            gap: 14px;
+            gap: 26px;
 
             li {
                 a {
-                    @include font-size (12px);
-                    line-height: 30px;
+                    @include font-size (14px);
+                    line-height: 24px;
                 }
 
                 &:nth-last-child(2) {
                     a {
-                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 12px);
-                        height: 40px;
+                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 14px);
+                        @include padding(0px, 20px);
+                        height: 38px;
                         min-width: auto;
 
                         svg {
-                            margin-left: 5px;
-                            width: 15px;
+                            margin-left: 10px;
+                            width: 14px;
                         }
                     }
 
@@ -381,16 +262,290 @@
                 &:last-child {
                     &.liveChat {
                         a {
-                            @include font-size (0px);
+                            @include font-size (14px);
 
                             svg {
-                                margin-right: 5px;
+                                margin-right: 10px;
                                 margin-top: -5px;
-                                width: 30px;
+                                width: 40px;
                                 height: auto;
                             }
                         }
                     }
+                }
+
+                .subMenu {
+                    top: 75px;
+                    width: 450px;
+
+                    .MenuListing {
+                        @include padding(15px, 15px);
+
+                        .MenuList {
+                            height: 40px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .mainMenu {
+        height: 60px;
+
+        ul {
+            gap: 26px;
+
+            li {
+                a {
+                    @include font-size (13px);
+                    line-height: 30px;
+                }
+
+                &:nth-last-child(2) {
+                    a {
+                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 13px);
+                        height: 35px;
+                        min-width: auto;
+                        @include padding(0px, 20px);
+
+                        svg {
+                            margin-left: 10px;
+                            width: 13px;
+                        }
+                    }
+
+                }
+
+                &:last-child {
+                    &.liveChat {
+                        a {
+                            @include font-size (14px);
+
+                            svg {
+                                margin-right: 10px;
+                                margin-top: -5px;
+                                width: 40px;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                }
+
+                .subMenu {
+                    top: 60px;
+                    width: 420px;
+
+                    .MenuListing {
+                        @include padding(10px, 15px);
+
+                        .MenuList {
+                            height: 30px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .mainMenu {
+        height: 60px;
+
+        ul {
+            gap: 20px;
+
+            li {
+                a {
+                    @include font-size (12px);
+                    line-height: 30px;
+
+                    svg {
+                        height: 12px;
+                    }
+                }
+
+                &:nth-last-child(2) {
+                    a {
+                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 12px);
+                        height: 32px;
+                        min-width: auto;
+                        @include padding(0px, 20px);
+
+                        svg {
+                            margin-left: 10px;
+                            width: 13px;
+                        }
+                    }
+
+                }
+
+                &:last-child {
+                    &.liveChat {
+                        a {
+                            @include font-size (13px);
+
+                            svg {
+                                margin-right: 10px;
+                                margin-top: -5px;
+                                width: 35px;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                }
+
+                .subMenu {
+                    top: 60px;
+                    width: 420px;
+
+                    .MenuListing {
+                        @include padding(10px, 15px);
+
+                        .MenuList {
+                            height: 30px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .mainMenu {
+        height: 60px;
+
+        ul {
+            gap: 20px;
+
+            li {
+                a {
+                    @include font-size (12px);
+                    line-height: 30px;
+
+                    svg {
+                        height: 12px;
+                    }
+                }
+
+                &:nth-last-child(2) {
+                    a {
+                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 12px);
+                        height: 32px;
+                        min-width: auto;
+                        @include padding(0px, 20px);
+
+                        svg {
+                            margin-left: 10px;
+                            width: 13px;
+                        }
+                    }
+
+                }
+
+                &:last-child {
+                    &.liveChat {
+                        a {
+                            @include font-size (13px);
+
+                            svg {
+                                margin-right: 10px;
+                                margin-top: -5px;
+                                width: 35px;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                }
+
+                .subMenu {
+                    top: 60px;
+                    width: 420px;
+
+                    .MenuListing {
+                        @include padding(10px, 15px);
+
+                        .MenuList {
+                            height: 30px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .mainMenu {
+        height: 60px;
+
+        ul {
+            gap: 10px;
+
+            li {
+                a {
+                    @include font-size (11px);
+                    line-height: 30px;
+
+                    svg {
+                        height: 8px;
+                    }
+                }
+
+                &:nth-last-child(2) {
+                    a {
+                        @include button(linear-gradient(270deg, rgba(252, 32, 48, 1) 0%, rgba(209, 0, 15, 1) 100%), #ffffff, #EBEBEB, 23px, 11px);
+                        height: 26px;
+                        min-width: auto;
+                        @include padding(0px, 10px);
+
+                        svg {
+                            margin-left: 10px;
+                            width: 10px;
+                        }
+                    }
+
+                }
+
+                &:last-child {
+                    &.liveChat {
+                        a {
+                            @include font-size (12px);
+
+                            svg {
+                                margin-right: 10px;
+                                margin-top: -5px;
+                                width: 35px;
+                                height: auto;
+                            }
+                        }
+                    }
+
+                }
+
+                .subMenu {
+                    top: 60px;
+                    width: 420px;
+
+                    .MenuListing {
+                        @include padding(10px, 15px);
+
+                        .MenuList {
+                            height: 30px;
+                        }
+                    }
+
                 }
             }
         }
@@ -577,7 +732,7 @@
                     height: auto;
 
                     a {
-                        @include font-size(14px);
+                        @include font-size(13px);
                         color: $white-color;
 
                         svg {
@@ -626,6 +781,8 @@
                             margin-top: 15px;
 
                             a {
+                                @include font-size(14px);
+
                                 svg {
                                     margin-right: 5px;
                                     margin-top: -5px;

@@ -10,20 +10,23 @@
     }
 }
 
+@include media-query($min: 900px, $max: 1099px) {
+    .bannerLogoSec {
+        height: 65px;
+    }
+}
+
 @include media-query($min: 701px, $max: 899px) {
     .bannerLogoSec {
         overflow-x: auto;
-
-        .logoSec {
-            width: 1200px;
-            overflow-x: auto;
-        }
+        height: 65px;
     }
 }
 
 @include media-query($min: 577px, $max: 700px) {
     .bannerLogoSec {
         overflow-x: auto;
+        height: 65px;
 
         .logoSec {
             width: 1200px;
@@ -35,6 +38,7 @@
 @include media-query($min: 0px, $max: 576px) {
     .bannerLogoSec {
         overflow-x: auto;
+        height: 65px;
 
         .logoSec {
             width: 1200px;

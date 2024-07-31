@@ -15,9 +15,9 @@ const CaseStudy = () => {
 
     const handlePlayClick = (url) => {
         if (videoUrl === url) {
-            setVideoUrl(''); // Stop the video if it is already playing
+            setVideoUrl('');
         } else {
-            setVideoUrl(url); // Play the clicked video
+            setVideoUrl(url);
         }
     };
 
@@ -25,18 +25,18 @@ const CaseStudy = () => {
         <section className={`${styles.casestudySec} p-100`}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col xxl={7} lg={7} md={8}>
+                    <Col xxl={7} lg={7} md={6}>
                         <h3 className="spacing">Our Power Projects!</h3>
                         <h2>
                             We deliver animation that pushes brands through the noise.
                         </h2>
                     </Col>
-                    <Col xxl={5} lg={5} md={5} className="ms-auto my-auto">
+                    <Col xxl={5} lg={5} md={6} className="ms-auto my-auto">
                         <Link href="#" className="button">All Case Studies <ArrowMenu /></Link>
                     </Col>
                 </Row>
                 <Row className="pt-4">
-                    <Col xxl={4} lg={4} md={4}>
+                    <Col xxl={4} lg={4} md={6}>
                         <div
                             className={`${styles.videoBox} ${videoUrl === 'videos/LogoAnimation.mp4' ? styles.active : ''}`}
                             style={{ backgroundImage: `url(${IMG1.src})` }}

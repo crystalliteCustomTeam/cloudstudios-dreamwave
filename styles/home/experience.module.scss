@@ -72,7 +72,7 @@
 
 }
 
-@include media-query($min: 1300px, $max: 1399px) {
+@include media-query($min: 1400px, $max: 1600px) {
     .experienceSec {
         .experienceBg {
             @include padding(40px, 30px, 20px, 30px);
@@ -119,7 +119,7 @@
     }
 }
 
-@include media-query($min: 1200px, $max: 1299px) {
+@include media-query($min: 1300px, $max: 1399px) {
     .experienceSec {
         .experienceBg {
             @include padding(40px, 30px, 20px, 30px);
@@ -138,7 +138,7 @@
 
                     .logosItem {
                         flex: 0 0 25%;
-                        height: 70px;
+                        height: 75px;
                     }
                 }
 
@@ -156,7 +156,55 @@
 
                 img {
                     right: -20px;
-                    width: 54%;
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .experienceSec {
+        .experienceBg {
+            @include padding(30px, 30px, 20px, 30px);
+
+            .experienceTxt {
+                flex: 0 0 50%;
+
+                .howTxt {
+                    @include font-size(20px);
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+
+                .experienceLogos {
+                    .logosItem {
+                        flex: 0 0 25%;
+                        height: 60px;
+
+                        img {
+                            height: 40px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                a {
+                    position: absolute;
+                    bottom: 15px;
+                    left: 250px;
+                }
+            }
+
+            .experienceImg {
+                flex: 0 0 50%;
+
+                img {
+                    right: -20px;
+                    width: 50%;
                 }
 
             }
@@ -170,32 +218,32 @@
 @include media-query($min: 1100px, $max: 1199px) {
     .experienceSec {
         .experienceBg {
-            @include padding(40px, 30px, 20px, 30px);
+            @include padding(25px, 25px, 20px, 25px);
 
             .experienceTxt {
                 flex: 0 0 50%;
 
                 .howTxt {
-                    @include font-size(20px);
-                    line-height: 32px;
-                    margin-bottom: 20px;
+                    @include font-size(18px);
+                    line-height: 28px;
+                    margin-bottom: 15px;
                 }
 
                 .experienceLogos {
-
-
                     .logosItem {
                         flex: 0 0 25%;
-                        height: 70px;
+                        height: 50px;
+
+                        img {
+                            height: 35px;
+                            width: auto;
+                        }
                     }
                 }
 
                 a {
-
-                    position: absolute;
-                    bottom: 18px;
-                    left: 300px;
-
+                    bottom: 10px;
+                    left: 240px;
                 }
             }
 
@@ -204,7 +252,7 @@
 
                 img {
                     right: -20px;
-                    width: 54%;
+                    width: 50%;
                 }
 
             }
@@ -218,38 +266,43 @@
 @include media-query($min: 900px, $max: 1099px) {
     .experienceSec {
         .experienceBg {
-            @include padding(40px, 30px, 20px, 30px);
+            @include padding(25px, 25px, 20px, 25px);
 
             .experienceTxt {
-                flex: 0 0 100%;
+                flex: 0 0 50%;
 
                 .howTxt {
-                    @include font-size(20px);
-                    line-height: 32px;
-                    margin-bottom: 20px;
+                    @include font-size(16px);
+                    line-height: 26px;
+                    margin-bottom: 10px;
                 }
 
                 .experienceLogos {
-
-
                     .logosItem {
                         flex: 0 0 25%;
-                        height: 70px;
+                        height: 50px;
+
+                        img {
+                            height: 30px;
+                            width: auto;
+                        }
                     }
                 }
 
                 a {
-
-                    position: absolute;
-                    bottom: 15px;
-                    left: 440px;
-
+                    bottom: 10px;
+                    left: 200px;
                 }
             }
 
             .experienceImg {
                 flex: 0 0 50%;
-                display: none;
+
+                img {
+                    right: -20px;
+                    width: 50%;
+                }
+
             }
 
 
@@ -261,36 +314,43 @@
 @include media-query($min: 701px, $max: 899px) {
     .experienceSec {
         .experienceBg {
-            @include padding(40px, 30px, 20px, 30px);
+            @include padding(20px, 20px, 20px, 20px);
 
             .experienceTxt {
-                flex: 0 0 100%;
+                flex: 0 0 50%;
 
                 .howTxt {
-                    @include font-size(20px);
-                    line-height: 32px;
-                    margin-bottom: 20px;
+                    @include font-size(16px);
+                    line-height: 26px;
+                    margin-bottom: 10px;
                 }
 
                 .experienceLogos {
-
-
                     .logosItem {
                         flex: 0 0 25%;
-                        height: 70px;
+                        height: 50px;
+
+                        img {
+                            height: 30px;
+                            width: auto;
+                        }
                     }
                 }
 
                 a {
-                    position: absolute;
                     bottom: 10px;
-                    left: 320px;
+                    left: 200px;
                 }
             }
 
             .experienceImg {
                 flex: 0 0 50%;
-                display: none;
+
+                img {
+                    right: -20px;
+                    width: 50%;
+                }
+
             }
 
 

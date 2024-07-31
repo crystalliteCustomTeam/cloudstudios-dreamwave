@@ -12,7 +12,7 @@ const MissionSec = () => {
                         <h2>Animation is in our descent.</h2>
                     </Col>
                     <Col lg={8}>
-                        <p>Cloud Studios Inc. dares to be different—or so we like to think. We claim to push the boundaries of innovation, but we do what everyone else does, only 10x better. Our so-called &#39;industry-leading&#39; visual storytelling might deserve that title, given how low the bar is set. We crack the codes, we break the walls, and we do fantastic animation beyond the ‘ordinariness.’ </p>
+                        <p>Cloud Studios Inc. dares to be different—or so we like to think. We claim to push the boundaries of innovation, but we do what everyone else does, only 10x better. Our so-called ’industry-leading’ visual storytelling might deserve that title, given how low the bar is set. We crack the codes, we break the walls, and we do fantastic animation beyond the ‘ordinariness.’ </p>
                     </Col>
                     <Col lg={4}>
                         <div className={styles.colorChange}>

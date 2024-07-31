@@ -10,7 +10,7 @@ import IMG03 from "media/home/testimonial/3.png"
 import IMG04 from "media/home/testimonial/4.png"
 
 export const metadata = {
-    title: "A portfolio that revolutionizes everything animated and digital – Cloud Studios ",
+    title: "A portfolio that revolutionizes everything animated and digital – Cloud Studios",
     description: "Explore our groundbreaking animation solutions for businesses and brands. From sleek explainers, powerful motion graphics, and hybrid/cel animation to immersive animation experiences –witness how we're revolutionizing visual storytelling for brands.",
 };
 
@@ -19,9 +19,8 @@ const banner = {
     title: "Animation, Design, Digital & Everything",
     txt: (
         <>
-            <p>We are not just animators – we&#39;re visual animation sorcerers. Born from a passion for pushing the boundaries of digital storytelling, weve evolved into pioneers of next-gen animation for businesses. Our journey began with a simple belief: every brand has a unique story waiting to be told through motion.</p>
-            <p>We blend cutting-edge technology with creative genius to deliver super-immersive experiences that don&#39;t just grab attention – they ignite the imagination, push brands through the clutter and break frontiers. </p>
-            <p>From startups to leading B2B/B2C fortune companies, we&#39;ve transformed complex ideas into animated narratives that resonate, engage, and convert.</p>
+            <p>We are not just animators – we’re visual animation sorcerers. Born from a passion for pushing the boundaries of digital storytelling, weve evolved into pioneers of next-gen animation for businesses. Our journey began with a simple belief: every brand has a unique story waiting to be told through motion.</p>
+            <p>We blend cutting-edge technology with creative genius to deliver super-immersive experiences that don’t just grab attention – they ignite the imagination, push brands through the clutter and break frontiers. </p>
         </>
     ),
     img: BannerBg.src,

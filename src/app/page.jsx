@@ -37,24 +37,24 @@ const banner = {
 const SLIDES = [
   {
     name: "Sarah Benny",
-    txt: "Leveraging Cloud Studios' animation service was the best decision ever. They turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills and animated services are out of this world. It felt like I was strolling through our future building. 10/10. I would recommend it to any architect or real estate developer!",
+    txt: "Leveraging Cloud Studios' animation service was the best decision ever. They turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills and animated services are out of this world.",
     img: IMG01.src,
     video: "videos/LogoAnimation3.mp4",
   },
   {
     name: "Michelle Joanna",
-    txt: "OMG! The cel animation the studio created for our indie film was pure magic! The animation agency somehow captured the nostalgia of old-school cartoons while adding a modern twist. Our characters came to life in ways we never imagined. These guys are animation wizards! ",
+    txt: "OMG! The cel animation the studio created for our indie film was pure magic! The animation agency somehow captured the nostalgia of old-school cartoons while adding a modern twist.",
     img: IMG02.src,
     video: "videos/LogoAnimation3.mp4",
   },
   {
     name: "Rusell J. Peters ",
-    txt: "Holy hybrid animation, Superman! Cloud Studios is the best video marketing agency. Their expert animators mixed 2D and 3D like nobody's business for our superhero series. The result? It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation services!",
+    txt: "Holy hybrid animation, Superman! Cloud Studios is the best video marketing agency. It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation services!",
     img: IMG03.src,
     video: "videos/LogoAnimation3.mp4",
   }, {
     name: "Lisa Kevins",
-    txt: "Vroom! The real-time rendering for our racing game is insanely good! The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines! ",
+    txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
     img: IMG04.src,
     video: "videos/LogoAnimation3.mp4",
   }

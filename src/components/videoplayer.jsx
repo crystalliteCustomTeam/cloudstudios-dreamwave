@@ -8,6 +8,7 @@ const VideoPlayer = ({ video }) => {
                 Your browser does not support the video tag.
             </video>
         </div>
+        // <iframe src={video} width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     );
 };
 

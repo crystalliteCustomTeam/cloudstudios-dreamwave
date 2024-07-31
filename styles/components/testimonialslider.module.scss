@@ -138,29 +138,36 @@
 
 }
 
-@include media-query($min: 1300px, $max: 1399px) {
+@include media-query($min: 1400px, $max: 1599px) {
     .embla {
         margin: 30px auto 0px;
 
         .embla__viewport {
 
             .embla__container {
-                margin-left: calc(25px * -1);
+                margin-left: calc(20px * -1);
 
                 .embla__slide {
                     flex: 0 0 calc(100% / 3);
-                    padding-left: 25px;
+                    padding-left: 20px;
 
                     .testimonialBox {
-                        height: 500px;
+                        height: 430px;
 
                         .testimonialtxt {
                             @include padding(20px, 20px);
                             width: 100%;
 
-                            p {
-                                max-width: 90%;
+                            h3 {
+                                .playBtn {
+                                    svg {
+                                        width: 35px;
+                                        height: auto;
+                                    }
+
+                                }
                             }
+
                         }
                     }
                 }
@@ -173,7 +180,58 @@
 
             div {
                 svg {
-                    width: 40px;
+                    width: 35px;
+                }
+            }
+        }
+
+
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .embla {
+        margin: 30px auto 0px;
+
+        .embla__viewport {
+
+            .embla__container {
+                margin-left: calc(15px * -1);
+
+                .embla__slide {
+                    flex: 0 0 calc(100% / 3);
+                    padding-left: 15px;
+
+                    .testimonialBox {
+                        height: 400px;
+
+                        .testimonialtxt {
+                            @include padding(20px, 20px);
+                            width: 100%;
+
+                            h3 {
+                                .playBtn {
+                                    svg {
+                                        width: 35px;
+                                        height: auto;
+                                    }
+
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla__button__container {
+            margin-top: 30px;
+            gap: 15px;
+
+            div {
+                svg {
+                    width: 35px;
                 }
             }
         }
@@ -189,21 +247,27 @@
         .embla__viewport {
 
             .embla__container {
-                margin-left: calc(25px * -1);
+                margin-left: calc(15px * -1);
 
                 .embla__slide {
                     flex: 0 0 calc(100% / 3);
-                    padding-left: 25px;
+                    padding-left: 15px;
 
                     .testimonialBox {
-                        height: 450px;
+                        height: 380px;
 
                         .testimonialtxt {
                             @include padding(20px, 20px);
                             width: 100%;
 
-                            p {
-                                max-width: 90%;
+                            h3 {
+                                .playBtn {
+                                    svg {
+                                        width: 30px;
+                                        height: auto;
+                                    }
+
+                                }
                             }
 
                         }
@@ -213,12 +277,12 @@
         }
 
         .embla__button__container {
-            margin-top: 30px;
-            gap: 15px;
+            margin-top: 20px;
+            gap: 10px;
 
             div {
                 svg {
-                    width: 40px;
+                    width: 30px;
                 }
             }
         }
@@ -229,36 +293,31 @@
 
 @include media-query($min: 1100px, $max: 1199px) {
     .embla {
-        margin: 20px auto 0px;
+        margin: 30px auto 0px;
 
         .embla__viewport {
 
             .embla__container {
-                margin-left: calc(20px * -1);
+                margin-left: calc(15px * -1);
 
                 .embla__slide {
                     flex: 0 0 calc(100% / 3);
-                    padding-left: 20px;
+                    padding-left: 15px;
 
                     .testimonialBox {
-                        height: 400px;
+                        height: 380px;
 
                         .testimonialtxt {
                             @include padding(20px, 20px);
                             width: 100%;
 
-                            p {
-                                max-width: 90%;
-                            }
-
                             h3 {
                                 .playBtn {
-                                    right: 18px;
-                                    bottom: 18px;
-
                                     svg {
-                                        width: 35px;
+                                        width: 30px;
+                                        height: auto;
                                     }
+
                                 }
                             }
 
@@ -269,12 +328,12 @@
         }
 
         .embla__button__container {
-            margin-top: 30px;
-            gap: 15px;
+            margin-top: 20px;
+            gap: 10px;
 
             div {
                 svg {
-                    width: 40px;
+                    width: 30px;
                 }
             }
         }
@@ -285,7 +344,7 @@
 
 @include media-query($min: 900px, $max: 1099px) {
     .embla {
-        margin: 20px auto 0px;
+        margin: 30px auto 0px;
 
         .embla__viewport {
 
@@ -297,24 +356,33 @@
                     padding-left: 15px;
 
                     .testimonialBox {
-                        height: 380px;
+                        height: 300px;
 
                         .testimonialtxt {
-                            @include padding(15px, 15px);
+                            @include padding(20px, 20px);
                             width: 100%;
 
                             h3 {
-                                height: auto;
-
                                 .playBtn {
-                                    right: 18px;
-                                    bottom: 18px;
-
                                     svg {
-                                        width: 35px;
+                                        width: 25px;
+                                        height: auto;
                                     }
+
                                 }
                             }
+
+                            &.active {
+                                transform: translateY(calc(100% - 70px));
+                            }
+                        }
+
+                        &:hover {
+                            .testimonialtxt {
+                                transition: transform .3s ease-in-out;
+                                transform: translateY(0%);
+                            }
+
                         }
                     }
                 }
@@ -322,12 +390,12 @@
         }
 
         .embla__button__container {
-            margin-top: 30px;
-            gap: 15px;
+            margin-top: 20px;
+            gap: 10px;
 
             div {
                 svg {
-                    width: 35px;
+                    width: 25px;
                 }
             }
         }
@@ -338,7 +406,7 @@
 
 @include media-query($min: 701px, $max: 899px) {
     .embla {
-        margin: 20px auto 0px;
+        margin: 30px auto 0px;
 
         .embla__viewport {
 
@@ -346,28 +414,37 @@
                 margin-left: calc(15px * -1);
 
                 .embla__slide {
-                    flex: 0 0 calc(100% / 2.4);
+                    flex: 0 0 calc(100% / 3);
                     padding-left: 15px;
 
                     .testimonialBox {
-                        height: 380px;
+                        height: 300px;
 
                         .testimonialtxt {
-                            @include padding(15px, 15px);
+                            @include padding(20px, 20px);
                             width: 100%;
 
                             h3 {
-                                height: auto;
-
                                 .playBtn {
-                                    right: 18px;
-                                    bottom: 18px;
-
                                     svg {
-                                        width: 35px;
+                                        width: 25px;
+                                        height: auto;
                                     }
+
                                 }
                             }
+
+                            &.active {
+                                transform: translateY(calc(100% - 70px));
+                            }
+                        }
+
+                        &:hover {
+                            .testimonialtxt {
+                                transition: transform .3s ease-in-out;
+                                transform: translateY(0%);
+                            }
+
                         }
                     }
                 }
@@ -376,11 +453,11 @@
 
         .embla__button__container {
             margin-top: 20px;
-            gap: 15px;
+            gap: 10px;
 
             div {
                 svg {
-                    width: 35px;
+                    width: 25px;
                 }
             }
         }

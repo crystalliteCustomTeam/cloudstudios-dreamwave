@@ -20,7 +20,7 @@ import IMG_04 from "media/home/testimonial/4.png"
 
 export const metadata = {
     title: "Data, Charts, Numbers & Insights – Take charge with Infographics today!",
-    description: "Transform numbers and data into powerful visuals with Cloud Studios Inc.&#39;s top-tier infographics services. Engage your prospects and audience visually, streamline complex info, and chart courses toward success with our solutions.",
+    description: "Transform numbers and data into powerful visuals with Cloud Studios Inc.’s top-tier infographics services. Engage your prospects and audience visually, streamline complex info, and chart courses toward success with our solutions.",
 };
 
 
@@ -65,7 +65,7 @@ const contentData2 = {
     title: "Infographics Beyond The Ordinary!",
     txt: (
         <>
-            <p>Add a splash of color and a surge of creativity!At Cloud Studios Inc., we&#39;re not just about infographics but about transforming your data into visual adventures. Picture this: your stats dancing across the screen, your ideas popping off the page in vibrant hues. Whether you&#39;re simplifying the complex or jazzing up your next big presentation, our marketing infographics do more than inform—they captivate, educate, and inspire. Ready to turn numbers into narratives and spreadsheets into stories? Our video infographics add motion to your data, while our interactive infographics engage your audience in new ways. From detailed infographic statistics to different types of infographics, we’ve got you covered. Let&#39;s collaborate and bring your data to life like never before. Enter into the world of infographic magic with Cloud Studios Inc. and watch your content strategy soar to new heights! Creating complex concepts, charting numbers, and making spreadsheets is easy for you – making all of the above more straightforward and visually creative for your audience is a piece of cake for us! </p>
+            <p>Add a splash of color and a surge of creativity!At Cloud Studios Inc., we’re not just about infographics but about transforming your data into visual adventures. Picture this: your stats dancing across the screen, your ideas popping off the page in vibrant hues. Whether you’re simplifying the complex or jazzing up your next big presentation, our marketing infographics do more than inform—they captivate, educate, and inspire. Ready to turn numbers into narratives and spreadsheets into stories? Our video infographics add motion to your data, while our interactive infographics engage your audience in new ways. From detailed infographic statistics to different types of infographics, we’ve got you covered. Let’s collaborate and bring your data to life like never before. Enter into the world of infographic magic with Cloud Studios Inc. and watch your content strategy soar to new heights! Creating complex concepts, charting numbers, and making spreadsheets is easy for you – making all of the above more straightforward and visually creative for your audience is a piece of cake for us! </p>
         </>
     ),
     img: IMG03.src,
@@ -73,10 +73,10 @@ const contentData2 = {
     link: "#"
 }
 const ElevateData = {
-    title: "How do we elevate the ordinary to the extraordinary?",
+    title: "Solid Infographics Design",
     txt: (
         <>
-            <p>At Cloud Studios, we don&#39;t settle for good enough; we strive for extraordinary outcomes. The key to our success is our unwavering determination to extract every ounce of potential from even the most arduous challenges. Our team goes above and beyond to provide excellent video animation products.</p>
+            <p>At Cloud Studios, we don’t settle for good enough; we strive for extraordinary outcomes. Our team goes above and beyond to provide excellent video animation products. </p>
         </>
     ),
 }
@@ -86,7 +86,7 @@ const ElevateSlides = [
         name: "Data Gathering",
         txt: (
             <>
-                <p>The process begins with meticulous data collection from diverse, reliable sources, ensuring accuracy and relevance to the infographic&#39;s intended message. This stage involves thorough verification and organization of raw data, laying the foundation for informed decision-making during later design and content creation phases.</p>
+                <p>The process begins with meticulous data collection from diverse, reliable sources, ensuring accuracy and relevance to the infographic’s intended message. This stage involves thorough verification and organization of raw data, laying the foundation for informed decision-making during later design and content creation phases.</p>
             </>
         ),
     },
@@ -95,7 +95,7 @@ const ElevateSlides = [
         name: "Storyboarding",
         txt: (
             <>
-                <p>Creating a structured outline is crucial to establishing the narrative flow and logical sequence of information within the infographic.This step defines the infographic&#39;s storyline, ensuring critical data points are presented clearly and cohesively and resonate with the target audience.</p>
+                <p>Creating a structured outline is crucial to establishing the narrative flow and logical sequence of information within the infographic. This step defines the infographic’s storyline, ensuring critical data points are presented clearly and cohesively and resonate with the target audience.</p>
             </>
         ),
     },
@@ -104,7 +104,7 @@ const ElevateSlides = [
         name: "Content Drafting",
         txt: (
             <>
-                <p>Clear and concise content drafting is essential for effectively communicating complex information in a digestible format.Each text is crafted to support the infographic&#39;s overarching theme and key messages, ensuring the information presented is informative and engaging.</p>
+                <p>Clear and concise content drafting is essential for effectively communicating complex information in a digestible format. Each text is crafted to support the infographic’s overarching theme and key messages, ensuring the information presented is informative and engaging. Drafting is a key process in our inforgraphics design spectrum.</p>
             </>
         ),
     },
@@ -113,7 +113,7 @@ const ElevateSlides = [
         name: "Design Conceptualization",
         txt: (
             <>
-                <p>Design conceptualization involves brainstorming visual styles and elements that align with the brand&#39;s identity while enhancing the presentation of data. This stage explores various graphical approaches, considering how different visual elements can effectively convey information and captivate viewers.</p>
+                <p>Design conceptualization involves brainstorming visual styles and elements that align with the brand’s identity while enhancing the presentation of data. This stage explores various graphical approaches, considering how different visual elements can effectively convey information and captivate viewers to great heights.</p>
             </>
         ),
     },
@@ -122,7 +122,7 @@ const ElevateSlides = [
         name: "Wireframing",
         txt: (
             <>
-                <p>Wireframing plays a pivotal role in visual planning, outlining the initial layout and structure of the infographics video.It involves sketching the placement of content and visual elements to establish a logical hierarchy and guide the viewer&#39;s journey through the information presented.</p>
+                <p>Wireframing plays a pivotal role in visual planning, outlining the initial layout and structure of the infographics video. It involves sketching the placement of content and visual elements to establish a logical hierarchy and guide the viewer’s journey through the information presented.</p>
             </>
         ),
     },
@@ -131,7 +131,7 @@ const ElevateSlides = [
         name: "Visual Elements Integration",
         txt: (
             <>
-                <p>Integrating visual elements such as charts, graphs, and illustrations is essential for visually representing data and enhancing understanding. These elements are strategically chosen and placed to complement the content, making complex information more accessible and engaging for the audience.</p>
+                <p>Integrating visual elements such as charts, graphs, and illustrations is essential for visually representing data and enhancing understanding. These elements are strategically chosen and placed to complement the content, making complex information more accessible and engaging for the audiences and prospects.</p>
             </>
         ),
     },
@@ -140,7 +140,16 @@ const ElevateSlides = [
         name: "Typography and Layout",
         txt: (
             <>
-                <p>Typography selection and layout arrangement are carefully considered to optimize readability and visual appeal throughout the infographic.The choice of fonts, text sizes, and spacing is tailored to maintain consistency with the brand&#39;s visual identity while ensuring that the text is easily readable and aesthetically pleasing.</p>
+                <p>Reviewing and revising the infographic involves gathering feedback from stakeholders to refine content accuracy and design coherence. This iterative process ensures the infographic effectively communicates its intended message and meets the project’s objectives. Revising infographics design requires painstaking attention to details.</p>
+            </>
+        ),
+    },
+    {
+        icon: <Icon10 />,
+        name: "Review and Revision",
+        txt: (
+            <>
+                <p>Typography selection and layout arrangement are carefully considered to optimize readability and visual appeal throughout the infographic. The choice of fonts, text sizes, and spacing is tailored to maintain consistency with the brand’s visual identity while ensuring that the text is easily readable.</p>
             </>
         ),
     },
@@ -173,12 +182,12 @@ const SLIDES = [
     },
     {
         name: "Kevin Jenner",
-        txt: "Forget spreadsheets! Thanks to Cloud Studios Inc., our quarterly reports now pop with color and clarity. Their data infographics are not just informative—they&#39;re a joy to look at! I loved how my boring charts and spreadsheets were done by making them into visually compelling video infographics. Their statistical infographics bring our numbers to life.",
+        txt: "Forget spreadsheets! Thanks to Cloud Studios Inc., our quarterly reports now pop with color and clarity. Their data infographics are not just informative—they're a joy to look at! I loved how my boring charts and spreadsheets were done by making them into visually compelling video infographics. Their statistical infographics bring our numbers to life.",
         img: IMG_03.src,
         video: "videos/LogoAnimation3.mp4",
     }, {
         name: "Callum Jones",
-        txt: "Cloud Studios Inc. knows how to make data sexy! Their infographics are not only informative but also super stylish. Our social media engagement has skyrocketed since we started using their services. Infographics are a great way to make things less boring; these guys at Cloud proved that! From marketing infographics to interactive infographics and even infographics list formats, their types of infographics are incredibly effective.",
+        txt: "Cloud Studios Inc. knows how to make data sexy! Their infographics are not only informative but also super stylish. From marketing infographics to interactive infographics and even infographics list formats, their types of infographics are incredibly effective.",
         img: IMG_04.src,
         video: "videos/LogoAnimation3.mp4",
     }

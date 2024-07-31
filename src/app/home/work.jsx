@@ -6,22 +6,22 @@ const data = [
     {
         icon: <WorkIcon01 />,
         tit: "Brainstormed",
-        txt: "The journey begins with an unfathomable brainstorming phase, where the studio deeply digs to understand the client's brand, target audience, and critical messaging goals. This collaborative effort allows the team to uncover the essence of the client's story and determine the most impactful way to bring it to life.",
+        txt: "The journey begins with an unfathomable brainstorming phase, where the studio deeply digs to understand the client's brand, target audience, and critical messaging goals. This collaborative effort goes a long-way.",
     },
     {
         icon: <WorkIcon02 />,
         tit: "Conceptualized",
-        txt: "The second step is Conceptualization and Ideation, where the studio's creative team harnesses their expertise to brainstorm innovative concepts and narrative approaches. Exploring various visual styles, character designs, and storytelling techniques, the team develops detailed storyboards and mood boards to provide a clear vision for the project.",
+        txt: "The second step is Conceptualization and Ideation, where the studio's creative team harnesses their expertise to brainstorm innovative concepts and narrative approaches. Exploring various visual styles, character designs, and storytelling techniques.",
     },
     {
         icon: <WorkIcon03 />,
         tit: "Executed",
-        txt: "Moving into the Production and Execution phase, Cloud Studios leverages its technical prowess and state-of-the-art tools to bring the approved concepts to life. Maintaining a collaborative workflow, the studio actively involves the client in the iterative process to ensure the final product meets and exceeds their expectations.",
+        txt: "Moving into the Production and Execution phase, Cloud Studios leverages its technical prowess and state-of-the-art tools to bring the approved concepts to life. Maintaining a collaborative workflow for optimum results.",
     },
     {
         icon: <WorkIcon04 />,
         tit: "Delivered & Amplified",
-        txt: "Finally, the process culminates in delivery, where the completed project is presented to the client, highlighting how the visual narrative elevates their brand storytelling. The studio guides how the client can effectively utilize the animation and visual content to maximize its impact across various platforms and touchpoints.",
+        txt: "Finally, the process culminates in delivery, where the completed project is presented to the client, highlighting how the visual narrative elevates their brand storytelling. The studio guides how the client can effectively utilize animation.",
     }
 ]
 const WorkSec = () => {
@@ -39,7 +39,7 @@ const WorkSec = () => {
 
                             <Row className={`${styles.WorkBox} h-100`}>
                                 {data.map((item, index) => (
-                                    <Col xl={3} lg={6} md={6} className="my-auto" key={index}>
+                                    <Col xl={3} lg={3} md={6} sm={6} className="my-auto" key={index}>
                                         <div className={styles.workItem}>
                                             <div className={styles.workIcon}>
                                                 {item.icon}

@@ -142,6 +142,15 @@
                 a {
                     margin: 10px auto 30px;
                 }
+
+                .achievementLogos {
+                    justify-content: space-evenly;
+
+                    img {
+                        height: 35px;
+                        width: auto;
+                    }
+                }
             }
         }
     }
@@ -185,8 +194,10 @@
                 }
 
                 .achievementLogos {
+                    justify-content: space-evenly;
+
                     img {
-                        height: 45px;
+                        height: 35px;
                         width: auto;
                     }
                 }
@@ -202,15 +213,15 @@
                 flex: 0 0 200px;
 
                 .achievementPoints {
-                    height: 140px;
-                    width: 140px;
+                    height: 120px;
+                    width: 120px;
                     top: 19px;
                     right: 11px;
-                    @include font-size(14px);
-                    line-height: 22px;
+                    @include font-size(13px);
+                    line-height: 18px;
 
                     span {
-                        @include font-size(35px);
+                        @include font-size(30px);
                         margin-bottom: 10px;
                     }
                 }
@@ -233,8 +244,10 @@
                 }
 
                 .achievementLogos {
+                    justify-content: space-evenly;
+
                     img {
-                        height: 45px;
+                        height: 35px;
                         width: auto;
                     }
                 }
@@ -247,18 +260,18 @@
     .achievementSec {
         .achievementBox {
             .achievementImg {
-                flex: 0 0 150px;
+                flex: 0 0 130px;
 
                 .achievementPoints {
-                    height: 120px;
-                    width: 120px;
+                    height: 100px;
+                    width: 100px;
                     top: 19px;
                     right: -20px;
-                    @include font-size(14px);
-                    line-height: 22px;
+                    @include font-size(12px);
+                    line-height: 16px;
 
                     span {
-                        @include font-size(20px);
+                        @include font-size(30px);
                         margin-bottom: 10px;
                     }
                 }
@@ -267,7 +280,7 @@
                     text-align: right;
 
                     .achievementPoints {
-                        right: 60px;
+                        right: 50px;
                     }
                 }
             }
@@ -281,6 +294,8 @@
                 }
 
                 .achievementLogos {
+                    justify-content: space-evenly;
+
                     img {
                         height: 30px;
                         width: auto;
@@ -310,9 +325,10 @@
                 .achievementLogos {
                     max-width: 90%;
                     margin: auto;
+                    justify-content: space-evenly;
 
                     img {
-                        height: 50px;
+                        height: 40px;
                         width: auto;
                     }
                 }

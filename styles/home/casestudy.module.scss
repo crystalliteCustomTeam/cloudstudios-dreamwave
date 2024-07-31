@@ -71,6 +71,35 @@
     }
 }
 
+@include media-query($min: 1400px, $max: 1599px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(25px, 25px);
+            }
+
+            .playBtn {
+                top: 20px;
+                right: 20px;
+
+                svg {
+                    width: 35px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
 @include media-query($min: 1300px, $max: 1399px) {
     .casestudySec {
         a {
@@ -80,19 +109,20 @@
         }
 
         .videoBox {
-            height: 450px;
+            height: 400px;
             margin-bottom: 20px;
 
             .videoTxt {
-                @include padding(30px, 30px);
+                @include padding(20px, 20px);
             }
 
             .playBtn {
-                top: 20px;
-                right: 20px;
+                top: 15px;
+                right: 15px;
 
                 svg {
-                    width: 50px;
+                    width: 35px;
+                    height: auto;
                 }
             }
         }
@@ -108,19 +138,20 @@
         }
 
         .videoBox {
-            height: 420px;
+            height: 370px;
             margin-bottom: 20px;
 
             .videoTxt {
-                @include padding(25px, 25px);
+                @include padding(20px, 20px);
             }
 
             .playBtn {
-                top: 18px;
-                right: 18px;
+                top: 15px;
+                right: 15px;
 
                 svg {
-                    width: 45px;
+                    width: 35px;
+                    height: auto;
                 }
             }
         }
@@ -136,19 +167,20 @@
         }
 
         .videoBox {
-            height: 420px;
+            height: 350px;
             margin-bottom: 20px;
 
             .videoTxt {
-                @include padding(25px, 25px);
+                @include padding(20px, 20px);
             }
 
             .playBtn {
-                top: 18px;
-                right: 18px;
+                top: 15px;
+                right: 15px;
 
                 svg {
-                    width: 45px;
+                    width: 32px;
+                    height: auto;
                 }
             }
         }
@@ -164,11 +196,11 @@
         }
 
         .videoBox {
-            height: 420px;
+            height: 320px;
             margin-bottom: 20px;
 
             .videoTxt {
-                @include padding(20px, 20px);
+                @include padding(15px, 15px);
             }
 
             .playBtn {
@@ -176,7 +208,8 @@
                 right: 15px;
 
                 svg {
-                    width: 40px;
+                    width: 30px;
+                    height: auto;
                 }
             }
         }
@@ -192,19 +225,20 @@
         }
 
         .videoBox {
-            height: 420px;
+            height: 260px;
             margin-bottom: 20px;
 
             .videoTxt {
-                @include padding(20px, 20px);
+                @include padding(10px, 10px);
             }
 
             .playBtn {
-                top: 15px;
-                right: 15px;
+                top: 10px;
+                right: 10px;
 
                 svg {
-                    width: 40px;
+                    width: 25px;
+                    height: auto;
                 }
             }
         }

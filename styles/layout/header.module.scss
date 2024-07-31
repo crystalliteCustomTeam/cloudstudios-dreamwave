@@ -11,39 +11,87 @@
     width: 100%;
     z-index: 99;
     overflow-x: visible;
+
+    .mainLogo {
+        svg {
+            height: 55px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .headerSec {
+        height: 80px;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
 }
 
 @include media-query($min: 1300px, $max: 1399px) {
     .headerSec {
-        height: 80px;
+        height: 75px;
+
+        .mainLogo {
+            svg {
+                height: 45px;
+                width: auto;
+            }
+        }
     }
 }
 
 @include media-query($min: 1200px, $max: 1299px) {
     .headerSec {
-        height: 80px;
+        height: 60px;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
     }
 }
 
 @include media-query($min: 1100px, $max: 1199px) {
     .headerSec {
-        height: 80px;
+        height: 60px;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
     }
 }
 
 @include media-query($min: 900px, $max: 1099px) {
     .headerSec {
-        height: 80px;
+        height: 60px;
+
+        .mainLogo {
+            svg {
+                height: 35px;
+                width: auto;
+            }
+        }
     }
 }
 
 @include media-query($min: 701px, $max: 899px) {
     .headerSec {
-        height: 70px;
+        height: 60px;
 
         .mainLogo {
             svg {
-                height: 40px;
+                height: 35px;
                 width: auto;
             }
         }

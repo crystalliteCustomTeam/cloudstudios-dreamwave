@@ -46,13 +46,39 @@
                 }
 
                 P {
-                    height: 150px;
-                    overflow: auto;
-                    padding-right: 0px;
+                    margin-bottom: 0px;
+                }
 
-                    &::-webkit-scrollbar {
-                        width: 0px;
+            }
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1599px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(30px, 30px, 20px, 30px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 40px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (20px, 10px);
+                    height: 350px;
+
+                    .workIcon {
+                        margin-bottom: 15px;
+
+                        svg {
+                            height: 60px;
+                            width: auto;
+                        }
                     }
+
+
                 }
             }
         }
@@ -62,22 +88,31 @@
 @include media-query($min: 1300px, $max: 1399px) {
     .WorkSec {
         .WorkBg {
-            @include padding(40px, 30px, 20px, 30px);
+            @include padding(30px, 30px, 20px, 30px);
             border-radius: 5px;
             position: relative;
 
             .WorkBox {
-                margin-top: 50px;
+                margin-top: 40px;
 
                 .workItem {
                     text-align: center;
                     @include padding (20px, 10px);
-                    height: 350px;
+                    height: 320px;
+
+                    .workIcon {
+                        margin-bottom: 10px;
+
+                        svg {
+                            height: 60px;
+                            width: auto;
+                        }
+                    }
 
                     P {
-                        height: 150px;
-                        overflow: auto;
-                        padding-right: 0px;
+
+                        @include font-size(13px);
+                        line-height: 20px;
                     }
                 }
             }
@@ -93,17 +128,25 @@
             position: relative;
 
             .WorkBox {
-                margin-top: 50px;
+                margin-top: 40px;
 
                 .workItem {
                     text-align: center;
                     @include padding (20px, 10px);
-                    height: 350px;
+                    height: 300px;
+
+                    .workIcon {
+                        margin-bottom: 10px;
+
+                        svg {
+                            height: 50px;
+                            width: auto;
+                        }
+                    }
 
                     P {
-                        height: 150px;
-                        overflow: auto;
-                        padding-right: 0px;
+                        @include font-size(12px);
+                        line-height: 20px;
                     }
                 }
             }
@@ -114,22 +157,31 @@
 @include media-query($min: 1100px, $max: 1199px) {
     .WorkSec {
         .WorkBg {
-            @include padding(20px, 25px, 20px, 25px);
+            @include padding(30px, 30px, 20px, 30px);
             border-radius: 5px;
             position: relative;
 
             .WorkBox {
-                margin-top: 50px;
+                margin-top: 40px;
 
                 .workItem {
                     text-align: center;
                     @include padding (20px, 10px);
-                    height: 350px;
+                    height: 280px;
+
+                    .workIcon {
+                        margin-bottom: 10px;
+
+                        svg {
+                            height: 45px;
+                            width: auto;
+                        }
+                    }
 
                     P {
-                        height: 150px;
-                        overflow: auto;
-                        padding-right: 0px;
+                        @include font-size(11px);
+                        line-height: 18px;
+                        margin-bottom: 0px;
                     }
                 }
             }
@@ -140,22 +192,31 @@
 @include media-query($min: 900px, $max: 1099px) {
     .WorkSec {
         .WorkBg {
-            @include padding(20px, 25px, 20px, 25px);
+            @include padding(30px, 30px, 20px, 30px);
             border-radius: 5px;
             position: relative;
 
             .WorkBox {
-                margin-top: 50px;
+                margin-top: 40px;
 
                 .workItem {
                     text-align: center;
-                    @include padding (20px, 10px);
-                    height: 350px;
+                    @include padding (15px, 10px);
+                    height: 300px;
+
+                    .workIcon {
+                        margin-bottom: 10px;
+
+                        svg {
+                            height: 45px;
+                            width: auto;
+                        }
+                    }
 
                     P {
-                        height: 150px;
-                        overflow: auto;
-                        padding-right: 0px;
+                        @include font-size(11px);
+                        line-height: 18px;
+                        margin-bottom: 0px;
                     }
                 }
             }
@@ -166,22 +227,31 @@
 @include media-query($min: 701px, $max: 899px) {
     .WorkSec {
         .WorkBg {
-            @include padding(20px, 25px, 20px, 25px);
+            @include padding(30px, 30px, 20px, 30px);
             border-radius: 5px;
             position: relative;
 
             .WorkBox {
-                margin-top: 50px;
+                margin-top: 40px;
 
                 .workItem {
                     text-align: center;
-                    @include padding (20px, 10px);
-                    height: 350px;
+                    @include padding (15px, 20px);
+                    height: 220px;
+
+                    .workIcon {
+                        margin-bottom: 10px;
+
+                        svg {
+                            height: 40px;
+                            width: auto;
+                        }
+                    }
 
                     P {
-                        height: 150px;
-                        overflow: auto;
-                        padding-right: 0px;
+                        @include font-size(11px);
+                        line-height: 18px;
+                        margin-bottom: 0px;
                     }
                 }
             }
@@ -192,22 +262,31 @@
 @include media-query($min: 577px, $max: 700px) {
     .WorkSec {
         .WorkBg {
-            @include padding(20px, 20px, 20px, 20px);
+            @include padding(30px, 30px, 20px, 30px);
             border-radius: 5px;
             position: relative;
 
             .WorkBox {
-                margin-top: 50px;
+                margin-top: 40px;
 
                 .workItem {
                     text-align: center;
-                    @include padding (20px, 10px);
-                    height: 350px;
+                    @include padding (15px, 20px);
+                    height: auto;
+
+                    .workIcon {
+                        margin-bottom: 10px;
+
+                        svg {
+                            height: 40px;
+                            width: auto;
+                        }
+                    }
 
                     P {
-                        height: 150px;
-                        overflow: auto;
-                        padding-right: 0px;
+                        @include font-size(11px);
+                        line-height: 18px;
+                        margin-bottom: 0px;
                     }
                 }
             }
@@ -215,4 +294,37 @@
     }
 }
 
-@include media-query($min: 0px, $max: 576px) {}
+@include media-query($min: 0px, $max: 576px) {
+    .WorkSec {
+        .WorkBg {
+            @include padding(20px, 20px, 20px, 20px);
+            border-radius: 5px;
+            position: relative;
+
+            .WorkBox {
+                margin-top: 40px;
+
+                .workItem {
+                    text-align: center;
+                    @include padding (25px, 25px);
+                    height: auto;
+
+                    .workIcon {
+                        margin-bottom: 10px;
+
+                        svg {
+                            height: 40px;
+                            width: auto;
+                        }
+                    }
+
+                    P {
+                        @include font-size(13px);
+                        line-height: 22px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
