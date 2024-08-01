@@ -165,11 +165,13 @@
 
 @include media-query($min: 577px, $max: 700px) {
     .videoPopup {
-        height: 350px;
+        height: auto;
+        padding: 10px 0px;
     }
 
     .iframePopup {
-        height: 350px;
+        height: auto;
+        padding: 10px 0px;
     }
 
     .contactPopup {
@@ -192,11 +194,13 @@
 
 @include media-query($min: 0px, $max: 576px) {
     .videoPopup {
-        height: 300px;
+        height: auto;
+        padding: 10px 0px;
     }
 
     .iframePopup {
-        height: 300px;
+        height: auto;
+        padding: 10px 0px;
     }
 
     .contactPopup {
