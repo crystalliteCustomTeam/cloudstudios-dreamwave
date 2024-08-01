@@ -159,6 +159,22 @@ body {
 
     }
 
+
+
+    .animation {
+        animation: animated 1.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes animated {
+        0% {
+            transform: translateY(0)
+        }
+
+        to {
+            transform: translateY(-20px)
+        }
+    }
+
     input,
     textarea {
         outline: none;

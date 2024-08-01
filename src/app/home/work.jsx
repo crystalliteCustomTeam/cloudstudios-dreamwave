@@ -41,7 +41,7 @@ const WorkSec = () => {
                                 {data.map((item, index) => (
                                     <Col xl={3} lg={3} md={6} sm={6} className="my-auto" key={index}>
                                         <div className={styles.workItem}>
-                                            <div className={styles.workIcon}>
+                                            <div className={`${styles.workIcon}`}>
                                                 {item.icon}
                                             </div>
                                             <h5>{item.tit}</h5>

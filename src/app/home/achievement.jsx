@@ -16,7 +16,7 @@ const Achievement = ({ data }) => {
                 <Row>
                     <Col xxl={10} xl={10} lg={11} md={12} className="m-auto">
                         <div className={styles.achievementBox}>
-                            <div className={styles.achievementImg}>
+                            <div className={`${styles.achievementImg} animation`}>
                                 <Image src={IMG01.src} alt="Achievement" height={390} width={86} />
                                 <div className={styles.achievementPoints}><span>9X</span> MUSE AWARDS WINNERS</div>
                             </div>
@@ -31,7 +31,7 @@ const Achievement = ({ data }) => {
                                     <Image src={LOGO3.src} alt="Achievement" height={60} width={120} />
                                 </div>
                             </div>
-                            <div className={`${styles.achievementImg} ${styles.lastBox}`}>
+                            <div className={`${styles.achievementImg} ${styles.lastBox} animation`}>
                                 <Image src={IMG02.src} alt="Achievement" height={390} width={127} />
                                 <div className={styles.achievementPoints}><span>11X</span>TELLY AWARDS WINNERS</div>
                             </div>

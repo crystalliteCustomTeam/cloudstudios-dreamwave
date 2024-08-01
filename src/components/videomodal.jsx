@@ -24,7 +24,7 @@ const VideoModal = (props) => {
             ) : iframeUrl ? (
                 <div className={styles.iframePopup}>
                     <iframe
-                        src={`https://player.vimeo.com/video/${iframeUrl}?autoplay=1&controls=0`}
+                        src={`https://player.vimeo.com/video/${iframeUrl}?autoplay=1&controls=0&loop=1`}
                         width="100%"
                         height="100%"
                         frameBorder="0"
