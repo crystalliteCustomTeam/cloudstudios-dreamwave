@@ -23,7 +23,14 @@ const VideoModal = (props) => {
                 </div>
             ) : iframeUrl ? (
                 <div className={styles.iframePopup}>
-                    <iframe src={`https://player.vimeo.com/video/${iframeUrl}`} width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>
+                    <iframe
+                        src={`https://player.vimeo.com/video/${iframeUrl}?autoplay=1&controls=0`}
+                        width="100%"
+                        height="100%"
+                        frameBorder="0"
+                        allow="autoplay; fullscreen"
+                        allowFullScreen>
+                    </iframe>
                     <div className={styles.closedBtn} onClick={onHide}><ClosedBtn /></div>
                 </div>
             ) : (
