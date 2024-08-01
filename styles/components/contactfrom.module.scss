@@ -12,7 +12,7 @@
             padding: 0px 15px;
             color: $white-color;
             @include font-size(14px);
-            font-weight: 400;
+            font-weight: 300;
         }
     }
 
@@ -182,17 +182,17 @@
             margin-bottom: 15px;
 
             input {
-                height: 40px;
-                padding: 0px 15px;
-                @include font-size(13px);
+                height: 35px;
+                padding: 0px 12px;
+                @include font-size(12px);
             }
         }
 
         .textarea {
             textarea {
-                height: 100px;
-                padding: 10px 15px;
-                @include font-size(13px);
+                height: 80px;
+                padding: 10px 12px;
+                @include font-size(12px);
             }
         }
 
@@ -230,15 +230,15 @@
             input {
                 height: 35px;
                 padding: 0px 12px;
-                @include font-size(13px);
+                @include font-size(12px);
             }
         }
 
         .textarea {
             textarea {
                 height: 100px;
-                padding: 0px 12px;
-                @include font-size(13px);
+                padding: 10px 12px;
+                @include font-size(12px);
             }
         }
 
@@ -274,16 +274,16 @@
             margin-bottom: 10px;
 
             input {
-                height: 35px;
-                padding: 0px 12px;
+                height: 30px;
+                padding: 0px 10px;
                 @include font-size(12px);
             }
         }
 
         .textarea {
             textarea {
-                height: 100px;
-                padding: 0px 12px;
+                height: 80px;
+                padding: 10px 10px;
                 @include font-size(12px);
             }
         }
@@ -320,16 +320,16 @@
             margin-bottom: 10px;
 
             input {
-                height: 35px;
-                padding: 0px 12px;
+                height: 30px;
+                padding: 10px 10px;
                 @include font-size(12px);
             }
         }
 
         .textarea {
             textarea {
-                height: 100px;
-                padding: 0px 12px;
+                height: 80px;
+                padding: 0px 10px;
                 @include font-size(12px);
             }
         }
@@ -374,8 +374,8 @@
 
         .textarea {
             textarea {
-                height: 100px;
-                padding: 0px 10px;
+                height: 80px;
+                padding: 10px 10px;
                 @include font-size(12px);
             }
         }

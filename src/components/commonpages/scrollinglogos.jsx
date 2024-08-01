@@ -4,8 +4,9 @@ import { Col, Container, Row } from "react-bootstrap"
 import ScrollingSlider from "@/src/components/scrollingslider"
 import LOGO1 from "media/commonpages/srollinglogos/logo1.webp"
 import LOGO2 from "media/commonpages/srollinglogos/logo2.webp"
-import { ArrowMenu } from "@/src/app-constants"
-import Link from "next/link"
+import CommonBtn from "@/src/components/commonbtn"
+
+
 const ScrollingLogos = ({ data }) => {
     return (
         <section className={`${styles.scrollingLogos} p-100`}>
@@ -30,7 +31,7 @@ const ScrollingLogos = ({ data }) => {
             <Container>
                 <Row>
                     <Col lg={12} className={`${styles.borderBottomStyle} text-center m-auto`}>
-                        <Link href="#" className="button m-auto">Make an Animation <ArrowMenu /> </Link>
+                        <CommonBtn data="Make an Animation" />
                     </Col>
                 </Row>
             </Container>

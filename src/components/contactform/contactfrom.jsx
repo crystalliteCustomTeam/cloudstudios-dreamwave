@@ -2,7 +2,7 @@ import { ArrowMenu } from "@/src/app-constants"
 import styles from "@/styles/components/contactfrom.module.scss"
 import { Form } from "react-bootstrap"
 
-const ContactForm = () => {
+const ContactForm = ({ callbtn }) => {
     return (
         <Form>
             <div className={styles.contactForm}>
@@ -23,7 +23,11 @@ const ContactForm = () => {
                 </div>
                 <div className={styles.contactSubmit}>
                     <button type="submit" className={styles.submitBtn}>Submit <ArrowMenu /></button>
-                    <button className={styles.bookCall}>Book A Call</button>
+                    {callbtn !== "no" ?
+                        <div className={styles.bookCall}>Book A Call</div>
+                        :
+                        ""
+                    }
                 </div>
             </div>
         </Form>

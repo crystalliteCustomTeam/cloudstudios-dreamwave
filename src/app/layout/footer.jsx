@@ -29,10 +29,10 @@ const Footer = () => {
                             </li>
                         </ul>
                         <div className={styles.contactNumber}>
-                            <a href="tel:0123456789" target="_blank" aria-label="Contact Link">012 345 6789</a>
+                            <a href="tel:18336666684" target="_blank" aria-label="Contact Link">1-833-666-6684</a>
                         </div>
                         <div className={styles.contactAddress}>
-                            85 Liberty Ship Way, Suite 114 Sausalito, California 94965
+                            3415 S Sepulveda Blvd, Culver City,<br /> CA 90034
                         </div>
                         <Image src={FooterImg.src} alt="footer Img" height={80} width={190} />
                     </Col>

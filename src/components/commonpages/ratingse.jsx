@@ -1,8 +1,8 @@
-import { ArrowMenu, Stars } from "@/src/app-constants"
+import { Stars } from "@/src/app-constants"
 import styles from "@/styles/components/commonpages/ratingsec.module.scss"
 import Image from "next/image"
-import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
+import CommonBtn from "@/src/components/commonbtn"
 
 
 const RatingSec = ({ data }) => {
@@ -19,7 +19,7 @@ const RatingSec = ({ data }) => {
                                     <div className={styles.starSec}>
                                         <Stars /> <span>{data?.rating} out of 5 </span> (review rating) Over 1,200+ reviews
                                     </div>
-                                    <Link href={data?.link} className="button">{data?.btntxt}<ArrowMenu /></Link>
+                                    <CommonBtn data={data?.btntxt} />
                                 </Col>
                                 <Col lg={6} md={6} className="my-auto">
                                     <Image src={data?.img} alt="Cloud Studios" width={620} height={400} />

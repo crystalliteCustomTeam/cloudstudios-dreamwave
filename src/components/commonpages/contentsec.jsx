@@ -1,8 +1,7 @@
-import { ArrowMenu } from "@/src/app-constants"
 import styles from "@/styles/components/commonpages/contentsec.module.scss"
 import Image from "next/image"
-import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
+import CommonBtn from "@/src/components/commonbtn"
 
 
 const ContentSec = ({ data }) => {
@@ -16,7 +15,7 @@ const ContentSec = ({ data }) => {
                     <Col lg={6} md={6} className="my-auto order-1 order-md-2">
                         <h3>{data?.title}</h3>
                         {data?.txt}
-                        <Link href={data?.link} className="button">{data?.btntxt} <ArrowMenu /></Link>
+                        <CommonBtn data={data?.btntxt} />
                     </Col>
                 </Row>
             </Container>

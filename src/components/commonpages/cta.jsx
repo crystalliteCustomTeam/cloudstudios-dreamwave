@@ -1,6 +1,5 @@
-import { ArrowMenu } from "@/src/app-constants"
 import styles from "@/styles/components/commonpages/cta.module.scss"
-import Link from "next/link"
+import CommonBtn from "@/src/components/commonbtn"
 import { Col, Container, Row } from "react-bootstrap"
 
 
@@ -13,7 +12,7 @@ const CtaSec = ({ data }) => {
                         <div className={styles.ctaBg}>
                             <div className={styles.ctaContent}>
                                 <h2>{data?.title}</h2>
-                                <Link href="#" className="button">{data?.btntxt}<ArrowMenu /></Link>
+                                <CommonBtn data={data?.btntxt} />
                             </div>
                         </div>
                     </Col>

@@ -8,88 +8,88 @@ import IMG1 from "media/home/casestudies/img01.webp"
 import IMG2 from "media/home/casestudies/img02.webp"
 import IMG3 from "media/home/casestudies/img03.webp"
 import { useState } from "react"
+import VideoModal from "@/src/components/videomodal"
 
 
 const CaseStudy = () => {
-    const [videoUrl, setVideoUrl] = useState('');
+    const [modalShow, setModalShow] = useState(false);
+    const [videoUrl, setvideoUrl] = useState("");
 
-    const handlePlayClick = (url) => {
-        if (videoUrl === url) {
-            setVideoUrl('');
-        } else {
-            setVideoUrl(url);
-        }
+    const handlePlayClick = (videoUrl) => {
+        setModalShow(true);
+        setvideoUrl(videoUrl);
+
     };
 
     return (
-        <section className={`${styles.casestudySec} p-100`}>
-            <Container className="h-100">
-                <Row className="h-100">
-                    <Col xxl={7} lg={7} md={6}>
-                        <h3 className="spacing">Our Power Projects!</h3>
-                        <h2>
-                            We deliver animation that pushes brands through the noise.
-                        </h2>
-                    </Col>
-                    <Col xxl={5} lg={5} md={6} className="ms-auto my-auto">
-                        <Link href="#" className="button">All Case Studies <ArrowMenu /></Link>
-                    </Col>
-                </Row>
-                <Row className="pt-4">
-                    <Col xxl={4} lg={4} md={6}>
-                        <div
-                            className={`${styles.videoBox} ${videoUrl === 'videos/LogoAnimation.mp4' ? styles.active : ''}`}
-                            style={{ backgroundImage: `url(${IMG1.src})` }}
-                        >
-                            {videoUrl === 'videos/LogoAnimation.mp4' && <VideoPlayer video={videoUrl} />}
-                            <div className={styles.playBtn} onClick={() => handlePlayClick('videos/LogoAnimation.mp4')}>
-                                <PlayBtn />
+        <>
+            <section className={`${styles.casestudySec} p-100`}>
+                <Container className="h-100">
+                    <Row className="h-100">
+                        <Col xxl={7} lg={7} md={6}>
+                            <h3 className="spacing">Our Power Projects!</h3>
+                            <h2>
+                                We deliver animation that pushes brands through the noise.
+                            </h2>
+                        </Col>
+                        <Col xxl={5} lg={5} md={6} className="ms-auto my-auto">
+                            <Link href="#" className="button">All Case Studies <ArrowMenu /></Link>
+                        </Col>
+                    </Row>
+                    <Row className="pt-4">
+                        <Col xxl={4} lg={4} md={6}>
+                            <div
+                                className={`${styles.videoBox} ${videoUrl !== "" ? styles.active : ''}`}
+                                style={{ backgroundImage: `url(${IMG1.src})` }}
+                            >
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('982280169')}>
+                                    <PlayBtn />
+                                </div>
+                                <div className={styles.videoTxt}>
+                                    <h4>Quantum Leap for Quantum-Tech UK</h4>
+                                    <p>Challenge: Explain quantum computing to a broad audience. Solution: Created an immersive, interactive 3D animation series. Result: 500% increase in website engagement and 50% boost in investor interest.</p>
+                                </div>
                             </div>
-                            <div className={styles.videoTxt}>
-                                <h4>Quantum Leap for Quantum-Tech UK</h4>
-                                <p>Challenge: Explain quantum computing to a broad audience. Solution: Created an immersive, interactive 3D animation series. Result: 500% increase in website engagement and 50% boost in investor interest.</p>
+                        </Col>
+                        <Col xxl={8} lg={8} md={6}>
+                            <div className={styles.videoBox} style={{ backgroundImage: `url(${IMG2.src})` }}>
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('978622370')}>
+                                    <PlayBtn />
+                                </div>
+                                <div className={styles.videoTxt}>
+                                    <h4>Eco Revolution with GreenDrive</h4>
+                                    <p>Challenge: Showcase the benefits of electric vehicles innovatively. Solution: Developed a VR animation experience in a zero-emission city. The result was a 200% increase in test drives and 75% growth in social media following.</p>
+                                </div>
                             </div>
-                        </div>
-                    </Col>
-                    <Col xxl={8} lg={8} md={6}>
-                        <div className={styles.videoBox} style={{ backgroundImage: `url(${IMG2.src})` }}>
-                            {videoUrl === 'videos/LogoAnimation2.mp4' && <VideoPlayer video={videoUrl} />}
-                            <div className={styles.playBtn} onClick={() => handlePlayClick('videos/LogoAnimation2.mp4')}>
-                                <PlayBtn />
+                        </Col>
+                        <Col xxl={4} lg={4} md={6}>
+                            <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('982279422')}>
+                                    <PlayBtn />
+                                </div>
+                                <div className={styles.videoTxt}>
+                                    <h4>Financial Futures with MoneyWise</h4>
+                                    <p>Challenge: Make complex financial products accessible to millennials. Solution: Produced a series of quirky, informative, animated explainer videos. Result: 300% increase in app downloads and 150% boost in user retention.</p>
+                                </div>
                             </div>
-                            <div className={styles.videoTxt}>
-                                <h4>Eco Revolution with GreenDrive</h4>
-                                <p>Challenge: Showcase the benefits of electric vehicles innovatively. Solution: Developed a VR animation experience in a zero-emission city. The result was a 200% increase in test drives and 75% growth in social media following.</p>
+                        </Col>
+                        <Col xxl={8} lg={8} md={6}>
+                            <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('989754690')}>
+                                    <PlayBtn />
+                                </div>
+                                <div className={styles.videoTxt}>
+                                    <h4>Healthtech Transformation for VitalinoLink Italy</h4>
+                                    <p>Challenge: Demonstrate the impact of AI in healthcare. Solution: Created a mixed reality animation for a trade show presentation. Result: Secured five significant partnerships and increased market share by 25%.</p>
+                                </div>
                             </div>
-                        </div>
-                    </Col>
-                    <Col xxl={4} lg={4} md={6}>
-                        <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
-                            {videoUrl === 'videos/LogoAnimation3.mp4' && <VideoPlayer video={videoUrl} />}
-                            <div className={styles.playBtn} onClick={() => handlePlayClick('videos/LogoAnimation3.mp4')}>
-                                <PlayBtn />
-                            </div>
-                            <div className={styles.videoTxt}>
-                                <h4>Financial Futures with MoneyWise</h4>
-                                <p>Challenge: Make complex financial products accessible to millennials. Solution: Produced a series of quirky, informative, animated explainer videos. Result: 300% increase in app downloads and 150% boost in user retention.</p>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col xxl={8} lg={8} md={6}>
-                        <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
-                            {videoUrl === 'videos/LogoAnimation4.mp4' && <VideoPlayer video={videoUrl} />}
-                            <div className={styles.playBtn} onClick={() => handlePlayClick('videos/LogoAnimation4.mp4')}>
-                                <PlayBtn />
-                            </div>
-                            <div className={styles.videoTxt}>
-                                <h4>Healthtech Transformation for VitalinoLink Italy</h4>
-                                <p>Challenge: Demonstrate the impact of AI in healthcare. Solution: Created a mixed reality animation for a trade show presentation. Result: Secured five significant partnerships and increased market share by 25%.</p>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-        </section>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <VideoModal show={modalShow} iframeUrl={videoUrl}
+                onHide={() => setModalShow(false)} />
+        </>
     )
 }
 

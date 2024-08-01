@@ -1,6 +1,6 @@
-import { ArrowMenu, FavIcon } from "@/src/app-constants"
+import { FavIcon } from "@/src/app-constants"
+import CommonBtn from "@/src/components/commonbtn"
 import styles from "@/styles/home/aboutsec.module.scss"
-import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
 
 
@@ -29,7 +29,7 @@ const AboutSec = () => {
                         </div>
                         <p>Our armory includes a 500+ node 4K render farm, an adaptive pipeline combining the best practices and proprietary software, and AI-enhanced procedural animation systems. From cel animation to real-time rendering, our video animation company comprises leading and nominated VFX supervisors, animation experts, and classically trained artists who redefine boundaries in animation and visual effects.</p>
                         <p>We produce stunning visual experiences that enrapture and provoke your brand’s core identity while boosting your engagement levels with your audiences.</p>
-                        <Link href="#" className="button">Learn more about our process <ArrowMenu /></Link>
+                        <CommonBtn data="Learn more about our process" />
                     </Col>
                 </Row>
             </Container>

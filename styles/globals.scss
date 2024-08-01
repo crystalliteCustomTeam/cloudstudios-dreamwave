@@ -3,6 +3,24 @@
 body {
     background: $black-color;
 
+    .modal-backdrop.show {
+        background-color: rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(26px) brightness(1.2);
+        -webkit-backdrop-filter: blur(26px) brightness(1.2);
+        opacity: 1;
+    }
+
+    .modal {
+        .modal-dialog {
+            --bs-modal-width: 1000px;
+
+            .modal-content {
+                background: transparent;
+                border: 0px;
+            }
+        }
+    }
+
     &::-webkit-scrollbar {
         width: 2px;
     }
@@ -116,7 +134,8 @@ body {
         overflow-x: visible;
     }
 
-    a.button {
+    a.button,
+    div.button {
         @include button($black-color, $white-color, #EBEBEB, 23px, 15px);
 
         svg {
@@ -276,6 +295,12 @@ body {
             max-width: 1260px;
         }
 
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 750px;
+            }
+        }
+
         .p-100 {
             @include padding(80px, 0px, 0px);
         }
@@ -325,7 +350,8 @@ body {
             overflow-x: visible;
         }
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
             height: 40px;
             min-width: auto;
@@ -344,6 +370,12 @@ body {
     body {
         .container {
             max-width: 1240px;
+        }
+
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 650px;
+            }
         }
 
         .p-100 {
@@ -395,7 +427,8 @@ body {
             overflow-x: visible;
         }
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 14px);
             height: 38px;
             min-width: auto;
@@ -414,6 +447,12 @@ body {
     body {
         .container {
             max-width: 1140px;
+        }
+
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 650px;
+            }
         }
 
         .p-100 {
@@ -465,7 +504,8 @@ body {
             overflow-x: visible;
         }
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 13px);
             height: 35px;
             min-width: auto;
@@ -484,6 +524,12 @@ body {
     body {
         .container {
             max-width: 95%;
+        }
+
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 600px;
+            }
         }
 
         .p-100 {
@@ -535,7 +581,8 @@ body {
             overflow-x: visible;
         }
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 12px);
             height: 32px;
             min-width: auto;
@@ -554,6 +601,12 @@ body {
     body {
         .container {
             max-width: 95%;
+        }
+
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 550px;
+            }
         }
 
         .p-100 {
@@ -605,7 +658,8 @@ body {
             overflow-x: visible;
         }
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 12px);
             height: 30px;
             min-width: auto;
@@ -624,6 +678,12 @@ body {
     body {
         .container {
             max-width: 95%;
+        }
+
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 550px;
+            }
         }
 
         .p-100 {
@@ -675,7 +735,8 @@ body {
             overflow-x: visible;
         }
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 12px);
             height: 26px;
             min-width: auto;
@@ -697,6 +758,12 @@ body {
             justify-content: end;
         }
 
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 450px;
+            }
+        }
+
         .container {
             max-width: 100%;
         }
@@ -748,7 +815,8 @@ body {
         }
 
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 12px);
             height: 30px;
             min-width: auto;
@@ -767,6 +835,12 @@ body {
     body {
         .container {
             max-width: 100%;
+        }
+
+        .modal {
+            .modal-dialog {
+                --bs-modal-width: 95%;
+            }
         }
 
         .navIcon {
@@ -822,7 +896,8 @@ body {
 
 
 
-        a.button {
+        a.button,
+        div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 13px);
             height: 35px;
             min-width: auto;

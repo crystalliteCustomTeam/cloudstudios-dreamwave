@@ -2,13 +2,15 @@ import styles from "@/styles/components/video.module.scss";
 
 const VideoPlayer = ({ video }) => {
     return (
-        <div className={styles.bannerVideo}>
-            <video width="100%" controls={false} autoPlay={true} loop={true} muted preload="none" >
-                <source src={video} type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+        // <div className={styles.bannerVideo}>
+        //     <video width="100%" controls={false} autoPlay={true} loop={true} muted preload="none" >
+        //         <source src={video} type="video/mp4" />
+        //         Your browser does not support the video tag.
+        //     </video>
+        // </div>
+        <div className={styles.bannerIframe}>
+            <iframe src={video} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
-        // <iframe src={video} width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     );
 };
 

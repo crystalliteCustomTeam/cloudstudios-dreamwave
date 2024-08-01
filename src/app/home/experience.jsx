@@ -16,8 +16,7 @@ import IMG12 from "media/home/experience/Clear.webp"
 import IMG13 from "media/home/experience/Uber.webp"
 import IMG14 from "media/home/experience/Toast.webp"
 import Image from "next/image"
-import Link from "next/link"
-import { ArrowMenu } from "@/src/app-constants"
+import CommonBtn from "@/src/components/commonbtn"
 
 const images = [
     IMG1.src,
@@ -57,7 +56,8 @@ const ExperienceSec = () => {
                                         </div>
                                     ))}
                                 </div>
-                                <Link href="#" className="button">Get Started <ArrowMenu /></Link>
+                                <CommonBtn data="Get Started" />
+
                             </div>
                             <div className={styles.experienceImg}>
                                 <Image src={IMG.src} alt="Experience" width={668} height={712} />

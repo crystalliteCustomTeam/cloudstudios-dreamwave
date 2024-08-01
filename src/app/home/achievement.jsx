@@ -6,8 +6,7 @@ import IMG02 from "media/home/achievement/achievementright.webp"
 import LOGO1 from "media/home/achievement/HubSpot.webp"
 import LOGO2 from "media/home/achievement/5-star.webp"
 import LOGO3 from "media/home/achievement/Google.webp"
-import Link from "next/link"
-import { ArrowMenu } from "@/src/app-constants"
+import CommonBtn from "@/src/components/commonbtn"
 
 
 const Achievement = ({ data }) => {
@@ -25,7 +24,7 @@ const Achievement = ({ data }) => {
                                 <h3 className="spacing">ACHIEVEMENTS</h3>
                                 <h2>{data ? data.title : "We Love Recognition. We Love to Boast About Our Awards & Accolades."}</h2>
                                 <p>{data ? data.txt : "We have been knocking projects right, front and center, delivering out-of-this-world video animation solutions. From bagging impressive Muse, Davey & Telly Awards – we continue to provide the new generation of animation solutions to our clients to exceed their wildest expectations!"}</p>
-                                <Link href="" className="button">Read Our 5 Star Reviews <ArrowMenu /></Link>
+                                <CommonBtn data="Read Our 5 Star Reviews" />
                                 <div className={styles.achievementLogos}>
                                     <Image src={LOGO1.src} alt="Achievement" height={60} width={120} />
                                     <Image src={LOGO2.src} alt="Achievement" height={39} width={224} />

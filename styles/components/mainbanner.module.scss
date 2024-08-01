@@ -255,10 +255,11 @@
 
 @include media-query($min: 577px, $max: 700px) {
     .mainBanner {
-        height: calc(100vh - 85px);
+        height: 100%;
+        padding: 100px 0px 40px;
 
         .bannerContentBox {
-            top: 40px;
+            top: 0px;
 
             .bannerRating {
                 height: 35px;
@@ -282,10 +283,11 @@
 
 @include media-query($min: 0px, $max: 576px) {
     .mainBanner {
-        height: calc(100vh - 85px);
+        height: 100%;
+        padding: 100px 0px 40px;
 
         .bannerContentBox {
-            top: 40px;
+            top: 0px;
 
             .bannerRating {
                 height: 35px;

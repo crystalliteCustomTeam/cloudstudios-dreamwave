@@ -2,14 +2,219 @@
 
 
 .videoPopup {
-    max-width: 1000px;
     height: 500px;
-    @include padding(10px);
-    background: $black-color;
+    position: relative;
+    width: 100%;
+    background: #000;
+    padding: 0px;
+
 
     video {
         height: 100%;
         width: 100%;
         object-fit: cover;
+    }
+}
+
+.iframePopup {
+    height: 600px;
+    position: relative;
+    background: #000;
+    padding: 0px;
+
+
+    iframe {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.contactPopup {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px) brightness(0.1);
+    -webkit-backdrop-filter: blur(30px) brightness(0.1);
+    padding: 30px;
+
+
+    h2 {
+        margin-bottom: 10px;
+
+        span {
+            color: $secondary-color;
+        }
+    }
+}
+
+.closedBtn {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    cursor: pointer;
+
+    &:hover {
+        @include transition(all);
+
+        svg {
+            circle {
+                fill: $secondary-color;
+            }
+
+            path {
+                fill: $white-color;
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .videoPopup {
+        height: 450px;
+    }
+
+    .iframePopup {
+        height: 500px;
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .videoPopup {
+        height: 370px;
+    }
+
+    .iframePopup {
+        height: 370px;
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .videoPopup {
+        height: 370px;
+    }
+
+    .iframePopup {
+        height: 370px;
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .videoPopup {
+        height: 370px;
+    }
+
+    .iframePopup {
+        height: 370px;
+    }
+
+    .closedBtn {
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .videoPopup {
+        height: 350px;
+    }
+
+    .iframePopup {
+        height: 350px;
+    }
+
+    .closedBtn {
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .videoPopup {
+        height: 350px;
+    }
+
+    .iframePopup {
+        height: 350px;
+    }
+
+
+    .closedBtn {
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .videoPopup {
+        height: 350px;
+    }
+
+    .iframePopup {
+        height: 350px;
+    }
+
+    .contactPopup {
+        .animationClass {
+            display: none;
+        }
+    }
+
+    .closedBtn {
+        top: -10px;
+        right: -5px;
+        cursor: pointer;
+
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .videoPopup {
+        height: 300px;
+    }
+
+    .iframePopup {
+        height: 300px;
+    }
+
+    .contactPopup {
+        padding: 20px;
+
+        .animationClass {
+            display: none;
+        }
+    }
+
+    .closedBtn {
+        top: -10px;
+        right: -5px;
+        cursor: pointer;
+
+        svg {
+            width: 18px;
+            height: 18px;
+        }
     }
 }
