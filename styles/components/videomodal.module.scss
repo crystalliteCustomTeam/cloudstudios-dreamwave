@@ -144,10 +144,12 @@
 @include media-query($min: 701px, $max: 899px) {
     .videoPopup {
         height: 350px;
+        padding: 10px;
     }
 
     .iframePopup {
         height: 350px;
+        padding: 10px;
     }
 
 
@@ -165,13 +167,13 @@
 
 @include media-query($min: 577px, $max: 700px) {
     .videoPopup {
-        height: auto;
-        padding: 10px 0px;
+        height: 280px;
+        padding: 10px;
     }
 
     .iframePopup {
-        height: auto;
-        padding: 10px 0px;
+        height: 280px;
+        padding: 10px;
     }
 
     .contactPopup {
@@ -194,13 +196,13 @@
 
 @include media-query($min: 0px, $max: 576px) {
     .videoPopup {
-        height: auto;
-        padding: 10px 0px;
+        height: 240px;
+        padding: 10px;
     }
 
     .iframePopup {
-        height: auto;
-        padding: 10px 0px;
+        height: 240px;
+        padding: 10px;
     }
 
     .contactPopup {
