@@ -14,7 +14,7 @@ const Testimonial = ({ clients, slides }) => {
                 <Row>
                     <Col xxl={7} xl={7} lg={6} md={8} className="m-auto text-center">
                         <h3 className="spacing">TESTIMONIALS </h3>
-                        <h2>See What They Are Saying About All the Cool Stuff We Do!</h2>
+                        <h2>Find Out Why Everyone’s Talking About Our Amazing Work!</h2>
                     </Col>
                 </Row>
                 <Row>

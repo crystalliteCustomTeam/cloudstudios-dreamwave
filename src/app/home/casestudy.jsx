@@ -46,7 +46,7 @@ const CaseStudy = () => {
                                     <PlayBtn />
                                 </div>
                                 <div className={styles.videoTxt}>
-                                    <h4>Quantum Leap for Quantum-Tech UK</h4>
+                                    <h4>Quantum Leap</h4>
                                     <p>Challenge: Explain quantum computing to a broad audience. Solution: Created an immersive, interactive 3D animation series. Result: 500% increase in website engagement and 50% boost in investor interest.</p>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ const CaseStudy = () => {
                                     <PlayBtn />
                                 </div>
                                 <div className={styles.videoTxt}>
-                                    <h4>Eco Revolution with GreenDrive</h4>
+                                    <h4>Eco Revolution</h4>
                                     <p>Challenge: Showcase the benefits of electric vehicles innovatively. Solution: Developed a VR animation experience in a zero-emission city. The result was a 200% increase in test drives and 75% growth in social media following.</p>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ const CaseStudy = () => {
                                     <PlayBtn />
                                 </div>
                                 <div className={styles.videoTxt}>
-                                    <h4>Financial Futures with MoneyWise</h4>
+                                    <h4>Financial Futures</h4>
                                     <p>Challenge: Make complex financial products accessible to millennials. Solution: Produced a series of quirky, informative, animated explainer videos. Result: 300% increase in app downloads and 150% boost in user retention.</p>
                                 </div>
                             </div>

@@ -54,7 +54,7 @@ const contentData1 = {
 }
 const ScrollData = {
     title: "Professional Whiteboard Animation",
-    subtitle: "Solutions for Diverse Industries",
+    subtitle: "Tailored Solutions for Every Industry",
     txt: (
         <>
             <p>Have you ever seen a video where a hand holding a marker or pen sketches out static images on a white screen, accompanied by a voiceover educating the audience?That’s a whiteboard animation video in action. These videos are structured, narrative-driven, and designed to educate your audience on various topics. They tell a complete story with engaging elements, and the charming cartoon characters set a hypnotic tone that captures viewers’ attention</p>
@@ -128,6 +128,10 @@ const ElevateSlides = [
     },
 
 ]
+const achievementData = {
+    title: "Proud of Our Success: Discover Our Awards and Achievements",
+    txt: "We have been knocking projects right, front and center, delivering out-of-this-world video animation solutions. From bagging impressive Muse, Davey & Telly Awards – we continue to deliver the new generation of animation solutions to our clients to exceed their wildest expectations!"
+}
 const CtaData = {
     title: "Seamless Whiteboard Animation Services are just a tap away! ",
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
@@ -168,7 +172,7 @@ export default function Page() {
             <ContentSec data={contentData2} />
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
-            <Achievement />
+            <Achievement data={achievementData} />
             <Testimonial clients="yes" slides={SLIDES} />
             <Contact data="Become a part of the Cloud Studios revolution and deliver your brand’s message with perfect symmetry and clarity." />
         </>

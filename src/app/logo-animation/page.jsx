@@ -19,7 +19,7 @@ import IMG_04 from "media/home/testimonial/4.png"
 
 
 export const metadata = {
-    title: "Ignite excitement and anticipation with dynamic logo animation services",
+    title: "Professional Logo Animation Services | Make Your Brand Stand Out.",
     description: "Lead the digital frontier with our expert custom logo animation services at Cloud Studios Inc. Elevate your brand presence with professional, captivating visuals that set you apart.",
 };
 
@@ -43,7 +43,7 @@ const ratingData = {
     link: "#"
 }
 const contentData1 = {
-    title: "Personalize your Brand’s Animated Logos for the Ultimate Visual Experience",
+    title: "Drive 7x More Attention with Logo Animation",
     txt: (
         <>
             <p>A logo is crucial in building brand identity, serving as the foundation of a strong brand presence. Logo animation is a versatile tool for social media, video content, presentations, events, and other digital platforms. Integrating professional and custom logo animation into your marketing strategy ensures a consistent and cohesive brand image that distinguishes your brand in the competitive market. Whether your business is a start-up or a well-established corporation, maintaining a robust brand image is essential for attracting and retaining customers.</p>

@@ -53,7 +53,7 @@ const contentData1 = {
     link: "#"
 }
 const ScrollData = {
-    title: "Empowering Brands to Grow!",
+    title: "Discover the Future of Animation – See It to Believe It!",
     subtitle: "Jaw-dropping 3D Animation Services that Create the Real Buzz!",
     txt: (
         <>

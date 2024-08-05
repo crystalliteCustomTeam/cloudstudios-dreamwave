@@ -21,7 +21,7 @@ export const metadata = {
 
 const banner = {
     rating: "Experience the difference in animation",
-    title: "Brands and businesses take the stratosphere route here.",
+    title: "Elevate Your Brand to New Levels with Us",
     txt: (
         <>
             <p>With years of experience in the industry, our experts have honed their skills to deliver consistently exceptional results, earning us a reputation as one of the most sought-after animations and VFX studios in the business.</p>

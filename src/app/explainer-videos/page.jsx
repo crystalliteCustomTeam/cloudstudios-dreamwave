@@ -31,7 +31,7 @@ const ratingData = {
             <ul>
                 <li>Specialists in converting scripts</li>
                 <li>Work with the best voice actors</li>
-                <li>Cheap animated company explainer videos</li>
+                <li>Pocket Friendly explainer video animation company</li>
                 <li>video 100% customer satisfaction</li>
             </ul>
         </>
@@ -62,7 +62,7 @@ const ScrollData = {
     )
 }
 const contentData2 = {
-    title: "Break The Loop with Industry-Leading Explainer Videos ",
+    title: "Revolutionize Your Storytelling with Top-Tier Explainer Videos",
     txt: (
         <>
             <p>Build customer loyalty, drive engagement, and attract new audiences with outstanding product explainer videos created by Cloud Studios Inc. Our videos effectively explain your product, increasing conversion rates and turning users into loyal customers. By making your product stand out, we enhance brand awareness and build rapport with your audience. These high-quality 3d explainer videos boost ROI by engagingly showcasing new products, services, or brands. Additionally, they simplify complex concepts, educate your audience, and provide clear tutorials with the power of 2D and 3D animation. Enhance your sales and marketing campaigns with an expertly crafted product explainer video designed to captivate and convert.</p>
@@ -73,7 +73,7 @@ const contentData2 = {
     link: "#"
 }
 const ElevateData = {
-    title: "How Do We Turn Basic Sketches into Interactive 3D Product Animations?",
+    title: "Our Proven Approach to Expanding Your Brand",
     txt: (
         <><p>We take the lead on all the explainer videos production projects from the outset, ensuring that our highly talented explainer video producers manage each phase effectively and successfully.</p></>
     ),
@@ -130,8 +130,8 @@ const CtaData = {
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
 }
 const achievementData = {
-    title: "Our Accolades & Awesome Client Reviews Speak Volumes",
-    txt: "Cloud Studios Inc. is thrilled to have received an impressive 11x Telly Awards, 9x Muse Awards, and 12-time Davey Award winner status. These prestigious accolades are a testament to our unwavering commitment to excellence as we continue to deliver awe-inspiring video experiences that exceed our client’s wildest expectations."
+    title: "See the Buzz Around Our Awards and Client Testimonials!",
+    txt: "Cloud Studios Inc. is thrilled to have received an impressive 11x Telly Awards, 9x Muse Awards, and 12-time Davey Award winner status.These awards highlight our strong commitment to quality as we continue to deliver awe-inspiring video experiences that exceed our client's wildest expectations."
 }
 const SLIDES = [
     {

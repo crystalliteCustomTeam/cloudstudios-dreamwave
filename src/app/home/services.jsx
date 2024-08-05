@@ -88,7 +88,7 @@ const Services = () => {
                 <Row>
                     <Col xl={12} lg={12}>
                         <div className={styles.servicesBg} >
-                            <h2 className="text-center">Next-Generation Animation and Video Production Services.</h2>
+                            <h2 className="text-center">From Vision to Animation: Premier Video Animation Services</h2>
                             <ServicesSlider slides={SLIDES} options={OPTIONS} />
                         </div>
                     </Col>
