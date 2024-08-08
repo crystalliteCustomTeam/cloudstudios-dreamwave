@@ -110,9 +110,10 @@
                 left: 0px;
                 height: 0px;
                 width: 500px;
-                background-color: rgba(255, 255, 255, 0.1);
-                backdrop-filter: blur(30px) brightness(0.1);
-                -webkit-backdrop-filter: blur(30px) brightness(0.1);
+                // background-color: rgba(255, 255, 255, 0.1);
+                // backdrop-filter: blur(30px) brightness(0.1);
+                // -webkit-backdrop-filter: blur(30px) brightness(0.1);
+                background: $white-color;
                 color: $white-color;
 
 

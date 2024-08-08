@@ -11,6 +11,9 @@
     width: 100%;
     z-index: 99;
 
+    &.active {
+        background: $white-color;
+    }
 
     .mainLogo {
         svg {
