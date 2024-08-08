@@ -112,22 +112,16 @@ const Navigation = () => {
                                     <Link href="/promotional-videos" aria-label="Promotional Videos">Promotional Videos</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/whiteboard-animation" ? styles.active : ""}`}
-                                    onClick={isMobileView ? handleClosed : undefined}
-                                >
-                                    <Link href="/whiteboard-animation" aria-label="Whiteboard Animation">Whiteboard Animation</Link>
-                                </div>
-                                <div
                                     className={`${styles.MenuList} ${pathname === "/cgi-vfx" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
                                     <Link href="/cgi-vfx" aria-label="CGI & VFX">CGI & VFX</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/hybrid-cel-animation" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/whiteboard-animation" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/hybrid-cel-animation" aria-label="Hybrid and Cel Animation">Hybrid and Cel Animation</Link>
+                                    <Link href="/whiteboard-animation" aria-label="Whiteboard Animation">Whiteboard Animation</Link>
                                 </div>
                                 <div
                                     className={`${styles.MenuList} ${pathname === "/motion-graphics" ? styles.active : ""}`}
@@ -136,16 +130,24 @@ const Navigation = () => {
                                     <Link href="/motion-graphics" aria-label="Motion-Graphics">Motion-Graphics</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/architectural-visualization" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/hybrid-cel-animation" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/architectural-visualization" aria-label="Architectural Visualization">Architectural Visualization</Link>
-                                </div><div
+                                    <Link href="/hybrid-cel-animation" aria-label="Hybrid and Cel Animation">Hybrid and Cel Animation</Link>
+                                </div>
+                                <div
                                     className={`${styles.MenuList} ${pathname === "/video-editing" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
                                     <Link href="/video-editing" aria-label="Video Editing">Video Editing</Link>
                                 </div>
+                                <div
+                                    className={`${styles.MenuList} ${pathname === "/architectural-visualization" ? styles.active : ""}`}
+                                    onClick={isMobileView ? handleClosed : undefined}
+                                >
+                                    <Link href="/architectural-visualization" aria-label="Architectural Visualization">Architectural Visualization</Link>
+                                </div>
+
                             </div>
                         </div>
                     </li>
