@@ -40,7 +40,7 @@ const contentData1 = {
     title: "Animate Your Digital Frontier",
     txt: (
         <>
-            <p>IEngage your audience with visually rich experiences where characters and environments feel solid and realistic. Our cutting-edge methods work smoothly with your current 2D tools, helping you achieve your most ambitious design goals. By using our advanced 2D animation tools, our animations can increase message retention by up to 80% compared to static images.</p>
+            <p>Engage your audience with visually rich experiences where characters and environments feel solid and realistic. Our cutting-edge methods work smoothly with your current 2D tools, helping you achieve your most ambitious design goals. By using our advanced 2D animation tools, our animations can increase message retention by up to 80% compared to static images.</p>
         </>
     ),
     img: IMG02.src,
