@@ -140,6 +140,11 @@ const Navigation = () => {
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
                                     <Link href="/architectural-visualization" aria-label="Architectural Visualization">Architectural Visualization</Link>
+                                </div><div
+                                    className={`${styles.MenuList} ${pathname === "/video-editing" ? styles.active : ""}`}
+                                    onClick={isMobileView ? handleClosed : undefined}
+                                >
+                                    <Link href="/video-editing" aria-label="Video Editing">Video Editing</Link>
                                 </div>
                             </div>
                         </div>
