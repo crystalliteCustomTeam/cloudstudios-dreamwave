@@ -8,7 +8,6 @@ import Achievement from "@/src/app/home/achievement";
 import Testimonial from "@/src/app/home/testimonial";
 import Contact from "@/src/app/home/contact";
 import MainBanner from "@/src/components/mainbanner";
-import BannerBg from "media/home/banner/BannerBg1.webp"
 import IMG01 from "media/home/testimonial/1.png"
 import IMG02 from "media/home/testimonial/2.png"
 import IMG03 from "media/home/testimonial/3.png"
@@ -30,7 +29,7 @@ const banner = {
       <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
     </>
   ),
-  img: BannerBg.src,
+  video: "videos/2d-animations.mp4",
   link: "#"
 
 }

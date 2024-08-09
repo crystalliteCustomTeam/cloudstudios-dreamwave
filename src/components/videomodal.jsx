@@ -15,7 +15,7 @@ const VideoModal = (props) => {
         >
             {videoUrl ? (
                 <div className={styles.videoPopup}>
-                    <video width="100%" controls autoPlay preload="none">
+                    <video width="100%" controls={false} autoPlay loop muted preload="none">
                         <source src={videoUrl} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>

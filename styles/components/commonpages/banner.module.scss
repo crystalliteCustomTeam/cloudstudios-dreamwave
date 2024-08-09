@@ -1,8 +1,7 @@
 @import '../../variables.module.scss';
 
 .commonBanner {
-    height: 100vh;
-    background: #211F1B;
+    height: calc(100vh - 85px);
     overflow: hidden;
 
     .bannerContent {

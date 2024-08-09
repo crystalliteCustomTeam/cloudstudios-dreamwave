@@ -1,5 +1,4 @@
 import BannerLogos from "@/src/components/bannerlogos";
-import Banner from "@/src/components/commonpages/banner";
 import ContentSec from "@/src/components/commonpages/contentsec";
 import RatingSec from "@/src/components/commonpages/ratingse";
 import IMG01 from "media/commonpages/whiteboard-animation/img01.webp"
@@ -16,14 +15,27 @@ import IMG_01 from "media/home/testimonial/1.png"
 import IMG_02 from "media/home/testimonial/2.png"
 import IMG_03 from "media/home/testimonial/3.png"
 import IMG_04 from "media/home/testimonial/4.png"
+import MainBanner from "@/src/components/mainbanner";
 
 
 export const metadata = {
     title: "Simple is better – experience the best-in-class whiteboard animation solutions today!",
     description: "Take charge today – Cloud Studios Inc.’s whiteboard animation solution is here to clarify your branding and identity. Our expert team delivers seamless, easy-to-understand animations that simplify complex ideas.",
 };
+const banner = {
+    rating: "The New Frontier in Animation.",
+    star: "yes",
+    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    txt: (
+        <>
+            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
+            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+        </>
+    ),
+    video: "videos/whiteboard-animations.mp4",
+    link: "#"
 
-
+}
 const ratingData = {
     title: "Whiteboard Animation Services for Effective & Clear Messaging",
     txt: (
@@ -164,7 +176,7 @@ const SLIDES = [
 export default function Page() {
     return (
         <>
-            <Banner />
+            <MainBanner data={banner} />
             <BannerLogos />
             <RatingSec data={ratingData} />
             <ContentSec data={contentData1} />

@@ -1,5 +1,4 @@
 import BannerLogos from "@/src/components/bannerlogos";
-import Banner from "@/src/components/commonpages/banner";
 import ContentSec from "@/src/components/commonpages/contentsec";
 import RatingSec from "@/src/components/commonpages/ratingse";
 import IMG01 from "media/commonpages/2d-animations/img01.webp"
@@ -16,14 +15,27 @@ import IMG_01 from "media/home/testimonial/1.png"
 import IMG_02 from "media/home/testimonial/2.png"
 import IMG_03 from "media/home/testimonial/3.png"
 import IMG_04 from "media/home/testimonial/4.png"
+import MainBanner from "@/src/components/mainbanner";
 
 
 export const metadata = {
     title: "Boost conversions with motion graphics design – take charge today.",
     description: "The best motion graphics animators at your disposal from Cloud Studios Inc. –experience a full suite of motion graphic animation at unbeatable prices.",
 };
+const banner = {
+    rating: "The New Frontier in Animation.",
+    star: "yes",
+    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    txt: (
+        <>
+            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
+            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+        </>
+    ),
+    video: "videos/motion-graphics.mp4",
+    link: "#"
 
-
+}
 const ratingData = {
     title: "Ditch the static route with powerful motion graphics with Cloud Studios Inc.",
     txt: (
@@ -165,7 +177,7 @@ const SLIDES = [
 export default function Page() {
     return (
         <>
-            <Banner />
+            <MainBanner data={banner} />
             <BannerLogos />
             <RatingSec data={ratingData} />
             <ContentSec data={contentData1} />

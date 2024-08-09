@@ -42,7 +42,7 @@ const CaseStudy = () => {
                                 className={`${styles.videoBox} ${videoUrl !== "" ? styles.active : ''}`}
                                 style={{ backgroundImage: `url(${IMG1.src})` }}
                             >
-                                <div className={styles.playBtn} onClick={() => handlePlayClick('982280169')}>
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('videos/2d-animations.mp4')}>
                                     <PlayBtn />
                                 </div>
                                 <div className={styles.videoTxt}>
@@ -53,7 +53,7 @@ const CaseStudy = () => {
                         </Col>
                         <Col xxl={8} lg={8} md={6}>
                             <div className={styles.videoBox} style={{ backgroundImage: `url(${IMG2.src})` }}>
-                                <div className={styles.playBtn} onClick={() => handlePlayClick('978622370')}>
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('videos/3d-animations.mp4')}>
                                     <PlayBtn />
                                 </div>
                                 <div className={styles.videoTxt}>
@@ -64,7 +64,7 @@ const CaseStudy = () => {
                         </Col>
                         <Col xxl={4} lg={4} md={6}>
                             <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
-                                <div className={styles.playBtn} onClick={() => handlePlayClick('982279422')}>
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('videos/motion-graphics.mp4')}>
                                     <PlayBtn />
                                 </div>
                                 <div className={styles.videoTxt}>
@@ -75,7 +75,7 @@ const CaseStudy = () => {
                         </Col>
                         <Col xxl={8} lg={8} md={6}>
                             <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
-                                <div className={styles.playBtn} onClick={() => handlePlayClick('989754690')}>
+                                <div className={styles.playBtn} onClick={() => handlePlayClick('videos/hybrid-Cel-Animation.mp4')}>
                                     <PlayBtn />
                                 </div>
                                 <div className={styles.videoTxt}>
@@ -87,8 +87,9 @@ const CaseStudy = () => {
                     </Row>
                 </Container>
             </section>
-            <VideoModal show={modalShow} iframeUrl={videoUrl}
+            <VideoModal show={modalShow} videoUrl={videoUrl}
                 onHide={() => setModalShow(false)} />
+
         </>
     )
 }

@@ -6,14 +6,14 @@ import BannerImg from "media/portfolio/bannerImg.webp"
 import Image from "next/image"
 import { Stars } from "@/src/app-constants"
 import CommonBtn from "@/src/components/commonbtn"
+import VideoPlayer from "./videoplayer"
 
 
 
 const MainBanner = ({ data }) => {
-
     return (
         <>
-            <section className={styles.mainBanner} style={{ backgroundImage: `url(${data.img})` }}>
+            <section className={styles.mainBanner}>
                 <Container className="h-100">
                     <Row className="h-100">
                         <Col xxl={5} xl={5} lg={6} md={6} className="my-auto">
@@ -34,6 +34,7 @@ const MainBanner = ({ data }) => {
                         </Col>
                     </Row>
                 </Container>
+                <VideoPlayer bannerVideo={data.video} />
             </section>
 
         </>
