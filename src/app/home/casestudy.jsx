@@ -1,6 +1,5 @@
 "use client"
 import { ArrowMenu, PlayBtn } from "@/src/app-constants"
-import VideoPlayer from "@/src/components/videoplayer"
 import styles from "@/styles/home/casestudy.module.scss"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"

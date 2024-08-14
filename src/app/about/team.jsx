@@ -1,7 +1,7 @@
 import TestimonialSlider from "@/src/components/testimonialslider"
 import styles from "@/styles/layout/header.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
-import IMG01 from "media/home/testimonial/4.png"
+import IMG01 from "media/home/testimonial/test4.webp"
 import IMG02 from "media/home/testimonial/5.png"
 import IMG03 from "media/home/testimonial/6.png"
 

@@ -1,13 +1,13 @@
 import MainBanner from "@/src/components/mainbanner";
 import BannerBg from "media/portfolio/portfolioBanner.webp"
-import CaseStudy from "@/src/app/home/casestudy";
 import Testimonial from "@/src/app/home/testimonial";
 import Contact from "@/src/app/home/contact";
 import BannerLogos from "@/src/components/bannerlogos";
-import IMG01 from "media/home/testimonial/1.png"
-import IMG02 from "media/home/testimonial/2.png"
-import IMG03 from "media/home/testimonial/3.png"
-import IMG04 from "media/home/testimonial/4.png"
+import IMG01 from "media/home/testimonial/test1.webp"
+import IMG02 from "media/home/testimonial/test2.webp"
+import IMG03 from "media/home/testimonial/test3.webp"
+import IMG04 from "media/home/testimonial/test4.webp"
+import CaseStudies from "@/src/components/casestudies";
 
 export const metadata = {
     title: "A portfolio that revolutionizes everything animated and digital – Cloud Studios",
@@ -58,7 +58,7 @@ export default function Portfolio() {
         <>
             <MainBanner data={banner} />
             <BannerLogos />
-            <CaseStudy />
+            <CaseStudies />
             <Testimonial clients="yes" slides={SLIDES} />
             <Contact data="Become a part of the Cloud Studios revolution and forge your brand to penetrate everything digital." />
         </>

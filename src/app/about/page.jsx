@@ -8,10 +8,10 @@ import MissionSec from "@/src/app/about/mission";
 import Achievement from "@/src/app/home/achievement";
 import Testimonial from "@/src/app/home/testimonial";
 
-import IMG01 from "media/home/testimonial/1.png"
-import IMG02 from "media/home/testimonial/2.png"
-import IMG03 from "media/home/testimonial/3.png"
-import IMG04 from "media/home/testimonial/4.png"
+import IMG01 from "media/home/testimonial/test1.webp"
+import IMG02 from "media/home/testimonial/test2.webp"
+import IMG03 from "media/home/testimonial/test3.webp"
+import IMG04 from "media/home/testimonial/test4.webp"
 
 export const metadata = {
     title: "Powerful branding & top-tier storytelling with Cloud Studios' Award-Winning Animation and Visual Effects",

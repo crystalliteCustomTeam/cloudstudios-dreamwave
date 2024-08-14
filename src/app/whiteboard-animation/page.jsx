@@ -11,10 +11,10 @@ import ScrollingLogos from "@/src/components/commonpages/scrollinglogos";
 import ElevateSec from "@/src/components/commonpages/elevate";
 import CtaSec from "@/src/components/commonpages/cta";
 import { Icon06, Icon07, Icon09, Icon10, Icon11 } from "@/src/app-constants";
-import IMG_01 from "media/home/testimonial/1.png"
-import IMG_02 from "media/home/testimonial/2.png"
-import IMG_03 from "media/home/testimonial/3.png"
-import IMG_04 from "media/home/testimonial/4.png"
+import IMG_01 from "media/home/testimonial/test1.webp"
+import IMG_02 from "media/home/testimonial/test2.webp"
+import IMG_03 from "media/home/testimonial/test3.webp"
+import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 

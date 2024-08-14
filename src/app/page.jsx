@@ -8,10 +8,12 @@ import Achievement from "@/src/app/home/achievement";
 import Testimonial from "@/src/app/home/testimonial";
 import Contact from "@/src/app/home/contact";
 import MainBanner from "@/src/components/mainbanner";
-import IMG01 from "media/home/testimonial/1.png"
-import IMG02 from "media/home/testimonial/2.png"
-import IMG03 from "media/home/testimonial/3.png"
-import IMG04 from "media/home/testimonial/4.png"
+import IMG01 from "media/home/testimonial/test1.webp"
+import IMG02 from "media/home/testimonial/test2.webp"
+import IMG03 from "media/home/testimonial/test3.webp"
+import IMG04 from "media/home/testimonial/test4.webp"
+import IMG05 from "media/home/testimonial/test5.webp"
+import IMG06 from "media/home/testimonial/test6.webp"
 
 export const metadata = {
   title: "Cloud Studios Inc: Cutting-Edge Video Animation Studio in USA.",
@@ -55,6 +57,18 @@ const SLIDES = [
     name: "Lisa Kevins",
     txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
     img: IMG04.src,
+    video: "videos/LogoAnimation3.mp4",
+  }
+  , {
+    name: "Lisa Kevins",
+    txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
+    img: IMG05.src,
+    video: "videos/LogoAnimation3.mp4",
+  }
+  , {
+    name: "Lisa Kevins",
+    txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
+    img: IMG06.src,
     video: "videos/LogoAnimation3.mp4",
   }
 ]
