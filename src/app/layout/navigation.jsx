@@ -58,11 +58,28 @@ const Navigation = () => {
     // Chat Code
     const handleChatOpen = (e) => {
         e.preventDefault();
-        if (window.$zopim && window.$zopim.livechat && window.$zopim.livechat.window) {
-            window.$zopim.livechat.window.show();
-        } else {
-            console.warn('Zendesk chat is not yet initialized');
-        }
+
+        const openChat = () => {
+            if (window.$zopim && window.$zopim.livechat && window.$zopim.livechat.window) {
+                window.$zopim.livechat.window.show();
+            } else {
+                console.warn('Zendesk chat is not yet initialized');
+            }
+        };
+
+        // Poll for $zopim until it's available, with a timeout limit
+        const interval = setInterval(() => {
+            if (window.$zopim) {
+                clearInterval(interval);
+                openChat();
+            }
+        }, 500); // Check every 500ms
+
+        // Set a timeout to stop polling after 10 seconds if Zendesk is not available
+        setTimeout(() => {
+            clearInterval(interval);
+            console.warn('Zendesk chat failed to initialize within 10 seconds');
+        }, 10000); // 10 seconds timeout
     };
 
 
