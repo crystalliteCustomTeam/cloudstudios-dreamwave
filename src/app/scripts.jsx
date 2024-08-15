@@ -12,18 +12,12 @@ const ScriptsCode = () => {
             zenDesk.defer = true;
             document.body.appendChild(zenDesk);
 
-            zenDesk.onload = () => {
-                if (window.$zopim) {
-                    console.log('Zendesk chat script loaded');
-                    document.dispatchEvent(new Event('zendeskLoaded'));
-                }
-            };
         }, 5000);
 
         return () => clearTimeout(timer);
     }, []);
 
     return null;
-};
+}
 
-export default ScriptsCode;
+export default ScriptsCode
