@@ -53,6 +53,19 @@ const Navigation = () => {
         ];
         return submenuPaths.includes(pathname);
     };
+
+
+    // Chat Code
+    const handleChatOpen = (e) => {
+        e.preventDefault();
+        if (window.$zopim && window.$zopim.livechat && window.$zopim.livechat.window) {
+            window.$zopim.livechat.window.show();
+        } else {
+            console.warn('Zendesk chat is not yet initialized');
+        }
+    };
+
+
     return (
         <>
             <div onClick={handleClick}
@@ -156,8 +169,8 @@ const Navigation = () => {
                             Portfolio
                         </Link>
                     </li>
-                    <li>
-                        <Link href="#">
+                    <li className={pathname === "/pricing" ? styles.active : ""} onClick={isMobileView ? handleClosed : undefined}>
+                        <Link href="/pricing" >
                             Pricing
                         </Link>
                     </li>
@@ -171,9 +184,9 @@ const Navigation = () => {
                             Get Started <ArrowMenu />
                         </Link>
                     </li>
-                    <li className={styles.liveChat}>
-                        <Link href="#" aria-label="Live Chat" >
-                            <ChatIcon />Live Chat
+                    <li className={styles.liveChat} onClick={handleChatOpen}>
+                        <Link href="#" aria-label="Live Chat">
+                            <ChatIcon /> Live Chat
                         </Link>
                     </li>
                 </ul>

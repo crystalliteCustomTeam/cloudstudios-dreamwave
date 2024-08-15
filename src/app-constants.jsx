@@ -1202,3 +1202,32 @@ export function ClosedBtn() {
 
     );
 }
+
+export function BuletIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="13.762"
+            height="13.762"
+            viewBox="0 0 13.762 13.762"
+        >
+            <g fill="#fff" data-name="Group 7437" transform="translate(-1037 -1435)">
+                <circle
+                    cx="3.823"
+                    cy="3.823"
+                    r="3.823"
+                    data-name="Ellipse 84"
+                    transform="translate(1040.058 1438.058)"
+                ></circle>
+                <circle
+                    cx="6.881"
+                    cy="6.881"
+                    r="6.881"
+                    data-name="Ellipse 85"
+                    opacity="0.36"
+                    transform="translate(1037 1435)"
+                ></circle>
+            </g>
+        </svg>
+    )
+}

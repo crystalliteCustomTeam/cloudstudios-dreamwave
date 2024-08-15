@@ -52,7 +52,7 @@ const ContactForm = ({ callbtn }) => {
                     <input
                         type="text"
                         {...register('name', {
-                            required: "This field is required",
+                            required: "The Name field is required",
                             pattern: {
                                 value: /^[A-Za-z\s]+$/,
                                 message: "Name can only contain letters"
@@ -66,7 +66,7 @@ const ContactForm = ({ callbtn }) => {
                     <input
                         type="email"
                         {...register('email', {
-                            required: "This field is required",
+                            required: "The Email field is required",
                             pattern: {
                                 value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
                                 message: "Invalid email address"
@@ -80,10 +80,10 @@ const ContactForm = ({ callbtn }) => {
                     <input
                         type="tel"
                         {...register('phone', {
-                            required: "This field is required",
+                            required: "This Phone field is required",
                             pattern: {
-                                value: /^[0-9]{10}$/,
-                                message: "Phone number must be 10 digits"
+                                value: /^[0-9]+$/,
+                                message: "Mobile number can only contain digits"
                             }
                         })}
                         placeholder='Mobile Number'

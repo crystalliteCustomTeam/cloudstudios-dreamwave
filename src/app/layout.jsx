@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../styles/globals.scss";
 import Header from "@/src/app/layout/header";
 import Footer from "@/src/app/layout/footer";
-
+import ScriptsCode from "@/src/app/scripts";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -13,6 +13,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <ScriptsCode />
       <body className={poppins.className}>
         <Header />
         {children}

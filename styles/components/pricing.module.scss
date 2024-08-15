@@ -1,0 +1,970 @@
+@import '../variables.module.scss';
+
+.pricingSec {
+
+    .pricingBox {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .pricingItem {
+            position: relative;
+            flex: 0 0 370px;
+
+            &::before {
+                content: '';
+                width: 63px;
+                height: 37px;
+                background-color: #97000B;
+                clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                transform: rotate(180deg);
+                position: absolute;
+                right: -25px;
+                top: 74px;
+                z-index: -1;
+            }
+
+            &::after {
+                content: '';
+                width: 63px;
+                height: 37px;
+                background-color: #97000B;
+                clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                transform: rotate(180deg);
+                position: absolute;
+                left: -25px;
+                top: 74px;
+                z-index: -1;
+            }
+
+            .headerBox {
+                background: $secondary-color;
+                height: 75px;
+                width: 420px;
+                position: absolute;
+                left: -25px;
+                overflow: visible;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 1;
+                padding: 0px 20px;
+
+
+                .title {
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: $white-color;
+                }
+
+                .price {
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: $white-color;
+                }
+            }
+
+            .conntentBox {
+                width: 370px;
+                height: 550px;
+                position: relative;
+                overflow: hidden;
+                background-color: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(30px) brightness(0.1);
+                -webkit-backdrop-filter: blur(30px) brightness(0.1);
+
+                &:after {
+                    content: '';
+                    background-image: url(../../public/home/pricingBg.webp);
+                    filter: blur(30px) brightness(.7);
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    background-repeat: no-repeat;
+                    background-position: 100%;
+                    background-size: 100%;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                }
+
+                ul {
+                    margin-top: 120px;
+                    height: 250px;
+                    text-align: left;
+                    padding: 0px 30px;
+                    overflow: auto;
+                    margin-bottom: 40px;
+
+                    &::-webkit-scrollbar {
+                        width: 2px;
+                    }
+
+                    &::-webkit-scrollbar-track {
+                        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                        border-radius: 5px;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background-color: $secondary-color;
+                        outline: 1px solid $secondary-color;
+                        border-radius: 5px;
+                    }
+
+                    li {
+                        color: $white-color;
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 14px;
+                            height: 14px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+                .callBox {
+                    padding: 0px 20px;
+                    margin-bottom: 30px;
+                    text-align: center;
+
+                    a {
+                        background: $white-color;
+                        color: $black-color;
+                        border: 1px solid $white-color;
+                        cursor: pointer;
+                        font-size: 14px;
+                        height: 45px;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 23px;
+                        transition: 0.3s;
+                        font-weight: 500;
+                        min-width: 148px;
+                        @include padding(10px, 20px);
+
+                        &:hover {
+                            background: $secondary-color;
+                            @include transition (all);
+                            color: $white-color;
+                            border: 1px solid $secondary-color;
+                        }
+                    }
+                }
+            }
+
+            .footerBox {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 20px;
+
+
+
+                a {
+                    background: $black-color;
+                    color: $white-color;
+                    border: 1px solid #EBEBEB;
+                    cursor: pointer;
+                    font-size: 14px;
+                    height: 45px;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 23px;
+                    transition: 0.3s;
+                    font-weight: 500;
+                    min-width: 148px;
+                    @include padding(10px, 15px);
+                    @include transition (all);
+
+                    svg {
+                        width: 24px;
+                        height: auto;
+                        margin-right: 10px;
+
+                        path {
+                            fill: $white-color;
+                        }
+                    }
+
+                    &:first-child {
+                        background: $secondary-color;
+                        border: 1px solid #EBEBEB;
+                    }
+
+                    &:hover {
+                        background: $secondary-color;
+                        @include transition (all);
+
+                        &:first-child {
+                            background: $black-color;
+                            border: 1px solid $black-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 50px;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 370px;
+
+                &::before {
+                    width: 63px;
+                    height: 37px;
+                    right: -25px;
+                    top: 69px;
+                    z-index: -1;
+                }
+
+                &::after {
+                    width: 63px;
+                    height: 37px;
+                    left: -25px;
+                    top: 69px;
+                    z-index: -1;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 70px;
+                    width: 420px;
+                    left: -25px;
+
+                    .title {
+                        font-size: 22px;
+                    }
+
+                    .price {
+                        font-size: 22px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 370px;
+                    height: 530px;
+
+                    ul {
+                        margin-top: 120px;
+                        height: 250px;
+                        padding: 0px 30px;
+                        margin-bottom: 40px;
+
+                        li {
+                            margin-bottom: 10px;
+                            font-size: 15px;
+
+                            svg {
+                                width: 13px;
+                                height: 13px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 20px;
+                        margin-bottom: 20px;
+
+                        a {
+                            font-size: 14px;
+                            height: 40px;
+                            min-width: 148px;
+                            @include padding(10px, 20px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 20px;
+
+                    a {
+
+                        height: 40px;
+                        min-width: 148px;
+                        @include padding(10px, 15px);
+
+                        svg {
+                            width: 24px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 30px;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 350px;
+
+                &::before {
+                    width: 63px;
+                    height: 37px;
+                    right: -25px;
+                    top: 59px;
+                    z-index: -1;
+                }
+
+                &::after {
+                    width: 63px;
+                    height: 37px;
+                    left: -25px;
+                    top: 59px;
+                    z-index: -1;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 60px;
+                    width: 400px;
+                    left: -25px;
+
+                    .title {
+                        font-size: 20px;
+                    }
+
+                    .price {
+                        font-size: 20px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 350px;
+                    height: 480px;
+
+                    ul {
+                        margin-top: 100px;
+                        height: 220px;
+                        padding: 0px 30px;
+                        margin-bottom: 30px;
+
+                        li {
+                            margin-bottom: 8px;
+                            font-size: 14px;
+
+                            svg {
+                                width: 12px;
+                                height: 12px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 20px;
+                        margin-bottom: 20px;
+
+                        a {
+                            font-size: 13px;
+                            height: 38px;
+                            min-width: 148px;
+                            @include padding(10px, 20px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 20px;
+
+                    a {
+                        font-size: 13px;
+                        height: 38px;
+                        min-width: 148px;
+                        @include padding(10px, 15px);
+
+                        svg {
+                            width: 24px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 30px;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 320px;
+
+                &::before {
+                    width: 63px;
+                    height: 37px;
+                    right: -25px;
+                    top: 59px;
+                    z-index: -1;
+                }
+
+                &::after {
+                    width: 63px;
+                    height: 37px;
+                    left: -25px;
+                    top: 59px;
+                    z-index: -1;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 60px;
+                    width: 370px;
+                    left: -25px;
+
+                    .title {
+                        font-size: 20px;
+                    }
+
+                    .price {
+                        font-size: 20px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 320px;
+                    height: 430px;
+
+                    ul {
+                        margin-top: 80px;
+                        height: 220px;
+                        padding: 0px 30px;
+                        margin-bottom: 20px;
+
+                        li {
+                            margin-bottom: 8px;
+                            font-size: 13px;
+
+                            svg {
+                                width: 10px;
+                                height: 10px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 20px;
+                        margin-bottom: 15px;
+
+                        a {
+                            font-size: 12px;
+                            height: 35px;
+                            min-width: 130px;
+                            @include padding(10px, 20px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 20px;
+
+                    a {
+                        font-size: 12px;
+                        height: 35px;
+                        min-width: 130px;
+                        @include padding(10px, 15px);
+
+                        svg {
+                            width: 20px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 30px;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 300px;
+
+                &::before {
+                    width: 63px;
+                    height: 37px;
+                    right: -20px;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                &::after {
+                    width: 63px;
+                    height: 37px;
+                    left: -20px;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 50px;
+                    width: 340px;
+                    left: -20px;
+
+                    .title {
+                        font-size: 18px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 300px;
+                    height: 355px;
+
+                    ul {
+                        margin-top: 70px;
+                        height: 170px;
+                        padding: 0px 25px;
+                        margin-bottom: 20px;
+
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 12px;
+
+                            svg {
+                                width: 10px;
+                                height: 10px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 20px;
+                        margin-bottom: 15px;
+
+                        a {
+                            font-size: 12px;
+                            height: 32px;
+                            min-width: 120px;
+                            @include padding(10px, 10px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 20px;
+
+                    a {
+                        font-size: 12px;
+                        height: 32px;
+                        min-width: 120px;
+                        @include padding(10px, 10px);
+
+                        svg {
+                            width: 20px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 30px;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 300px;
+
+                &::before {
+                    width: 63px;
+                    height: 37px;
+                    right: -20px;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                &::after {
+                    width: 63px;
+                    height: 37px;
+                    left: -20px;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 50px;
+                    width: 340px;
+                    left: -20px;
+
+                    .title {
+                        font-size: 18px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 300px;
+                    height: 355px;
+
+                    ul {
+                        margin-top: 70px;
+                        height: 170px;
+                        padding: 0px 25px;
+                        margin-bottom: 20px;
+
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 12px;
+
+                            svg {
+                                width: 10px;
+                                height: 10px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 20px;
+                        margin-bottom: 15px;
+
+                        a {
+                            font-size: 12px;
+                            height: 32px;
+                            min-width: 120px;
+                            @include padding(10px, 10px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 20px;
+
+                    a {
+                        font-size: 12px;
+                        height: 32px;
+                        min-width: 120px;
+                        @include padding(10px, 10px);
+
+                        svg {
+                            width: 20px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 30px;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 210px;
+
+                &::before {
+                    width: 63px;
+                    height: 37px;
+                    right: -8px;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                &::after {
+                    width: 63px;
+                    height: 37px;
+                    left: -8px;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 50px;
+                    width: 236px;
+                    left: -8px;
+                    padding: 0px 10px;
+
+                    .title {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 16px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 220px;
+                    height: 340px;
+
+                    ul {
+                        margin-top: 70px;
+                        height: 150px;
+                        padding: 0px 10px;
+                        margin-bottom: 20px;
+
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 10px;
+
+                            svg {
+                                width: 10px;
+                                height: 10px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 10px;
+                        margin-bottom: 15px;
+
+                        a {
+                            font-size: 11px;
+                            height: 32px;
+                            min-width: 120px;
+                            @include padding(10px, 10px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 10px;
+
+                    a {
+                        font-size: 11px;
+                        height: 32px;
+                        min-width: auto;
+                        @include padding(10px, 10px);
+
+                        svg {
+                            width: 20px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 30px;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 220px;
+
+                &::before {
+                    display: none;
+                }
+
+                &::after {
+                    display: none;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 40px;
+                    width: 220px;
+                    left: 0px;
+                    padding: 0px 10px;
+
+                    .title {
+                        font-size: 14px;
+                    }
+
+                    .price {
+                        font-size: 14px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 220px;
+                    height: 340px;
+
+                    ul {
+                        margin-top: 70px;
+                        height: 150px;
+                        padding: 0px 10px;
+                        margin-bottom: 20px;
+
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 10px;
+
+                            svg {
+                                width: 10px;
+                                height: 10px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 0px;
+                        margin-bottom: 15px;
+
+                        a {
+                            font-size: 11px;
+                            height: 32px;
+                            min-width: 120px;
+                            @include padding(10px, 10px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 10px;
+
+                    a {
+                        font-size: 11px;
+                        height: 32px;
+                        min-width: auto;
+                        @include padding(10px, 10px);
+
+                        svg {
+                            width: 20px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .pricingSec {
+        .pricingBox {
+            margin-top: 30px;
+            flex-wrap: wrap;
+
+            .pricingItem {
+                position: relative;
+                flex: 0 0 90%;
+                margin: 0px auto 20px;
+
+                &::before {
+                    width: 63px;
+                    height: 37px;
+                    right: 0;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                &::after {
+                    width: 63px;
+                    height: 37px;
+                    left: 0;
+                    top: 49px;
+                    z-index: -1;
+                }
+
+                .headerBox {
+                    background: $secondary-color;
+                    height: 50px;
+                    width: 100%;
+                    left: 0px;
+                    padding: 0px 10px;
+
+                    .title {
+                        font-size: 18px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .conntentBox {
+                    width: 90%;
+                    height: 400px;
+                    margin: auto;
+
+                    ul {
+                        margin-top: 70px;
+                        height: 210px;
+                        padding: 0px 10px;
+                        margin-bottom: 20px;
+
+                        li {
+                            margin-bottom: 10px;
+                            font-size: 12px;
+
+                            svg {
+                                width: 12px;
+                                height: 12px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+
+                    .callBox {
+                        padding: 0px 10px;
+                        margin-bottom: 15px;
+
+                        a {
+                            font-size: 12px;
+                            height: 32px;
+                            min-width: 120px;
+                            @include padding(10px, 10px);
+                        }
+                    }
+                }
+
+                .footerBox {
+                    padding: 0px 10px;
+                    justify-content: center;
+                    gap: 10px;
+
+                    a {
+                        font-size: 12px;
+                        height: 32px;
+                        min-width: 120px;
+                        @include padding(10px, 10px);
+
+                        svg {
+                            width: 20px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
