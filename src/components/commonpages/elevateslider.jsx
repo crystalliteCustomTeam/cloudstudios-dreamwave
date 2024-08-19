@@ -25,9 +25,9 @@ const ElevateSlider = (props) => {
                     {slides.map((item, index) => (
                         <div className={styles.embla__slide} key={index}>
                             <div className={styles.elevateBox}>
-                                <div className={styles.elevateImg}>
+                                {/* <div className={styles.elevateImg}>
                                     {item.icon}
-                                </div>
+                                </div> */}
                                 <div className={styles.elevatetxt}>
                                     {item.name}
                                     <div className={styles.elevatePara}>
