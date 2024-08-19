@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Refine Your Footage for Maximum Impact with Video Editing Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Struggling with Unpolished Content?</strong></p>
+            <p>Our video editing services transform your raw footage into polished, professional content. Address the issue of subpar video quality and enhance engagement with expertly edited videos that make an impact.</p>
         </>
     ),
     video: "videos/3d-animations.mp4",

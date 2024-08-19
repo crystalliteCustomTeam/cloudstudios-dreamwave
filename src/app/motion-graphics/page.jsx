@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Energize Your Content with Motion-Graphics Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p><strong>Struggling to Keep Your Audience Interested?</strong></p>
+            <p>Our motion graphics services inject energy and creativity into your content. Address the challenge of maintaining viewer interest with dynamic animations that make your message stand out and engage your audience.</p>
         </>
     ),
     video: "videos/motion-graphics.mp4",

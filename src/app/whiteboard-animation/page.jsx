@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Simplify Communication Barriers with Whiteboard Animation Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Facing Challenges in Explaining Complex Ideas?</strong></p>
+            <p>Our whiteboard animations make complex ideas easy to understand. Solve the problem of communication barriers and engage your audience with visuals that simplify and clarify your message.</p>
         </>
     ),
     video: "videos/whiteboard-animations.mp4",

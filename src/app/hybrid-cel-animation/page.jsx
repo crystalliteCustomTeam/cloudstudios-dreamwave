@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Blend Traditional and Modern for Unique Results with Hybrid and Cel Animation Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Stuck in a Creative Rut?</strong></p>
+            <p>Our hybrid and cel animations combine traditional techniques with modern innovation to deliver fresh, unique results. Overcome creative stagnation and revitalize your content with animations that stand out.</p>
         </>
     ),
     video: "videos/hybrid-Cel-Animation.mp4",

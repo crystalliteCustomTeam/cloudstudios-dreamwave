@@ -16,13 +16,27 @@ import IMG_01 from "media/home/testimonial/test1.webp"
 import IMG_02 from "media/home/testimonial/test2.webp"
 import IMG_03 from "media/home/testimonial/test3.webp"
 import IMG_04 from "media/home/testimonial/test4.webp"
+import MainBanner from "@/src/components/mainbanner";
 
 
 export const metadata = {
     title: "Cloud Studios Inc | Cutting-Edge CGI Animation and VFX Services",
     description: "Explore Cloud Studios Inc.’s innovative CGI animation and VFX services. Elevate your projects with stunning visuals and unparalleled creativity. Contact us today to turn all your dreams into cinematic realities.",
 };
+const banner = {
+    rating: "The New Frontier in Animation.",
+    star: "yes",
+    title: "Fix Lackluster Visuals with CGI & VFX Services",
+    txt: (
+        <>
+            <p><strong>Stuck with Uninspiring Visuals?</strong></p>
+            <p>Our CGI and VFX services provide the high-impact visuals your project needs. Tackle the problem of dull or ineffective content with cutting-edge effects that make your brand shine and capture attention.</p>
+        </>
+    ),
+    video: "videos/3d-animations.mp4",
+    link: "#"
 
+}
 
 const ratingData = {
     title: "CGI and VFX solutions that immerse your audiences like nothing else.",
@@ -165,7 +179,7 @@ const SLIDES = [
 export default function Page() {
     return (
         <>
-            <Banner />
+            <MainBanner data={banner} />
             <BannerLogos />
             <RatingSec data={ratingData} />
             <ContentSec data={contentData1} />

@@ -16,7 +16,7 @@ const MainBanner = ({ data }) => {
             <section className={styles.mainBanner}>
                 <Container className="h-100">
                     <Row className="h-100">
-                        <Col xxl={5} xl={5} lg={6} md={6} className="my-auto">
+                        <Col xxl={6} xl={6} lg={6} md={6} className="my-auto">
                             <div className={styles.bannerContentBox}>
                                 {data?.rating && (
                                     <div className={styles.bannerRating}>

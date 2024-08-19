@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Combat Ineffective Marketing with Promotional Videos Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Finding It Hard to Generate Leads?</strong></p>
+            <p>Our promotional videos are designed to cut through the clutter and drive leads. Address the issue of low marketing impact with engaging content that showcases your brand’s strengths and converts viewers into prospects.</p>
         </>
     ),
     video: "videos/3d-animations.mp4",

@@ -26,11 +26,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Clarify Complex Messages with Explainer Videos Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Confused Customers Affecting Sales?</strong></p>
+            <p>Our explainer videos simplify complex concepts and make your message crystal clear. Combat the challenge of customer confusion and improve conversion rates with videos that drive understanding and action.</p>
         </>
     ),
     video: "videos/3d-animations.mp4",

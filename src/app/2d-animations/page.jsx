@@ -26,11 +26,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Overcome Engagement Challenges with 2D Animations Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Struggling to Captivate Your Audience?</strong></p>
+            <p>Our 2D animations cut through the noise and grab attention. With our visually compelling animations, you can address the challenge of audience disengagement and turn viewers into loyal customers.</p>
         </>
     ),
     video: "videos/2d-animations.mp4",

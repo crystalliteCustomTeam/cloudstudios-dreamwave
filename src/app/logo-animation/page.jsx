@@ -26,11 +26,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Enhance Brand Visibility with Logo Animation Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Struggling to Stand Out in a Crowded Market?</strong></p>
+            <p>Our logo animations ensure your brand makes a memorable impression. Overcome the challenge of brand obscurity and increase visibility with animations that reinforce your identity and captivate your audience.</p>
         </>
     ),
     video: "videos/3d-animations.mp4",

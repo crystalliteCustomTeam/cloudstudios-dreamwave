@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Visualize Projects Accurately with Architectural Visualization Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Facing Challenges with Project Approvals?</strong></p>
+            <p>Our architectural visualization services provide detailed, realistic renderings that help secure approvals and impress stakeholders. Solve the problem of ineffective presentations with visuals that accurately depict your vision.</p>
         </>
     ),
     video: "videos/3d-animations.mp4",

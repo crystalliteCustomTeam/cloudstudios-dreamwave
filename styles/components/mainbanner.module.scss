@@ -22,6 +22,12 @@
     .bannerContentBox {
         position: relative;
         z-index: 1;
+        background-color: rgba(0, 0, 0, 0.24);
+        backdrop-filter: blur(26px) brightness(1.2);
+        -webkit-backdrop-filter: blur(26px) brightness(1.2);
+        padding: 30px;
+        border-radius: 10px;
+
 
         .bannerRating {
             background-color: rgba(255, 255, 255, 0.24);
@@ -95,7 +101,7 @@
 
 @include media-query($min: 1300px, $max: 1399px) {
     .mainBanner {
-        height: calc(100vh - 0px);
+        height: calc(100vh - 85px);
 
         .bannerContentBox {
             top: 40px;
@@ -192,7 +198,7 @@
 
 @include media-query($min: 900px, $max: 1099px) {
     .mainBanner {
-        height: calc(100vh - 0px);
+        height: calc(100vh - 65px);
 
         .bannerContentBox {
             top: 20px;
@@ -224,7 +230,7 @@
 
 @include media-query($min: 701px, $max: 899px) {
     .mainBanner {
-        height: calc(100vh - 0px);
+        height: calc(100vh - 65px);
 
         .bannerContentBox {
             top: 20px;
@@ -257,10 +263,11 @@
 @include media-query($min: 577px, $max: 700px) {
     .mainBanner {
         height: 100%;
-        padding: 100px 0px 40px;
+        padding: 80px 0px 40px;
 
         .bannerContentBox {
             top: 0px;
+            padding: 15px;
 
             .bannerRating {
                 height: 35px;
@@ -285,10 +292,11 @@
 @include media-query($min: 0px, $max: 576px) {
     .mainBanner {
         height: 100%;
-        padding: 100px 0px 40px;
+        padding: 80px 0px 40px;
 
         .bannerContentBox {
             top: 0px;
+            padding: 10px;
 
             .bannerRating {
                 height: 35px;

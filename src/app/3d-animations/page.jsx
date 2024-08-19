@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Solve Viewer Retention Issues with 3D Animations Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Losing Viewers to Boring Content?</strong></p>
+            <p>Our 3D animations offer immersive experiences that keep viewers hooked. Address the problem of viewer drop-off with stunning, high-quality visuals that hold interest and drive better engagement.</p>
         </>
     ),
     video: "videos/3d-animations.mp4",

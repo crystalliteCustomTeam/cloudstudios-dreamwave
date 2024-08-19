@@ -25,11 +25,11 @@ export const metadata = {
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
-    title: "Revolutionize Your Digital Content with Cloud Studios Inc.",
+    title: "Convert Data Overload into Actionable Insights with Infographics Design Services",
     txt: (
         <>
-            <p> <strong>Engage Your Audiences & Boost Your Reach Today!</strong></p>
-            <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
+            <p> <strong>Drowning in Data Without Results?</strong></p>
+            <p>Our infographic design services transform overwhelming data into clear, actionable insights. Address the problem of data fatigue and make your information engaging and easy to digest for better decision-making.</p>
         </>
     ),
     video: "videos/3d-animations.mp4",

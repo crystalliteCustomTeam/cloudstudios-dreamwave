@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { useState } from "react";
-import { usePathname } from "next/navigation"
+import { usePathname } from "next/navigation";
 import { ArrowMenu } from "@/src/app-constants";
 import styles from "@/styles/components/contactfrom.module.scss";
 
@@ -18,28 +18,50 @@ const ContactForm = ({ callbtn }) => {
     const onSubmit = async (data) => {
         setLoading(true);
         try {
+            // Fetch IP data
             const ipResponse = await axios.get('https://ipwho.is/');
             const ipData = ipResponse.data;
+
+            // Combine form data with additional info
             const combinedData = {
                 ...data,
                 "IP": `ipAddress : ${ipData.ip} - Country : ${ipData.country} - City : ${ipData.city} - ZipCode : ${ipData.postal}`,
-                "Brand": "Cloud Studios Team",
+                "Brand": "Cloud Studios",
                 "Page": `${currentRoute}`,
                 "Date": currentdate,
                 "JSON": data,
             };
 
+            // Send data to SheetDB
             await axios.post('https://sheetdb.io/api/v1/gf8bsy1mbvfr5', combinedData);
+
+            // Send email via custom API
             await axios.post('/api/emailapi', combinedData);
 
-            const { pathname } = router;
-            if (pathname == pathname) {
-                window.location.href = '/thank-you';
-            }
+            // Prepare HubSpot API data
+            const hubSpotData = {
+                fields: [
+                    { name: "email", value: data.email },
+                    { name: "firstname", value: data.name },
+                    { name: "phone", value: data.phone },
+                    { name: "message", value: data.msg },
+                    { name: "ip_country_code", value: ipData.ip },
+                    { name: "website", value: window.location.href },
+                    { name: "company", value: "Cloud Studios" },
+                ],
+            };
+
+            // Send data to HubSpot API
+            await axios.post(
+                'https://api.hsforms.com/submissions/v3/integration/submit/47083847/011ef447-7771-4b56-8014-8004c3cdcc51',
+                hubSpotData
+            );
+
+            // Redirect to thank-you page
+            window.location.href = '/thank-you';
 
         } catch (error) {
             console.error("Form submission error:", error);
-            //  alert('There was an error submitting the form. Please try again later.');
         } finally {
             setLoading(false);
         }
@@ -80,7 +102,7 @@ const ContactForm = ({ callbtn }) => {
                     <input
                         type="tel"
                         {...register('phone', {
-                            required: "This Phone field is required",
+                            required: "The Phone field is required",
                             pattern: {
                                 value: /^[0-9]+$/,
                                 message: "Mobile number can only contain digits"
