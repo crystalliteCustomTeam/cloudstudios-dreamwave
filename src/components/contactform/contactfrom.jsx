@@ -116,7 +116,7 @@ const ContactForm = ({ callbtn }) => {
                     <textarea {...register('msg')} placeholder='Message'></textarea>
                 </div>
                 <div className={styles.contactTxt}>
-                    <p>By continuing you agree to the Explainly Privacy Policy and consent to receive communications from us.</p>
+                    <p>By continuing you agree to the Cloud Studios Inc Privacy Policy and consent to receive communications from us.</p>
                 </div>
                 <div className={styles.contactSubmit}>
                     <button type="submit" className={styles.submitBtn} disabled={isSubmitting || loading}>
