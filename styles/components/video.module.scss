@@ -1,0 +1,68 @@
+@import '../variables.module.scss';
+
+.bannerVideo {
+    height: calc(100vh - 85px);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+.iframePopup {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+
+    iframe {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.bannerIframe {
+    iframe {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .bannerVideo {
+        height: calc(100vh - 0px);
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .bannerVideo {
+        height: calc(100vh - 65px);
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .bannerVideo {
+        height: calc(100vh - 65px);
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .bannerVideo {
+        height: 100%;
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .bannerVideo {
+        height: 100%;
+    }
+}

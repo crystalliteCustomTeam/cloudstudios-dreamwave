@@ -1,0 +1,401 @@
+@import '../../variables.module.scss';
+
+.scrollingLogos {
+    overflow-x: hidden;
+
+    .borderTopStyle {
+        border-top: 1px solid $border-color;
+        padding-top: 50px;
+
+        h2 {
+            max-width: 80%;
+            margin: 0px auto 20px;
+        }
+
+    }
+
+    .borderBottomStyle {
+        border-bottom: 1px solid $border-color;
+        padding-bottom: 50px;
+    }
+
+    .scrolSlide {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 50px;
+        border-bottom: 1px solid $secondary-color;
+        z-index: 0;
+
+
+        &:before {
+            content: '';
+            background: $black-color;
+            height: 100px;
+            width: 400%;
+            position: absolute;
+            top: 0px;
+            z-index: 3;
+        }
+
+        &.left {
+            &:before {
+                left: -380%;
+            }
+
+            &:after {
+                content: "";
+                background-image: url(../../../public/commonpages/srollinglogos/arrow.webp);
+                height: 24px;
+                width: 24px;
+                position: absolute;
+                bottom: -12px;
+                z-index: 1;
+                left: 20%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+
+        &.right {
+            &:before {
+                right: -380%;
+            }
+
+            &:after {
+                content: "";
+                background-image: url(../../../public/commonpages/srollinglogos/arrow.webp);
+                height: 24px;
+                width: 24px;
+                position: absolute;
+                bottom: -12px;
+                z-index: 1;
+                right: 20%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                transform: rotate(180deg);
+            }
+        }
+
+        img {
+            margin-right: 20px;
+            height: 60px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1599px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 40px;
+
+            h2 {
+                max-width: 80%;
+                margin: 0px auto 10px;
+            }
+        }
+
+        .scrolSlide {
+            img {
+                height: 60px;
+                width: auto;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 40px;
+
+            h2 {
+                max-width: 80%;
+                margin: 0px auto 10px;
+            }
+        }
+
+        .scrolSlide {
+            img {
+                height: 55px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 40px;
+
+            h2 {
+                max-width: 80%;
+                margin: 0px auto 10px;
+            }
+        }
+
+        .scrolSlide {
+            img {
+                height: 50px;
+                width: auto;
+            }
+        }
+
+
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 40px;
+
+            h2 {
+                max-width: 80%;
+                margin: 0px auto 10px;
+            }
+        }
+
+        .scrolSlide {
+            img {
+                height: 50px;
+                width: auto;
+            }
+        }
+
+
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 20px;
+
+            h2 {
+                max-width: 90%;
+                margin: 0px auto 20px;
+            }
+
+        }
+
+        .borderBottomStyle {
+            padding-bottom: 50px;
+        }
+
+        .scrolSlide {
+            height: 80px;
+            margin-bottom: 20px;
+
+            &:before {
+                height: 80px;
+            }
+
+            &.left {
+                &:before {
+                    left: -380%;
+                }
+
+                &:after {
+                    bottom: -15px;
+                    left: 20%;
+                }
+            }
+
+            &.right {
+                &:before {
+                    right: -380%;
+                }
+
+                &:after {
+                    bottom: -15px;
+                    right: 20%;
+                }
+            }
+
+            img {
+                margin-right: 20px;
+                height: 50px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 20px;
+
+            h2 {
+                max-width: 90%;
+                margin: 0px auto 20px;
+            }
+
+        }
+
+        .borderBottomStyle {
+            padding-bottom: 50px;
+        }
+
+        .scrolSlide {
+            height: 80px;
+            margin-bottom: 20px;
+
+            &:before {
+                height: 80px;
+            }
+
+            &.left {
+                &:before {
+                    left: -380%;
+                }
+
+                &:after {
+                    bottom: -15px;
+                    left: 19%;
+                    z-index: 9;
+                }
+            }
+
+            &.right {
+                &:before {
+                    right: -380%;
+                }
+
+                &:after {
+                    bottom: -15px;
+                    right: 19%;
+                    z-index: 9;
+                }
+            }
+
+            img {
+                margin-right: 20px;
+                height: 50px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 30px;
+
+            h2 {
+                max-width: 90%;
+                margin: 0px auto 20px;
+            }
+
+        }
+
+        .scrolSlide {
+            height: 80px;
+            margin-bottom: 40px;
+
+            &:before {
+                height: 80px;
+            }
+
+            &.left {
+                &:before {
+                    left: -380%;
+                }
+
+                &:after {
+                    bottom: -15px;
+                    left: 20%;
+                }
+            }
+
+            &.right {
+                &:before {
+                    right: -380%;
+                }
+
+                &:after {
+                    height: 30px;
+                    width: 30px;
+                    bottom: -15px;
+                    right: 20%;
+                }
+            }
+
+            img {
+                margin-right: 20px;
+                height: 55px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .scrollingLogos {
+        .borderTopStyle {
+            border-top: 1px solid $border-color;
+            padding-top: 20px;
+
+            h2 {
+                max-width: 100%;
+                margin: 0px auto 15px;
+            }
+
+        }
+
+        .scrolSlide {
+            height: 80px;
+            margin-bottom: 40px;
+
+            &:before {
+                height: 80px;
+            }
+
+            &.left {
+                &:before {
+                    left: -380%;
+                }
+
+                &:after {
+                    bottom: -15px;
+                    left: 20%;
+                }
+            }
+
+            &.right {
+                &:before {
+                    right: -380%;
+                }
+
+                &:after {
+                    height: 30px;
+                    width: 30px;
+                    bottom: -15px;
+                    right: 20%;
+                }
+            }
+
+            img {
+                margin-right: 20px;
+                height: 50px;
+                width: auto;
+            }
+        }
+    }
+}

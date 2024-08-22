@@ -1,0 +1,105 @@
+@import '../variables.module.scss';
+
+.contactSec {
+    .contactBg {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(30px) brightness(0.1);
+        -webkit-backdrop-filter: blur(30px) brightness(0.1);
+        @include padding(40px, 60px, 20px, 60px);
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgb(255, 255, 255, 0.2);
+
+        &:after {
+            content: '';
+            background-image: url('../../public/home/contact/contactBg.webp');
+            filter: blur(30px) brightness(1);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-repeat: no-repeat;
+            background-position: 100%;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+
+    &.contactStyle {
+        margin-top: 50px;
+    }
+}
+
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .contactSec {
+        .contactBg {
+            @include padding(30px, 50px, 20px, 50px);
+        }
+
+        &.contactStyle {
+            margin-top: 50px;
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .contactSec {
+        .contactBg {
+            @include padding(30px, 40px, 20px, 40px);
+        }
+
+        &.contactStyle {
+            margin-top: 50px;
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .contactSec {
+        .contactBg {
+            @include padding(25px, 30px, 20px, 30px);
+        }
+
+        &.contactStyle {
+            margin-top: 40px;
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .contactSec {
+        .contactBg {
+            @include padding(25px, 25px, 20px, 25px);
+        }
+
+        &.contactStyle {
+            margin-top: 40px;
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .contactSec {
+        .contactBg {
+            @include padding(20px, 20px, 20px, 20px);
+        }
+
+        &.contactStyle {
+            margin-top: 40px;
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .contactSec {
+        .contactBg {
+            @include padding(20px, 20px, 20px, 20px);
+        }
+
+        &.contactStyle {
+            margin-top: 30px;
+        }
+    }
+}

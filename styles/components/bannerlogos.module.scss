@@ -1,0 +1,48 @@
+@import '../variables.module.scss';
+
+.bannerLogoSec {
+    background: #030710;
+    height: 85px;
+
+    .logoSec {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .bannerLogoSec {
+        height: 65px;
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .bannerLogoSec {
+        overflow-x: auto;
+        height: 65px;
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .bannerLogoSec {
+        overflow-x: auto;
+        height: 65px;
+
+        .logoSec {
+            width: 1200px;
+            overflow-x: auto;
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .bannerLogoSec {
+        overflow-x: auto;
+        height: 65px;
+
+        .logoSec {
+            width: 1200px;
+            overflow-x: auto;
+        }
+    }
+}

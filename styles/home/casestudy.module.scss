@@ -1,0 +1,302 @@
+@import '../variables.module.scss';
+
+.casestudySec {
+
+    a {
+        float: right;
+        clear: both;
+        margin-right: 2px;
+    }
+
+    .videoBox {
+        height: 450px;
+        margin-bottom: 20px;
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        border-radius: 5px;
+
+        // &.last {
+        //     height: 580px;
+        // }
+
+        &:after {
+            content: '';
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 0;
+        }
+
+        .videoTxt {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            @include padding(30px, 30px);
+            z-index: 1;
+
+            p {
+                margin-bottom: 0px;
+            }
+
+        }
+
+        .playBtn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+            cursor: pointer;
+            @include transition(all);
+
+            svg {
+                width: 50px;
+            }
+
+            &:hover {
+                @include transition(all);
+
+                svg {
+                    path {
+                        fill: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1599px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(25px, 25px);
+            }
+
+            .playBtn {
+                top: 20px;
+                right: 20px;
+
+                svg {
+                    width: 35px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 400px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 35px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 370px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 35px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 350px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 32px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 320px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(15px, 15px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 30px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 260px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(10px, 10px);
+            }
+
+            .playBtn {
+                top: 10px;
+                right: 10px;
+
+                svg {
+                    width: 25px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .casestudySec {
+        a {
+            float: right;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .casestudySec {
+        a {
+            float: left;
+            clear: both;
+            margin-right: 2px;
+        }
+
+        .videoBox {
+            height: 420px;
+            margin-bottom: 20px;
+
+            .videoTxt {
+                @include padding(20px, 20px);
+            }
+
+            .playBtn {
+                top: 15px;
+                right: 15px;
+
+                svg {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}

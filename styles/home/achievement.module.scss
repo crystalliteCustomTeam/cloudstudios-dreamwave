@@ -1,0 +1,370 @@
+@import '../variables.module.scss';
+
+.achievementSec {
+    .achievementBox {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        .achievementImg {
+            flex: 0 0 200px;
+            position: relative;
+
+            .achievementPoints {
+                background-color: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(30px) brightness(0.1);
+                -webkit-backdrop-filter: blur(30px) brightness(0.1);
+                height: 140px;
+                width: 140px;
+                position: absolute;
+                top: 19px;
+                right: 11px;
+                border-radius: 100%;
+                @include font-size(14px);
+                color: $white-color;
+                font-weight: 500;
+                line-height: 22px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+
+                span {
+                    @include font-size(35px);
+                    color: $secondary-color;
+                    font-weight: 600;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+            }
+
+            &.lastBox {
+                text-align: right;
+
+                .achievementPoints {
+                    right: 60px;
+                }
+            }
+        }
+
+        .achievementTxt {
+            flex: 0 0 55%;
+            text-align: center;
+
+            div {
+                margin: 10px auto 30px;
+            }
+
+            .achievementLogos {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .achievementSec {
+        .achievementBox {
+            .achievementImg {
+                flex: 0 0 200px;
+
+                .achievementPoints {
+                    height: 140px;
+                    width: 140px;
+                    top: 19px;
+                    right: 11px;
+                    @include font-size(14px);
+                    line-height: 22px;
+
+                    span {
+                        @include font-size(35px);
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &.lastBox {
+                    text-align: right;
+
+                    .achievementPoints {
+                        right: 60px;
+                    }
+                }
+            }
+
+            .achievementTxt {
+                flex: 0 0 55%;
+                text-align: center;
+
+                div {
+                    margin: 10px auto 30px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .achievementSec {
+        .achievementBox {
+            .achievementImg {
+                flex: 0 0 200px;
+
+                .achievementPoints {
+                    height: 140px;
+                    width: 140px;
+                    top: 19px;
+                    right: 11px;
+                    @include font-size(14px);
+                    line-height: 22px;
+
+                    span {
+                        @include font-size(35px);
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &.lastBox {
+                    text-align: right;
+
+                    .achievementPoints {
+                        right: 60px;
+                    }
+                }
+            }
+
+            .achievementTxt {
+                flex: 0 0 55%;
+                text-align: center;
+
+                div {
+                    margin: 10px auto 30px;
+                }
+
+                .achievementLogos {
+                    justify-content: space-evenly;
+
+                    img {
+                        height: 35px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .achievementSec {
+        .achievementBox {
+            .achievementImg {
+                flex: 0 0 200px;
+
+                .achievementPoints {
+                    height: 140px;
+                    width: 140px;
+                    top: 19px;
+                    right: 11px;
+                    @include font-size(14px);
+                    line-height: 22px;
+
+                    span {
+                        @include font-size(35px);
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &.lastBox {
+                    text-align: right;
+
+                    .achievementPoints {
+                        right: 60px;
+                    }
+                }
+            }
+
+            .achievementTxt {
+                flex: 0 0 55%;
+                text-align: center;
+
+                div {
+                    margin: 10px auto 30px;
+                }
+
+                .achievementLogos {
+                    justify-content: space-evenly;
+
+                    img {
+                        height: 35px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .achievementSec {
+        .achievementBox {
+            .achievementImg {
+                flex: 0 0 200px;
+
+                .achievementPoints {
+                    height: 120px;
+                    width: 120px;
+                    top: 19px;
+                    right: 11px;
+                    @include font-size(13px);
+                    line-height: 18px;
+
+                    span {
+                        @include font-size(30px);
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &.lastBox {
+                    text-align: right;
+
+                    .achievementPoints {
+                        right: 60px;
+                    }
+                }
+            }
+
+            .achievementTxt {
+                flex: 0 0 55%;
+                text-align: center;
+
+                div {
+                    margin: 10px auto 30px;
+                }
+
+                .achievementLogos {
+                    justify-content: space-evenly;
+
+                    img {
+                        height: 35px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .achievementSec {
+        .achievementBox {
+            .achievementImg {
+                flex: 0 0 130px;
+
+                .achievementPoints {
+                    height: 100px;
+                    width: 100px;
+                    top: 19px;
+                    right: -20px;
+                    @include font-size(12px);
+                    line-height: 16px;
+
+                    span {
+                        @include font-size(30px);
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &.lastBox {
+                    text-align: right;
+
+                    .achievementPoints {
+                        right: 50px;
+                    }
+                }
+            }
+
+            .achievementTxt {
+                flex: 0 0 50%;
+                text-align: center;
+
+                div {
+                    margin: 10px auto 30px;
+                }
+
+                .achievementLogos {
+                    justify-content: space-evenly;
+
+                    img {
+                        height: 30px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .achievementSec {
+        .achievementBox {
+            .achievementImg {
+                flex: 0 0 150px;
+                display: none;
+            }
+
+            .achievementTxt {
+                flex: 0 0 100%;
+                text-align: center;
+
+                div {
+                    margin: 10px auto 30px;
+                }
+
+                .achievementLogos {
+                    max-width: 90%;
+                    margin: auto;
+                    justify-content: space-evenly;
+
+                    img {
+                        height: 40px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .achievementSec {
+        .achievementBox {
+            .achievementImg {
+                flex: 0 0 150px;
+                display: none;
+            }
+
+            .achievementTxt {
+                flex: 0 0 100%;
+                text-align: center;
+
+                div {
+                    margin: 10px auto 30px;
+                }
+
+                .achievementLogos {
+                    max-width: 90%;
+                    margin: auto;
+                    flex-direction: column;
+
+                    img {
+                        height: 50px;
+                        width: auto;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
