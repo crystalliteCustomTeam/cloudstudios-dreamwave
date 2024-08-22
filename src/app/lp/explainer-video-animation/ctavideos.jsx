@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 import IMG from "media/lp/explainer-video-animation/salesimage.webp"
 import styles from "./styles/ctavideo.module.scss"
-import CommonBtnLP from './commonbtnLP'
+import CommonBtnLP from './common/commonbtnlp'
 
 const CtavideoLP = () => {
     return (

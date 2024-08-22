@@ -8,7 +8,7 @@ import IMG03 from "media/lp/explainer-video-animation/pricing/packagesImage3.png
 import BG01 from "media/lp/explainer-video-animation/pricing/package-1.png"
 import BG02 from "media/lp/explainer-video-animation/pricing/package-2.png"
 import BG03 from "media/lp/explainer-video-animation/pricing/package-3.png"
-import CommonBtnLP from "./commonbtnLP"
+import CommonBtnLP from "./common/commonbtnlp"
 
 const PricingLP = () => {
     return (

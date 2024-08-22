@@ -4,7 +4,7 @@ import { ArrowBlackIcons } from '@/src/app-constants'
 import Autoplay from 'embla-carousel-autoplay'
 import ClassNames from 'embla-carousel-class-names'
 import Link from 'next/link'
-import CommonBtnLP from './commonbtnLP'
+import CommonBtnLP from './common/commonbtnlp'
 
 const SliderServices = (props) => {
     const { slides, options } = props

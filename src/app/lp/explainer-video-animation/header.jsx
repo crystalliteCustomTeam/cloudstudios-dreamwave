@@ -4,7 +4,7 @@ import styles from "./styles/header.module.scss"
 import Link from "next/link"
 import { ChatIcon, MainLogo } from "@/src/app-constants"
 import { useState, useEffect } from "react"
-import CommonBtnLP from "./commonbtnlp"
+import CommonBtnLP from "./common/commonbtnlp"
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);

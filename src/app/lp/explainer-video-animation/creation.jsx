@@ -3,7 +3,7 @@ import styles from "./styles/creation.module.scss"
 import { ChatIcon } from '@/src/app-constants'
 import Image from 'next/image'
 import IMG from "media/lp/explainer-video-animation/creation.webp"
-import CommonBtnLP from './commonbtnLP'
+import CommonBtnLP from './common/commonbtnlp'
 
 
 const CreationLP = () => {

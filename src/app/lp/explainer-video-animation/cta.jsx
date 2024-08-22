@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 import IMG from "media/lp/explainer-video-animation/brandshine.webp"
 import styles from "./styles/cta.module.scss"
-import CommonBtnLP from './commonbtnLP'
+import CommonBtnLP from './common/commonbtnlp'
 
 const CtaLP = () => {
     return (

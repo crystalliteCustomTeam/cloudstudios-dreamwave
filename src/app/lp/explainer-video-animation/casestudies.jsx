@@ -6,7 +6,7 @@ import Thumnail from "media/lp/explainer-video-animation/thumbnail/1.png"
 import Image from 'next/image';
 import { PlayBtn } from '@/src/app-constants';
 import VideoModal from '@/src/components/videomodal';
-import CommonBtnLP from './commonbtnLP';
+import CommonBtnLP from './common/commonbtnlp';
 
 const data = [
     {
