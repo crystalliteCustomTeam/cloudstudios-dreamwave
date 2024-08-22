@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "./styles/header.module.scss"
 import Link from "next/link"
 import { ChatIcon, MainLogo } from "@/src/app-constants"
-import CommonBtnLP from "./commonbtnLP"
 import { useState, useEffect } from "react"
+import CommonBtnLP from "./commonbtnlp"
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
