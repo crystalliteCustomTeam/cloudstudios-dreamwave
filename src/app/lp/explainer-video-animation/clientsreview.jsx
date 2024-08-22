@@ -86,7 +86,7 @@ const ClientsReviewLP = () => {
                                 <Image src={IMG03.src} alt='review' width={330} height={100} />
                             </li>
                         </ul>
-                        <p className={styles.clientsReviews}>"See what our clients say about our exceptional service!"</p>
+                        <p className={styles.clientsReviews}>&quot;See what our clients say about our exceptional service!&quot;</p>
                     </Col>
                 </Row>
                 <Row>

@@ -17,7 +17,7 @@ const CreationLP = () => {
                     </Col>
                     <Col md={6} className='m-auto'>
                         <h3><span>Explain Better.</span> Drive Engagement. Get More Sales.</h3>
-                        <p><strong>Don't settle for ordinary—capture your audience’s attention with the irresistible allure of animated videos.</strong></p>
+                        <p><strong>Don’t settle for ordinary—capture your audience’s attention with the irresistible allure of animated videos.</strong></p>
                         <p>Our explainer videos simplify complex ideas and engage viewers like never before. Studies show that explainer videos can boost sales by up to 49%, so investing in our animations is a game-changer for your ROI. At Infinity Animations, we deliver innovative, high-quality videos on tight deadlines and at competitive prices. Join top industry leaders who have already reaped the rewards of our exceptional service. Elevate your business with the power of explainer videos today!</p>
                         <ul className={styles.creationBtn}>
                             <li>
