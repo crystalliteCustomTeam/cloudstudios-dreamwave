@@ -23,7 +23,7 @@ import HA06 from "media/lp/explainer-video-animation/thumbnail/hybrid/6.jpg"
 import THREED01 from "media/lp/explainer-video-animation/thumbnail/3d/1.jpg"
 import THREED02 from "media/lp/explainer-video-animation/thumbnail/3d/2.jpg"
 import THREED03 from "media/lp/explainer-video-animation/thumbnail/3d/3.jpg"
-import Thumnail from "media/lp/explainer-video-animation/thumbnail/2d-animation/6.jpg"
+import Thumnail from "media/lp/explainer-video-animation/thumbnail/2d/6.jpg"
 import Image from 'next/image';
 import { PlayBtn } from '@/src/app-constants';
 import VideoModal from '@/src/components/videomodal';
