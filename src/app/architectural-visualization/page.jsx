@@ -32,7 +32,7 @@ const banner = {
             <p>Our architectural visualization services provide detailed, realistic renderings that help secure approvals and impress stakeholders. Solve the problem of ineffective presentations with visuals that accurately depict your vision.</p>
         </>
     ),
-    video: "videos/3d-animations.mp4",
+    video: "videos/ArchitecturalVisualization.mp4",
     link: "#"
 
 }

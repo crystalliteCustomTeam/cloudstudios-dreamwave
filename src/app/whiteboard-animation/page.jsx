@@ -32,7 +32,7 @@ const banner = {
             <p>Our whiteboard animations make complex ideas easy to understand. Solve the problem of communication barriers and engage your audience with visuals that simplify and clarify your message.</p>
         </>
     ),
-    video: "videos/whiteboard-animations.mp4",
+    video: "videos/WhiteboardAnimations.mp4",
     link: "#"
 
 }

@@ -32,7 +32,7 @@ const banner = {
             <p>Our video editing services transform your raw footage into polished, professional content. Address the issue of subpar video quality and enhance engagement with expertly edited videos that make an impact.</p>
         </>
     ),
-    video: "videos/3d-animations.mp4",
+    video: "videos/VdeoEditing.mp4",
     link: "#"
 
 }

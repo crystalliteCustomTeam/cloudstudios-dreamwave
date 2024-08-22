@@ -33,7 +33,7 @@ const banner = {
             <p>Our CGI and VFX services provide the high-impact visuals your project needs. Tackle the problem of dull or ineffective content with cutting-edge effects that make your brand shine and capture attention.</p>
         </>
     ),
-    video: "videos/3d-animations.mp4",
+    video: "videos/CgiVfx.mp4",
     link: "#"
 
 }

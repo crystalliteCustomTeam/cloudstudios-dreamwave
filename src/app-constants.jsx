@@ -1163,7 +1163,33 @@ export function ArrowIcons() {
 
     )
 }
+export function ArrowBlackIcons() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="31"
+            height="31"
+            viewBox="0 0 31 31"
+        >
+            <g data-name="Group 6824" transform="translate(.016)">
+                <path
+                    fill="#f63c27"
+                    d="M15.5 0A15.5 15.5 0 110 15.5 15.5 15.5 0 0115.5 0z"
+                    data-name="Path 2438"
+                    transform="translate(-.016)"
+                ></path>
+                <g data-name="Group 6822" transform="translate(10.651 10.637)">
+                    <path
+                        fill="#fff"
+                        d="M5.451 9.16L8.4 5.9H0V4.354h8.4L5.451 1.091 6.437 0l4.636 5.126-4.636 5.127z"
+                        data-name="Union 1"
+                    ></path>
+                </g>
+            </g>
+        </svg>
 
+    )
+}
 export function SubMenuIcon() {
     return (
         <svg
@@ -1228,6 +1254,181 @@ export function BuletIcon() {
                     transform="translate(1037 1435)"
                 ></circle>
             </g>
+        </svg>
+    )
+}
+
+export function ArrowPriceIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12.959"
+            height="11.857"
+            data-name="Group 56"
+            viewBox="0 0 12.959 11.857"
+        >
+            <defs>
+                <clipPath id="clip-path">
+                    <path d="M0 0H12.959V11.857H0z" data-name="Rectangle 81"></path>
+                </clipPath>
+            </defs>
+            <g clipPath="url(#clip-path)" data-name="Group 55">
+                <path
+                    d="M12.707.2a.765.765 0 00-1.081.053L4.582 8.021 1.259 5.3A.771.771 0 00.14 6.335l3.453 4.917a1.449 1.449 0 00.359.355 1.422 1.422 0 001.978-.367l.056-.082L12.824 1.2a.766.766 0 00-.117-1"
+                    data-name="Path 168"
+                ></path>
+            </g>
+        </svg>
+    )
+}
+
+export function ChatIconNew() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            width="39.233"
+            height="39.233"
+            viewBox="0 0 39.233 39.233"
+        >
+            <defs>
+                <linearGradient
+                    id="linear-gradient"
+                    x2="1"
+                    y1="0.5"
+                    y2="0.5"
+                    gradientUnits="objectBoundingBox"
+                >
+                    <stop offset="0" stopColor="#26ab5a"></stop>
+                    <stop offset="1" stopColor="#7ce35d"></stop>
+                </linearGradient>
+                <linearGradient
+                    id="linear-gradient-3"
+                    x1="1.138"
+                    x2="-0.312"
+                    y1="-1.837"
+                    y2="3.474"
+                    gradientUnits="objectBoundingBox"
+                >
+                    <stop offset="0" stopColor="#fff"></stop>
+                    <stop offset="0.99" stopColor="#bdffd1"></stop>
+                </linearGradient>
+                <linearGradient
+                    id="linear-gradient-4"
+                    x1="2.483"
+                    x2="-0.417"
+                    y1="-3.131"
+                    y2="2.18"
+                    xlinkHref="#linear-gradient-3"
+                ></linearGradient>
+            </defs>
+            <g data-name="Layer 2" transform="translate(-1 -1)">
+                <path
+                    fill="url(#linear-gradient)"
+                    d="M31.628 10h-17.6A4.027 4.027 0 0010 14.024V26.6a4.029 4.029 0 004.024 4.024H21.9l6.3 4.728a1.509 1.509 0 002.414-1.207v-3.52h1a4.029 4.029 0 004.038-4.025V14.024A4.027 4.027 0 0031.628 10z"
+                    data-name="Path 663"
+                    transform="translate(4.581 4.581)"
+                ></path>
+                <path
+                    fill="url(#linear-gradient)"
+                    d="M26.652 1H5.527A4.527 4.527 0 001 5.527v15.09a4.527 4.527 0 004.527 4.527h1.509v4.526a1.509 1.509 0 002.414 1.207l7.545-5.663 9.657-.071a4.527 4.527 0 004.527-4.527V5.527A4.527 4.527 0 0026.652 1z"
+                    data-name="Path 664"
+                ></path>
+                <path
+                    fill="url(#linear-gradient-3)"
+                    d="M6 6h15.09v3.018H6z"
+                    data-name="Path 665"
+                    transform="translate(2.545 2.545)"
+                ></path>
+                <path
+                    fill="url(#linear-gradient-4)"
+                    d="M6 10h7.545v3.018H6z"
+                    data-name="Path 666"
+                    transform="translate(2.545 4.581)"
+                ></path>
+            </g>
+        </svg>
+    )
+}
+export function PhoneICon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            fill="currentColor"
+            stroke="currentColor"
+            strokeWidth="0"
+            className="rotate-[-45deg] text-black mt-1"
+            viewBox="0 0 384 512"
+        >
+            <path d="M97.333 506.966c-129.874-129.874-129.681-340.252 0-469.933 5.698-5.698 14.527-6.632 21.263-2.422l64.817 40.513a17.187 17.187 0 016.849 20.958l-32.408 81.021a17.188 17.188 0 01-17.669 10.719l-55.81-5.58c-21.051 58.261-20.612 122.471 0 179.515l55.811-5.581a17.188 17.188 0 0117.669 10.719l32.408 81.022a17.188 17.188 0 01-6.849 20.958l-64.817 40.513a17.19 17.19 0 01-21.264-2.422zM247.126 95.473c11.832 20.047 11.832 45.008 0 65.055-3.95 6.693-13.108 7.959-18.718 2.581l-5.975-5.726c-3.911-3.748-4.793-9.622-2.261-14.41a32.063 32.063 0 000-29.945c-2.533-4.788-1.65-10.662 2.261-14.41l5.975-5.726c5.61-5.378 14.768-4.112 18.718 2.581zm91.787-91.187c60.14 71.604 60.092 175.882 0 247.428-4.474 5.327-12.53 5.746-17.552.933l-5.798-5.557c-4.56-4.371-4.977-11.529-.93-16.379 49.687-59.538 49.646-145.933 0-205.422-4.047-4.85-3.631-12.008.93-16.379l5.798-5.557c5.022-4.813 13.078-4.394 17.552.933zm-45.972 44.941c36.05 46.322 36.108 111.149 0 157.546-4.39 5.641-12.697 6.251-17.856 1.304l-5.818-5.579c-4.4-4.219-4.998-11.095-1.285-15.931 26.536-34.564 26.534-82.572 0-117.134-3.713-4.836-3.115-11.711 1.285-15.931l5.818-5.579c5.159-4.947 13.466-4.337 17.856 1.304z"></path>
+        </svg>
+    )
+}
+export function FooterPhone() {
+    return (
+        <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]"
+            viewBox="0 0 20 20"
+        >
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+        </svg>
+    )
+}
+export function FooterEmail() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            aria-hidden="true"
+            className="bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]"
+            data-slot="icon"
+            viewBox="0 0 24 24"
+        >
+            <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"></path>
+            <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"></path>
+        </svg>
+    )
+}
+export function FooterWeb() {
+    return (
+        <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]"
+            viewBox="0 0 20 20"
+        >
+            <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                clipRule="evenodd"
+            ></path>
+        </svg>
+    )
+}
+export function FooterPin() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            fill="currentColor"
+            stroke="currentColor"
+            strokeWidth="0"
+            aria-hidden="true"
+            className="bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]"
+            viewBox="0 0 24 24"
+        >
+            <path
+                fillRule="evenodd"
+                d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                clipRule="evenodd"
+            ></path>
         </svg>
     )
 }

@@ -787,6 +787,11 @@ embla-carousel-class-names@^8.1.6:
   resolved "https://registry.yarnpkg.com/embla-carousel-class-names/-/embla-carousel-class-names-8.1.8.tgz#fefad5ef8ec75434a0a08d04717c509d841934e7"
   integrity sha512-0eiZbG+ZVN7/yHVgfoOabXYef2RbFwKBC1AQkaYrB+gBPqSb96DiXXd9en3FdxlP+GXUsu/AnmmFrIyzn44cVw==
 
+embla-carousel-fade@8.1.6:
+  version "8.1.6"
+  resolved "https://registry.yarnpkg.com/embla-carousel-fade/-/embla-carousel-fade-8.1.6.tgz#b109691615a305d361008e9debf8b72697299729"
+  integrity sha512-5fUPjHaLO97ldycR+6yVMU5jN31rfblHKS+B/oovsYHFOMtuuNpiF7I093xms8FOx0v1HRWVla4O+mclOZq2zw==
+
 embla-carousel-react@^8.1.6:
   version "8.1.8"
   resolved "https://registry.yarnpkg.com/embla-carousel-react/-/embla-carousel-react-8.1.8.tgz#ccca22c12d97407f12c3dd8f6fafae6e82e4c578"

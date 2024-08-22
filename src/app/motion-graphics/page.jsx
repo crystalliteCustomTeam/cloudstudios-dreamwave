@@ -32,7 +32,7 @@ const banner = {
             <p>Our motion graphics services inject energy and creativity into your content. Address the challenge of maintaining viewer interest with dynamic animations that make your message stand out and engage your audience.</p>
         </>
     ),
-    video: "videos/motion-graphics.mp4",
+    video: "videos/MotionGraphics.mp4",
     link: "#"
 
 }

@@ -33,7 +33,7 @@ const banner = {
             <p>Our explainer videos simplify complex concepts and make your message crystal clear. Combat the challenge of customer confusion and improve conversion rates with videos that drive understanding and action.</p>
         </>
     ),
-    video: "videos/3d-animations.mp4",
+    video: "videos/ExplainerVideos.mp4",
     link: "#"
 
 }

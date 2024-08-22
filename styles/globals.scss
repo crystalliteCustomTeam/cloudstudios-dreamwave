@@ -89,6 +89,10 @@ body {
         line-height: 60px;
         margin-bottom: 30px;
         color: $white-color;
+
+        span {
+            color: $secondary-color;
+        }
     }
 
     h3 {
@@ -307,7 +311,135 @@ body {
             }
         }
     }
+
+    .buttonLP {
+        background: linear-gradient(270deg, #fc2030, #d1000f);
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        height: 45px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 23px;
+        transition: color 0.3s, background-position 0.5s;
+        font-weight: 500;
+        min-width: 120px;
+        padding: 0 20px;
+
+
+        &:hover {
+            background: #000000;
+            color: $white-color;
+        }
+    }
 }
+
+.servicesSlider {
+    background: $white-color;
+
+    .embla {
+        margin: auto;
+        margin-top: 40px;
+
+        .embla__viewport {
+            overflow: hidden;
+
+            .embla__container {
+                display: flex;
+                touch-action: pan-y pinch-zoom;
+                margin-left: calc(30px * -1);
+
+                .embla__slide {
+                    transform: translate3d(0, 0, 0);
+                    flex: 0 0 30%;
+                    min-width: 0;
+                    padding-left: 30px;
+
+                    &:not(.is-snapped) {
+                        opacity: 0.4;
+                    }
+
+                    .servicesBox {
+                        @include padding(40px, 30px);
+                        height: 540px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        flex-direction: column;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        border-radius: 15px;
+                        position: relative;
+
+
+                        &:before {
+                            content: "";
+                            background: rgba(0, 0, 0, 0.6);
+                            width: 100%;
+                            height: 100%;
+                            z-index: 0;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            border-radius: 15px;
+                        }
+
+                        .servicestxt {
+                            position: relative;
+                            z-index: 2;
+
+                            h6 {
+                                font-size: 25px;
+                                line-height: 35px;
+                                margin-bottom: 10px;
+                                color: $white-color;
+                            }
+
+                            .servicesPara {
+                                font-size: 14px;
+                                line-height: 24px;
+                                margin-bottom: 10px;
+                                color: $white-color;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+
+        }
+
+        .embla__button__container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            position: relative;
+
+            div {
+                cursor: pointer;
+
+                &.embla__prev {
+                    transform: rotate(180deg);
+                }
+
+                svg {
+                    width: 40px;
+                    height: auto;
+                }
+            }
+
+
+        }
+    }
+}
+
+
+
 
 @include media-query($min: 1400px, $max: 1600px) {
     body {
@@ -383,6 +515,57 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 14px;
+            padding: 0px 20px;
+            height: 40px;
+        }
+
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 40px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(30px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 30%;
+                        padding-left: 30px;
+
+                        .servicesBox {
+                            @include padding(40px, 30px);
+                            height: 540px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 25px;
+                                    line-height: 35px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 30px;
+                gap: 25px;
+
+                div {
+                    svg {
+                        width: 40px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -460,6 +643,56 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 14px;
+            padding: 0px 20px;
+            height: 38px;
+        }
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(25px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 30%;
+                        padding-left: 25px;
+
+                        .servicesBox {
+                            @include padding(30px, 25px);
+                            height: 540px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 22px;
+                                    line-height: 32px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 13px;
+                                    line-height: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 20px;
+                gap: 20px;
+
+                div {
+                    svg {
+                        width: 35px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -537,6 +770,57 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 13px;
+            padding: 0px 20px;
+            height: 35px;
+        }
+
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(25px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 30%;
+                        padding-left: 25px;
+
+                        .servicesBox {
+                            @include padding(30px, 25px);
+                            height: 540px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 22px;
+                                    line-height: 32px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 13px;
+                                    line-height: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 20px;
+                gap: 20px;
+
+                div {
+                    svg {
+                        width: 35px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -614,6 +898,56 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 12px;
+            padding: 0px 20px;
+            height: 32px;
+        }
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 35%;
+                        padding-left: 20px;
+
+                        .servicesBox {
+                            @include padding(25px, 20px);
+                            height: 540px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 13px;
+                                    line-height: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 20px;
+                gap: 20px;
+
+                div {
+                    svg {
+                        width: 35px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -691,6 +1025,57 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 12px;
+            padding: 0px 15px;
+            height: 30px;
+        }
+
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 38%;
+                        padding-left: 15px;
+
+                        .servicesBox {
+                            @include padding(20px, 15px);
+                            height: 540px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 13px;
+                                    line-height: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 20px;
+                gap: 20px;
+
+                div {
+                    svg {
+                        width: 35px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -758,7 +1143,7 @@ body {
         a.button,
         div.button {
             @include button($black-color, $white-color, #EBEBEB, 23px, 12px);
-            height: 26px;
+            height: 30px;
             min-width: auto;
             @include padding(0px, 10px);
 
@@ -768,6 +1153,56 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 12px;
+            padding: 0px 10px;
+            height: 30px;
+        }
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 55%;
+                        padding-left: 15px;
+
+                        .servicesBox {
+                            @include padding(20px, 15px);
+                            height: 540px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 13px;
+                                    line-height: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 20px;
+                gap: 15px;
+
+                div {
+                    svg {
+                        width: 30px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -848,6 +1283,56 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 12px;
+            padding: 0px 20px;
+            height: 30px;
+        }
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 70%;
+                        padding-left: 15px;
+
+                        .servicesBox {
+                            @include padding(20px, 15px);
+                            height: 540px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 13px;
+                                    line-height: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 20px;
+                gap: 15px;
+
+                div {
+                    svg {
+                        width: 30px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -929,5 +1414,56 @@ body {
             }
         }
 
+        .buttonLP {
+            font-size: 13px;
+            height: 35px;
+            padding: 0px 10px;
+            min-width: auto;
+        }
+    }
+
+    .servicesSlider {
+        .embla {
+            margin-top: 0px;
+
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(5px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 90%;
+                        padding-left: 5px;
+
+                        .servicesBox {
+                            @include padding(25px, 15px);
+                            height: 450px;
+
+                            .servicestxt {
+                                h6 {
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                }
+
+                                .servicesPara {
+                                    font-size: 13px;
+                                    line-height: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__button__container {
+                margin-top: 20px;
+                gap: 15px;
+
+                div {
+                    svg {
+                        width: 30px;
+                    }
+                }
+            }
+        }
     }
 }

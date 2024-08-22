@@ -32,7 +32,7 @@ const banner = {
             <p>Our promotional videos are designed to cut through the clutter and drive leads. Address the issue of low marketing impact with engaging content that showcases your brand’s strengths and converts viewers into prospects.</p>
         </>
     ),
-    video: "videos/3d-animations.mp4",
+    video: "videos/PromotionalVideos.mp4",
     link: "#"
 
 }

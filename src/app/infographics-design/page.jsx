@@ -32,7 +32,7 @@ const banner = {
             <p>Our infographic design services transform overwhelming data into clear, actionable insights. Address the problem of data fatigue and make your information engaging and easy to digest for better decision-making.</p>
         </>
     ),
-    video: "videos/3d-animations.mp4",
+    video: "videos/InfographicsDesign.mp4",
     link: "#"
 
 }

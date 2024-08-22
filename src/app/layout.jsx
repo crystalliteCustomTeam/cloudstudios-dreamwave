@@ -1,9 +1,8 @@
 import { Poppins } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../styles/globals.scss";
-import Header from "@/src/app/layout/header";
-import Footer from "@/src/app/layout/footer";
 import ScriptsCode from "@/src/app/scripts";
+import ConditionalLayout from "./conditionallayout";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -15,9 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <ScriptsCode />
       <body className={poppins.className}>
-        <Header />
-        {children}
-        <Footer />
+        <ConditionalLayout >
+          {children}
+        </ConditionalLayout>
       </body>
     </html>
   );

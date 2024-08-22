@@ -31,7 +31,7 @@ const banner = {
       <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
     </>
   ),
-  video: "videos/2d-animations.mp4",
+  video: "videos/HomePage.mp4",
   link: "#"
 
 }

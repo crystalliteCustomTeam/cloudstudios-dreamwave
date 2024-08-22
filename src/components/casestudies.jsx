@@ -37,9 +37,9 @@ const CaseStudies = () => {
             try {
                 const newVideos = await fetchVimeoVideos(page);
                 if (newVideos.length < 9) {
-                    setHasMoreVideos(false); // No more videos to load
+                    setHasMoreVideos(false);
                 }
-                // Only add new videos if they are not already in the state
+
                 setVideos((prevVideos) => {
                     const newVideoIds = newVideos.map(video => video.uri.split('/').pop());
                     const existingVideoIds = new Set(prevVideos.map(video => video.uri.split('/').pop()));

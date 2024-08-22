@@ -33,7 +33,7 @@ const banner = {
             <p>Our logo animations ensure your brand makes a memorable impression. Overcome the challenge of brand obscurity and increase visibility with animations that reinforce your identity and captivate your audience.</p>
         </>
     ),
-    video: "videos/3d-animations.mp4",
+    video: "videos/LogoAnimations.mp4",
     link: "#"
 
 }
