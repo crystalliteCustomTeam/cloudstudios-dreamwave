@@ -26,7 +26,7 @@ const banner = {
             <p>With years of experience in the industry, our experts have honed their skills to deliver consistently exceptional results, earning us a reputation as one of the most sought-after animations and VFX studios in the business.</p>
         </>
     ),
-    video: "1001684759",
+    video: "1001684759/9838f945d4",
     link: "#"
 
 }
