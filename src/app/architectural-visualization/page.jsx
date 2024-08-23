@@ -32,9 +32,8 @@ const banner = {
             <p>Our architectural visualization services provide detailed, realistic renderings that help secure approvals and impress stakeholders. Solve the problem of ineffective presentations with visuals that accurately depict your vision.</p>
         </>
     ),
-    video: "1001678810",
+    video: "https://player.vimeo.com/video/1001678810?h=9a105f0ec6&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Revolutionize Your Business with Cutting-Edge Architectural Visualization.",

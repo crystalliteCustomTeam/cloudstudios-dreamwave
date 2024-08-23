@@ -22,7 +22,7 @@ const banner = {
             <p>We blend cutting-edge technology with creative genius to deliver super-immersive experiences that don’t just grab attention – they ignite the imagination, push brands through the clutter and break frontiers. </p>
         </>
     ),
-    video: "982279422",
+    video: "https://player.vimeo.com/video/1001682235?h=fbfb09a4f5&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
 
 }

@@ -32,9 +32,8 @@ const banner = {
             <p>Our infographic design services transform overwhelming data into clear, actionable insights. Address the problem of data fatigue and make your information engaging and easy to digest for better decision-making.</p>
         </>
     ),
-    video: "1001681597",
+    video: "https://player.vimeo.com/video/1001681597?h=7814ae9d9c&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Infographics Design",

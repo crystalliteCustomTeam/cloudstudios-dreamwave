@@ -33,9 +33,8 @@ const banner = {
             <p>Our logo animations ensure your brand makes a memorable impression. Overcome the challenge of brand obscurity and increase visibility with animations that reinforce your identity and captivate your audience.</p>
         </>
     ),
-    video: "1001681892",
+    video: "https://player.vimeo.com/video/1001681892?h=93376bb4a2&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Visually Stunning Animated Logo Designs",

@@ -33,9 +33,8 @@ const banner = {
             <p>Our 2D animations cut through the noise and grab attention. With our visually compelling animations, you can address the challenge of audience disengagement and turn viewers into loyal customers.</p>
         </>
     ),
-    video: "1001676601",
+    video: "https://player.vimeo.com/video/1001676601?h=435c89dc96&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Forge Better Engagement with 2D Animation Solutions by Cloud Studios Inc.",

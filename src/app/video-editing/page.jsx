@@ -32,9 +32,8 @@ const banner = {
             <p>Our video editing services transform your raw footage into polished, professional content. Address the issue of subpar video quality and enhance engagement with expertly edited videos that make an impact.</p>
         </>
     ),
-    video: "1001684059",
+    video: "https://player.vimeo.com/video/1001684059?h=8336b1020f&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "We are Pro-Level Video-Editors – Unbeatable Prices, Precision Editing. ",

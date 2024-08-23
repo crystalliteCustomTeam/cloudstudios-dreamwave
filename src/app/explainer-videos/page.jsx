@@ -33,9 +33,8 @@ const banner = {
             <p>Our explainer videos simplify complex concepts and make your message crystal clear. Combat the challenge of customer confusion and improve conversion rates with videos that drive understanding and action.</p>
         </>
     ),
-    video: "1001680311",
+    video: "https://player.vimeo.com/video/1001680311?h=55fe3a5897&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Generate More Income with Immersive Explainer Videos",

@@ -32,9 +32,8 @@ const banner = {
             <p>Our 3D animations offer immersive experiences that keep viewers hooked. Address the problem of viewer drop-off with stunning, high-quality visuals that hold interest and drive better engagement.</p>
         </>
     ),
-    video: "1001678242",
+    video: "https://player.vimeo.com/video/1001678242?h=afc2af3f25&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Enhance Your Conversion Rates with Hyper-Realistic 3D Animations",

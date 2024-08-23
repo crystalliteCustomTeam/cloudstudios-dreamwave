@@ -32,9 +32,8 @@ const banner = {
             <p>Our motion graphics services inject energy and creativity into your content. Address the challenge of maintaining viewer interest with dynamic animations that make your message stand out and engage your audience.</p>
         </>
     ),
-    video: "1001682235",
+    video: "https://player.vimeo.com/video/1001682235?h=fbfb09a4f5&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Ditch the static route with powerful motion graphics with Cloud Studios Inc.",

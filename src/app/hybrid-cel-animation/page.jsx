@@ -32,9 +32,8 @@ const banner = {
             <p>Our hybrid and cel animations combine traditional techniques with modern innovation to deliver fresh, unique results. Overcome creative stagnation and revitalize your content with animations that stand out.</p>
         </>
     ),
-    video: "1001681128",
+    video: "https://player.vimeo.com/video/1001681128?h=2c68190e0a&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Groundbreaking Hybrid and Cel Animation for Brands.",

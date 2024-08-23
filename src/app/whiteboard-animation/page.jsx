@@ -32,9 +32,8 @@ const banner = {
             <p>Our whiteboard animations make complex ideas easy to understand. Solve the problem of communication barriers and engage your audience with visuals that simplify and clarify your message.</p>
         </>
     ),
-    video: "1001684421",
+    video: "https://player.vimeo.com/video/1001684421?h=ce2c2ce88c&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Whiteboard Animation Services for Effective & Clear Messaging",

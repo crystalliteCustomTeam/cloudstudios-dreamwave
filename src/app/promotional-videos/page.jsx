@@ -32,9 +32,8 @@ const banner = {
             <p>Our promotional videos are designed to cut through the clutter and drive leads. Address the issue of low marketing impact with engaging content that showcases your brand’s strengths and converts viewers into prospects.</p>
         </>
     ),
-    video: "1001682566",
+    video: "https://player.vimeo.com/video/1001682566?h=5732e1d566&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const ratingData = {
     title: "Excel Sales &  Marketing Practices with Promotional Videos",

@@ -33,9 +33,8 @@ const banner = {
             <p>Our CGI and VFX services provide the high-impact visuals your project needs. Tackle the problem of dull or ineffective content with cutting-edge effects that make your brand shine and capture attention.</p>
         </>
     ),
-    video: "1001679548",
+    video: "https://player.vimeo.com/video/1001679548?h=8e97a47849&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 
 const ratingData = {
