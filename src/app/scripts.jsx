@@ -11,7 +11,11 @@ const ScriptsCode = () => {
             zenDesk.async = true;
             zenDesk.defer = true;
             document.body.appendChild(zenDesk);
-
+            //======== Robots Meta Tag ========//
+            const robotsMeta = document.createElement('meta');
+            robotsMeta.name = 'robots';
+            robotsMeta.content = 'noindex, nofollow';
+            document.head.appendChild(robotsMeta);
         }, 5000);
 
         return () => clearTimeout(timer);
