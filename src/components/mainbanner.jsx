@@ -34,7 +34,7 @@ const MainBanner = ({ data }) => {
                         </Col>
                     </Row>
                 </Container>
-                <VideoPlayer bannerVideo={data.video} />
+                <VideoPlayer iframeUrl={data.video} />
             </section>
 
         </>
