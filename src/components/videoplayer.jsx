@@ -11,15 +11,16 @@ const VideoPlayer = ({ video, bannerVideo, iframeUrl }) => {
                     </video>
                 </div>
             ) : iframeUrl ? (
-                <div className={styles.iframePopup}>
+                <div className={styles.videoContainer}>
                     <iframe
-                        src={`https://player.vimeo.com/video/${iframeUrl}?autoplay=1&controls=0&loop=1&muted=1`}
+                        src={iframeUrl}
                         width="100%"
                         height="100%"
                         frameBorder="0"
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowFullScreen
                         title="Vimeo Video"
+                        className={styles.iframe}
                     ></iframe>
                 </div>
             ) : (
