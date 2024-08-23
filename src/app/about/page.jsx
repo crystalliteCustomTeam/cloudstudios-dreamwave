@@ -26,9 +26,8 @@ const banner = {
             <p>With years of experience in the industry, our experts have honed their skills to deliver consistently exceptional results, earning us a reputation as one of the most sought-after animations and VFX studios in the business.</p>
         </>
     ),
-    video: "https://player.vimeo.com/video/1001684759?h=9838f945d4&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
+    video: "https://player.vimeo.com/video/982270806?background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     link: "#"
-
 }
 const Teams = [
     {
