@@ -31,7 +31,7 @@ const banner = {
       <p>We engineer dynamic video content, lead advancements in cutting-edge animation technology, and create immersive digital worlds to push your brand into new virtual frontiers.</p>
     </>
   ),
-  video: "https://player.vimeo.com/video/1001680637?h=44a469d25a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+  video: "https://player.vimeo.com/video/1001680637?h=44a469d25a&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
   link: "#"
 
 }
