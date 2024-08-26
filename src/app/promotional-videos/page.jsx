@@ -18,10 +18,7 @@ import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Utilize the Power of Promo Videos to Deliver Your Brand’s Message Effectively.",
-    description: "Transform your marketing strategy with Cloud Studios Inc.’s dynamic promotional videos. Engage your audience and boost conversions effectively with our expert promo video production services.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
@@ -144,31 +141,6 @@ const CtaData = {
     title: "Cutting-edge promotion videos are just a tap away! ",
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Matthew Roberts",
-        txt: "They took our vision and turned it into a masterpiece—a promotional animated video that captured our brand’s essence and resonated deeply with our audience. We look forward to collaborating with Cloud Studios on future projects!",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Samantha Davis",
-        txt: "I cannot speak highly enough of Cloud Studios Inc. Their technical expertise in creating high-definition HD promo videos is exceptional. They approached our promotional video project enthusiastically and creatively.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Daniel Evans",
-        txt: "Choosing Cloud Studios Inc. for our promotional animation video was one of our best decisions. Their team understood our vision and brought it to life in a way that surpassed all our expectations!",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Victoria Lee",
-        txt: "Working with Cloud Studios Inc. was a transformative experience for our marketing team. They took the time to understand our brand’s unique voice and audience, ensuring that every frame of our animation promotional video was crafted to perfection.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
 export default function Page() {
     return (
         <>
@@ -181,7 +153,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact data="Become a part of the Cloud Studios revolution and kickstart your marketing campaign with eye-catching company promo videos." />
         </>
     );

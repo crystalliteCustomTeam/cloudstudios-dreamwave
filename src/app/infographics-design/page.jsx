@@ -11,17 +11,10 @@ import ScrollingLogos from "@/src/components/commonpages/scrollinglogos";
 import ElevateSec from "@/src/components/commonpages/elevate";
 import CtaSec from "@/src/components/commonpages/cta";
 import { Icon06, Icon07, Icon08, Icon09, Icon10 } from "@/src/app-constants";
-import IMG_01 from "media/home/testimonial/test1.webp"
-import IMG_02 from "media/home/testimonial/test2.webp"
-import IMG_03 from "media/home/testimonial/test3.webp"
-import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Data, Charts, Numbers & Insights – Take charge with Infographics today!",
-    description: "Transform numbers and data into powerful visuals with Cloud Studios Inc.’s top-tier infographics services. Engage your prospects and audience visually, streamline complex info, and chart courses toward success with our solutions.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
@@ -178,31 +171,7 @@ const CtaData = {
     title: "Information Overload Turned into Engaging Animation with our Infographics Designs!",
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Jessica Russell",
-        txt: "Cloud Studios Inc. turned our boring data into a visual feast! They nailed the design, and our clients are loving the new look. I highly recommend their creative delivery standards and ability to turn complex into seamless yet engaging; I loved every bit. Their best infographics and chart infographics have genuinely set a new standard for us.",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Melissa Jones",
-        txt: "Working with Cloud Studios Inc. was like watching magic happen! They transformed our complex stats into eye-catching infographics that even our CEO loves showing off. We love the infographics video solutions provided; they are also cheap! Their infographics types range from Simple to more elaborate designs, and each one is top-notch.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Kevin Jenner",
-        txt: "Forget spreadsheets! Thanks to Cloud Studios Inc., our quarterly reports now pop with color and clarity. Their data infographics are not just informative—they're a joy to look at! I loved how my boring charts and spreadsheets were done by making them into visually compelling video infographics. Their statistical infographics bring our numbers to life.",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Callum Jones",
-        txt: "Cloud Studios Inc. knows how to make data sexy! Their infographics are not only informative but also super stylish. From marketing infographics to interactive infographics and even infographics list formats, their types of infographics are incredibly effective.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
+
 export default function Page() {
     return (
         <>
@@ -215,7 +184,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact data="Become a part of the Cloud Studios revolution and bring out the true essence of your brand." />
         </>
     );

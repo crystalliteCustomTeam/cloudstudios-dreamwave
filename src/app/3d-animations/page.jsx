@@ -18,10 +18,7 @@ import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "3D Animation Services - Visuals That Don’t Miss a Dimension",
-    description: "Enhance your brand's distinctiveness with Cloud Studios' advanced lifelike 3D animations. Go Beyond Pixels With 3D Animation Services!",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
@@ -140,31 +137,6 @@ const CtaData = {
     title: "Cutting-edge 3D Animation Services are just a tap away!  ",
     btntxt: "Grab your bag of chips, and let's get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Ava Reynolds",
-        txt: "Cloud Studios transformed our project with their exceptional digital 3D animation videos. I just loved how they exceeded our expectations by animating as highly realistic animations as possible. I'm grateful for their 3D animation service expertise in bringing our vision to life!",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Lucas Bennett",
-        txt: "Working with Cloud Studios was a breeze; HATS off to the team! They are the best 3D animation team as they demonstrated outstanding skill and professionalism throughout the project. They delivered stunning visuals that perfectly captured our brand's story and message.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Harper Mitchell",
-        txt: "Cloud Studios' 3D animation service is nothing short of impressive. Their ability to blend creativity with technical precision is remarkable. It was a pleasure collaborating with such a dedicated and talented team. 5 stars for their services!",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Logan Sullivan",
-        txt: "I'm thrilled with the results from Cloud Studios Inc. Their 3D animated videos added a new dimension to our marketing campaign, engaging our audience like never before. Their commitment to quality and innovation sets them apart.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
 export default function Page() {
     return (
         <>
@@ -177,7 +149,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact data="Become a part of the Cloud Studios revolution and bring out the true essence of your brand." />
         </>
     );

@@ -12,10 +12,6 @@ import IMG02 from "media/home/testimonial/test2.webp"
 import IMG03 from "media/home/testimonial/test3.webp"
 import IMG04 from "media/home/testimonial/test4.webp"
 
-export const metadata = {
-    title: "Powerful branding & top-tier storytelling with Cloud Studios' Award-Winning Animation and Visual Effects",
-    description: "Discover how Cloud Studios' innovators and artists infuse the power of next-gen animation and visual effects to revolutionize your brand's storytelling and pull your audiences towards you.",
-};
 
 
 const banner = {
@@ -46,31 +42,7 @@ const Teams = [
         img: IMG03.src,
     }
 ]
-const SLIDES = [
-    {
-        name: "Sarah Benny",
-        txt: "Cloud Studios turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills are out of this world. It felt like I was strolling through our future building. 10/10.",
-        img: IMG01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Michelle Joanna",
-        txt: "OMG! The cel animation the studio created for our indie film was pure magic! They somehow captured the nostalgia of old-school cartoons while adding a modern twist. ",
-        img: IMG02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Rusell J. Peters ",
-        txt: "Holy hybrid animation, Superman! Cloud Studios mixed 2D and 3D like nobody's business for our superhero series. The result? It was an eye-popping visual feast that had our fans buzzing!",
-        img: IMG03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Lisa Kevins",
-        txt: "The real-time rendering for our racing game is insanely good! The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious animation horsepower!",
-        img: IMG04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
+
 export default function About() {
     return (
         <>
@@ -80,7 +52,7 @@ export default function About() {
             <TeamSec slides={Teams} />
             <MissionSec />
             <Achievement />
-            <Testimonial clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact />
         </>
     );

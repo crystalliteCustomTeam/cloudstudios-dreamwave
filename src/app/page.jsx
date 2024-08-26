@@ -8,17 +8,9 @@ import Achievement from "@/src/app/home/achievement";
 import Testimonial from "@/src/app/home/testimonial";
 import Contact from "@/src/app/home/contact";
 import MainBanner from "@/src/components/mainbanner";
-import IMG01 from "media/home/testimonial/test1.webp"
-import IMG02 from "media/home/testimonial/test2.webp"
-import IMG03 from "media/home/testimonial/test3.webp"
-import IMG04 from "media/home/testimonial/test4.webp"
-import IMG05 from "media/home/testimonial/test5.webp"
-import IMG06 from "media/home/testimonial/test6.webp"
 
-export const metadata = {
-  title: "Cloud Studios Inc: Cutting-Edge Video Animation Studio in USA.",
-  description: "Cloud Studios Inc. delivers innovative animation, video production services, and VFX solutions. From cel animation, hybrid animation, 3D visualization, and AR/VR augmentation to real-time rendering, we are the 'destination' for your brand's success. ",
-};
+
+
 
 
 const banner = {
@@ -35,43 +27,7 @@ const banner = {
   link: "#"
 
 }
-const SLIDES = [
-  {
-    name: "Mike",
-    txt: "Leveraging Cloud Studios' animation service was the best decision ever. They turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills and animated services are out of this world.",
-    img: IMG01.src,
-    video: "https://player.vimeo.com/video/1002689936?h=889006b16b&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
-  },
-  {
-    name: "Thomas Wright",
-    txt: "OMG! The cel animation the studio created for our indie film was pure magic! The animation agency somehow captured the nostalgia of old-school cartoons while adding a modern twist.",
-    img: IMG02.src,
-    video: "https://player.vimeo.com/video/1002690094?h=110b768753&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
-  },
-  {
-    name: "Rusell J. Peters ",
-    txt: "Holy hybrid animation, Superman! Cloud Studios is the best video marketing agency. It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation services!",
-    img: IMG03.src,
-    video: "videos/LogoAnimation3.mp4",
-  }, {
-    name: "Lisa Kevins",
-    txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
-    img: IMG04.src,
-    video: "videos/LogoAnimation3.mp4",
-  }
-  , {
-    name: "Lisa Kevins",
-    txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
-    img: IMG05.src,
-    video: "videos/LogoAnimation3.mp4",
-  }
-  , {
-    name: "Lisa Kevins",
-    txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
-    img: IMG06.src,
-    video: "videos/LogoAnimation3.mp4",
-  }
-]
+
 
 
 export default function Home() {
@@ -85,7 +41,7 @@ export default function Home() {
       <CaseStudy />
       <WorkSec />
       <Achievement />
-      <Testimonial clients="yes" slides={SLIDES} />
+      <Testimonial clients="yes" />
       <Contact />
     </>
   );

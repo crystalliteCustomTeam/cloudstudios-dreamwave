@@ -18,10 +18,7 @@ import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Edit videos that matter with precision video editing solutions from Cloud Studio.",
-    description: "Experience the best-in-class, precision, affordable, and next-gen video editing solutions for brands and businesses today with Cloud Studio Inc. – video is in our construct!",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",

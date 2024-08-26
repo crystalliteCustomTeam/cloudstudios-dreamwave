@@ -11,17 +11,11 @@ import ScrollingLogos from "@/src/components/commonpages/scrollinglogos";
 import ElevateSec from "@/src/components/commonpages/elevate";
 import CtaSec from "@/src/components/commonpages/cta";
 import { Icon01, Icon02, Icon03, Icon04, Icon05 } from "@/src/app-constants";
-import IMG_01 from "media/home/testimonial/test1.webp"
-import IMG_02 from "media/home/testimonial/test2.webp"
-import IMG_03 from "media/home/testimonial/test3.webp"
-import IMG_04 from "media/home/testimonial/test4.webp"
+
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: " Cutting-edge architectural visualization solutions taken to the next level.",
-    description: "Say goodbye to all spatial and resourcing constraints with our state-of-the-art 3d architectural visualization solutions geared to perfection. We enable contractors and enterprises to expand their businesses with pioneering architectural visualization.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
@@ -142,36 +136,6 @@ const CtaData = {
     title: "Cutting-edge 3D rendering and architectural visualization are just a tap away!",
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Jordan Kahn",
-        txt: "Cloud Studios Inc. has completely revolutionized our approach to design presentation. Their 3D visualization services are unmatched in quality and innovation, consistently impressing our clients and stakeholders. We are thrilled to partner with such a forward-thinking team.",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "James Atchison",
-        txt: "Cloud Studios transformed our architectural concepts into breathtaking visuals that exceeded our expectations. Their attention to detail and commitment to excellence is unmatched.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Larry",
-        txt: "Working with Cloud Studios was a game-changer for our development projects. Their 3D renderings and virtual tours helped us secure approvals and engage clients like never before.",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Alex",
-        txt: "Cloud Studios is our go-to partner for architectural visualization. Their innovative approach and stunning visuals consistently elevate our designs and presentations.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Samantha Jonas Doppler",
-        txt: "The team’s creativity and technical expertise are evident in every project they deliver. The studio is simply the best in the business.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
 export default function Page() {
     return (
         <>
@@ -184,7 +148,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial tit="See what they are saying about all the cool stuff we do!" clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact />
         </>
     );

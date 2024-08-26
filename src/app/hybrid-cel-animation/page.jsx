@@ -11,17 +11,10 @@ import ScrollingLogos from "@/src/components/commonpages/scrollinglogos";
 import ElevateSec from "@/src/components/commonpages/elevate";
 import CtaSec from "@/src/components/commonpages/cta";
 import { Icon01, Icon02, Icon03, Icon04, Icon05 } from "@/src/app-constants";
-import IMG_01 from "media/home/testimonial/test1.webp"
-import IMG_02 from "media/home/testimonial/test2.webp"
-import IMG_03 from "media/home/testimonial/test3.webp"
-import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Cloud Studios Inc | Hybrid and Cel Animation for Boosted Brand Identities!",
-    description: " Discover Cloud Studios Inc.’s cutting-edge hybrid and cel animation services. Elevate your projects with stunning visuals and innovative storytelling. Contact us to take charge, boost your brand, and boost your conversions.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
@@ -143,36 +136,7 @@ const CtaData = {
     title: "Cutting-edge CGI and VFX Solutions are just a tap away!",
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Emma",
-        txt: "Cloud Studios Inc. took our creative ideas and transformed them into a visual masterpiece with their Hybrid Animation expertise. Their ability to blend traditional and modern techniques is truly unparalleled.",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Daniel Mitchell",
-        txt: "Their Cel Animation Services brought a unique, nostalgic touch to our project, captivating audiences and enhancing our storytelling. We couldn’t be happier with the results",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Meghan Patel",
-        txt: "Cloud Studios Inc. is our top choice for innovative animation solutions. Their Hybrid Video Animations have consistently exceeded our expectations and delivered exceptional value.",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Patrick",
-        txt: "The team’s technically sound ability was evident in every frame of our 2D 3D Hybrid Animation. Their commitment to excellence is unmatched.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Kevin",
-        txt: "Partnering with Cloud Studios Inc. has elevated our content to new heights. Their creative approach to Cel-Shaded Animation was a game-changer for our brand.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
+
 export default function Page() {
     return (
         <>
@@ -185,7 +149,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial tit="See what they are saying about all the cool stuff we do!" clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact />
         </>
     );

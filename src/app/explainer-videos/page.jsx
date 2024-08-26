@@ -12,17 +12,10 @@ import ScrollingLogos from "@/src/components/commonpages/scrollinglogos";
 import ElevateSec from "@/src/components/commonpages/elevate";
 import CtaSec from "@/src/components/commonpages/cta";
 import { Icon06, Icon07, Icon08, Icon09, Icon10 } from "@/src/app-constants";
-import IMG_01 from "media/home/testimonial/test1.webp"
-import IMG_02 from "media/home/testimonial/test2.webp"
-import IMG_03 from "media/home/testimonial/test3.webp"
-import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Accelerate Your Success Through Affordable Explainer Video Production Services",
-    description: "Discover Cloud Studios’ expertly crafted explainer videos that simplify complex ideas precisely. From concept to creation, we transform ideas into engaging visual stories that captivate audiences and amplify your brand’s impact.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
@@ -145,31 +138,7 @@ const achievementData = {
     title: "See the Buzz Around Our Awards and Client Testimonials!",
     txt: "Cloud Studios Inc. is thrilled to have received an impressive 11x Telly Awards, 9x Muse Awards, and 12-time Davey Award winner status.These awards highlight our strong commitment to quality as we continue to deliver awe-inspiring video experiences that exceed our client's wildest expectations."
 }
-const SLIDES = [
-    {
-        name: "Sophie Harper",
-        txt: "Cloud Studios Inc. nailed it with their company explainer videos! They took our complex product and made it easy to understand and fun to watch. Our engagement skyrocketed, and we're seeing more customers sticking around.",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Liam Collins",
-        txt: "Shoutout to Cloud Studios Inc. for bringing our ideas to life with the awesome making of explainer videos. Their innovative approach to creating the best explainer videos truly brought our vision to life.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Ava Mitchell",
-        txt: "Cloud Studios Inc. exceeded our expectations with their stunning custom explainer videos. The 2D and 3D animation combination was spot on and communicated our message flawlessly. Our clients loved them, too!",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Noah Rodriguez",
-        txt: "Big props to Cloud Studios Inc. for being the best explainer video maker in town. They helped us stand out with their awesome corporate explainer videos! Our sales have increased, and the feedback on the videos has been awesome.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
+
 export default function Page() {
     return (
         <>
@@ -182,7 +151,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement data={achievementData} />
-            <Testimonial clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact data="Become a part of the Cloud Studios revolution, and let’s explain your brand together." />
         </>
     );

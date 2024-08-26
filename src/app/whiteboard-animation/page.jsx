@@ -18,10 +18,7 @@ import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Simple is better – experience the best-in-class whiteboard animation solutions today!",
-    description: "Take charge today – Cloud Studios Inc.’s whiteboard animation solution is here to clarify your branding and identity. Our expert team delivers seamless, easy-to-understand animations that simplify complex ideas.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",

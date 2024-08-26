@@ -18,10 +18,7 @@ import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Boost conversions with motion graphics design – take charge today.",
-    description: "The best motion graphics animators at your disposal from Cloud Studios Inc. –experience a full suite of motion graphic animation at unbeatable prices.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",

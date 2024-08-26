@@ -18,10 +18,6 @@ import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Engage Top-Tier 2D Animation Services for Dynamic Visual Storytelling",
-    description: "Boost your brand’s engagement with our best-in-class 2D animation services. Create captivating, dynamic visuals that engage and inspire your audience.",
-};
 
 const banner = {
     rating: "The New Frontier in Animation.",
@@ -143,31 +139,6 @@ const CtaData = {
     title: "Cutting-edge 2D Animation services are just a tap away! ",
     btntxt: "Grab your bag of chips, and let's get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Sophia Alvarez ",
-        txt: "Cloud Studios’ 2D animation service work is nothing short of awe-inspiring. The seamless integration of traditional artistry and cutting-edge technology results in breathtakingly beautiful and emotionally resonant visuals that transport the viewer to fully realized, captivating worlds.",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Liam Donovan ",
-        txt: "Cloud Studios’ 2D animation service exceeded all our expectations, delivering a masterpiece that captivated our audience from the first frame. Their team's unparalleled creativity and technical mastery are genuinely remarkable.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Isabella Gutierrez ",
-        txt: "Cloud Studios’ 2D animations are infused with a palpable energy and emotional depth that elevates the art form. They have redefined what is possible. It was a privilege to collaborate with the best 2D company in the market.",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Ethan Kang",
-        txt: "In a saturated market of digital 2D animation, Cloud Studios stands out as the leading 2D animation agency. Their animations are super-engaging, and the storytelling they deliver forges deep, lasting connections with the audience.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
 export default function Page() {
     return (
         <>
@@ -180,7 +151,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact />
         </>
     );

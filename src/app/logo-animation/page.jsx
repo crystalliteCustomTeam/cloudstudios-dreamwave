@@ -11,17 +11,10 @@ import ScrollingLogos from "@/src/components/commonpages/scrollinglogos";
 import ElevateSec from "@/src/components/commonpages/elevate";
 import CtaSec from "@/src/components/commonpages/cta";
 import { Icon06, Icon07, Icon08, Icon09, Icon10 } from "@/src/app-constants";
-import IMG_01 from "media/home/testimonial/test1.webp"
-import IMG_02 from "media/home/testimonial/test2.webp"
-import IMG_03 from "media/home/testimonial/test3.webp"
-import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Professional Logo Animation Services | Make Your Brand Stand Out.",
-    description: "Lead the digital frontier with our expert custom logo animation services at Cloud Studios Inc. Elevate your brand presence with professional, captivating visuals that set you apart.",
-};
+
 
 const banner = {
     rating: "The New Frontier in Animation.",
@@ -181,31 +174,7 @@ const CtaData = {
     title: "Cutting-edge Logo Animation Services are just a tap away! ",
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Martha Carter",
-        txt: "Cloud Studios exceeded our expectations with their logo animation service. They transformed our static logo into a dynamic visual experience that perfectly captures our brand’s essence. Hat’s off to the team for the best logo animation services!",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Alexandra Chang",
-        txt: "Choosing Cloud Studios for our online logo animation was one of the best decisions for our brand. Their expertise in 3D animation brought our logo to life in ways we couldn’t have imagined. The visually stunning and technically precise animation logo has significantly enhanced our brand’s presence across digital platforms.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Jonas Lee ",
-        txt: "Cloud Studios impressed us with their innovative approach to online logo animation. They listened attentively to our brand’s story and vision, translating it into a captivating animated logo.",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Isabella Gomez ",
-        txt: "Working with Cloud Studios was a fantastic experience from start to finish. They crafted a bespoke 3D animation logo that perfectly encapsulates our brand’s identity and values. The modern and vibrant animation has elevated our brand’s visibility and recognition.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
+
 export default function Page() {
     return (
         <>
@@ -218,7 +187,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact data="Become a part of the Cloud Studios revolution and break the boundaries with our full-service video animation agency." />
         </>
     );

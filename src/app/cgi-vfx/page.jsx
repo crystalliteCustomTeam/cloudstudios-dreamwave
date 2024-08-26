@@ -12,17 +12,10 @@ import ScrollingLogos from "@/src/components/commonpages/scrollinglogos";
 import ElevateSec from "@/src/components/commonpages/elevate";
 import CtaSec from "@/src/components/commonpages/cta";
 import { Icon01, Icon02, Icon03, Icon04, Icon05 } from "@/src/app-constants";
-import IMG_01 from "media/home/testimonial/test1.webp"
-import IMG_02 from "media/home/testimonial/test2.webp"
-import IMG_03 from "media/home/testimonial/test3.webp"
-import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 
 
-export const metadata = {
-    title: "Cloud Studios Inc | Cutting-Edge CGI Animation and VFX Services",
-    description: "Explore Cloud Studios Inc.’s innovative CGI animation and VFX services. Elevate your projects with stunning visuals and unparalleled creativity. Contact us today to turn all your dreams into cinematic realities.",
-};
+
 const banner = {
     rating: "The New Frontier in Animation.",
     star: "yes",
@@ -145,36 +138,6 @@ const CtaData = {
     title: "Cutting-edge CGI and VFX Solutions are just a tap away!",
     btntxt: "Grab your bag of chips, and let’s get the ball rolling!",
 }
-const SLIDES = [
-    {
-        name: "Chris Tenny",
-        txt: "Cloud Studios Inc. transformed our creative concepts into visual masterpieces. Their attention to detail and innovative approach to CGI Animation is unmatched. We couldn't be happier with the results.",
-        img: IMG_01.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Taylor",
-        txt: "Our video game project was elevated by Cloud Studios Inc.'s stunning 3D CGI Animation. Their team's creativity and technical expertise made a significant impact on our gameplay experience.",
-        img: IMG_02.src,
-        video: "videos/LogoAnimation3.mp4",
-    },
-    {
-        name: "Alex Jonas",
-        txt: "Cloud Studios Inc. is our go-to CGI Animation Studio. Their ability to deliver high-quality animations and VFX under tight deadlines is a testament to their professionalism and dedication.",
-        img: IMG_03.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Sam",
-        txt: "The seamless integration of VFX in our commercial project was truly impressive. Cloud Studios Inc. exceeded our expectations and helped us achieve a compelling visual narrative.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }, {
-        name: "Jordan Lime",
-        txt: "Working with Cloud Studios Inc. was a fantastic experience. Their CGI Animation Services brought our architectural visualization project to life, impressing our clients and stakeholders.",
-        img: IMG_04.src,
-        video: "videos/LogoAnimation3.mp4",
-    }
-]
 export default function Page() {
     return (
         <>
@@ -187,7 +150,7 @@ export default function Page() {
             <ElevateSec slides={ElevateSlides} data={ElevateData} />
             <CtaSec data={CtaData} />
             <Achievement />
-            <Testimonial tit="See what they are saying about all the cool stuff we do!" clients="yes" slides={SLIDES} />
+            <Testimonial clients="yes" />
             <Contact />
         </>
     );
