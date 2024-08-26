@@ -37,6 +37,7 @@
 
     .contactNumber {
         margin-bottom: 10px;
+        padding-right: 10px;
 
         a {
             @include font-size(16px);
@@ -356,6 +357,7 @@
 
         .contactNumber {
             margin-bottom: 10px;
+            padding-right: 0px;
 
             a {
                 @include font-size(13px);
@@ -416,6 +418,7 @@
 
         .contactNumber {
             margin-bottom: 10px;
+            padding-right: 0px;
 
             a {
                 @include font-size(13px);
@@ -477,6 +480,7 @@
 
         .contactNumber {
             margin-bottom: 5px;
+            padding-right: 0px;
 
             a {
                 @include font-size(13px);

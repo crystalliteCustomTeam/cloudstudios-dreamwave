@@ -31,7 +31,7 @@ const Footer = () => {
                         <div className={styles.contactNumber}>
                             <a href="tel:18336666684" target="_blank" aria-label="Contact Link">1-833-666-6684</a>
                         </div>
-                        <div className={styles.contactAddress}>
+                        <div className={styles.contactNumber}>
                             <a href="https://maps.app.goo.gl/AZUNoU4RiCyqERcU7" target="_blank" aria-label="Pin Link">3415 S Sepulveda Blvd, Culver City, CA 90034</a>
                         </div>
                         <Image src={FooterImg.src} alt="footer Img" height={80} width={190} />
