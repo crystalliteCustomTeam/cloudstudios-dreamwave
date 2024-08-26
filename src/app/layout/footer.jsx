@@ -1,4 +1,4 @@
-import { FacebookIcon, InstagramIcon, LinkedInIcon, YoutubeIcon, FooterMainLogo } from "@/src/app-constants"
+import { FacebookIcon, InstagramIcon, LinkedInIcon, YoutubeIcon, FooterMainLogo, VimeoIcon } from "@/src/app-constants"
 import styles from "@/styles/layout/footer.module.scss"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
@@ -16,23 +16,23 @@ const Footer = () => {
                         </div>
                         <ul className={styles.socailIcon}>
                             <li>
-                                <a href="#" target="_blank" aria-label="Facebook Link"><FacebookIcon /></a>
+                                <a href="https://www.facebook.com/cloudstudiosofficial" target="_blank" aria-label="Facebook Link"><FacebookIcon /></a>
                             </li>
                             <li>
-                                <a href="#" target="_blank" aria-label="Instagram Link"><InstagramIcon /></a>
+                                <a href="https://www.instagram.com/cloudstudiosincofficial/" target="_blank" aria-label="Instagram Link"><InstagramIcon /></a>
                             </li>
                             <li>
-                                <a href="#" target="_blank" aria-label="Linkedin Link"><LinkedInIcon /></a>
+                                <a href="https://vimeo.com/cloudstudiosinc" target="_blank" aria-label="Linkedin Link"><VimeoIcon /></a>
                             </li>
                             <li>
-                                <a href="#" target="_blank" aria-label="Youtube Link"><YoutubeIcon /></a>
+                                <a href="https://www.youtube.com/@cloudstudiosinc" target="_blank" aria-label="Youtube Link"><YoutubeIcon /></a>
                             </li>
                         </ul>
                         <div className={styles.contactNumber}>
                             <a href="tel:18336666684" target="_blank" aria-label="Contact Link">1-833-666-6684</a>
                         </div>
                         <div className={styles.contactAddress}>
-                            3415 S Sepulveda Blvd, Culver City,<br /> CA 90034
+                            <a href="https://maps.app.goo.gl/AZUNoU4RiCyqERcU7" target="_blank" aria-label="Pin Link">3415 S Sepulveda Blvd, Culver City, CA 90034</a>
                         </div>
                         <Image src={FooterImg.src} alt="footer Img" height={80} width={190} />
                     </Col>

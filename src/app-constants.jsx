@@ -439,6 +439,18 @@ export function FacebookIcon() {
         </svg>
     )
 }
+export function VimeoIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            viewBox="0 0 24 24" style={{ borderRadius: '7px' }}
+        >
+            <path fill="#fff" d="M0 0v24h24V0H0zm19.249 10.732c-1.628 3.478-5.558 8.213-8.042 8.213-2.448 0-2.802-5.221-4.139-8.696-.658-1.709-1.083-1.317-2.316-.454L4 8.825c1.798-1.581 3.599-3.418 4.705-3.52 1.245-.12 2.012.731 2.299 2.554.379 2.396.908 6.114 1.832 6.114.72 0 2.494-2.95 2.585-4.004.162-1.544-1.135-1.591-2.261-1.109 1.781-5.836 9.194-4.761 6.089 1.872z"></path>
+        </svg>
+    )
+}
 export function InstagramIcon() {
     return (
         <svg
@@ -446,6 +458,7 @@ export function InstagramIcon() {
             width="35.046"
             height="35.046"
             viewBox="0 0 35.046 35.046"
+
         >
             <g data-name="instagram (1)">
                 <g data-name="Group 7401">
@@ -478,7 +491,7 @@ export function InstagramIcon() {
                     </g>
                 </g>
             </g>
-        </svg>
+        </svg >
     )
 }
 export function LinkedInIcon() {
