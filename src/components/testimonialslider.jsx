@@ -64,7 +64,7 @@ const TestimonialSlider = (props) => {
                     <PrevButton direction="next" />
                 </div>
             </div>
-            <VideoModal show={modalShow} videoUrl={videoUrl}
+            <VideoModal show={modalShow} iframeUrl={videoUrl}
                 onHide={() => setModalShow(false)} />
         </div>
 

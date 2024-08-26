@@ -37,16 +37,16 @@ const banner = {
 }
 const SLIDES = [
   {
-    name: "Sarah Benny",
+    name: "Mike",
     txt: "Leveraging Cloud Studios' animation service was the best decision ever. They turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills and animated services are out of this world.",
     img: IMG01.src,
-    video: "videos/LogoAnimation3.mp4",
+    video: "https://player.vimeo.com/video/1002689936?h=889006b16b&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
   },
   {
-    name: "Michelle Joanna",
+    name: "Thomas Wright",
     txt: "OMG! The cel animation the studio created for our indie film was pure magic! The animation agency somehow captured the nostalgia of old-school cartoons while adding a modern twist.",
     img: IMG02.src,
-    video: "videos/LogoAnimation3.mp4",
+    video: "https://player.vimeo.com/video/1002690094?h=110b768753&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
   },
   {
     name: "Rusell J. Peters ",
