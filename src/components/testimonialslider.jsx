@@ -40,13 +40,14 @@ const TestimonialSlider = (props) => {
                                     <Image src={item.img} alt={item.name} width={400} height={300} />
                                 </div>
                                 <div className={`${styles.testimonialtxt} ${clients === 'yes' ? `${styles.active}` : ''}`}>
-                                    <h3>{item.name}     {item.video ?
-                                        <div className={styles.playBtn} onClick={() => handleSlideClick(item.video)}>
-                                            <PlayBtn />
-                                        </div>
-                                        :
-                                        ''
-                                    }</h3>
+                                    <h3>{item.name}
+                                        {item.video ?
+                                            <div className={styles.playBtn} onClick={() => handleSlideClick(item.video)}>
+                                                <PlayBtn />
+                                            </div>
+                                            :
+                                            ''
+                                        }</h3>
                                     <p>{item.txt}</p>
 
                                 </div>

@@ -27,24 +27,20 @@ const SLIDES = [
         name: "Rusell J. Peters ",
         txt: "Holy hybrid animation, Superman! Cloud Studios is the best video marketing agency. It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation services!",
         img: IMG03.src,
-        video: "videos/LogoAnimation3.mp4",
     }, {
         name: "Lisa Kevins",
         txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
         img: IMG04.src,
-        video: "videos/LogoAnimation3.mp4",
     }
     , {
         name: "Lisa Kevins",
         txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
         img: IMG05.src,
-        video: "videos/LogoAnimation3.mp4",
     }
     , {
         name: "Lisa Kevins",
         txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
         img: IMG06.src,
-        video: "videos/LogoAnimation3.mp4",
     }
 ]
 
