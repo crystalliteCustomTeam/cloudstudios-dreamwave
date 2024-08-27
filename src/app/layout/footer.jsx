@@ -36,6 +36,7 @@ const Footer = () => {
                         </div>
                         <Image src={FooterImg.src} alt="footer Img" height={80} width={190} />
                     </Col>
+
                     <Col xxl={9} lg={8} md={8} className="my-auto">
                         <div className={styles.footerLinks}>
                             <ul>
