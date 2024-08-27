@@ -16,6 +16,7 @@ const fetchVimeoVideos = async (page = 1, perPage = 9) => {
             },
         });
         const data = await response.json();
+        console.log()
         return data.data;
     } catch (error) {
         console.error("Error fetching Vimeo videos:", error);
