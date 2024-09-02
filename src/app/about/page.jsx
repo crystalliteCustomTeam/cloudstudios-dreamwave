@@ -7,10 +7,10 @@ import MissionSec from "@/src/app/about/mission";
 import Achievement from "@/src/app/home/achievement";
 import Testimonial from "@/src/app/home/testimonial";
 
-import IMG01 from "media/home/testimonial/test1.webp"
-import IMG02 from "media/home/testimonial/test2.webp"
-import IMG03 from "media/home/testimonial/test3.png"
 import IMG04 from "media/home/testimonial/test4.webp"
+import IMG05 from "media/home/testimonial/test5.webp"
+import IMG06 from "media/home/testimonial/test6.webp"
+
 
 
 
@@ -29,17 +29,17 @@ const Teams = [
     {
         name: "Isabel Dodson",
         txt: "Creative Director",
-        img: IMG01.src,
+        img: IMG04.src,
     },
     {
         name: "Benny Weiss",
         txt: "Animation & RnD Director",
-        img: IMG02.src,
+        img: IMG05.src,
     },
     {
         name: "Olivia Harris",
         txt: "VFX Supervisor",
-        img: IMG03.src,
+        img: IMG06.src,
     }
 ]
 

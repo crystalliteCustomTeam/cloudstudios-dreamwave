@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/components/pricing.module.scss"
@@ -73,7 +74,7 @@ const PriceBox = () => {
                                         </div>
                                         <div className={styles.footerBox}>
                                             <Link href="">833 666 6684</Link>
-                                            <Link href=""><ChatIcon />Live Chat</Link>
+                                            <Link href="" onClick={() => Tawk_API && Tawk_API.toggle()}><ChatIcon />Live Chat</Link>
                                         </div>
                                     </div>
 

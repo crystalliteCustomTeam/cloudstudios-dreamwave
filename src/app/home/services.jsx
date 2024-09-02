@@ -43,12 +43,14 @@ const SLIDES = [
         name: "Cel Animation",
         txt: "We leverage traditional cel animation techniques with modern efficiency. Our animation video service process involves hand-drawing keyframes.",
         img: Service01.src,
+        video: "https://player.vimeo.com/video/1001681128?h=2c68190e0a&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
         link: "#",
     },
     {
         name: "Hybrid Animation",
         txt: "Our video animation agency has pioneered our hybrid animation techniques, combining vector-based 2D animation with procedural 3D systems.",
         img: Service03.src,
+        video: "https://player.vimeo.com/video/1001681128?h=2c68190e0a&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
         link: "#",
     }, {
         name: "Real-Time Rendering",
@@ -62,12 +64,14 @@ const SLIDES = [
         txt: "Our motion graphics video animation service combines graphic design principles with animation techniques to create visually compelling content.",
         img: Service06.src,
         link: "#",
+        video: "https://player.vimeo.com/video/1001682235?h=fbfb09a4f5&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     },
     {
         name: "Whiteboard",
         txt: "We specialize in whiteboard animation video services, crafting engaging, hand-drawn visuals that simplify complex ideas.",
         img: Service07.src,
         link: "#",
+        video: "https://player.vimeo.com/video/1001684421?h=ce2c2ce88c&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     },
     {
         name: "Video Editing & Compositing",
@@ -86,6 +90,7 @@ const SLIDES = [
         txt: "Our animated service for infographics turns data into engaging visual stories using a blend of graphic design software.",
         img: Service11.src,
         link: "#",
+        video: "https://player.vimeo.com/video/1001681597?h=7814ae9d9c&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     },
     {
         name: "Commercials",

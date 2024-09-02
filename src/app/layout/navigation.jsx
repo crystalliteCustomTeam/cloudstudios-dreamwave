@@ -55,16 +55,6 @@ const Navigation = () => {
     };
 
 
-    // Chat Code
-    const handleChatOpen = (e) => {
-        e.preventDefault();
-        if (window.$zopim && window.$zopim.livechat && window.$zopim.livechat.window) {
-            window.$zopim.livechat.window.show();
-        } else {
-            console.warn('Zendesk chat is not yet initialized');
-        }
-    };
-
 
     return (
         <>
@@ -184,8 +174,8 @@ const Navigation = () => {
                             Get Started <ArrowMenu />
                         </Link>
                     </li>
-                    <li className={styles.liveChat} onClick={handleChatOpen}>
-                        <Link href="#" aria-label="Live Chat">
+                    <li className={styles.liveChat} >
+                        <Link href="#" aria-label="Live Chat" onClick={() => Tawk_API && Tawk_API.toggle()}>
                             <ChatIcon /> Live Chat
                         </Link>
                     </li>
