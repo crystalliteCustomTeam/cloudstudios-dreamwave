@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
                         </p>
                         <h3>The General Data Protection Regulation Imply</h3>
                         <p>
-                            We do not transfer data to other parties that gives out your personally identifiable information. An individual's data that you will give will be kept confidential and you will have complete know of it. This does not include our subsidiaries and trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential.
+                            We do not transfer data to other parties that gives out your personally identifiable information. An individual’s data that you will give will be kept confidential and you will have complete know of it. This does not include our subsidiaries and trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential.
                         </p>
                         <h3>Consent</h3>
                         <p>
