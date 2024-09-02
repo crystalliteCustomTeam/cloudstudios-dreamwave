@@ -15,19 +15,19 @@ const SLIDES = [
         name: "Mike",
         txt: "Leveraging Cloud Studios' animation service was the best decision ever. They turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills and animated services are out of this world.",
         img: IMG01.src,
-        video: "https://player.vimeo.com/video/1002689936?h=889006b16b&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
+        video: "https://player.vimeo.com/video/1002689936?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
         name: "Thomas Wright",
         txt: "OMG! The cel animation the studio created for our indie film was pure magic! The animation agency somehow captured the nostalgia of old-school cartoons while adding a modern twist.",
         img: IMG02.src,
-        video: "https://player.vimeo.com/video/1002690094?h=110b768753&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
+        video: "https://player.vimeo.com/video/1002690094?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
         name: "Jessica ",
         txt: "Holy hybrid animation, Superman! Cloud Studios is the best video marketing agency. It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation services!",
         img: IMG03.src,
-        video: "https://player.vimeo.com/video/1005466567?h=110b768753&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
+        video: "https://player.vimeo.com/video/1005466567?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     }, {
         name: "Lisa Kevins",
         txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
