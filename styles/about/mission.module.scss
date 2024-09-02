@@ -15,4 +15,95 @@
             padding-top: 20px;
         }
     }
+
+    .whatVideo{
+        height: 350px;
+        video{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .missionSec {
+
+
+        .whatVideo {
+            height: 350px;
+        }
+
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .missionSec {
+
+        .whatVideo {
+            height: 220px;
+        }
+
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .missionSec {
+
+        .whatVideo {
+            height: 200px;
+        }
+
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .missionSec {
+
+        .whatVideo {
+            height: 220px;
+        }
+
+
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .missionSec {
+
+        .whatVideo {
+            height: 250px;
+        }
+
+
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .missionSec {
+
+        .whatVideo {
+            height: 250px;
+        }
+
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .missionSec {
+
+        .whatVideo {
+            height: 250px;
+        }
+
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .missionSec {
+            .whatVideo {
+            height: 250px;
+        }
+
+    }
 }

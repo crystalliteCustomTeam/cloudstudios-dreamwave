@@ -106,7 +106,7 @@ const FooterLP = () => {
             <section className={styles.copyrightLP}>
                 <Container className="h-100">
                     <Row className="h-100">
-                        <Col md={6} className="my-auto">
+                        <Col md={6} className="my-auto ">
                             <p>© Copyright 2024 - Cloud Studios Inc</p>
                         </Col>
                         <Col md={6} className="my-auto">

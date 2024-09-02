@@ -6,6 +6,13 @@ import FooterImg from "media/footer/footerImg.webp"
 import Image from "next/image"
 
 const Footer = () => {
+    // Chat Code
+    const handleChatOpen = (e) => {
+        e.preventDefault();
+        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
+            $zopim.livechat.window.show();
+        }
+    };
     return (
         <section className={`${styles.footerSec} p-100`}>
             <Container className="h-100">
@@ -38,7 +45,7 @@ const Footer = () => {
                     </Col>
 
                     <Col xxl={9} lg={8} md={8} className="my-auto">
-                        <div className={styles.footerLinks}>
+                        {/* <div className={styles.footerLinks}>
                             <ul>
                                 <li><Link href="" aria-label="Company Link">Company</Link></li>
                                 <li><Link href="" aria-label="Testimonials Link">Testimonials</Link></li>
@@ -70,6 +77,35 @@ const Footer = () => {
                             <ul>
                                 <li><Link href="" aria-label="Social Link" >Social Cuts</Link></li>
                                 <li><Link href="" aria-label="Video Link">Video Cards</Link></li>
+                            </ul>
+                        </div> */}
+                        <div className={styles.footerLinks}>
+                            <ul>
+                                <li><Link href="https://cloudstudios.us/portfolio" aria-label="Portfolio Link">Portfolio</Link></li>
+                                <li><Link href="https://cloudstudios.us/pricing" aria-label="Pricing Link">Pricing</Link></li>
+                                <li><Link href="https://cloudstudios.us/contact" aria-label="Contact Link">Contact u</Link></li>
+                                <li><Link href="javascript:$zopim.livechat.window.show();">Get a Quote</Link></li>
+                                <li><Link href="/terms-and-conditions" aria-label="Contact Link">Terms and Conditions</Link></li>
+                            </ul>
+                            <ul>
+                                <li><Link href="https://cloudstudios.us/2d-animations" aria-label="2D Animations Link">2D Animations</Link></li>
+                                <li><Link href="https://cloudstudios.us/3d-animations" aria-label="3D Animations Link">3D Animations</Link></li>
+                                <li><Link href="https://cloudstudios.us/explainer-videos" aria-label="Explainer Videos Link" >Explainer Videos </Link></li>
+                                <li><Link href="https://cloudstudios.us/infographics-design" aria-label="Infographics Design Link">Infographics Design</Link></li>
+                                <li><Link href="/privacy-policy" aria-label="Contact Link">Privacy Policy</Link></li>
+                            </ul>
+                            <ul>
+                                <li><Link href="https://cloudstudios.us/logo-animation" aria-label="Logo Animation Link">Logo Animation</Link></li>
+                                <li><Link href="https://cloudstudios.us/video-editing" aria-label="Video Editing Link" >Video Editing</Link></li>
+                                <li><Link href="https://cloudstudios.us/cgi-vfx" aria-label="CGI & VFX Link">CGI & VFX</Link></li>
+                                <li><Link href="https://cloudstudios.us/motion-graphics" aria-label="Motion-Graphics Link">Motion-Graphics</Link></li>
+
+                            </ul>
+                            <ul>
+                                <li><Link href="https://cloudstudios.us/whiteboard-animation" aria-label="Whiteboard Animation Link" >Whiteboard Animation</Link></li>
+                                <li><Link href="https://cloudstudios.us/hybrid-cel-animation" aria-label="Hybrid and Cel Animation Link" >Hybrid and Cel Animation</Link></li>
+                                <li><Link href="https://cloudstudios.us/promotional-videos" aria-label="Promotional Videos Link">Promotional Videos</Link></li>
+                                <li><Link href="https://cloudstudios.us/architectural-visualization" aria-label="Architectural Visualization Link">Architectural Visualization</Link></li>
                             </ul>
                         </div>
                     </Col>

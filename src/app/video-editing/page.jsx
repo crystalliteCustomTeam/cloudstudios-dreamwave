@@ -13,7 +13,7 @@ import CtaSec from "@/src/components/commonpages/cta";
 import { Icon01, Icon02, Icon03, Icon04, Icon05 } from "@/src/app-constants";
 import IMG_01 from "media/home/testimonial/test1.webp"
 import IMG_02 from "media/home/testimonial/test2.webp"
-import IMG_03 from "media/home/testimonial/test3.webp"
+import IMG_03 from "media/home/testimonial/test3.png"
 import IMG_04 from "media/home/testimonial/test4.webp"
 import MainBanner from "@/src/components/mainbanner";
 

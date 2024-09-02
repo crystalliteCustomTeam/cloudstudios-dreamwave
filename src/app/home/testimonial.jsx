@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import BannerBg from "media/home/testimonial/logo.webp"
 import IMG01 from "media/home/testimonial/test1.webp"
 import IMG02 from "media/home/testimonial/test2.webp"
-import IMG03 from "media/home/testimonial/test3.webp"
+import IMG03 from "media/home/testimonial/test3.png"
 import IMG04 from "media/home/testimonial/test4.webp"
 import IMG05 from "media/home/testimonial/test5.webp"
 import IMG06 from "media/home/testimonial/test6.webp"
@@ -24,9 +24,10 @@ const SLIDES = [
         video: "https://player.vimeo.com/video/1002690094?h=110b768753&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     },
     {
-        name: "Rusell J. Peters ",
+        name: "Jessica ",
         txt: "Holy hybrid animation, Superman! Cloud Studios is the best video marketing agency. It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation services!",
         img: IMG03.src,
+        video: "https://player.vimeo.com/video/1005466567?h=110b768753&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
     }, {
         name: "Lisa Kevins",
         txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",

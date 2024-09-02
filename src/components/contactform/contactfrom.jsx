@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { ArrowMenu } from "@/src/app-constants";
 import styles from "@/styles/components/contactfrom.module.scss";
 
-const ContactForm = ({ callbtn }) => {
+const ContactForm = ({ callbtn, sidebar }) => {
     const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
         mode: "onChange",
     });
@@ -112,12 +112,14 @@ const ContactForm = ({ callbtn }) => {
                     />
                     {errors.phone && <span className={styles.errorStyle}>{errors.phone.message}</span>}
                 </div>
-                <div className={styles.textarea}>
+                <div className={`${styles.textarea} ${sidebar === true && "pb-2"}`}>
                     <textarea {...register('msg')} placeholder='Message'></textarea>
                 </div>
-                <div className={styles.contactTxt}>
-                    <p>By continuing you agree to the Cloud Studios Inc Privacy Policy and consent to receive communications from us.</p>
-                </div>
+                {sidebar === true ? null :
+                    <div className={styles.contactTxt}>
+                        <p>By continuing you agree to the Cloud Studios Inc Privacy Policy and consent to receive communications from us.</p>
+                    </div>
+                }
                 <div className={styles.contactSubmit}>
                     <button type="submit" className={styles.submitBtn} disabled={isSubmitting || loading}>
                         {loading ? 'Submitting...' : <>Submit <ArrowMenu /></>}

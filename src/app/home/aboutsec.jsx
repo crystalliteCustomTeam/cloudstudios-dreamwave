@@ -13,7 +13,7 @@ const AboutSec = () => {
                     <Col xxl={5} xl={5} lg={5} md={5} className="my-auto">
                         <div className={styles.whatTitle}>
                             What is Cloud
-                            <FavIcon />Studios
+                            <FavIcon />Studios?
                         </div>
                         <div className={styles.whatVideo}>
                             <video width="100%" controls={false} autoPlay={true} loop={true} muted preload="none" >

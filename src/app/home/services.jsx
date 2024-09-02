@@ -22,24 +22,27 @@ const SLIDES = [
         name: "2D Animation",
         txt: "We excel in 2D video animation services, utilizing advanced software and techniques.",
         img: Service05.src,
+        video: "https://player.vimeo.com/video/1001676601?h=435c89dc96&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
         link: "#",
     },
     {
         name: "3D Animation",
         txt: "We excel in 3D video animation services, utilizing advanced software and techniques.",
         img: Service10.src,
-        link: "#",
-    },
-    {
-        name: "Cel Animation",
-        txt: "We leverage traditional cel animation techniques with modern efficiency. Our animation video service process involves hand-drawing keyframes.",
-        img: Service01.src,
+        video: "https://player.vimeo.com/video/1001678242?h=afc2af3f25&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
         link: "#",
     },
     {
         name: "Architectural Visualization",
         txt: "Our video animation company employs advanced 3D modeling software and physically-based rendering engines to create hyper-realistic architectural visualizations.",
         img: Service02.src,
+        video: "https://player.vimeo.com/video/1001678810?h=9a105f0ec6&background=1&autoplay=1&muted=1&loop=1&controls=0&title=0&byline=0&portrait=0",
+        link: "#",
+    },
+    {
+        name: "Cel Animation",
+        txt: "We leverage traditional cel animation techniques with modern efficiency. Our animation video service process involves hand-drawing keyframes.",
+        img: Service01.src,
         link: "#",
     },
     {

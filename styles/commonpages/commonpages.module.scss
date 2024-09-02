@@ -1,0 +1,15 @@
+@import '../variables.module.scss';
+
+
+.mainContainer {
+    padding-top: 150px;
+
+    .list{
+        color: #fff;
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+    .list li{
+        line-height: 1.4rem;
+    }
+}

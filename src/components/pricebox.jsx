@@ -72,7 +72,7 @@ const PriceBox = () => {
                                             <Link href="">Get A Call For Free Consultation</Link>
                                         </div>
                                         <div className={styles.footerBox}>
-                                            <Link href="">012 345 6789</Link>
+                                            <Link href="">833 666 6684</Link>
                                             <Link href=""><ChatIcon />Live Chat</Link>
                                         </div>
                                     </div>

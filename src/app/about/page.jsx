@@ -9,7 +9,7 @@ import Testimonial from "@/src/app/home/testimonial";
 
 import IMG01 from "media/home/testimonial/test1.webp"
 import IMG02 from "media/home/testimonial/test2.webp"
-import IMG03 from "media/home/testimonial/test3.webp"
+import IMG03 from "media/home/testimonial/test3.png"
 import IMG04 from "media/home/testimonial/test4.webp"
 
 

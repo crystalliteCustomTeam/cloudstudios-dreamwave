@@ -1,3 +1,4 @@
+
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "./styles/banner.module.scss"
 import BannerImg from "media/lp/explainer-video-animation/bannerImg.webp"
