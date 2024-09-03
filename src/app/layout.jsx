@@ -27,18 +27,11 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/" },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-    nocache: false,
-    googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+
+  //===== Google Varification =====
+  verification: {
+    other: {
+      "google-site-verification": ['iXqiyjFm-o64gnZr_ZT9hsttcsQawvQhu0QIPCxa5Os'],
     },
   },
 
@@ -50,14 +43,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <ScriptsCode />
       <body className={poppins.className}>
-      <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-TMGRWM6V"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          ></iframe>
-        </noscript>
+
         <ConditionalLayout >
           {children}
         </ConditionalLayout>
