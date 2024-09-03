@@ -73,7 +73,7 @@ const PriceBox = () => {
                                             <Link href="">Get A Call For Free Consultation</Link>
                                         </div>
                                         <div className={styles.footerBox}>
-                                            <Link href="">833 666 6684</Link>
+                                            <a href="">1 833 666 6684</a>
                                             <Link href="" onClick={() => Tawk_API && Tawk_API.toggle()}><ChatIcon />Live Chat</Link>
                                         </div>
                                     </div>

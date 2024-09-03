@@ -2,6 +2,7 @@
 import Header from "@/src/app/layout/header";
 import Footer from "@/src/app/layout/footer";
 import { usePathname } from "next/navigation";
+import SidebarCTA from "../components/sidebarcat/SidebarCta";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -11,6 +12,7 @@ const ConditionalLayout = ({ children }) => {
         <>
             {conditionalVariable && <Header />}
             {children}
+            <SidebarCTA />
             {conditionalVariable && <Footer />}
         </>
     );

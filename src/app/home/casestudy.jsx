@@ -3,9 +3,10 @@ import { ArrowMenu, PlayBtn } from "@/src/app-constants"
 import styles from "@/styles/home/casestudy.module.scss"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
-import IMG1 from "media/home/casestudies/img01.webp"
-import IMG2 from "media/home/casestudies/img02.webp"
-import IMG3 from "media/home/casestudies/img03.webp"
+import IMG1 from "media/home/casestudies/thumb-1.jpg"
+import IMG2 from "media/home/casestudies/thumb-2.jpg"
+import IMG3 from "media/home/casestudies/thumb-3.jpg"
+import IMG4 from "media/home/casestudies/thumb-4.jpg"
 import { useState } from "react"
 import VideoModal from "@/src/components/videomodal"
 
@@ -73,7 +74,7 @@ const CaseStudy = () => {
                             </div>
                         </Col>
                         <Col xxl={8} lg={8} md={6}>
-                            <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG3.src})` }}>
+                            <div className={`${styles.videoBox} ${styles.last}`} style={{ backgroundImage: `url(${IMG4.src})` }}>
                                 <div className={styles.playBtn} onClick={() => handlePlayClick('1004283621')}>
                                     <PlayBtn />
                                 </div>

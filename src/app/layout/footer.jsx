@@ -45,46 +45,12 @@ const Footer = () => {
                     </Col>
 
                     <Col xxl={9} lg={8} md={8} className="my-auto">
-                        {/* <div className={styles.footerLinks}>
-                            <ul>
-                                <li><Link href="" aria-label="Company Link">Company</Link></li>
-                                <li><Link href="" aria-label="Testimonials Link">Testimonials</Link></li>
-                                <li><Link href="" aria-label="Reviews Link">Reviews</Link></li>
-                                <li><Link href="" aria-label="Contact Link">Contact Us</Link></li>
-                            </ul>
-                            <ul>
-                                <li><Link href="" aria-label="Services Link">Services</Link></li>
-                                <li><Link href="" aria-label="Process Link" >Process</Link></li>
-                                <li><Link href="" aria-label="Pricing Link">Pricing</Link></li>
-                                <li><Link href="">Partnerships</Link></li>
-                            </ul>
-                            <ul>
-                                <li><Link href="" aria-label="2D Animation Link">2D Animation</Link></li>
-                                <li><Link href="" aria-label="3D Animation Link">3D Animation</Link></li>
-                                <li><Link href="" aria-label="Mixed Link" >Mixed Media</Link></li>
-                                <li><Link href="" aria-label="Live Link">Live Action</Link></li>
-                            </ul>
-                            <ul>
-                                <li><Link href="" aria-label="Portfolio Link">Portfolio</Link></li>
-                                <li><Link href="" aria-label="Blog Link">Blog</Link></li>
-                                <li><Link href="" aria-label="Careers Link">Careers</Link></li>
-                                <li><Link href="" aria-label="Get Quote Link" >Get Quote</Link></li>
-                            </ul>
-                            <ul>
-                                <li><Link href="" aria-label="Localization Link">Localization</Link></li>
-                                <li><Link href="" aria-label="Lottie Link" >Lottie Files</Link></li>
-                            </ul>
-                            <ul>
-                                <li><Link href="" aria-label="Social Link" >Social Cuts</Link></li>
-                                <li><Link href="" aria-label="Video Link">Video Cards</Link></li>
-                            </ul>
-                        </div> */}
                         <div className={styles.footerLinks}>
                             <ul>
                                 <li><Link href="https://cloudstudios.us/portfolio" aria-label="Portfolio Link">Portfolio</Link></li>
                                 <li><Link href="https://cloudstudios.us/pricing" aria-label="Pricing Link">Pricing</Link></li>
-                                <li><Link href="https://cloudstudios.us/contact" aria-label="Contact Link">Contact u</Link></li>
-                                <li><Link href="javascript:$zopim.livechat.window.show();">Get a Quote</Link></li>
+                                <li><Link href="https://cloudstudios.us/contact" aria-label="Contact Link">Contact us</Link></li>
+                                <li><Link href="/privacy-policy" aria-label="Contact Link">Privacy Policy</Link></li>
                                 <li><Link href="/terms-and-conditions" aria-label="Contact Link">Terms and Conditions</Link></li>
                             </ul>
                             <ul>
@@ -92,13 +58,12 @@ const Footer = () => {
                                 <li><Link href="https://cloudstudios.us/3d-animations" aria-label="3D Animations Link">3D Animations</Link></li>
                                 <li><Link href="https://cloudstudios.us/explainer-videos" aria-label="Explainer Videos Link" >Explainer Videos </Link></li>
                                 <li><Link href="https://cloudstudios.us/infographics-design" aria-label="Infographics Design Link">Infographics Design</Link></li>
-                                <li><Link href="/privacy-policy" aria-label="Contact Link">Privacy Policy</Link></li>
                             </ul>
                             <ul>
                                 <li><Link href="https://cloudstudios.us/logo-animation" aria-label="Logo Animation Link">Logo Animation</Link></li>
                                 <li><Link href="https://cloudstudios.us/video-editing" aria-label="Video Editing Link" >Video Editing</Link></li>
                                 <li><Link href="https://cloudstudios.us/cgi-vfx" aria-label="CGI & VFX Link">CGI & VFX</Link></li>
-                                <li><Link href="https://cloudstudios.us/motion-graphics" aria-label="Motion-Graphics Link">Motion-Graphics</Link></li>
+                                <li><Link href="https://cloudstudios.us/motion-graphics" aria-label="Motion-Graphics Link">Motion Graphics</Link></li>
 
                             </ul>
                             <ul>

@@ -4,7 +4,7 @@ import { ArrowMenu } from '@/src/app-constants';
 import Link from 'next/link';
 import VideoModal from '@/src/components/videomodal';
 
-const CommonBtn = ({ data }) => {
+const CommonBtn = ({ btnStyle, data }) => {
     const [modalShow, setModalShow] = useState(false);
 
     const handleClick = () => {
@@ -12,7 +12,7 @@ const CommonBtn = ({ data }) => {
     };
     return (
         <>
-            <div className="button" onClick={() => handleClick()}>{data ? data : "Get Started"} <ArrowMenu /></div>
+            <div className={btnStyle ? btnStyle : "button"} onClick={() => handleClick()}>{data ? data : "Get Started"} <ArrowMenu /></div>
             <VideoModal show={modalShow} onHide={() => setModalShow(false)} />
         </>
     )

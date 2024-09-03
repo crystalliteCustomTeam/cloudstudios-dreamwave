@@ -1,5 +1,6 @@
 "use client"
 import { ArrowMenu, ChatIcon, NavIcon, SubMenuIcon } from "@/src/app-constants";
+import CommonBtn from "@/src/components/commonbtn";
 import styles from "@/styles/layout/navigation.module.scss";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -130,7 +131,7 @@ const Navigation = () => {
                                     className={`${styles.MenuList} ${pathname === "/motion-graphics" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/motion-graphics" aria-label="Motion-Graphics">Motion-Graphics</Link>
+                                    <Link href="/motion-graphics" aria-label="Motion-Graphics">Motion Graphics</Link>
                                 </div>
                                 <div
                                     className={`${styles.MenuList} ${pathname === "/hybrid-cel-animation" ? styles.active : ""}`}
@@ -170,9 +171,7 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className={styles.button} aria-label="Get Started" onClick={isMobileView ? handleClosed : undefined}>
-                            Get Started <ArrowMenu />
-                        </Link>
+                        <CommonBtn className={styles.button} data="Get Started" />
                     </li>
                     <li className={styles.liveChat} >
                         <Link href="#" aria-label="Live Chat" onClick={() => Tawk_API && Tawk_API.toggle()}>

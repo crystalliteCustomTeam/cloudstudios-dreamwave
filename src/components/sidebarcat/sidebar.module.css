@@ -71,7 +71,7 @@
     left: -300px;
     transform: translateY(-50%);
     z-index: 9;
-    max-width: 300px;
+    max-width: 550px;
     padding: 20px;
     border-radius: 5px;
     transition: left 0.3s ease-in-out;
