@@ -25,7 +25,7 @@ export default function Portfolio() {
             <MainBanner data={banner} />
             <BannerLogos />
             <CaseStudies />
-            <Contact data="Become a part of the Cloud Studios revolution and forge your brand to penetrate everything digital." />
+            <Contact callbtn="no" data="Become a part of the Cloud Studios revolution and forge your brand to penetrate everything digital." />
         </>
     );
 }

@@ -50,6 +50,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <ScriptsCode />
       <body className={poppins.className}>
+      <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TMGRWM6V"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
         <ConditionalLayout >
           {children}
         </ConditionalLayout>

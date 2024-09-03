@@ -52,7 +52,7 @@ const SidebarCTA = () => {
                         <Row className="h-100">
                             <Col className="my-auto">
                                 <h2>Amazing <span>Discounts</span></h2>
-                                <ContactForm sidebar={true} />
+                                <ContactForm sidebar={true} callbtn="no"/>
                             </Col>
                         </Row>
                     </div>

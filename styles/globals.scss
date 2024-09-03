@@ -333,6 +333,15 @@ body {
             color: $white-color;
         }
     }
+    .contactImg {
+        text-align: center;
+      svg{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    
+    }
 }
 
 .servicesSlider {
@@ -520,6 +529,7 @@ body {
             padding: 0px 20px;
             height: 40px;
         }
+        
 
     }
 

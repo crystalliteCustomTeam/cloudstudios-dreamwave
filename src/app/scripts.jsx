@@ -19,6 +19,31 @@ const ScriptsCode = () => {
             tawkScript.setAttribute('crossorigin', '*');
             document.body.appendChild(tawkScript);
 
+            //======= Google Tag Manager =======//
+            const gtagScript = document.createElement("script");
+            gtagScript.async = true;
+            gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-HQKBXEMEH3';
+            document.body.appendChild(gtagScript);
+            
+            const gtagInlineScript = document.createElement("script");
+            gtagInlineScript.innerHTML = `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HQKBXEMEH3');
+            `;
+            document.body.appendChild(gtagInlineScript);
+
+            //======= Google Tag Manager (noscript) =======//
+            const gtmNoScript = document.createElement("noscript");
+            gtmNoScript.innerHTML = `
+              <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMGRWM6V"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            `;
+            document.body.appendChild(gtmNoScript);
+
+            
+
 
         }, 5000);
 

@@ -19,7 +19,7 @@ const Contact = ({ page, data }) => {
                                 </Col>
                                 <Col xxl={6} lg={6} md={6} className="my-auto">
                                     <h2>Get Quote</h2>
-                                    <ContactForm />
+                                    <ContactForm callbtn="no"/>
                                 </Col>
                             </Row>
                         </div>
