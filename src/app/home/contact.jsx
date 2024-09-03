@@ -15,11 +15,11 @@ const Contact = ({ page, data }) => {
                             <h2>{data ? data : "Become a part of the Cloud Studios revolution and help your brand break boundaries through powerful animation."}</h2>
                             <Row className="h-100">
                                 <Col xxl={6} lg={6} md={6} className="my-auto">
-                                    <Animation />
+                                    <Animation footer={true} />
                                 </Col>
                                 <Col xxl={6} lg={6} md={6} className="my-auto">
                                     <h2>Get Quote</h2>
-                                    <ContactForm callbtn="no"/>
+                                    <ContactForm callbtn="no" />
                                 </Col>
                             </Row>
                         </div>

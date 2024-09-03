@@ -3,7 +3,7 @@
 // import animationData from 'media/animations/animation.json';
 import { FavIcon2 } from "@/src/app-constants"
 
-const Animation = () => {
+const Animation = ({ footer }) => {
     // const options = {
     //     loop: true,
     //     autoplay: true,
@@ -16,7 +16,7 @@ const Animation = () => {
         // <div>
         //     {View}
         // </div>
-        <div className="contactImg">
+        <div className={`contactImg ${contactImg ? 'footerSVG' : ''}`}>
             <FavIcon2 />
         </div>
     );
