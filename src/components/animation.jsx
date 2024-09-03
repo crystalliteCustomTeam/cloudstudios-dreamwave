@@ -16,7 +16,7 @@ const Animation = ({ footer }) => {
         // <div>
         //     {View}
         // </div>
-        <div className={`contactImg ${contactImg ? 'footerSVG' : ''}`}>
+        <div className={`contactImg ${footer ? 'footerSVG' : ''}`}>
             <FavIcon2 />
         </div>
     );

@@ -333,14 +333,21 @@ body {
             color: $white-color;
         }
     }
+
     .contactImg {
         text-align: center;
-      svg{
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-      }
-    
+
+        svg {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        &.footerSVG {
+            max-width: 70%;
+            margin: auto;
+        }
+
     }
 }
 
@@ -529,7 +536,7 @@ body {
             padding: 0px 20px;
             height: 40px;
         }
-        
+
 
     }
 
