@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Boost conversions with motion graphics design – take charge today.",
-    description: "The best motion graphics animators at your disposal from Cloud Studios Inc. –experience a full suite of motion graphic animation at unbeatable prices.",
+    title: "Motion Graphics Video Production Services - Cloud Studios",
+    description: "Cloud Studios is offering the finest motion graphics video services by professional designers. Hire us and get custom motion graphics animated videos.",
     //===== OG Tags =====
     openGraph: {
-        title: "Boost conversions with motion graphics design – take charge today.",
-        description: "The best motion graphics animators at your disposal from Cloud Studios Inc. –experience a full suite of motion graphic animation at unbeatable prices.",
+        title: "Motion Graphics Video Production Services - Cloud Studios",
+        description: "Cloud Studios is offering the finest motion graphics video services by professional designers. Hire us and get custom motion graphics animated videos.",
         url: '/motion-graphics',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

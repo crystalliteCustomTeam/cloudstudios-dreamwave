@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Data, Charts, Numbers & Insights – Take charge with Infographics today!",
-    description: "Transform numbers and data into powerful visuals with Cloud Studios Inc.’s top-tier infographics services. Engage your prospects and audience visually, streamline complex info, and chart courses toward success with our solutions.",
+    title: "High Quality Infographics Video Services - Cloud Studios",
+    description: "Be inspired by our creative Infographics Video Services. Experience the art of transforming information into captivating visuals.",
     //===== OG Tags =====
     openGraph: {
-        title: "Data, Charts, Numbers & Insights – Take charge with Infographics today!",
-        description: "Transform numbers and data into powerful visuals with Cloud Studios Inc.’s top-tier infographics services. Engage your prospects and audience visually, streamline complex info, and chart courses toward success with our solutions.",
+        title: "High Quality Infographics Video Services - Cloud Studios",
+        description: "Be inspired by our creative Infographics Video Services. Experience the art of transforming information into captivating visuals.",
         url: '/infographics-design',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

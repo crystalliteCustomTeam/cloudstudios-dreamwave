@@ -1,13 +1,13 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Simple is better – experience the best-in-class whiteboard animation solutions today!",
-    description: "Take charge today – Cloud Studios Inc.’s whiteboard animation solution is here to clarify your branding and identity. Our expert team delivers seamless, easy-to-understand animations that simplify complex ideas.",
+    title: "Whiteboard Explainer Video Services - Cloud Studios",
+    description: "Need an engaging video for your business? Order your custom whiteboard explainer video now and captivate your audience. Click for more details.",
 
     //===== OG Tags =====
     openGraph: {
-        title: "Simple is better – experience the best-in-class whiteboard animation solutions today!",
-        description: "Take charge today – Cloud Studios Inc.’s whiteboard animation solution is here to clarify your branding and identity. Our expert team delivers seamless, easy-to-understand animations that simplify complex ideas.",
+        title: "Whiteboard Explainer Video Services - Cloud Studios",
+        description: "Need an engaging video for your business? Order your custom whiteboard explainer video now and captivate your audience. Click for more details.",
         url: '/whiteboard-animation',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

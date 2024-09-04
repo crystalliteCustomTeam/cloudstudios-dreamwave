@@ -13,12 +13,12 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL("https://cloudstudios.us/"),
   //===== Meta Tags =====
-  title: "Cloud Studios Inc: Cutting-Edge Video Animation Studio in USA.",
-  description: "Cloud Studios Inc. delivers innovative animation, video production services, and VFX solutions. From cel animation, hybrid animation, 3D visualization, and AR/VR augmentation to real-time rendering, we are the 'destination' for your brand's success. ",
+  title: "Explainer Video Production & Animation Company - Cloud Studios",
+  description: "Looking to make explainer videos for your business? Cloud Studios specializes in animated video production. ✓ Find out more about business animation videos!",
   //===== OG Tags =====
   openGraph: {
-    title: "Cloud Studios Inc: Cutting-Edge Video Animation Studio in USA.",
-    description: "Cloud Studios Inc. delivers innovative animation, video production services, and VFX solutions. From cel animation, hybrid animation, 3D visualization, and AR/VR augmentation to real-time rendering, we are the 'destination' for your brand's success. ",
+    title: "Explainer Video Production & Animation Company - Cloud Studios",
+    description: "Looking to make explainer videos for your business? Cloud Studios specializes in animated video production. ✓ Find out more about business animation videos!",
     url: "/",
     siteName: "Cloud Studios Inc",
     locale: "en_US",

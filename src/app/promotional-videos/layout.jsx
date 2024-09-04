@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Utilize the Power of Promo Videos to Deliver Your Brand’s Message Effectively.",
-    description: "Transform your marketing strategy with Cloud Studios Inc.’s dynamic promotional videos. Engage your audience and boost conversions effectively with our expert promo video production services.",
+    title: "Promotional Videos Production Services - Cloud Studios",
+    description: "Quality animated promo videos, tailored for businesses of all sizes. Our expert animated promotional video productions can enhance your brand!",
     //===== OG Tags =====
     openGraph: {
-        title: 'Utilize the Power of Promo Videos to Deliver Your Brand’s Message Effectively.',
-        description: 'Transform your marketing strategy with Cloud Studios Inc.’s dynamic promotional videos. Engage your audience and boost conversions effectively with our expert promo video production services.',
+        title: 'Promotional Videos Production Services - Cloud Studios',
+        description: 'Quality animated promo videos, tailored for businesses of all sizes. Our expert animated promotional video productions can enhance your brand!',
         url: '/promotional-videos',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

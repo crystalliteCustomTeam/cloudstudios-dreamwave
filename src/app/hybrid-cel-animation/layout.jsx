@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Cloud Studios Inc | Hybrid and Cel Animation for Boosted Brand Identities!",
-    description: " Discover Cloud Studios Inc.’s cutting-edge hybrid and cel animation services. Elevate your projects with stunning visuals and innovative storytelling. Contact us to take charge, boost your brand, and boost your conversions.",
+    title: "Hybrid and Cel Animation Services - Cloud Studios",
+    description: "Cloud Studios offers Hybrid and Cel Animation, Elevate your animations with our expert blend of modern and classic techniques.",
     //===== OG Tags =====
     openGraph: {
-        title: "Cloud Studios Inc | Hybrid and Cel Animation for Boosted Brand Identities!",
-        description: " Discover Cloud Studios Inc.’s cutting-edge hybrid and cel animation services. Elevate your projects with stunning visuals and innovative storytelling. Contact us to take charge, boost your brand, and boost your conversions.",
+        title: "Hybrid and Cel Animation Services - Cloud Studios",
+        description: "Cloud Studios offers Hybrid and Cel Animation, Elevate your animations with our expert blend of modern and classic techniques.",
         url: '/hybrid-cel-animation',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

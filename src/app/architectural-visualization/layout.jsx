@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Cutting-edge architectural visualization solutions taken to the next level.",
-    description: "Say goodbye to all spatial and resourcing constraints with our state-of-the-art 3d architectural visualization solutions geared to perfection. We enable contractors and enterprises to expand their businesses with pioneering architectural visualization.",
+    title: "Architectural Visualization and 3D Rendering - Cloud Studios",
+    description: "Cloud Studios is a 3D rendering company that provides high quality 3D architectural visualization services to boost your sales.",
     //===== OG Tags =====
     openGraph: {
-        title: "Cutting-edge architectural visualization solutions taken to the next level.",
-        description: "Say goodbye to all spatial and resourcing constraints with our state-of-the-art 3d architectural visualization solutions geared to perfection. We enable contractors and enterprises to expand their businesses with pioneering architectural visualization.",
+        title: "Architectural Visualization and 3D Rendering - Cloud Studios",
+        description: "Cloud Studios is a 3D rendering company that provides high quality 3D architectural visualization services to boost your sales.",
         url: '/architectural-visualization',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

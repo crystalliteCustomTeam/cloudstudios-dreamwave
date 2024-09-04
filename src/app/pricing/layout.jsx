@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "A portfolio that revolutionizes everything animated and digital – Cloud Studios",
-    description: "Explore our groundbreaking animation solutions for businesses and brands. From sleek explainers, powerful motion graphics, and hybrid/cel animation to immersive animation experiences –witness how we're revolutionizing visual storytelling for brands.",
+    title: "Animated Video Pricing - Cloud Studios",
+    description: " Learn more about what goes into the cost and price of an Cloud Studios video. Click the link here to learn more.",
     //===== OG Tags =====
     openGraph: {
-        title: "A portfolio that revolutionizes everything animated and digital – Cloud Studios",
-        description: "Explore our groundbreaking animation solutions for businesses and brands. From sleek explainers, powerful motion graphics, and hybrid/cel animation to immersive animation experiences –witness how we're revolutionizing visual storytelling for brands.",
+        title: "Animated Video Pricing - Cloud Studios",
+        description: "Learn more about what goes into the cost and price of an Cloud Studios video. Click the link here to learn more.",
         url: '/pricing',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

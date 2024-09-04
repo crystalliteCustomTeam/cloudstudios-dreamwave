@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Engage Top-Tier 2D Animation Services for Dynamic Visual Storytelling",
-    description: "Boost your brand’s engagement with our best-in-class 2D animation services. Create captivating, dynamic visuals that engage and inspire your audience.",
+    title: "2D Animation – Two Dimensional Cartoon Specialists - Cloud Studios",
+    description: "Looking for 2D animation services? Cloud Studios is an explainer video company that specializes in 2D animation, whiteboard animation, and more. ✓ Click now!",
     //===== OG Tags =====
     openGraph: {
-        title: "Engage Top-Tier 2D Animation Services for Dynamic Visual Storytelling",
-        description: "Boost your brand’s engagement with our best-in-class 2D animation services. Create captivating, dynamic visuals that engage and inspire your audience.",
+        title: "2D Animation – Two Dimensional Cartoon Specialists - Cloud Studios",
+        description: "Looking for 2D animation services? Cloud Studios is an explainer video company that specializes in 2D animation, whiteboard animation, and more. ✓ Click now!",
         url: '/2d-animations',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

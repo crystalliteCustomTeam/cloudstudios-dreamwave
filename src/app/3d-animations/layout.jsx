@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "3D Animation Services - Visuals That Don’t Miss a Dimension",
-    description: "Enhance your brand's distinctiveness with Cloud Studios' advanced lifelike 3D animations. Go Beyond Pixels With 3D Animation Services!",
+    title: "3D Animation - Three Dimensional Cartoon Specialists - Cloud Studios",
+    description: "Looking for 3D animation services? Cloud Studios is an explainer video company that specializes in 3D animation, whiteboard animation, and more. ✓ Click now!",
     //===== OG Tags =====
     openGraph: {
-        title: "3D Animation Services - Visuals That Don’t Miss a Dimension",
-        description: "Enhance your brand's distinctiveness with Cloud Studios' advanced lifelike 3D animations. Go Beyond Pixels With 3D Animation Services!",
+        title: "3D Animation - Three Dimensional Cartoon Specialists - Cloud Studios",
+        description: "Looking for 3D animation services? Cloud Studios is an explainer video company that specializes in 3D animation, whiteboard animation, and more. ✓ Click now!",
         url: '/3d-animations',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

@@ -68,7 +68,7 @@ const FooterLP = () => {
                                         <FooterPin />
                                     </div>
                                     <div>
-                                        3415 S Sepulveda Blvd, Culver City, CA 90034
+                                        3415 S Sepulveda Blvd, Culver City, CA 90034, United States
                                     </div>
                                 </div>
                                 <div className={styles.paymentImg}>
