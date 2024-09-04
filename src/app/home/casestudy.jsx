@@ -33,7 +33,7 @@ const CaseStudy = () => {
                             </h2>
                         </Col>
                         <Col xxl={5} lg={5} md={6} className="ms-auto my-auto">
-                            <Link href="#" className="button">All Case Studies <ArrowMenu /></Link>
+                            <Link href="/portfolio" className="button">All Case Studies <ArrowMenu /></Link>
                         </Col>
                     </Row>
                     <Row className="pt-4">

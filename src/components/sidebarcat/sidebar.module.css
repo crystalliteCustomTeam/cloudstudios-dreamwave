@@ -67,7 +67,7 @@
 
 .sidebarFrom {
     position: fixed;
-    top: 50%;
+    top: 35%;
     left: -300px;
     transform: translateY(-50%);
     z-index: 9;

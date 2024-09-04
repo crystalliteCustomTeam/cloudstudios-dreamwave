@@ -11,22 +11,24 @@ const PricingData = [
         package: 'Startup Package',
         price: '$499',
         features: [
-            "60 Sec Duration",
+            "30 Sec Duration",
             "Script Writing",
             "Custom Artwork",
             "Background Music",
+            "Text & Image Compilation",
             "HD Format Video",
             "Dedicated Support",
         ]
     },
     {
         package: 'Classic Package',
-        price: '$799',
+        price: '$999',
         features: [
-            "60 Sec Duration",
+            "30 Sec Duration",
             "Script Writing",
             "Professional Voice- over & SFX",
             "Hand-drawn Illustrations",
+            "Whiteboard or Motion Graphics Animation",
             "Unlimited Revisions",
             "HD Format Video",
             "Dedicated Support",
@@ -34,12 +36,13 @@ const PricingData = [
     },
     {
         package: 'Premium Package',
-        price: '$999',
+        price: '$1599',
         features: [
-            "60 Sec Duration",
+            "30 Sec Duration",
             "Script Writing",
             "Professional Voice-over & SFX",
             "Custom 2D Character Illustration",
+            "Ultimate 2D Animation",
             "Unlimited Revisions",
             "HD Format Video",
             "Dedicated Support",
