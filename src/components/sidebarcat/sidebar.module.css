@@ -1,7 +1,7 @@
 /* Sidebar Section */
 .sidebarSec {
     position: fixed;
-    top: 50%;
+    top: 35%;
     right: -89px;
     width: 220px;
     height: 50px;
@@ -67,7 +67,7 @@
 
 .sidebarFrom {
     position: fixed;
-    top: 35%;
+    top: 50%;
     left: -300px;
     transform: translateY(-50%);
     z-index: 9;
@@ -83,8 +83,10 @@
 }
 
 .closebutton {
-    width: 40px; /* Default width */
-    height: 40px; /* Default height */
+    width: 40px;
+    /* Default width */
+    height: 40px;
+    /* Default height */
     position: absolute;
     top: -5%;
     right: -5%;
@@ -92,7 +94,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 50%; /* Fully rounded */
-    border: 0; /* No border */
-    cursor: pointer; /* Pointer cursor */
+    border-radius: 50%;
+    /* Fully rounded */
+    border: 0;
+    /* No border */
+    cursor: pointer;
+    /* Pointer cursor */
 }
