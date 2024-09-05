@@ -7,13 +7,13 @@ export const metadata = {
     openGraph: {
         title: "Motion Graphics Video Production Services - Cloud Studios",
         description: "Cloud Studios is offering the finest motion graphics video services by professional designers. Hire us and get custom motion graphics animated videos.",
-        url: '/motion-graphics',
+        url: '/services/motion-graphics',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/motion-graphics' },
+    alternates: { canonical: '/services/motion-graphics' },
     //===== GEO Tags =====
     other: {},
 }

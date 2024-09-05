@@ -7,13 +7,13 @@ export const metadata = {
     openGraph: {
         title: "Hybrid and Cel Animation Services - Cloud Studios",
         description: "Cloud Studios offers Hybrid and Cel Animation, Elevate your animations with our expert blend of modern and classic techniques.",
-        url: '/hybrid-cel-animation',
+        url: '/services/hybrid-and-cel-animation',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/hybrid-cel-animation' },
+    alternates: { canonical: '/services/hybrid-and-cel-animation' },
     //===== GEO Tags =====
     other: {},
 }

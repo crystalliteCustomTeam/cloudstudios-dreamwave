@@ -7,13 +7,13 @@ export const metadata = {
     openGraph: {
         title: "High Quality Infographics Video Services - Cloud Studios",
         description: "Be inspired by our creative Infographics Video Services. Experience the art of transforming information into captivating visuals.",
-        url: '/infographics-design',
+        url: '/services/infographics-design',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/infographics-design' },
+    alternates: { canonical: '/services/infographics-design' },
     //===== GEO Tags =====
     other: {},
 }

@@ -11,17 +11,17 @@ export async function POST(req) {
             port: 465,
             secure: true,
             auth: {
-                user: 'aziz.rehman@productions-dev.com',
-                pass: "ctfhepafurmhrnmt"
+                user: "leads@infinityanimations.com",
+                pass: "10@Kskwoks"
             }
         });
 
+
         const mailOptions = {
-            from: "aziz.rehman@productions-dev.com",
-            to: "aziz.rehman@productions-dev.com",
-            subject: 'Contact Form Submission',
+            from: "leads@infinityanimations.com",
+            to: ['aziz.rehman@productions-dev.com', 'queries@infinityanimations.com', 'm.farrukh@infinityanimations.com', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
+            subject: `Cloud Studios - Lead`,
             html: `
-                <h2>Contact Form Submission</h2>
                 <p><strong>Name:</strong> ${name}</p>
                 <p><strong>Email:</strong> ${email}</p>
                 <p><strong>Phone:</strong> ${phone}</p>
@@ -34,7 +34,7 @@ export async function POST(req) {
         };
 
         const confirmationMailOptions = {
-            from: "aziz.rehman@productions-dev.com",
+            from: "leads@infinityanimations.com",
             to: email,
             subject: 'Thank You for Contacting Us!',
             html: `
@@ -43,7 +43,7 @@ export async function POST(req) {
                 <p>If you need immediate assistance, feel free to reply to this email.</p>
                 <br>
                 <p>Best Regards,<br>
-                 Your <strong>${Brand}</strong></p>
+                 Your <strong>Cloud Studios Team</strong></p>
             `
         };
         await transporter.sendMail(mailOptions);

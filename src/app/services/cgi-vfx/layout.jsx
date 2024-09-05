@@ -7,13 +7,13 @@ export const metadata = {
     openGraph: {
         title: "Professional CGI and VFX Services - Cloud Studios",
         description: "CGI and VFX Services, Cloud Studios deal your projects with our expert team. We deliver stunning, high-quality CGI and VFX that make your visuals truly exceptional.",
-        url: '/cgi-vfx',
+        url: '/services/cgi-vfx',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/cgi-vfx' },
+    alternates: { canonical: '/services/cgi-vfx' },
     //===== GEO Tags =====
     other: {},
 }

@@ -44,13 +44,18 @@ const Navigation = () => {
     };
     const isSubmenuActive = () => {
         const submenuPaths = [
-            "/2d-animations",
-            "/3d-animations",
-            "/explainer-videos",
-            "/infographics-design",
-            "/logo-animation",
-            "/promotional-videos",
-            "/whiteboard-animation"
+            "/services/2d-animations",
+            "/services/3d-animations",
+            "/services/explainer-videos",
+            "/services/infographics-videos",
+            "/services/logo-animation",
+            "/services/promotional-videos",
+            "/services/architectural-visualization",
+            "/services/video-editing",
+            "/services/motion-graphics",
+            "/services/cgi-vfx",
+            "/services/hybrid-and-cel-animation",
+            "/services/whiteboard-animation"
         ];
         return submenuPaths.includes(pathname);
     };
@@ -81,75 +86,75 @@ const Navigation = () => {
                         </Link>
                         <div className={styles.subMenu} >
                             <div className={styles.MenuListing}>
-                                <div className={`${styles.MenuList} ${pathname === "/2d-animations" ? styles.active : ""}`}
+                                <div className={`${styles.MenuList} ${pathname === "/services/2d-animations" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}>
-                                    <Link href="/2d-animations" aria-label="2D Animations">2D Animations</Link>
+                                    <Link href="/services/2d-animations" aria-label="2D Animations">2D Animations</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/3d-animations" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/3d-animations" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/3d-animations" aria-label="3D Animations">3D Animations</Link>
+                                    <Link href="/services/3d-animations" aria-label="3D Animations">3D Animations</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/explainer-videos" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/explainer-videos" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/explainer-videos" aria-label="Explainer Videos">Explainer Videos</Link>
+                                    <Link href="/services/explainer-videos" aria-label="Explainer Videos">Explainer Videos</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/infographics-design" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/infographics-videos" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/infographics-design" aria-label="Infographics Design">Infographics Design</Link>
+                                    <Link href="/services/infographics-videos" aria-label="Infographics videos">Infographics Design</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/logo-animation" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/logo-animation" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/logo-animation" aria-label="Logo Animation">Logo Animation</Link>
+                                    <Link href="/services/logo-animation" aria-label="Logo Animation">Logo Animation</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/promotional-videos" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/promotional-videos" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/promotional-videos" aria-label="Promotional Videos">Promotional Videos</Link>
+                                    <Link href="/services/promotional-videos" aria-label="Promotional Videos">Promotional Videos</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/cgi-vfx" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/cgi-vfx" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/cgi-vfx" aria-label="CGI & VFX">CGI & VFX</Link>
+                                    <Link href="/services/cgi-vfx" aria-label="CGI & VFX">CGI & VFX</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/whiteboard-animation" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/whiteboard-animation" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/whiteboard-animation" aria-label="Whiteboard Animation">Whiteboard Animation</Link>
+                                    <Link href="/services/whiteboard-animation" aria-label="Whiteboard Animation">Whiteboard Animation</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/motion-graphics" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/motion-graphics" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/motion-graphics" aria-label="Motion-Graphics">Motion Graphics</Link>
+                                    <Link href="/services/motion-graphics" aria-label="Motion-Graphics">Motion Graphics</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/hybrid-cel-animation" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/hybrid-and-cel-animation" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/hybrid-cel-animation" aria-label="Hybrid and Cel Animation">Hybrid and Cel Animation</Link>
+                                    <Link href="/services/hybrid-and-cel-animation" aria-label="Hybrid and Cel Animation">Hybrid and Cel Animation</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/video-editing" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/video-editing" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/video-editing" aria-label="Video Editing">Video Editing</Link>
+                                    <Link href="/services/video-editing" aria-label="Video Editing">Video Editing</Link>
                                 </div>
                                 <div
-                                    className={`${styles.MenuList} ${pathname === "/architectural-visualization" ? styles.active : ""}`}
+                                    className={`${styles.MenuList} ${pathname === "/services/architectural-visualization" ? styles.active : ""}`}
                                     onClick={isMobileView ? handleClosed : undefined}
                                 >
-                                    <Link href="/architectural-visualization" aria-label="Architectural Visualization">Architectural Visualization</Link>
+                                    <Link href="/services/architectural-visualization" aria-label="Architectural Visualization">Architectural Visualization</Link>
                                 </div>
 
                             </div>
@@ -160,8 +165,8 @@ const Navigation = () => {
                             Portfolio
                         </Link>
                     </li>
-                    <li className={pathname === "/pricing" ? styles.active : ""} onClick={isMobileView ? handleClosed : undefined}>
-                        <Link href="/pricing" >
+                    <li className={pathname === "/animation-video-pricing" ? styles.active : ""} onClick={isMobileView ? handleClosed : undefined}>
+                        <Link href="/animation-video-pricing" >
                             Pricing
                         </Link>
                     </li>

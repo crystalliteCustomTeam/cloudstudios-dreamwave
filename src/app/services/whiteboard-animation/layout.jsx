@@ -8,13 +8,13 @@ export const metadata = {
     openGraph: {
         title: "Whiteboard Explainer Video Services - Cloud Studios",
         description: "Need an engaging video for your business? Order your custom whiteboard explainer video now and captivate your audience. Click for more details.",
-        url: '/whiteboard-animation',
+        url: '/services/whiteboard-animation',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/whiteboard-animation' },
+    alternates: { canonical: '/services/whiteboard-animation' },
     //===== GEO Tags =====
     other: {},
 }

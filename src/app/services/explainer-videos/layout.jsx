@@ -7,13 +7,13 @@ export const metadata = {
     openGraph: {
         title: "Explainer Video Production Services - Cloud Studios",
         description: "Cloud Studios’ expertly crafted explainer videos that simplify complex ideas precisely. We transform ideas into engaging visual stories that captivate audiences and amplify your brand’s impact.",
-        url: '/explainer-videos',
+        url: '/services/explainer-videos',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/explainer-videos' },
+    alternates: { canonical: '/services/explainer-videos' },
     //===== GEO Tags =====
     other: {},
 }

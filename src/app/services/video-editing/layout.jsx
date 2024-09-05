@@ -8,13 +8,13 @@ export const metadata = {
     openGraph: {
         title: "High-Quality Video Editing Services - Cloud Studios",
         description: "Video Editing Services, Elevate your content with our expert team. We craft engaging videos that leave a lasting impression. Contact us now!",
-        url: '/video-editing',
+        url: '/services/video-editing',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/video-editing' },
+    alternates: { canonical: '/services/video-editing' },
     //===== GEO Tags =====
     other: {},
 }

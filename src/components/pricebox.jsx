@@ -77,10 +77,10 @@ const PriceBox = () => {
                                             <Link href="">Get A Call For Free Consultation</Link>
                                         </div> */}
                                         <div className={styles.callBox}>
-                                            <CommonBtn btnStyle={styles.callBoxBtn} iconSize={16} btnicon={false}  data="Get A Call For Free Consultation" />
+                                            <CommonBtn btnStyle={styles.callBoxBtn} iconSize={16} btnicon={false} data="Get A Call For Free Consultation" />
                                         </div>
                                         <div className={styles.footerBox}>
-                                            <a href="">1 833 666 6684</a>
+                                            <a href="tel:18336666684">1 833 666 6684</a>
                                             <Link href="" onClick={() => Tawk_API && Tawk_API.toggle()}><ChatIcon />Live Chat</Link>
                                         </div>
                                     </div>

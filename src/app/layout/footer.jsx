@@ -47,30 +47,30 @@ const Footer = () => {
                     <Col xxl={9} lg={8} md={8} className="my-auto">
                         <div className={styles.footerLinks}>
                             <ul>
-                                <li><Link href="https://cloudstudios.us/portfolio" aria-label="Portfolio Link">Portfolio</Link></li>
-                                <li><Link href="https://cloudstudios.us/pricing" aria-label="Pricing Link">Pricing</Link></li>
-                                <li><Link href="https://cloudstudios.us/contact" aria-label="Contact Link">Contact us</Link></li>
+                                <li><Link href="/portfolio" aria-label="Portfolio Link">Portfolio</Link></li>
+                                <li><Link href="/animation-video-pricing" aria-label="Pricing Link">Pricing</Link></li>
+                                <li><Link href="/contact" aria-label="Contact Link">Contact us</Link></li>
                                 <li><Link href="/privacy-policy" aria-label="Contact Link">Privacy Policy</Link></li>
                                 <li><Link href="/terms-and-conditions" aria-label="Contact Link">Terms and Conditions</Link></li>
                             </ul>
                             <ul>
-                                <li><Link href="https://cloudstudios.us/2d-animations" aria-label="2D Animations Link">2D Animations</Link></li>
-                                <li><Link href="https://cloudstudios.us/3d-animations" aria-label="3D Animations Link">3D Animations</Link></li>
-                                <li><Link href="https://cloudstudios.us/explainer-videos" aria-label="Explainer Videos Link" >Explainer Videos </Link></li>
-                                <li><Link href="https://cloudstudios.us/infographics-design" aria-label="Infographics Design Link">Infographics Design</Link></li>
+                                <li><Link href="/services/2d-animations" aria-label="2D Animations Link">2D Animations</Link></li>
+                                <li><Link href="/services/3d-animations" aria-label="3D Animations Link">3D Animations</Link></li>
+                                <li><Link href="/services/explainer-videos" aria-label="Explainer Videos Link" >Explainer Videos </Link></li>
+                                <li><Link href="/services/infographics-videos" aria-label="Infographics Design Link">Infographics Videos</Link></li>
                             </ul>
                             <ul>
-                                <li><Link href="https://cloudstudios.us/logo-animation" aria-label="Logo Animation Link">Logo Animation</Link></li>
-                                <li><Link href="https://cloudstudios.us/video-editing" aria-label="Video Editing Link" >Video Editing</Link></li>
-                                <li><Link href="https://cloudstudios.us/cgi-vfx" aria-label="CGI & VFX Link">CGI & VFX</Link></li>
-                                <li><Link href="https://cloudstudios.us/motion-graphics" aria-label="Motion-Graphics Link">Motion Graphics</Link></li>
+                                <li><Link href="/services/logo-animation" aria-label="Logo Animation Link">Logo Animation</Link></li>
+                                <li><Link href="/services/video-editing" aria-label="Video Editing Link" >Video Editing</Link></li>
+                                <li><Link href="/services/cgi-vfx" aria-label="CGI & VFX Link">CGI & VFX</Link></li>
+                                <li><Link href="/services/motion-graphics" aria-label="Motion-Graphics Link">Motion Graphics</Link></li>
 
                             </ul>
                             <ul>
-                                <li><Link href="https://cloudstudios.us/whiteboard-animation" aria-label="Whiteboard Animation Link" >Whiteboard Animation</Link></li>
-                                <li><Link href="https://cloudstudios.us/hybrid-cel-animation" aria-label="Hybrid and Cel Animation Link" >Hybrid and Cel Animation</Link></li>
-                                <li><Link href="https://cloudstudios.us/promotional-videos" aria-label="Promotional Videos Link">Promotional Videos</Link></li>
-                                <li><Link href="https://cloudstudios.us/architectural-visualization" aria-label="Architectural Visualization Link">Architectural Visualization</Link></li>
+                                <li><Link href="/services/whiteboard-animation" aria-label="Whiteboard Animation Link" >Whiteboard Animation</Link></li>
+                                <li><Link href="/services/hybrid-and-cel-animation" aria-label="Hybrid and Cel Animation Link" >Hybrid and Cel Animation</Link></li>
+                                <li><Link href="/services/promotional-videos" aria-label="Promotional Videos Link">Promotional Videos</Link></li>
+                                <li><Link href="/services/architectural-visualization" aria-label="Architectural Visualization Link">Architectural Visualization</Link></li>
                             </ul>
                         </div>
                     </Col>
