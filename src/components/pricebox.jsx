@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/components/pricing.module.scss"
 import Link from 'next/link'
 import { BuletIcon, ChatIcon } from '@/src/app-constants'
+import CommonBtn from './commonbtn'
 
 
 const PricingData = [
@@ -72,8 +73,11 @@ const PriceBox = () => {
                                                 <li key={idx}><BuletIcon /> {feature}</li>
                                             ))}
                                         </ul>
-                                        <div className={styles.callBox}>
+                                        {/* <div className={styles.callBox}>
                                             <Link href="">Get A Call For Free Consultation</Link>
+                                        </div> */}
+                                        <div className={styles.callBox}>
+                                            <CommonBtn btnStyle={styles.callBoxBtn} iconSize={16} btnicon={false}  data="Get A Call For Free Consultation" />
                                         </div>
                                         <div className={styles.footerBox}>
                                             <a href="">1 833 666 6684</a>
