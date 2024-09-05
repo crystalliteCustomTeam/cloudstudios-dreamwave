@@ -19,7 +19,7 @@ export async function POST(req) {
 
         const mailOptions = {
             from: "leads@infinityanimations.com",
-            to: ['aziz.rehman@productions-dev.com', 'queries@infinityanimations.com', 'm.farrukh@infinityanimations.com', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
+            to: ['m.farrukh@infinityanimations.com', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
             subject: `Cloud Studios - Lead`,
             html: `
                 <p><strong>Name:</strong> ${name}</p>
