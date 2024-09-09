@@ -1,0 +1,841 @@
+@import '../../../../../styles/variables.module.scss';
+
+.footerLP {
+    padding: 50px 0px;
+
+
+    .footerContent {
+        .contactLogo {
+            margin-bottom: 30px;
+
+            svg {
+                height: 70px;
+            }
+        }
+
+        .contactInfo {
+            font-size: 16px;
+            color: $white-color;
+            margin-bottom: 20px;
+
+            a {
+                font-size: 16px;
+                color: $white-color;
+                @include transition (all);
+
+                svg {
+                    margin-right: 10px;
+                    width: 20px;
+                    height: auto;
+
+                    path {
+                        fill: $secondary-color;
+                    }
+                }
+
+                &:hover {
+                    @include transition (all);
+                    color: $secondary-color;
+                }
+            }
+        }
+
+        .contactAddress {
+            font-size: 16px;
+            color: $white-color;
+            display: flex;
+
+            svg {
+                margin-right: 10px;
+                width: 22px;
+                height: auto;
+
+                path {
+                    fill: $secondary-color;
+                }
+            }
+        }
+
+        .paymentImg {
+            margin: 40px 0px;
+        }
+
+        .socailIcon {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 400px;
+
+
+            li {
+                height: 45px;
+                width: 45px;
+                border: 1px solid $white-color;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    .footerFrom {
+        background: $secondary-color;
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 450px;
+        margin-left: auto;
+
+        h3 {
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 35px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}
+
+.copyrightLP {
+    height: 80px;
+    border-top: 1px solid #f9f9f9;
+
+    p {
+        color: $white-color;
+        margin-bottom: 0px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+
+        li {
+            a {
+                font-size: 15px;
+                color: $white-color;
+
+
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .footerLP {
+        padding: 50px 0px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 30px;
+
+                svg {
+                    height: 70px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 16px;
+
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 16px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 20px;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 16px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 22px;
+                }
+            }
+
+            .paymentImg {
+                margin: 40px 0px;
+            }
+
+            .socailIcon {
+                max-width: 400px;
+
+
+                li {
+                    height: 45px;
+                    width: 45px;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 30px;
+            max-width: 450px;
+
+            h3 {
+                font-size: 25px;
+                line-height: 35px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 80px;
+
+        ul {
+            li {
+                a {
+                    font-size: 15px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .footerLP {
+        padding: 45px 0px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 25px;
+
+                svg {
+                    height: 60px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 15px;
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 15px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 18px;
+                        height: auto;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 15px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 18px;
+                    height: auto;
+                }
+            }
+
+            .paymentImg {
+                margin: 35px 0px;
+            }
+
+            .socailIcon {
+                max-width: 400px;
+
+                li {
+                    height: 42px;
+                    width: 42px;
+
+                    img {
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 25px;
+            max-width: 450px;
+
+            h3 {
+                font-size: 25px;
+                line-height: 35px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 60px;
+
+        ul {
+            li {
+                a {
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .footerLP {
+        padding: 40px 0px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 20px;
+
+                svg {
+                    height: 60px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 15px;
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 15px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 18px;
+                        height: auto;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 15px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 18px;
+                    height: auto;
+                }
+            }
+
+            .paymentImg {
+                margin: 35px 0px;
+            }
+
+            .socailIcon {
+                max-width: 400px;
+
+                li {
+                    height: 40px;
+                    width: 40px;
+
+                    img {
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 25px;
+            max-width: 450px;
+
+            h3 {
+                font-size: 22px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 60px;
+
+        ul {
+            li {
+                a {
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .footerLP {
+        padding: 40px 0px 35px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 20px;
+
+                svg {
+                    height: 60px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 15px;
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 15px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 18px;
+                        height: auto;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 15px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 18px;
+                    height: auto;
+                }
+            }
+
+            .paymentImg {
+                margin: 30px 0px;
+            }
+
+            .socailIcon {
+                max-width: 400px;
+
+                li {
+                    height: 38px;
+                    width: 38px;
+
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 25px;
+            max-width: 450px;
+
+            h3 {
+                font-size: 22px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 60px;
+
+        ul {
+            li {
+                a {
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .footerLP {
+        padding: 40px 0px 30px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 20px;
+
+                svg {
+                    height: 60px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 15px;
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 15px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 18px;
+                        height: auto;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 15px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 18px;
+                    height: auto;
+                }
+            }
+
+            .paymentImg {
+                margin: 30px 0px;
+            }
+
+            .socailIcon {
+                max-width: 450px;
+
+                li {
+                    height: 38px;
+                    width: 38px;
+
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 25px;
+            max-width: 450px;
+
+            h3 {
+                font-size: 22px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 60px;
+
+        ul {
+            li {
+                a {
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .footerLP {
+        padding: 40px 0px 30px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 20px;
+
+                svg {
+                    height: 60px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 14px;
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 14px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 18px;
+                        height: auto;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 14px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 18px;
+                    height: auto;
+                }
+            }
+
+            .paymentImg {
+                margin: 20px 0px;
+            }
+
+            .socailIcon {
+                max-width: 450px;
+
+                li {
+                    height: 38px;
+                    width: 38px;
+
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 20px;
+            max-width: 450px;
+
+            h3 {
+                font-size: 22px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 60px;
+
+        ul {
+            li {
+                a {
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .footerLP {
+        padding: 40px 0px 30px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 20px;
+
+                svg {
+                    height: 60px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 14px;
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 14px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 18px;
+                        height: auto;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 14px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 18px;
+                    height: auto;
+                }
+            }
+
+            .paymentImg {
+                margin: 20px 0px;
+            }
+
+            .socailIcon {
+                max-width: 400px;
+                margin-bottom: 20px;
+
+                li {
+                    height: 38px;
+                    width: 38px;
+
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+
+            h3 {
+                font-size: 22px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 70px;
+        padding: 10px 0px;
+        text-align: center;
+
+        ul {
+            justify-content: center;
+
+            li {
+                a {
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .footerLP {
+        padding: 30px 0px 25px;
+
+        .footerContent {
+            .contactLogo {
+                margin-bottom: 15px;
+
+                svg {
+                    height: 50px;
+                }
+            }
+
+            .contactInfo {
+                font-size: 14px;
+                margin-bottom: 20px;
+
+                a {
+                    font-size: 14px;
+
+                    svg {
+                        margin-right: 10px;
+                        width: 18px;
+                        height: auto;
+                    }
+                }
+            }
+
+            .contactAddress {
+                font-size: 14px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 18px;
+                    height: auto;
+                }
+            }
+
+            .paymentImg {
+                margin: 20px 0px;
+            }
+
+            .socailIcon {
+                max-width: 400px;
+                margin-bottom: 20px;
+
+                li {
+                    height: 38px;
+                    width: 38px;
+
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+        .footerFrom {
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+
+            h3 {
+                font-size: 22px;
+                line-height: 32px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .copyrightLP {
+        height: 70px;
+        padding: 10px 0px;
+        text-align: center;
+
+        ul {
+            justify-content: center;
+
+            li {
+                a {
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,375 @@
+@import '../../../../../styles/variables.module.scss';
+
+.faqSec {
+    padding: 50px 0px;
+    background: $white-color;
+
+    h2 {
+        color: $black-color;
+        margin-bottom: 40px;
+    }
+
+    .faqTabs {
+        .faqItem {
+            min-height: 50px;
+            overflow: hidden;
+            transition: height 0.3s ease-out;
+
+            .tabTitle {
+                font-size: 18px;
+                line-height: 26px;
+                height: 70px;
+                font-weight: 500;
+                color: $black-color;
+                position: relative;
+                border-radius: 10px;
+                cursor: pointer;
+                @include transition(all);
+                display: flex;
+                align-items: center;
+                background-color: #e6e7e8;
+                padding: 0px 20px;
+                margin-bottom: 10px;
+
+
+                svg {
+                    height: 20px;
+                    width: auto;
+                    position: absolute;
+                    right: 20px;
+                    transition: transform 0.3s;
+                }
+
+                &:hover {
+                    color: $white-color;
+                    background: #003466;
+                    @include transition(all);
+
+                    svg {
+                        path {
+                            fill: $white-color;
+                            @include transition(all);
+                        }
+                    }
+                }
+            }
+
+            &.active {
+                height: 100%;
+                transition: height 0.3s ease-in;
+
+                .tabTitle {
+                    color: $white-color;
+                    background: #003466;
+
+                    svg {
+                        transition: transform 0.3s;
+                        transform: rotate(-90deg);
+
+                        path {
+                            fill: $white-color;
+                        }
+                    }
+                }
+
+                .tabContent {
+                    padding: 10px 10px 20px;
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .faqSec {
+        padding: 50px 0px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 18px;
+                    height: 70px;
+                    padding: 0px 20px;
+
+
+                    svg {
+                        height: 20px;
+                        right: 20px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 14px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .faqSec {
+        padding: 45px 0px;
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 17px;
+                    height: 65px;
+                    padding: 0px 15px;
+
+
+                    svg {
+                        height: 18px;
+                        right: 18px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .faqSec {
+        padding: 40px 0px;
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 16px;
+                    height: 60px;
+                    padding: 0px 15px;
+
+
+                    svg {
+                        height: 16px;
+                        right: 16px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .faqSec {
+        padding: 35px 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 15px;
+                    height: 55px;
+                    padding: 0px 15px;
+
+
+                    svg {
+                        height: 15px;
+                        right: 15px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .faqSec {
+        padding: 30px 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 15px;
+                    height: 55px;
+                    padding: 0px 15px;
+
+
+                    svg {
+                        height: 15px;
+                        right: 15px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .faqSec {
+        padding: 30px 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 13px;
+                    height: 55px;
+                    padding: 0px 20px;
+                    line-height: normal;
+
+
+                    svg {
+                        height: 15px;
+                        right: 15px;
+                        right: 5px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 12px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .faqSec {
+        padding: 25px 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 15px;
+                    height: 55px;
+                    padding: 0px 15px;
+
+
+                    svg {
+                        height: 15px;
+                        right: 15px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .faqSec {
+        padding: 30px 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .faqTabs {
+            .faqItem {
+                min-height: 50px;
+
+                .tabTitle {
+                    font-size: 13px;
+                    height: 55px;
+                    padding: 0px 20px 0px 10px;
+                    line-height: normal;
+
+
+                    svg {
+                        height: 15px;
+                        right: 15px;
+                        right: 5px;
+                    }
+                }
+
+                &.active {
+                    .tabContent {
+                        padding: 10px 10px 20px;
+                        font-size: 12px;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+@import '../../../../../styles/variables.module.scss';
+
+.casestudiesLp {
+    padding: 50px 0px;
+    background: $white-color;
+    text-align: center;
+
+    h2 {
+        color: $black-color;
+    }
+
+    img {
+        margin-top: 50px;
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .casestudiesLp {
+        padding: 50px 0px;
+
+        img {
+            margin-top: 50px;
+            height: 150px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .casestudiesLp {
+        padding: 45px 0px;
+
+        img {
+            margin-top: 50px;
+            height: 130px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .casestudiesLp {
+        padding: 40px 0px;
+
+        img {
+            margin-top: 40px;
+            height: 120px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .casestudiesLp {
+        padding: 35px 0px;
+
+        img {
+            margin-top: 20px;
+            height: 110px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .casestudiesLp {
+        padding: 35px 0px;
+
+        img {
+            margin-top: 20px;
+            height: 100px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .casestudiesLp {
+        padding: 30px 0px;
+
+        img {
+            margin-top: 20px;
+            height: 90px;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .casestudiesLp {
+        padding: 25px 0px;
+
+        img {
+            margin-top: 20px;
+            height: auto;
+            width: auto;
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .casestudiesLp {
+        padding: 25px 0px;
+
+        img {
+            margin-top: 20px;
+            height: auto;
+            width: auto;
+        }
+    }
+}
