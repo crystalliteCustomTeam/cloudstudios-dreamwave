@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { ArrowMenu, PlayBtn, PrevButton } from '@/src/app-constants'
 import Autoplay from 'embla-carousel-autoplay'
 import { useState } from 'react'
+import CommonBtn from './commonbtn'
 
 const ServicesSlider = (props) => {
     const [activeIndex, setActiveIndex] = useState(null); // Track the active slide index
@@ -34,10 +35,10 @@ const ServicesSlider = (props) => {
                         <div
                             className={styles.embla__slide}
                             key={index}
-                            onClick={() => handlePlay(index)} // Pass index to handlePlay
                         >
                             <div className={styles.servicesBox}>
-                                <div className={styles.servicesImg}>
+                                <div className={styles.servicesImg} onClick={() => handlePlay(index)} // Pass index to handlePlay 
+                                >
                                     {item.video && activeIndex === index ? ( // Conditionally render based on the active index
                                         <iframe
                                             src={item.video}
@@ -58,10 +59,12 @@ const ServicesSlider = (props) => {
                                         </>
                                     )}
                                 </div>
-                                <div className={styles.servicestxt}>
+                                <div className={styles.servicestxt} >
                                     <h3>{item.name}</h3>
                                     <p>{item.txt}</p>
-                                    <Link href={item.link} className="button">Get Started <ArrowMenu /> </Link>
+                                    <CommonBtn btnStyle="button" iconSize={16} btnicon={false} data={<>
+                                        Get Started <ArrowMenu />
+                                    </>} />
                                 </div>
                             </div>
                         </div>

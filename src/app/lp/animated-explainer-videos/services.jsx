@@ -1,6 +1,6 @@
 import styles from "@/styles/home/services.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
-import ServicesSlider from "@/src/components/servicesslider"
+import ServicesSlider from "./servicesslider"
 import Service09 from "media/home/services/Logo-Animation.webp"
 import Service08 from "media/home/services/Video-Editing.webp"
 import Service07 from "media/home/services/Whiteboard.webp"

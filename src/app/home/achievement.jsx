@@ -23,7 +23,7 @@ const Achievement = ({ data }) => {
                             <div className={styles.achievementTxt}>
                                 <h3 className="spacing">ACHIEVEMENTS:</h3>
                                 <h2>{data ? data.title : "We Love Recognition. We Love to Boast About Our Awards & Accolades."}</h2>
-                                <p>{data ? data.txt : "We have been knocking projects right, front and center, delivering out-of-this-world custom explainer video production solutions. From bagging impressive Muse, Davey & Telly Awards – we continue to provide the new generation of animation solutions to our clients to exceed their wildest expectations!"}</p>
+                                <p>{data ? data.txt : "We have been knocking projects right, front and center, delivering out-of-this-world video animation solutions. From bagging impressive Muse, Davey & Telly Awards – we continue to provide the new generation of animation solutions to our clients to exceed their wildest expectations!"}</p>
                                 {/* <CommonBtn data="Read Our 5 Star Reviews" /> */}
                                 <a target="_blank" href="https://www.trustpilot.com/review/cloudstudiosinc.com" className="button">Read Our 4.7 Star Reviews <ArrowMenu /></a>
                                 <div className={styles.achievementLogos}>
