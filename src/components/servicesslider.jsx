@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { ArrowMenu, PlayBtn, PrevButton } from '@/src/app-constants'
 import Autoplay from 'embla-carousel-autoplay'
 import { useState } from 'react'
+import CommonBtn from './commonbtn'
 
 const ServicesSlider = (props) => {
     const [activeIndex, setActiveIndex] = useState(null); // Track the active slide index
@@ -61,7 +62,9 @@ const ServicesSlider = (props) => {
                                 <div className={styles.servicestxt}>
                                     <h3>{item.name}</h3>
                                     <p>{item.txt}</p>
-                                    <Link href={item.link} className="button">Get Started <ArrowMenu /> </Link>
+                                    <CommonBtn btnStyle="button" iconSize={16} btnicon={false} data={<>
+                                        Get Started <ArrowMenu />
+                                    </>} />
                                 </div>
                             </div>
                         </div>

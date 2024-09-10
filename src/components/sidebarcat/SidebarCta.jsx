@@ -1,11 +1,11 @@
 "use client"
 import React, { useState } from 'react'
-import { Col, Row } from "react-bootstrap"
+import { Col, Modal, Row } from "react-bootstrap"
 import styles from "./sidebar.module.css"
 import ContactForm from "@/src/components/contactform/contactfrom"
 // Images
 import { ClosedBtn, Phone } from "@/src/app-constants"
-
+import Animation from "@/src/components/animation"
 
 
 const SidebarCTA = () => {
@@ -21,6 +21,8 @@ const SidebarCTA = () => {
     const closeSidebar = () => {
         setIsActive(!isActive);
         console.log("close btn")
+
+
     };
 
 
@@ -46,15 +48,27 @@ const SidebarCTA = () => {
                 isActive === true ?
 
                     <div className={`${styles.sidebarFrom} ${styles.active} `}>
-                        <div className={styles.closebutton} onClick={closeSidebar}>
-                            <ClosedBtn />
-                        </div>
-                        <Row className="h-100">
-                            <Col className="my-auto">
-                                <h2>Amazing <span>Discounts</span></h2>
-                                <ContactForm sidebar={true} callbtn="no"/>
-                            </Col>
-                        </Row>
+                        <Modal
+                            show={isActive}
+                            onClick={closeSidebar}
+                            size="lg"
+                            aria-labelledby="contained-modal-title-vcenter"
+                            centered
+                        >
+                            <div className={styles.contactPopup}>
+                                <Row className="h-100">
+                                    <Col lg={6} md={6} className="my-auto">
+                                        <h2>Amazing <span>Discounts</span></h2>
+                                        <h5>On Video Animation Services</h5>
+                                        <ContactForm callbtn="no" />
+                                    </Col>
+                                    <Col lg={6} md={6} className={`${styles.animationClass} my-auto`}>
+                                        <Animation />
+                                    </Col>
+                                </Row>
+                                <div className={styles.closedBtn} onClick={closeSidebar}><ClosedBtn /></div>
+                            </div>
+                        </Modal>
                     </div>
                     : null
             }

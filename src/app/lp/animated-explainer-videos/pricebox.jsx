@@ -10,7 +10,7 @@ import CommonBtn from '../../../components/commonbtn'
 const PricingData = [
     {
         package: 'Startup Package',
-        price: '$195',
+        price: '$155',
         features: [
             "60 Sec Duration",
             "Script Writing",
@@ -56,7 +56,7 @@ const PriceBox = () => {
             <Container>
                 <Row>
                     <Col xxl={7} xl={7} lg={6} md={8} className="m-auto text-center">
-                        <h3 className="spacing">Pricing Plans</h3>
+                        <h3 className="spacing">Explainer Video Pricing Plans</h3>
                         <h2>Easy on the pocket and the eyes.</h2>
                     </Col>
                     <Col lg={12}>

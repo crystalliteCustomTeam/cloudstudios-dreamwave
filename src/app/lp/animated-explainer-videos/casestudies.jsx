@@ -69,7 +69,7 @@ const CaseStudiesLP = () => {
                 <Row>
                     <Col lg={10} className='m-auto'>
                         <h3 className="spacing">Our Casestudy</h3>
-                        <h2>Animated Videos That Deliver Results</h2>
+                        <h2>Animated Explainer Videos That Deliver Results</h2>
                     </Col>
                     <Col lg={12}>
                         <div className={styles.tabTitle}>
