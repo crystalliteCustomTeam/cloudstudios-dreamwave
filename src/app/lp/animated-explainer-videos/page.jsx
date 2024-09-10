@@ -1,40 +1,31 @@
-import Award from "./award";
-import Banner from "./banner";
-import Header from "./header";
+"use client"
+import BannerLogos from "@/src/components/bannerlogos";
+import Services from "@/src/app/home/services";
+import AboutSec from "@/src/app/home/aboutsec";
+import ExperienceSec from "@/src/app/home/experience";
+import CaseStudy from "@/src/app/home/casestudy";
+import WorkSec from "@/src/app/home/work";
+import Achievement from "@/src/app/home/achievement";
+import Testimonial from "@/src/app/home/testimonial";
+import Contact from "@/src/app/home/contact";
+import MainBanner from "./mainbanner";
+import PriceBox from "./pricebox";
 import CaseStudiesLP from "./casestudies";
-import ClientsLP from "./clients";
-import PricingLP from "./pricing";
-import ServicesLP from "./services";
-import CtaLP from "./cta";
-import CreationLP from "./creation";
-import OutcomesLP from "./outcomes";
-import CtavideoLP from "./ctavideos";
-import ClientsReviewLP from "./clientsreview";
-import FaqsLP from "./faq";
-import FooterLP from "./footer";
 
-export const metadata = {
-    title: "Professional Logo Animation Services | Make Your Brand Stand Out.",
-    description: "Lead the digital frontier with our expert custom logo animation services at Cloud Studios Inc. Elevate your brand presence with professional, captivating visuals that set you apart.",
-};
+export default function Home() {
 
-export default function Page() {
-    return (
-        <>
-            <Header />
-            <Banner />
-            <Award />
-            <CaseStudiesLP />
-            <ClientsLP />
-            <PricingLP />
-            <ServicesLP />
-            <CtaLP />
-            <CreationLP />
-            <OutcomesLP />
-            <CtavideoLP />
-            <ClientsReviewLP />
-            <FaqsLP />
-            <FooterLP />
-        </>
-    );
+  return (
+    <>
+      <MainBanner />
+      <BannerLogos />
+      <Services />
+      <CaseStudiesLP />
+      <PriceBox />
+      <WorkSec />
+      <Achievement />
+      <Testimonial clients="yes" />
+      <Contact />
+
+    </>
+  );
 }

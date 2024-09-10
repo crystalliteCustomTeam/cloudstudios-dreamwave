@@ -1,10 +1,7 @@
 import MainBanner from "@/src/components/mainbanner";
-import Testimonial from "@/src/app/home/testimonial";
 import Contact from "@/src/app/home/contact";
 import BannerLogos from "@/src/components/bannerlogos";
 import CaseStudies from "@/src/components/casestudies";
-
-
 
 const banner = {
     title: "Animation, Design, Digital & Everything",
