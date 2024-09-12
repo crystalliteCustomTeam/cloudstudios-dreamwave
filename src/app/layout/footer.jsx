@@ -1,4 +1,4 @@
-import { FacebookIcon, InstagramIcon, LinkedInIcon, YoutubeIcon, FooterMainLogo, VimeoIcon } from "@/src/app-constants"
+import { FacebookIcon, InstagramIcon, Tiktok, LinkedInIcon, YoutubeIcon, FooterMainLogo, VimeoIcon } from "@/src/app-constants"
 import styles from "@/styles/layout/footer.module.scss"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
@@ -23,10 +23,13 @@ const Footer = () => {
                         </div>
                         <ul className={styles.socailIcon}>
                             <li>
-                                <a href="https://www.facebook.com/cloudstudiosofficial" target="_blank" aria-label="Facebook Link"><FacebookIcon /></a>
+                                <a href="https://www.facebook.com/cloudstudiosus" target="_blank" aria-label="Facebook Link"><FacebookIcon /></a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/cloudstudiosincofficial/" target="_blank" aria-label="Instagram Link"><InstagramIcon /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/cloud-studio-inc/" target="_blank" aria-label="Youtube Link"><LinkedInIcon /></a>
                             </li>
                             <li>
                                 <a href="https://vimeo.com/cloudstudiosinc" target="_blank" aria-label="Linkedin Link"><VimeoIcon /></a>
