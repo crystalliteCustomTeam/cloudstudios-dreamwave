@@ -10,7 +10,7 @@ import Testimonial from "@/src/app/home/testimonial";
 import Contact from "@/src/app/home/contact";
 import MainBanner from "./mainbanner";
 import PriceBox from "./pricebox";
-import CaseStudiesLP from "./casestudies";
+import CaseStudies from "./casestudies";
 
 export default function Home() {
 
@@ -19,7 +19,7 @@ export default function Home() {
       <MainBanner />
       <BannerLogos />
       <Services />
-      <CaseStudiesLP />
+      <CaseStudies />
       <PriceBox />
       <WorkSec />
       <Achievement />

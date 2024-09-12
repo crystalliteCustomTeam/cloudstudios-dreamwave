@@ -38,7 +38,7 @@ const SidebarCTA = () => {
                     </span>
                 </div>
                 <div className={styles.phoneNumber} >
-                    <a href='tel:1-833-666-6684' >
+                    <a href='tel:800-253-1448' >
                         <Phone />
                     </a>
                 </div>

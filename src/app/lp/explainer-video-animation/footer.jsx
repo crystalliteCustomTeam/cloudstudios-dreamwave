@@ -55,7 +55,7 @@ const FooterLP = () => {
                                     <FooterMainLogo />
                                 </div>
                                 <div className={styles.contactInfo}>
-                                    <a href="tel:1-833-666-6684"><FooterPhone />1-833-666-6684</a>
+                                    <a href="tel:800-253-1448"><FooterPhone />800-253-1448</a>
                                 </div>
                                 <div className={styles.contactInfo}>
                                     <a href="mailto:queries@cloudstudios.us"> <FooterEmail />queries@cloudstudios.us</a>

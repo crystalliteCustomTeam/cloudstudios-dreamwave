@@ -36,7 +36,7 @@ const fetchVideos = async (tag) => {
     }
 };
 
-const CaseStudiesLP = () => {
+const CaseStudies = () => {
     const [activeTab, setActiveTab] = useState(tabs[0].tag);
     const [modalShow, setModalShow] = useState(false);
     const [videoID, setVideoID] = useState("");
@@ -119,5 +119,5 @@ const CaseStudiesLP = () => {
     );
 };
 
-export default CaseStudiesLP;
+export default CaseStudies;
 

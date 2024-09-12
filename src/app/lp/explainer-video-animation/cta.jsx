@@ -22,7 +22,7 @@ const CtaLP = () => {
                                 <div className='buttonLP'><ChatIcon /> Live Chat</div>
                             </li>
                             <li>
-                                <a href="tel:1-833-666-6689" className='buttonLP'>Call Now : 1-833-666-6689</a>
+                                <a href="tel:800-253-1448" className='buttonLP'>Call Now : 800-253-1448</a>
                             </li>
                         </ul>
 
