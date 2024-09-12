@@ -1,0 +1,269 @@
+@import '../../../../../styles/variables.module.scss';
+
+.ctaVideoLpSec {
+    background: $white-color;
+    padding: 50px 0px 50px;
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    .ctaVideoLp {
+        background: #EE8526;
+        border-radius: 30px;
+        padding: 50px 30px 0px;
+        position: relative;
+    }
+
+    .ctaVideoBtnLp {
+        display: flex;
+        gap: 20px;
+
+        li {
+
+            div,
+            a {
+                background: $white-color;
+                color: $black-color;
+
+                &:hover {
+                    background-color: $black-color;
+                    color: $white-color;
+
+                    svg {
+                        path {
+                            fill: $white-color;
+                        }
+                    }
+
+                }
+
+                svg {
+                    width: 25px;
+                    margin-right: 10px;
+
+                    path {
+                        fill: $black-color;
+                    }
+                }
+            }
+        }
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .ctaVideoLpSec {
+        padding: 50px 0px 50px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 30px;
+            padding: 50px 30px 0px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 10px;
+
+            li {
+                svg {
+                    width: 25px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .ctaVideoLpSec {
+        padding: 45px 0px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 30px;
+            padding: 50px 30px 0px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 10px;
+
+            li {
+                svg {
+                    width: 25px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .ctaVideoLpSec {
+        padding: 40px 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 30px;
+            padding: 50px 30px 0px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 10px;
+
+            li {
+                svg {
+                    width: 22px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .ctaVideoLpSec {
+        padding: 30px 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 20px;
+            padding: 30px 25px 0px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 10px;
+
+            li {
+                svg {
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .ctaVideoLpSec {
+        padding: 0px 0px 35px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 20px;
+            padding: 30px 25px 0px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 10px;
+
+            li {
+                svg {
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .ctaVideoLpSec {
+        padding: 0px 0px 30px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 20px;
+            padding: 20px 15px 20px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 10px;
+
+            li {
+                svg {
+                    width: 20px;
+                    margin-right: 10px;
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .ctaVideoLpSec {
+        padding: 0px 0px 25px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 20px;
+            padding: 15px 15px 0px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 5px;
+
+            li {
+                svg {
+                    width: 18px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .ctaVideoLpSec {
+        padding: 0px 0px 25px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .ctaVideoLp {
+            border-radius: 20px;
+            padding: 15px 15px 0px;
+        }
+
+        .ctaVideoBtnLp {
+            gap: 5px;
+            flex-direction: column;
+            margin-bottom: 20px;
+
+            li {
+                svg {
+                    width: 20px;
+                    margin-right: 5px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

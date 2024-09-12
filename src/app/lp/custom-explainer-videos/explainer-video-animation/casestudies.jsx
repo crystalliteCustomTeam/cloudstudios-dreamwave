@@ -36,7 +36,7 @@ const fetchVideos = async (tag) => {
     }
 };
 
-const CaseStudies = () => {
+const CaseStudiesLP = () => {
     const [activeTab, setActiveTab] = useState(tabs[0].tag);
     const [modalShow, setModalShow] = useState(false);
     const [videoID, setVideoID] = useState("");
@@ -64,12 +64,14 @@ const CaseStudies = () => {
     };
 
     return (
-        <section className={`p-100 ${styles.casestudiesLp}`}>
+        <section className={styles.casestudiesLp}>
             <Container>
                 <Row>
                     <Col lg={10} className='m-auto'>
-                        <h3 className="spacing">Our Casestudy</h3>
-                        <h2>Animated Explainer Videos That Deliver Results</h2>
+                        <h2><span>Animated Videos</span> That Deliver Results</h2>
+                        <p>
+                            Unlock your brand’s potential with our video animation services! Engage your audience with dynamic animations that convert viewers into loyal customers. Let’s make your idea come alive!
+                        </p>
                     </Col>
                     <Col lg={12}>
                         <div className={styles.tabTitle}>
@@ -109,7 +111,7 @@ const CaseStudies = () => {
                             )}
                         </div>
                         <div className={styles.ctaButton}>
-                            <CommonBtnLP data="Get Quote" />
+                            <CommonBtnLP data="Make an Animation" />
                         </div>
                     </Col>
                 </Row>
@@ -119,5 +121,5 @@ const CaseStudies = () => {
     );
 };
 
-export default CaseStudies;
+export default CaseStudiesLP;
 

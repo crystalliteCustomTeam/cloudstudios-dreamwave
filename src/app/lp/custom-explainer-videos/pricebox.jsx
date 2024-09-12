@@ -10,7 +10,7 @@ import CommonBtn from '../../../components/commonbtn'
 const PricingData = [
     {
         package: 'Video Basic',
-        price: '$155',
+        price: '$175',
         features: [
             "60 Sec Duration",
             "Script Writing",
