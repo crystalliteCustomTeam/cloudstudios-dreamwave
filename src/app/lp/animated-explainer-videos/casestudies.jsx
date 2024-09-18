@@ -9,9 +9,9 @@ import styles from './styles/casestudies.module.scss';
 
 const tabs = [
     { title: 'Hybrid Animation', tag: 'hybrid-animation' },
-    { title: '3D Animation', tag: '3D-Animation' },
-    { title: '2D Animation', tag: '2D-Animation' },
-    { title: 'Whiteboard Animation', tag: 'whiteboard-animation' },
+    { title: '3D Animation', tag: '3dAnimation' },
+    { title: '2D Animation', tag: '2dAnimation' },
+    { title: 'Whiteboard Animation', tag: 'Whiteboard' },
     { title: 'Motion Graphics', tag: 'motion-animation' },
 ];
 
@@ -27,7 +27,7 @@ const fetchVideos = async (tag) => {
         const data = await response.json();
         // Sort by created_time descending
         const sortedVideos = data.data.sort((a, b) => new Date(b.created_time) - new Date(a.created_time));
-        console.log(sortedVideos) 
+        console.log(sortedVideos)
         return sortedVideos;
     } catch (error) {
         console.error("Error fetching videos:", error);
