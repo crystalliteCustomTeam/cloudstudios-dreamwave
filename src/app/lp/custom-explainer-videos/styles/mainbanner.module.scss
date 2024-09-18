@@ -271,7 +271,7 @@
 @include media-query($min: 1200px, $max: 1299px) {
   .mainBanner {
     height: 100vh;
-    padding-top: 0px;
+    padding-top: 80px;
 
     .bannerContentBox {
       top: 40px;
@@ -301,7 +301,6 @@
     .BannerFrom {
         max-width: 400px;
         padding: 25px;
-        margin-top: 40px;
 
         &::before {
             background-size: 80%;

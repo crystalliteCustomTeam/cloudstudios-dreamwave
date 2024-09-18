@@ -1,11 +1,12 @@
 "use client";
 import { useState, useEffect } from 'react';
-import { Col, Container, Row, Spinner, Alert } from 'react-bootstrap';
+import { Col, Container, Row, Spinner } from 'react-bootstrap';
 import Image from 'next/image';
 import { PlayBtn } from '@/src/app-constants';
 import VideoModal from '@/src/components/videomodal';
 import CommonBtnLP from './common/commonbtnlp';
 import styles from './styles/casestudies.module.scss';
+
 
 const tabs = [
     { title: 'Hybrid Animation', tag: 'hybrid-animation' },
@@ -15,7 +16,9 @@ const tabs = [
     { title: 'Motion Graphics', tag: 'motion-animation' },
 ];
 
+
 const VIMEO_ACCESS_TOKEN = 'efbf8d8cbada18a5bc7572594e303e5c';
+
 
 const fetchVideos = async (tag) => {
     try {
@@ -24,11 +27,9 @@ const fetchVideos = async (tag) => {
                 Authorization: `Bearer ${VIMEO_ACCESS_TOKEN}`,
             }
         });
+
         const data = await response.json();
-        // Sort by created_time descending
-        const sortedVideos = data.data.sort((a, b) => new Date(b.created_time) - new Date(a.created_time));
-        console.log(sortedVideos) 
-        return sortedVideos;
+        return data.data
     } catch (error) {
         console.error("Error fetching videos:", error);
         return [];
@@ -41,20 +42,13 @@ const CaseStudies = () => {
     const [videoID, setVideoID] = useState("");
     const [videos, setVideos] = useState([]);
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
 
     useEffect(() => {
         const fetchTabVideos = async () => {
             setLoading(true);
-            setError(null);
-            try {
-                const videoData = await fetchVideos(activeTab);
-                setVideos(videoData);
-            } catch (err) {
-                setError('Failed to load videos. Please try again later.');
-            } finally {
-                setLoading(false);
-            }
+            const videoData = await fetchVideos(activeTab);
+            setVideos(videoData);
+            setLoading(false);
         };
 
         fetchTabVideos();
@@ -90,14 +84,12 @@ const CaseStudies = () => {
                             ))}
                         </div>
                         <div className={styles.tabContent}>
-                            {loading && (
+                            {loading ? (
                                 <div className="text-center">
                                     <Spinner animation="border" />
                                     <p>Loading...</p>
                                 </div>
-                            )}
-                            {error && <Alert variant="danger">{error}</Alert>}
-                            {!loading && !error && (
+                            ) : (
                                 <div className={styles.tabVideo}>
                                     {videos.map((video, index) => (
                                         <div
@@ -128,3 +120,4 @@ const CaseStudies = () => {
 };
 
 export default CaseStudies;
+

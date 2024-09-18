@@ -1,0 +1,780 @@
+@import '../../../../../styles/variables.module.scss';
+
+.bannerLp {
+    height: 100vh;
+    position: relative;
+
+    &:after {
+        content: '';
+        background: rgb(0 0 0 / 70%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+    }
+
+    h1 {
+        span {
+            color: $secondary-color;
+        }
+    }
+
+
+    .ContentBox {
+        position: relative;
+        z-index: 1;
+        // background-color: rgba(0, 0, 0, 0.24);
+        // backdrop-filter: blur(26px) brightness(1.2);
+        // -webkit-backdrop-filter: blur(26px) brightness(1.2);
+        padding: 30px;
+        border-radius: 10px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+
+            li {
+                color: $white-color;
+                flex: 0 0 calc(50% - 10px);
+                margin-bottom: 5px;
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+
+                svg {
+                    margin-right: 10px;
+                    height: 14px;
+                    width: 14px;
+
+                    circle {
+                        fill: $secondary-color;
+                    }
+                }
+            }
+        }
+
+        .flexBtn {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 30px;
+            gap: 25px;
+
+            .bannerChatBtn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                color: $white-color;
+                cursor: pointer;
+                border-radius: 23px;
+                font-size: 15px;
+
+                span {
+                    display: block;
+                    text-align: center;
+                    font-weight: 700;
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+
+    .BannerFrom {
+        position: relative;
+        z-index: 1;
+        background: $secondary-color;
+        max-width: 450px;
+        padding: 30px;
+        border-radius: 10px;
+        margin-left: auto;
+
+        &::before {
+            content: '';
+            background-image: url(../../../../../public/lp/explainer-video-animation/formBefore.webp);
+            width: 96px;
+            height: 136px;
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-size: 100%;
+        }
+
+        .title {
+            margin: 0px 0px 40px 90px;
+            text-align: center;
+
+            h3 {
+                color: #ffffff;
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                line-height: 30px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 0px;
+                line-height: 30px;
+                text-transform: uppercase;
+                font-weight: 600;
+
+                span {
+                    background: $black-color;
+                    font-weight: 600;
+                    padding: 5px 10px;
+                    border-radius: 23px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    video {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .bannerLp {
+        height: 100vh;
+        position: relative;
+        padding-top: 100px;
+
+
+        .ContentBox {
+            padding: 25px;
+            border-radius: 10px;
+
+            ul {
+                gap: 10px;
+                margin-bottom: 25px;
+
+                li {
+                    flex: 0 0 calc(50% - 10px);
+                    font-size: 15px;
+
+                    svg {
+                        height: 14px;
+                        width: 14px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 25px;
+                gap: 20px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 13px;
+
+                    svg {
+                        width: 14px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .BannerFrom {
+            max-width: 450px;
+            padding: 25px;
+
+            &::before {
+                background-size: 100%;
+            }
+
+            .title {
+                margin: 0px 0px 35px 90px;
+                text-align: center;
+
+                h3 {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 30px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .bannerLp {
+        height: 100vh;
+        position: relative;
+        padding-top: 100px;
+
+
+        .ContentBox {
+            padding: 25px;
+            border-radius: 10px;
+
+            ul {
+                gap: 10px;
+                margin-bottom: 25px;
+
+                li {
+                    flex: 0 0 calc(50% - 10px);
+                    font-size: 14px;
+
+                    svg {
+                        height: 13px;
+                        width: 13px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 25px;
+                gap: 20px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 13px;
+
+                    svg {
+                        width: 25px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .BannerFrom {
+            max-width: 450px;
+            padding: 25px;
+
+            &::before {
+                background-size: 90%;
+            }
+
+            .title {
+                margin: 0px 0px 35px 90px;
+                text-align: center;
+
+                h3 {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 30px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+
+
+
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .bannerLp {
+        height: 100vh;
+        position: relative;
+        padding-top: 80px;
+
+
+        .ContentBox {
+            padding: 20px;
+            border-radius: 10px;
+
+            ul {
+                gap: 10px;
+                margin-bottom: 20px;
+
+                li {
+                    flex: 0 0 calc(50% - 10px);
+                    font-size: 13px;
+
+                    svg {
+                        height: 13px;
+                        width: 13px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 25px;
+                gap: 20px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 13px;
+
+                    svg {
+                        width: 24px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .BannerFrom {
+            max-width: 400px;
+            padding: 25px;
+
+            &::before {
+                background-size: 80%;
+            }
+
+            .title {
+                margin: 0px 0px 35px 80px;
+                text-align: center;
+
+                h3 {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 28px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .bannerLp {
+        height: 100vh;
+        position: relative;
+        padding-top: 60px;
+
+
+        .ContentBox {
+            padding: 20px;
+            border-radius: 10px;
+
+            ul {
+                gap: 10px;
+                margin-bottom: 20px;
+
+                li {
+                    flex: 0 0 calc(50% - 10px);
+                    font-size: 13px;
+
+                    svg {
+                        height: 13px;
+                        width: 13px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 25px;
+                gap: 20px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 12px;
+
+                    svg {
+                        width: 24px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .BannerFrom {
+            max-width: 400px;
+            padding: 25px;
+
+            &::before {
+                background-size: 80%;
+            }
+
+            .title {
+                margin: 0px 0px 35px 80px;
+                text-align: center;
+
+                h3 {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 28px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .bannerLp {
+        height: 100vh;
+        position: relative;
+        padding-top: 60px;
+
+
+        .ContentBox {
+            padding: 20px;
+            border-radius: 10px;
+
+            ul {
+                gap: 10px;
+                margin-bottom: 20px;
+
+                li {
+                    flex: 0 0 calc(50% - 10px);
+                    font-size: 13px;
+
+                    svg {
+                        height: 13px;
+                        width: 13px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 25px;
+                gap: 20px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 12px;
+
+                    svg {
+                        width: 22px;
+                        height: auto;
+                    }
+                }
+            }
+
+            img {
+                height: 45px;
+                width: auto;
+            }
+        }
+
+        .BannerFrom {
+            max-width: 400px;
+            padding: 25px;
+
+            &::before {
+                background-size: 80%;
+            }
+
+            .title {
+                margin: 0px 0px 35px 80px;
+                text-align: center;
+
+                h3 {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 28px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .bannerLp {
+        height: 100vh;
+        position: relative;
+        padding-top: 60px;
+
+
+        .ContentBox {
+            padding: 20px;
+            border-radius: 10px;
+
+            ul {
+                gap: 0px;
+                margin-bottom: 20px;
+
+                li {
+                    flex: 0 0 calc(50% - 0px);
+                    font-size: 12px;
+
+                    svg {
+                        height: 12px;
+                        width: 12px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 20px;
+                gap: 10px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 12px;
+
+                    svg {
+                        width: 20px;
+                        height: auto;
+                    }
+                }
+            }
+
+            img {
+                height: 45px;
+                width: auto;
+            }
+        }
+
+        .BannerFrom {
+            max-width: 400px;
+            padding: 15px;
+
+            &::before {
+                display: none;
+            }
+
+            .title {
+                margin: 0px 0px 20px 0px;
+                text-align: center;
+
+                h3 {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 28px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .bannerLp {
+        height: 100%;
+        position: relative;
+        padding-top: 60px;
+        padding-bottom: 20px;
+
+
+        .ContentBox {
+            padding: 20px;
+            border-radius: 10px;
+
+            ul {
+                gap: 0px;
+                margin-bottom: 20px;
+
+                li {
+                    flex: 0 0 calc(50% - 0px);
+                    font-size: 12px;
+
+                    svg {
+                        height: 12px;
+                        width: 12px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 20px;
+                gap: 10px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 12px;
+
+                    svg {
+                        width: 20px;
+                        height: auto;
+                    }
+                }
+            }
+
+            img {
+                height: 45px;
+                width: auto;
+            }
+        }
+
+        .BannerFrom {
+            max-width: 400px;
+            padding: 25px;
+            margin: 20px auto;
+
+            &::before {
+                background-size: 90%;
+            }
+
+            .title {
+                margin: 0px 0px 30px 80px;
+                text-align: center;
+
+                h3 {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 28px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .bannerLp {
+        height: 100%;
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 20px;
+
+
+        .ContentBox {
+            padding: 0px;
+            border-radius: 10px;
+
+            ul {
+                gap: 0px;
+                margin-bottom: 20px;
+
+
+                li {
+                    flex: 0 0 calc(100% - 0px);
+                    font-size: 12px;
+
+                    svg {
+                        height: 12px;
+                        width: 12px;
+                    }
+                }
+            }
+
+            .flexBtn {
+                margin-bottom: 20px;
+                gap: 10px;
+
+                .bannerChatBtn {
+                    gap: 10px;
+                    font-size: 12px;
+
+                    svg {
+                        width: 20px;
+                        height: auto;
+                    }
+                }
+            }
+
+            img {
+                height: 40px;
+                width: auto;
+                margin-bottom: 20px;
+            }
+        }
+
+        .BannerFrom {
+            max-width: 320px;
+            padding: 25px;
+            margin: 20px auto;
+
+            &::before {
+                display: none;
+            }
+
+            .title {
+                margin: 0px 0px 10px 0px;
+                text-align: center;
+
+                h3 {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 28px;
+                    font-weight: 600;
+
+                    span {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
