@@ -8,11 +8,11 @@ import CommonBtnLP from './common/commonbtnlp';
 import styles from './styles/casestudies.module.scss';
 
 const tabs = [
-    { title: 'Hybrid Animation', tag: 'hybrid-animation' },
-    { title: '3D Animation', tag: '3D-Animation' },
-    { title: '2D Animation', tag: '2D-Animation' },
-    { title: 'Whiteboard Animation', tag: 'whiteboard-animation' },
-    { title: 'Motion Graphics', tag: 'motion-animation' },
+    { title: 'Hybrid Animation', tag: 'cloudstudiosHB' },
+    { title: '3D Animation', tag: 'cloudstudios3D' },
+    { title: '2D Animation', tag: 'cloudstudios2D' },
+    { title: 'Whiteboard Animation', tag: 'cloudstudiosWB' },
+    { title: 'Motion Graphics', tag: 'cloudstudiosMG' },
 ];
 
 const VIMEO_ACCESS_TOKEN = 'efbf8d8cbada18a5bc7572594e303e5c';
@@ -27,7 +27,7 @@ const fetchVideos = async (tag) => {
         const data = await response.json();
         // Sort by created_time descending
         const sortedVideos = data.data.sort((a, b) => new Date(b.created_time) - new Date(a.created_time));
-        console.log(sortedVideos) 
+        console.log(sortedVideos)
         return sortedVideos;
     } catch (error) {
         console.error("Error fetching videos:", error);

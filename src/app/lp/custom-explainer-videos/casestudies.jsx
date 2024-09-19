@@ -9,11 +9,11 @@ import styles from './styles/casestudies.module.scss';
 
 
 const tabs = [
-    { title: 'Hybrid Animation', tag: 'hybrid-animation' },
-    { title: '3D Animation', tag: '3D-Animation' },
-    { title: '2D Animation', tag: '2D-Animation' },
-    { title: 'Whiteboard Animation', tag: 'whiteboard-animation' },
-    { title: 'Motion Graphics', tag: 'motion-animation' },
+    { title: 'Hybrid Animation', tag: 'cloudstudiosHB' },
+    { title: '3D Animation', tag: 'cloudstudios3D' },
+    { title: '2D Animation', tag: 'cloudstudios2D' },
+    { title: 'Whiteboard Animation', tag: 'cloudstudiosWB' },
+    { title: 'Motion Graphics', tag: 'cloudstudiosMG' },
 ];
 
 
