@@ -335,7 +335,7 @@
             input {
                 height: 30px;
                 padding: 10px 10px;
-                @include font-size(12px);
+                @include font-size(10px);
             }
         }
 
@@ -343,7 +343,7 @@
             textarea {
                 height: 80px;
                 padding: 0px 10px;
-                @include font-size(12px);
+                @include font-size(10px);
             }
         }
 

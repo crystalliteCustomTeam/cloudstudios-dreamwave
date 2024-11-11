@@ -6,8 +6,7 @@ import SidebarCTA from "../components/sidebarcat/SidebarCta";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
-    const conditionalVariable = pathname !== "/lp/explainer-video-animation";
-
+    const conditionalVariable = pathname !== "/lp/explainer-video-animation" && pathname !== "/lp/custom-explainer-videos1";
     return (
         <>
             {conditionalVariable && <Header />}

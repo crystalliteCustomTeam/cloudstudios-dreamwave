@@ -1,0 +1,258 @@
+.bannerLP {
+    height: 80vh;
+
+    h1 {
+        span {
+            color: #fc2030;
+        }
+    }
+
+    ul {
+        margin-bottom: 20px;
+        padding-left: 20px;
+
+        li {
+            color: #fff;
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 10px;
+            font-weight: 400;
+            position: relative;
+
+            &::before {
+                content: '';
+                background: #fc2030;
+                width: 8px;
+                height: 8px;
+                position: absolute;
+                left: -15px;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .buttonLP {
+        padding: 0;
+        color: #fff;
+        font-size: 20px;
+        background: #fc2030;
+        font-weight: 700;
+        z-index: 1;
+        position: relative;
+        display: inline-block;
+        font-family: Poppins, sans-serif;
+    }
+
+    .fromLP {
+        background-color: rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(26px) brightness(1.2);
+        -webkit-backdrop-filter: blur(26px) brightness(1.2);
+        padding: 40px;
+        border-radius: 10px;
+        max-width: 450px;
+        margin-left: auto;
+
+        h4 {
+            color: #fc2030;
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bannerLP {
+        height: 100vh;
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+
+            li {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+
+
+
+        .fromLP {
+            padding: 30px;
+            max-width: 400px;
+            margin: auto 0px -50px auto;
+
+            h4 {
+
+                font-size: 24px;
+                line-height: 32px;
+                margin-bottom: 15px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bannerLP {
+        height: 100vh;
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+
+            li {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+
+
+
+        .fromLP {
+            padding: 30px;
+            max-width: 400px;
+            margin: auto 0px -50px auto;
+
+            h4 {
+
+                font-size: 24px;
+                line-height: 32px;
+                margin-bottom: 15px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bannerLP {
+        height: 100vh;
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+
+            li {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+
+
+
+        .fromLP {
+            padding: 30px;
+            max-width: 360px;
+            margin: auto auto -50px auto;
+
+            h4 {
+
+                font-size: 22px;
+                line-height: 30px;
+                margin-bottom: 15px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bannerLP {
+        height: 100vh;
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+
+            li {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+
+
+        .fromLP {
+            padding: 30px;
+            max-width: 360px;
+            margin: auto auto -50px auto;
+
+            h4 {
+
+                font-size: 22px;
+                line-height: 30px;
+                margin-bottom: 15px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .bannerLP {
+        height: 100vh;
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+
+            li {
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+
+
+
+        .fromLP {
+            padding: 20px;
+            max-width: 320px;
+            margin: auto;
+
+            h4 {
+
+                font-size: 18px;
+                line-height: 26px;
+                margin-bottom: 10px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .bannerLP {
+        height: 100%;
+        padding: 100px 0px 80px;
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+
+            li {
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+
+
+
+        .fromLP {
+            padding: 20px;
+            max-width: 320px;
+            margin: 20px auto 20px auto;
+
+            h4 {
+
+                font-size: 18px;
+                line-height: 26px;
+                margin-bottom: 10px;
+
+            }
+        }
+    }
+}

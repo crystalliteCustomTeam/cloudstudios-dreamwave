@@ -25,7 +25,6 @@ const fetchVideos = async (tag) => {
             }
         });
         const data = await response.json();
-        // Sort by created_time descending
         const sortedVideos = data.data.sort((a, b) => new Date(b.created_time) - new Date(a.created_time));
         console.log(sortedVideos)
         return sortedVideos;

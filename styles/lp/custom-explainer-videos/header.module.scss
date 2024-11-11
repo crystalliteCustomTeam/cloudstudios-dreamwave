@@ -1,0 +1,165 @@
+@import '../../variables.module.scss';
+
+.headerLP {
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(26px) brightness(1.2);
+    -webkit-backdrop-filter: blur(26px) brightness(1.2);
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+
+    &.active {
+        background: rgb(255, 255, 255, 0.8);
+    }
+
+    .mainLogo {
+        svg {
+            height: 55px;
+            width: auto;
+        }
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+
+        li {
+            background: #fc2030;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 23px;
+            color: #fff;
+            padding: 0px 20px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@include media-query($min: 1400px, $max: 1600px) {
+    .headerLP {
+        height: 80px;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 1300px, $max: 1399px) {
+    .headerLP {
+        height: 75px;
+
+        .mainLogo {
+            svg {
+                height: 45px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 1200px, $max: 1299px) {
+    .headerLP {
+        height: 60px;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 1100px, $max: 1199px) {
+    .headerLP {
+        height: 60px;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 900px, $max: 1099px) {
+    .headerLP {
+        height: 60px;
+
+        .mainLogo {
+            svg {
+                height: 35px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 701px, $max: 899px) {
+    .headerLP {
+        height: 60px;
+
+        .mainLogo {
+            svg {
+                height: 35px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@include media-query($min: 577px, $max: 700px) {
+    .headerLP {
+        height: 60px;
+        overflow-x: visible;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
+
+    }
+}
+
+@include media-query($min: 0px, $max: 576px) {
+    .headerLP {
+        height: 60px;
+        overflow-x: visible;
+
+        .mainLogo {
+            svg {
+                height: 35px;
+                width: auto;
+            }
+        }
+
+        ul {
+            gap: 5px;
+
+            li {
+                height: 30px;
+                padding: 0px 10px;
+                font-size: 11px;
+            }
+        }
+    }
+}

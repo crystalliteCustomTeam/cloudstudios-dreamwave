@@ -1,0 +1,579 @@
+.priceSection {
+    padding: 100px 0;
+
+    h2 {
+        color: #fff;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.pricingBox {
+    background-color: #fff;
+    box-shadow: 1.792px 4.668px 29px 0 rgba(0, 0, 0, .07);
+    padding: 40px 20px 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+
+    &::before {
+        content: "";
+        width: 77px;
+        height: 88px;
+        background: url(../../../public//lp/custom-explainer-videos/pricing-bf.png) 0 0/contain;
+        position: absolute;
+        top: -30px;
+        left: -20px;
+    }
+
+    strike {
+        color: #ee3706;
+        font-size: 18px;
+    }
+
+
+
+    ul.listBox {
+        padding: 0 0 0 30px;
+        height: 240px;
+        margin-bottom: 25px;
+        overflow-y: auto;
+
+        li {
+            font-size: 15px;
+            font-weight: 600;
+            color: #000;
+            line-height: 39px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+
+            svg {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+
+        &::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #ee3706;
+            border-radius: 10px;
+
+            &:hover {
+                background: #000;
+            }
+        }
+    }
+
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(26px) brightness(1.2);
+        -webkit-backdrop-filter: blur(26px) brightness(1.2);
+
+        h3 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        .amountBox {
+            h2 {
+                color: #fff;
+            }
+        }
+
+        ul {
+            li {
+                color: #fff;
+
+                svg {
+                    path {
+                        stroke: #fff;
+                    }
+                }
+            }
+        }
+
+        .priceBtn {
+            background: #ee3706;
+
+            .sameBtn {
+                color: #fff;
+                border-color: #fff;
+            }
+        }
+    }
+
+
+    h3 {
+        font-size: 37px;
+        font-weight: 700;
+        color: #000;
+        line-height: 37px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #000;
+    }
+}
+
+.priceBtn.chat-btn {
+    &:hover {
+        background: 0 0;
+    }
+}
+
+.amountBox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 35px;
+    padding-top: 15px;
+
+    h2 {
+        font-size: 65px;
+        font-weight: 700;
+        color: #0f1835;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        line-height: 75px;
+    }
+}
+
+.priceBtn {
+    justify-content: center;
+    background: #000;
+    padding: 0px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+
+    .sameBtn {
+        flex: 0 0 50%;
+        color: #fff;
+        border: 0;
+        font-size: 15px;
+        padding: 0 30px;
+        border-right: 1px solid #fff;
+        cursor: pointer;
+
+        &:last-child {
+            border-right: 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .priceSection {
+        padding: 80px 0;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .pricingBox {
+        padding: 40px 20px 20px;
+
+        ul.listBox {
+            padding: 0 0 0 20px;
+            height: 240px;
+
+            li {
+                font-size: 14px;
+                line-height: 30px;
+
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 32px;
+            line-height: 32px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .amountBox {
+        padding-bottom: 30px;
+        padding-top: 10px;
+
+        h2 {
+            font-size: 60px;
+            line-height: 70px;
+            padding: 10px 0px 20px;
+        }
+    }
+
+    .priceBtn {
+        height: 40px;
+
+        .sameBtn {
+            font-size: 14px;
+            padding: 0 25px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .priceSection {
+        padding: 80px 0;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .pricingBox {
+        padding: 40px 20px 20px;
+
+        ul.listBox {
+            padding: 0 0 0 20px;
+            height: 240px;
+
+            li {
+                font-size: 14px;
+                line-height: 30px;
+
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 32px;
+            line-height: 32px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .amountBox {
+        padding-bottom: 30px;
+        padding-top: 10px;
+
+        h2 {
+            font-size: 60px;
+            line-height: 70px;
+            padding: 10px 0px 20px;
+        }
+    }
+
+    .priceBtn {
+        height: 40px;
+
+        .sameBtn {
+            font-size: 14px;
+            padding: 0 25px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .priceSection {
+        padding: 80px 0;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .pricingBox {
+        padding: 40px 20px 20px;
+
+        ul.listBox {
+            padding: 0 0 0 20px;
+            height: 240px;
+
+            li {
+                font-size: 13px;
+                line-height: 30px;
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 30px;
+            line-height: 30px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    .amountBox {
+        padding-bottom: 10px;
+        padding-top: 0px;
+
+        h2 {
+            font-size: 55px;
+            line-height: 65px;
+            padding: 0px 0px 10px;
+        }
+    }
+
+    .priceBtn {
+        height: 40px;
+
+        .sameBtn {
+            font-size: 14px;
+            padding: 0 25px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .priceSection {
+        padding: 80px 0;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .pricingBox {
+        padding: 40px 20px 20px;
+
+        ul.listBox {
+            padding: 0 0 0 20px;
+            height: 240px;
+
+            li {
+                font-size: 13px;
+                line-height: 30px;
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 26px;
+            line-height: 26pxpx;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+
+    .amountBox {
+        padding-bottom: 10px;
+        padding-top: 0px;
+
+        h2 {
+            font-size: 50px;
+            line-height: 60px;
+            padding: 0px 0px 10px;
+        }
+    }
+
+    .priceBtn {
+        height: 40px;
+
+        .sameBtn {
+            font-size: 13px;
+            padding: 0 15px;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .priceSection {
+        padding: 60px 0;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .pricingBox {
+        padding: 30px 10px 10px;
+        border-radius: 10px;
+
+        ul.listBox {
+            padding: 0 0 0 0px;
+            height: 180px;
+
+            li {
+                font-size: 11px;
+                line-height: 24px;
+
+                svg {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 22px;
+            line-height: 22px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 2px;
+        }
+    }
+
+    .amountBox {
+        padding-bottom: 10px;
+        padding-top: 0px;
+
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+            padding: 0px 0px 10px;
+        }
+    }
+
+    .priceBtn {
+        height: 35px;
+
+        .sameBtn {
+            font-size: 12px;
+            padding: 0 10px;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .priceSection {
+        padding: 60px 0;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .pricingBox {
+        padding: 30px 10px 20px;
+        border-radius: 10px;
+        max-width: 300px;
+        margin: 10px auto;
+
+        ul.listBox {
+            padding: 0 0 0 0px;
+            height: 170px;
+
+            li {
+                font-size: 11px;
+                line-height: 24px;
+
+                svg {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 22px;
+            line-height: 22px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 2px;
+        }
+    }
+
+    .amountBox {
+        padding-bottom: 10px;
+        padding-top: 0px;
+
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+            padding: 0px 0px 10px;
+        }
+    }
+
+    .priceBtn {
+        height: 35px;
+
+        .sameBtn {
+            font-size: 12px;
+            padding: 0 10px;
+        }
+    }
+}
