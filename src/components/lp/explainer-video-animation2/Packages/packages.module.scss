@@ -1,0 +1,248 @@
+.root {
+  position: relative;
+  z-index: 10;
+  padding: 50px 0;
+  overflow: hidden;
+
+  .bannerImage {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    inset: 0;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0 0 80px;
+
+    h2 {
+      font-size: 30px;
+      line-height: 1.3;
+      margin: 0 0 20px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 400;
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+  }
+
+  .packageCards {
+    max-width: 1150px;
+    margin: 0 auto;
+
+    .card {
+      text-align: center;
+      padding: 20px 0;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      z-index: 10;
+      box-shadow: 0px 10px 30px 0px rgba(1, 1, 1, 0.08);
+      height: 100%;
+      cursor: pointer;
+
+      .overlay {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        inset: 0;
+        transform: translateY(-90%);
+        z-index: -10;
+        transition: all 0.5s ease-in-out;
+      }
+
+      &:hover {
+        .overlay {
+          transform: translateY(0);
+        }
+
+        .leftCTA button {
+          background-color: transparent;
+          color: #231f20;
+        }
+
+        .rightCTA .liveChat {
+          background-color: #231f20;
+          color: white;
+        }
+      }
+
+      h3 {
+        font-size: 25px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: #231f20;
+        text-transform: uppercase;
+        margin: 15px 0 20px;
+      }
+
+      span:not(.overlay) {
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #333333;
+        margin: 10px 0;
+      }
+
+      h4 {
+        font-size: 50px;
+        padding: 10px 0;
+        line-height: 1.3;
+        font-weight: 700;
+        color: #231f20;
+      }
+
+      ul {
+        background-color: #b5ce8f;
+        text-align: start;
+        padding: 20px 30px;
+        height: 300px;
+        overflow: auto;
+
+        li span {
+          font-size: 14px;
+          line-height: 1.5;
+          color: #000;
+          font-weight: 500;
+        }
+      }
+
+      .leftCTA {
+        text-align: start;
+        padding: 0 0 0 20px;
+        margin: 10px 0 0;
+
+        a {
+          display: block;
+          width: max-content;
+          margin: 0 0 20px 0;
+
+          span {
+            color: #f61253;
+            font-size: 14px;
+            line-height: 1.3;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+
+            &:nth-child(2) {
+              font-size: 16px;
+              color: #231f20;
+            }
+          }
+        }
+      }
+
+      .rightCTA {
+        text-align: end;
+        padding: 0 20px 0 0;
+        margin: 10px 0 0;
+
+        .liveChat {
+          background-color: transparent;
+          border: 1px solid #231f20;
+          color: #231f20;
+          box-shadow: none;
+        }
+
+        a {
+          display: block;
+          width: max-content;
+          margin: 0 0 20px auto;
+
+          span {
+            color: #f61253;
+            font-size: 14px;
+            line-height: 1.3;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+
+            &:nth-child(2) {
+              font-size: 16px;
+              color: #231f20;
+            }
+          }
+        }
+      }
+
+      button {
+        padding: 10px 30px;
+        margin: 0 auto;
+        font-size: 15px;
+        background-color: #231f20;
+        border: 1px solid #231f20;
+      }
+    }
+
+    .card1 {
+      background-color: #c4df9b;
+    }
+
+    .card2 {
+      background-color: #ffc88d;
+    }
+
+    .card3 {
+      background-color: #ffd100;
+    }
+
+    .card1 .overlay,
+    .card1 .ul1 {
+      background-color: #b5ce8f;
+    }
+
+    .card2 .overlay,
+    .card2 .ul2 {
+      background-color: #ebb882;
+    }
+
+    .card3 .overlay,
+    .card3 .ul3 {
+      background-color: #ebc100;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .root .packageCards .card .leftCTA button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .root .content p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .root .content h2 {
+    font-size: 25px;
+    margin: 0 0 15px;
+  }
+
+  .root .content {
+    padding: 0 0 50px;
+  }
+
+  .root .content p {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .root .content h2 {
+    font-size: 22px;
+  }
+}

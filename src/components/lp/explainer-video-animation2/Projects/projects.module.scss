@@ -1,0 +1,141 @@
+.root {
+  padding: 60px 0;
+  background-color: #ffffff;
+
+  .content {
+    text-align: center;
+
+    h2 {
+      font-size: 30px;
+      line-height: 1.4;
+      color: #231f20;
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+}
+
+.tabTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  gap: 30px;
+
+  .tab {
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 5px;
+    font-weight: 400;
+    width: max-content;
+    border-bottom: 2px solid transparent;
+
+    &:hover,
+    &.active {
+      color: #fb0d1c;
+      border-color: #fb0d1c;
+    }
+  }
+}
+
+.tabContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  .tabVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+    .videoThumbnail {
+      height: 180px;
+      flex: 0 0 calc(33.33% - 25px);
+      position: relative;
+      overflow: hidden;
+      background-position: 50% 50%;
+      background-size: cover;
+      border-radius: 5px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        .overlay {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.73);
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      &:hover {
+        .playButton {
+          color: #fff;
+          transform: translateY(0);
+        }
+      }
+
+      .thumbnail {
+        width: 100%;
+        height: 100%;
+      }
+
+      .playButton {
+        position: absolute;
+        transform: translateY(100%);
+        top: 45%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: max-content;
+        height: max-content;
+        margin: 0 auto;
+        color: transparent;
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 700;
+        background-color: transparent;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tabTitle {
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: start;
+  }
+
+  .tabContent .tabVideo .videoThumbnail {
+    flex: 0 0 48%;
+  }
+
+  .root .content h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .root {
+    padding: 50px 0;
+  }
+
+  .root .content h2 {
+    font-size: 22px;
+  }
+
+  .tabContent .tabVideo .videoThumbnail {
+    flex: 0 0 100%;
+  }
+}

@@ -54,7 +54,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <ScriptsCode />
+      {/* <ScriptsCode /> */}
       <body className={poppins.className}>
 
         <ConditionalLayout >

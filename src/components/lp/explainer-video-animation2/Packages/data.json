@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "name": "Startup Package",
+    "desc":"Text & Image Compilation",
+    "price": "165",
+    "list": [
+      "60 Seconds Duration",
+      "Script Writing",
+      "Custom Artwork",
+      "Background Music",
+      "HD Format Video",
+      "Dedicated Support"
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Classic Package",
+    "desc":"Whiteboard or Motion Graphic Animation",
+    "price": "499",
+    "list": [
+      "60 Seconds Duration",
+      "Script Writing",
+      "Professional Voice-over & SFX",
+      "Hand-drawn Illustrations",
+      "Unlimited Revisions",
+      "HD Format Video",
+      "Dedicated Support"
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Premium Package",
+    "desc":"Ultimate 2D Character Animation",
+    "price": "799",
+    "list": [
+      "60 Seconds Duration",
+      "Script Writing",
+      "Professional Voice-over & SFX",
+      "Custom 2D Character Illustration",
+      "Unlimited Revisions",
+      "HD Format Video",
+      "Dedicated Support"
+    ]
+  }
+]
