@@ -43,7 +43,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className={styles.liveChat} href="#" aria-label="Live Chat">
+                <a className={styles.liveChat} href="javascript:void(Tawk_API.toggle())" aria-label="Live Chat">
                   <Image src={ChatIcon} alt="icons" width={15} height={15} />
                   <span className="d-block">Live Chat</span>
                 </a>

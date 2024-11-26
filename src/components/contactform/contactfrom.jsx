@@ -33,29 +33,29 @@ const ContactForm = ({ callbtn, sidebar }) => {
             };
 
             // Send data to SheetDB
-            await axios.post('https://sheetdb.io/api/v1/gf8bsy1mbvfr5', combinedData);
+            // await axios.post('https://sheetdb.io/api/v1/gf8bsy1mbvfr5', combinedData);
 
             // Send email via custom API
             await axios.post('/api/emailapi', combinedData);
 
             // Prepare HubSpot API data
-            const hubSpotData = {
-                fields: [
-                    { name: "email", value: data.email },
-                    { name: "firstname", value: data.name },
-                    { name: "phone", value: data.phone },
-                    { name: "message", value: data.msg },
-                    { name: "ip_country_code", value: ipData.ip },
-                    { name: "website", value: window.location.href },
-                    { name: "company", value: "Cloud Studios" },
-                ],
-            };
+            // const hubSpotData = {
+            //     fields: [
+            //         { name: "email", value: data.email },
+            //         { name: "firstname", value: data.name },
+            //         { name: "phone", value: data.phone },
+            //         { name: "message", value: data.msg },
+            //         { name: "ip_country_code", value: ipData.ip },
+            //         { name: "website", value: window.location.href },
+            //         { name: "company", value: "Cloud Studios" },
+            //     ],
+            // };
 
             // Send data to HubSpot API
-            await axios.post(
-                'https://api.hsforms.com/submissions/v3/integration/submit/47083847/011ef447-7771-4b56-8014-8004c3cdcc51',
-                hubSpotData
-            );
+            // await axios.post(
+            //     'https://api.hsforms.com/submissions/v3/integration/submit/47083847/011ef447-7771-4b56-8014-8004c3cdcc51',
+            //     hubSpotData
+            // );
 
             // Redirect to thank-you page
             window.location.href = '/thank-you';

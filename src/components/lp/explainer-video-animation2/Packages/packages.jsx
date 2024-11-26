@@ -62,7 +62,7 @@ const Packages = () => {
                       </Col>
                       <Col xs="6">
                         <div className={styles.rightCTA}>
-                          <a href="javascript:;" aria-label="Live Chat">
+                          <a href="javascript:void(Tawk_API.toggle())" aria-label="Live Chat">
                             <span className="d-block">Want to Discuss</span>
                             <span className="d-block">Live Chat Now</span>
                           </a>

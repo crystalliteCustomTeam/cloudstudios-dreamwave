@@ -37,7 +37,7 @@ const Hero = () => {
                     <Image src={Logos} alt="icons"/>
                     <div className={styles.cta}>
                         <CTA css={styles.ctaModal}/>
-                        <a href="#" aria-label="Live Chat" className={styles.ctaChat}>
+                        <a href="javascript:void(Tawk_API.toggle())" aria-label="Live Chat" className={styles.ctaChat}>
                             <Image src={ChatIcon} alt="icons" />
                             <div>
                                 <span className="d-block">Talk to our Expert</span>

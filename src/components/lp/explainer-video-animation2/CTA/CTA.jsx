@@ -28,7 +28,7 @@ const CTA = ({ text, css, modal = true, css2 }) => {
       ) : (
         <div
           dangerouslySetInnerHTML={{
-            __html: `<a href="javascript:;" aria-label="Live Chat" class="${styles.liveChat} ${css2}">
+            __html: `<a href="javascript:void(Tawk_API.toggle())" aria-label="Live Chat" class="${styles.liveChat} ${css2}">
                Live Chat
              </a>`,
           }}
