@@ -67,7 +67,7 @@ const Faqs = () => {
               </div>
               {FAQs &&
                 FAQs?.map(([title, desc], i) => (
-                  <div className={styles.faqs}>
+                  <div key={i} className={styles.faqs}>
                     <button
                       type="button"
                       onClick={() => handleToggle(i)}
@@ -97,7 +97,11 @@ const Faqs = () => {
                 ))}
             </Col>
             <Col xl="5" lg="6" xs="12">
-              <Image src={SideImage} alt="side_image" className="img-fluid mx-auto" />
+              <Image
+                src={SideImage}
+                alt="side_image"
+                className="img-fluid mx-auto"
+              />
             </Col>
           </Row>
         </Container>
