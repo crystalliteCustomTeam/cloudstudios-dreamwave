@@ -11,8 +11,10 @@ export async function POST(req) {
             port: 465,
             secure: true,
             auth: {
-                user: "dev.ar@productions-dev.com",
-                pass: "Qwerty@123dsf2424##"
+                // user: "dev.ar@productions-dev.com",
+                // pass: "Qwerty@123dsf2424##"
+                user: "leads@infinityanimations.com",
+                pass: "3%yKAgBEbR436eM"
             }
         });
 
