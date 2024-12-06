@@ -35,7 +35,7 @@ const ContactForm = ({ callbtn }) => {
             };
 
             // Send data to SheetDB
-            // await axios.post('https://sheetdb.io/api/v1/gf8bsy1mbvfr5', combinedData);
+            await axios.post('https://sheetdb.io/api/v1/orh55uv03rvh4', combinedData);
 
             // Send email via custom API
             await axios.post('/api/emailapi', combinedData);

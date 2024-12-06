@@ -11,15 +11,15 @@ export async function POST(req) {
             port: 465,
             secure: true,
             auth: {
-                user: "dev.ar@productions-dev.com",
-                pass: "Qwerty@123dsf2424##"
+                user: "leads@infinityanimations.com",
+                pass: "3%yKAgBEbR436eM"
             }
         });
 
 
         const mailOptions = {
-            from: "dev.ar@productions-dev.com",
-            to: ['m.farrukh@infinityanimations.com', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
+            from: "leads@infinityanimations.com",
+            to: ['ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
             subject: `Cloud Studios - Lead`,
             html: `
                 <p><strong>Name:</strong> ${name}</p>
