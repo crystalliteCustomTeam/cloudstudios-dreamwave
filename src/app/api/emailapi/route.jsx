@@ -11,6 +11,8 @@ export async function POST(req) {
             port: 465,
             secure: true,
             auth: {
+                // user: "leads@infinityanimations.com",
+                // pass: "3%yKAgBEbR436eM"
                 user: "leads@infinityanimations.com",
                 pass: "3%yKAgBEbR436eM"
             }
