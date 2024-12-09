@@ -13,6 +13,7 @@
 
     .socailIcon {
         display: flex;
+        flex-wrap: wrap;
         justify-content: start;
         align-items: center;
         gap: 20px;
@@ -21,10 +22,8 @@
         li {
             a {
                 @include transition(all);
-
                 &:hover {
                     @include transition(all);
-
                     svg {
                         path {
                             fill: $secondary-color;

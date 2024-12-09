@@ -4,6 +4,15 @@ import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
 import FooterImg from "media/footer/footerImg.webp"
 import Image from "next/image"
+import TrustPilot from "media/footer/trustpilot.png"
+import Sitejabber from "media/footer/sitejabber.png"
+import EnrollBusiness from "media/footer/Enroll_Business.png"
+import BarkLogo from "media/footer/barklogo-dark.png"
+import Goodfirms from "media/footer/goodfirms.png"
+import Manta from "media/footer/manta.svg"
+import ProvenExpert from "media/footer/proven_expert.svg"
+import Reviews_Io from "media/footer/reviewsio.svg"
+import Shotlist from "media/footer/shotlist.svg"
 
 const Footer = () => {
     // Chat Code
@@ -30,13 +39,13 @@ const Footer = () => {
                                 <a href="https://www.instagram.com/cloudstudiosincofficial/" target="_blank" aria-label="Instagram Link"><InstagramIcon /></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/company/cloud-studio-inc/" target="_blank" aria-label="Youtube Link"><LinkedInIcon /></a>
+                                <a href="https://www.linkedin.com/company/cloud-studio-inc/" target="_blank" aria-label="Linkedin Link"><LinkedInIcon /></a>
                             </li>
                             <li>
-                                <a href="https://vimeo.com/cloudstudiosinc" target="_blank" aria-label="Linkedin Link"><VimeoIcon /></a>
+                                <a href="https://vimeo.com/cloudstudiosinc" target="_blank" aria-label="Vimeo Link"><VimeoIcon /></a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/@cloudstudiosinc" target="_blank" aria-label="Youtube Link"><YoutubeIcon /></a>
+                                <a href="https://www.youtube.com/@cloudstudiosus" target="_blank" aria-label="Youtube Link"><YoutubeIcon /></a>
                             </li>
                         </ul>
                         <div className={styles.contactNumber}>
