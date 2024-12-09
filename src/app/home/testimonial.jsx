@@ -34,13 +34,13 @@ const SLIDES = [
         img: IMG04.src,
     }
     , {
-        name: "Lisa Kevins",
-        txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
+        name: "Amara",
+        txt: "With ultra-smooth and highly realistic graphics, players are immersed in a true-to-life driving experience. The rendering engines are a testament to cutting-edge technology and innovation.",
         img: IMG05.src,
     }
     , {
-        name: "Lisa Kevins",
-        txt: "The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines!",
+        name: "Selene",
+        txt: "The graphics deliver an impressively smooth and lifelike experience, making players feel as if they are genuinely in the driver’s seat. Their rendering engines showcase outstanding technical prowess.",
         img: IMG06.src,
     }
 ]
