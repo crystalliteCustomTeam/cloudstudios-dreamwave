@@ -145,7 +145,13 @@
         }
     }
 }
-
+.__bottomBar{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 0 0 20px;
+    color: white;
+}
 @include media-query($min: 1200px, $max: 1299px) {
     .footerSec {
         padding-bottom: 50px !important;

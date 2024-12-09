@@ -14,6 +14,7 @@ const Footer = () => {
         }
     };
     return (
+        <>
         <section className={`${styles.footerSec} p-100`}>
             <Container className="h-100">
                 <Row className="h-100">
@@ -43,6 +44,9 @@ const Footer = () => {
                         </div>
                         <div className={styles.contactNumber}>
                             <a href="https://maps.app.goo.gl/u3V78iyGy3R2pCcJA" target="_blank" aria-label="Pin Link">3415 S Sepulveda Blvd, Culver City, CA 90034, United States</a>
+                        </div>
+                        <div className={styles.contactNumber}>
+                            <a href="https://maps.app.goo.gl/Mw13yLeB1LVFMnPa6" target="_blank" aria-label="Pin Link">418 BROADWAY STE R ALBANY NY 12207</a>
                         </div>
                         <Image src={FooterImg.src} alt="footer Img" height={80} width={190} />
                     </Col>
@@ -80,6 +84,18 @@ const Footer = () => {
                 </Row>
             </Container>
         </section>
+            <section className={styles.__bottomBar}>
+                <Container>
+                <Row>
+                    <Col xs="12">
+                    <div className="text-center">
+                        <span>Copyright © 2024 Cloud Studios. Brand Of Dreamweave Media INC</span>
+                    </div>
+                    </Col>
+                </Row>
+                </Container>
+            </section>
+        </>
     )
 }
 export default Footer
