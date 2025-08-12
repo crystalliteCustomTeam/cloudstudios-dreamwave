@@ -11,17 +11,15 @@ export async function POST(req) {
             port: 465,
             secure: true,
             auth: {
-                // user: "leads@infinityanimations.com",
-                // pass: "3%yKAgBEbR436eM"
-                user: "leads@infinityanimations.com",
-                pass: "3%yKAgBEbR436eM"
+                user: "developer@infinitimediainc.com",
+                pass: "ajnekhphvmhqnrts ",
             }
         });
 
 
         const mailOptions = {
-            from: "leads@infinityanimations.com",
-            to: ['ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
+            from: "developer@infinitimediainc.com",
+            to: ['queries@infinityanimations.com', 'adil@infinityanimations.com ', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'developer@infinitimediainc.com'],
             subject: `Cloud Studios - Lead`,
             html: `
                 <p><strong>Name:</strong> ${name}</p>
