@@ -35,7 +35,7 @@ const Header = () => {
                                 <a href="mailto:queries@cloudstudios.us">queries@cloudstudios.us</a>
                             </li>
                             <li className={`${styles.liveChat} buttonLP`}>
-                                <Link href="#" aria-label="Live Chat">
+                                <Link href="javascript:parent.LC_API.open_chat_window();" aria-label="Live Chat">
                                     <ChatIcon /> Live Chat
                                 </Link>
                             </li>

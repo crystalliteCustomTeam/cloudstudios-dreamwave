@@ -81,7 +81,7 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li className={isSubmenuActive() ? styles.active : ""}>
-                        <Link href="#" aria-label="Services Page">
+                        <Link href="javascript:parent.LC_API.open_chat_window();" aria-label="Services Page">
                             Services <SubMenuIcon />
                         </Link>
                         <div className={styles.subMenu} >
@@ -179,7 +179,7 @@ const Navigation = () => {
                         <CommonBtn className={styles.button} data="Get Started" />
                     </li>
                     <li className={styles.liveChat} >
-                        <Link href="#" aria-label="Live Chat" onClick={() => window.LiveChatWidget.open()}>
+                        <Link href="javascript:parent.LC_API.open_chat_window();" aria-label="Live Chat" >
                             <ChatIcon /> Live Chat
                         </Link>
                     </li>
