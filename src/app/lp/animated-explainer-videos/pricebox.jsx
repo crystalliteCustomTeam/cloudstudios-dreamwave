@@ -81,7 +81,7 @@ const PriceBox = () => {
                                         </div>
                                         <div className={styles.footerBox}>
                                             <a href="tel:833-666-6684">833-666-6684</a>
-                                            <Link href="" onClick={() => window.LiveChatWidget.open()}><ChatIcon />Live Chat</Link>
+                                            <Link href="javascript:parent.LC_API.open_chat_window();" ><ChatIcon />Live Chat</Link>
                                         </div>
                                     </div>
 
