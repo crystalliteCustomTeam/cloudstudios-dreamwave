@@ -20,7 +20,7 @@ const CtavideoLP = () => {
                                 <div className='buttonLP'><ChatIcon /> Live Chat</div>
                             </li>
                             <li>
-                                <a href="tel:800-253-1448" className='buttonLP'>Call Now : 800-253-1448</a>
+                                <a href="tel:833-666-6684" className='buttonLP'>Call Now : 833-666-6684</a>
                             </li>
                         </ul>
 

@@ -80,8 +80,8 @@ const PriceBox = () => {
                                             <CommonBtn btnStyle={styles.callBoxBtn} iconSize={16} btnicon={false} data="Get A Call For Free Consultation" />
                                         </div>
                                         <div className={styles.footerBox}>
-                                            <a href="tel:800-253-1448">800-253-1448</a>
-                                            <Link href="" onClick={() => Tawk_API && Tawk_API.toggle()}><ChatIcon />Live Chat</Link>
+                                            <a href="tel:833-666-6684">833-666-6684</a>
+                                            <Link href="" onClick={() => window.LiveChatWidget.open()}><ChatIcon />Live Chat</Link>
                                         </div>
                                     </div>
 

@@ -26,7 +26,7 @@ const Banner = () => {
                                 <li><BuletIcon />Product Explainer Videos</li>
                             </ul>
                             <div className={styles.flexBtn}>
-                                <a href='tel:800-253-1448' className="buttonLP">
+                                <a href='tel:833-666-6684' className="buttonLP">
                                     Call Now
                                 </a>
                                 <div className={styles.bannerChatBtn}>

@@ -55,7 +55,7 @@ const FooterLP = () => {
                                     <FooterMainLogo />
                                 </div>
                                 <div className={styles.contactInfo}>
-                                    <a href="tel:800-253-1448"><FooterPhone />800-253-1448</a>
+                                    <a href="tel:833-666-6684"><FooterPhone />833-666-6684</a>
                                 </div>
                                 <div className={styles.contactInfo}>
                                     <a href="mailto:queries@cloudstudios.us"> <FooterEmail />queries@cloudstudios.us</a>
@@ -107,7 +107,7 @@ const FooterLP = () => {
                 <Container className="h-100">
                     <Row className="h-100">
                         <Col md={6} className="my-auto ">
-                            <p>© Copyright 2024 - Cloud Studios Inc</p>
+                            <p>© Copyright 2025 - Cloud Studios Inc</p>
                         </Col>
                         <Col md={6} className="my-auto">
                             <ul>

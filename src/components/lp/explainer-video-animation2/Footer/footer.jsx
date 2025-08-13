@@ -34,9 +34,9 @@ const Footer = () => {
             </Col>
             <Col lg="6">
               <div className={styles.links}>
-                <a href="tel:+1-800-253-1448">
+                <a href="tel:+1-833-666-6684">
                   <Image src={Call} alt="icons" width={30} height={30} />
-                  <span className="d-block">+1-800-253-1448</span>
+                  <span className="d-block">+1-833-666-6684</span>
                 </a>
                 <a href="mailto:queries@cloudstudios.us">
                   <Image src={Mail} alt="icons" width={30} height={30} />
@@ -55,7 +55,7 @@ const Footer = () => {
       <div className={styles.copyright}>
         <Container>
           <div className={styles.content}>
-            <span className="d-block">Copyright © 2024, Cloud Studios All Rights Reserved</span>
+            <span className="d-block">Copyright © 2025, Cloud Studios All Rights Reserved</span>
           </div>
         </Container>
       </div>

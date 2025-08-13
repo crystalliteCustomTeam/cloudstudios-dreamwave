@@ -37,9 +37,9 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className={styles.callNow} href="tel:800-253-1448">
+                <a className={styles.callNow} href="tel:833-666-6684">
                   <Image src={FlagIcon} alt="icons" width={15} height={15} />
-                  <span className="d-block">Call Now : 800-253-1448</span>
+                  <span className="d-block">Call Now : 833-666-6684</span>
                 </a>
               </li>
               <li>

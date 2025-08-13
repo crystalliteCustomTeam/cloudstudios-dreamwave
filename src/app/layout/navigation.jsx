@@ -179,7 +179,7 @@ const Navigation = () => {
                         <CommonBtn className={styles.button} data="Get Started" />
                     </li>
                     <li className={styles.liveChat} >
-                        <Link href="#" aria-label="Live Chat" onClick={() => Tawk_API && Tawk_API.toggle()}>
+                        <Link href="#" aria-label="Live Chat" onClick={() => window.LiveChatWidget.open()}>
                             <ChatIcon /> Live Chat
                         </Link>
                     </li>

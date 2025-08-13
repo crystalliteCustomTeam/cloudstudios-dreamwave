@@ -40,7 +40,7 @@ const Footer = () => {
                             </li>
                         </ul>
                         <div className={styles.contactNumber}>
-                            <a href="tel:800-253-1448" target="_blank" aria-label="Contact Link">800-253-1448</a>
+                            <a href="tel:833-666-6684" target="_blank" aria-label="Contact Link">833-666-6684</a>
                         </div>
                         <div className={styles.contactNumber}>
                             <a href="https://maps.app.goo.gl/u3V78iyGy3R2pCcJA" target="_blank" aria-label="Pin Link">3415 S Sepulveda Blvd, Culver City, CA 90034, United States</a>
@@ -89,7 +89,7 @@ const Footer = () => {
                 <Row>
                     <Col xs="12">
                     <div className="text-center">
-                        <span>Copyright © 2024 Cloud Studios. Brand Of Dreamweave Media INC</span>
+                        <span>Copyright © 2025 Cloud Studios. </span>
                     </div>
                     </Col>
                 </Row>

@@ -53,9 +53,9 @@ const Packages = () => {
                     <Row>
                       <Col xs="6">
                         <div className={styles.leftCTA}>
-                          <a href="tel:+1-800-253-1448">
+                          <a href="tel:+1-833-666-6684">
                             <span className="d-block">speak with us</span>
-                            <span className="d-block">+1-800-253-1448</span>
+                            <span className="d-block">+1-833-666-6684</span>
                           </a>
                           <CTA />
                         </div>

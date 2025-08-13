@@ -43,7 +43,7 @@ const Header = () => {
                                 <CommonBtnLP data="Get A Quote" />
                             </li>
                             <li className={`${styles.callNow} buttonLP`}>
-                                <a href="tel:800-253-1448">Call Now : 800-253-1448</a>
+                                <a href="tel:833-666-6684">Call Now : 833-666-6684</a>
                             </li>
                         </ul>
                     </Col>

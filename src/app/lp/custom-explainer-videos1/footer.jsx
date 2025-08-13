@@ -44,7 +44,7 @@ const FooterLP = () => {
                                 </div>
                             </div>
                             <div className={styles.copyRight}>
-                                <p>© Copyright 2024 - Cloud Studios Inc</p>
+                                <p>© Copyright 2025 - Cloud Studios Inc</p>
                             </div>
                         </Col>
                     </Row>

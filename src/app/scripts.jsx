@@ -3,15 +3,7 @@ import { useEffect } from 'react';
 
 const ScriptsCode = () => {
   useEffect(() => {
-    // Load Tawk.to chat script
-    const timer = setTimeout(() => {
-      const tawkScript = document.createElement("script");
-      tawkScript.async = true;
-      tawkScript.src = 'https://embed.tawk.to/66d1ff6150c10f7a00a22440/1i6i4r5nd';
-      tawkScript.charset = 'UTF-8';
-      tawkScript.setAttribute('crossorigin', '*');
-      document.body.appendChild(tawkScript);
-    }, 5000);
+
 
     // Load Google Analytics script
     const gtagScript = document.createElement("script");

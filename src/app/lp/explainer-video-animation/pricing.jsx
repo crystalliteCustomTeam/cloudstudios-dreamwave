@@ -49,7 +49,7 @@ const PricingLP = () => {
                                     <CommonBtnLP data="Get A Call For Free Consultation" color="red" />
                                     <div className={styles.contactItem}>
                                         <div>
-                                            <a href="tel:800-253-1448"><PhoneICon />800-253-1448</a>
+                                            <a href="tel:833-666-6684"><PhoneICon />833-666-6684</a>
                                         </div>
                                         <div>
                                             <div>Live Chat Now</div>
@@ -85,7 +85,7 @@ const PricingLP = () => {
                                     <CommonBtnLP data="Get A Call For Free Consultation" />
                                     <div className={styles.contactItem}>
                                         <div>
-                                            <a href="tel:800-253-1448"><PhoneICon />800-253-1448</a>
+                                            <a href="tel:833-666-6684"><PhoneICon />833-666-6684</a>
                                         </div>
                                         <div>
                                             <div>Live Chat Now</div>
@@ -121,7 +121,7 @@ const PricingLP = () => {
                                     <CommonBtnLP data="Get A Call For Free Consultation" />
                                     <div className={styles.contactItem}>
                                         <div>
-                                            <a href="tel:800-253-1448"><PhoneICon />800-253-1448</a>
+                                            <a href="tel:833-666-6684"><PhoneICon />833-666-6684</a>
                                         </div>
                                         <div>
                                             <div>Live Chat Now</div>

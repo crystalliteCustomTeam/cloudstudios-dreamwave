@@ -50,9 +50,9 @@ const CTASec = ({
                 <CTA text="Get Started" css={styles.modal} />
                 <CTA modal={false} />
                 {call && (
-                  <a className={styles.callNow} href="tel:800-253-1448">
+                  <a className={styles.callNow} href="tel:833-666-6684">
                     <Image src={FlagIcon} alt="icons" width={25} height={25} />
-                    <span className="d-block">+1-800-253-1448</span>
+                    <span className="d-block">+1-833-666-6684</span>
                   </a>
                 )}
               </div>

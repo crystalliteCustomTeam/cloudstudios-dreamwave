@@ -48,7 +48,7 @@ const contentData1 = {
     title: "Ciao Static! – Hello, Motion Graphics.",
     txt: (
         <>
-            <p>Video and animated content are probable to account for over 81% of all internet traffic flow by 2024, with motion graphics being a key component of this trend. Companies that use motion graphics in their marketing strategies have seen a 49% faster revenue growth compared to those that don’t. At Cloud Studios Inc., our expert motion graphics animators deliver powerful motion graphic animation that can boost your social media engagement by up to 120%. So, what are you waiting for?</p>
+            <p>Video and animated content are probable to account for over 81% of all internet traffic flow by 2025, with motion graphics being a key component of this trend. Companies that use motion graphics in their marketing strategies have seen a 49% faster revenue growth compared to those that don’t. At Cloud Studios Inc., our expert motion graphics animators deliver powerful motion graphic animation that can boost your social media engagement by up to 120%. So, what are you waiting for?</p>
         </>
     ),
     img: IMG02.src,
